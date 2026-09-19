@@ -1,0 +1,18 @@
+reference:
+  repository: kwsch/PKHeX
+  commit: 8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+  license: GPL-3.0
+  role: reference_oracle
+  inventoried_files: 11643
+policy:
+  source_code: reference_only
+  normalized_facts: extract_reconcile_verify
+  ui: do_not_import
+  drawing_assets: provenance_review_required
+  tests: verification_reference
+language_priority: [ja, ko, en, other]
+emerald:
+  preserve_existing_ids: true
+  preserve_existing_parameters: true
+  later_generation_content: extension
+  target_rom_evidence_overrides_reference: true
