@@ -1,15 +1,15 @@
 From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
-Subject: [PATCH 2/2] Add permanent event-ticket courier to Littleroot Town
+Subject: [PATCH 2/2] Add selectable permanent event-ticket courier to Littleroot Town
 
 Reference: pret/pokeemerald @ 5eff78649e7170a877b961ef0b3da13b81a16038
 
-Keep the original S.S. Tidal destination logic, Pokemon Center Mystery Gift
-deliveryman, and all legendary encounter completion logic unchanged.
+Add a new always-present event courier near Professor Birch's Lab. The
+courier presents exactly four choices: Eon Ticket, Mystic Ticket, Aurora
+Ticket, and Old Sea Map. One item is delivered per interaction. Pressing B
+cancels without receiving anything.
 
-A new always-present NPC is added to Littleroot Town near Professor Birch's
-Lab. The NPC uses the existing Mystery Gift Man overworld graphic and gives
-any missing event tickets. Ticket receipt sets only the same ship-enable /
-receipt flags used by Emerald's original event distribution scripts.
+Existing Pokemon Center Mystery Gift behavior, S.S. Tidal destination logic,
+and legendary completion flags remain unchanged.
 
 diff --git a/data/maps/LittlerootTown/map.json b/data/maps/LittlerootTown/map.json
 --- a/data/maps/LittlerootTown/map.json
@@ -64,7 +64,7 @@ diff --git a/data/maps/LittlerootTown/map.json b/data/maps/LittlerootTown/map.js
 diff --git a/data/maps/LittlerootTown/scripts.inc b/data/maps/LittlerootTown/scripts.inc
 --- a/data/maps/LittlerootTown/scripts.inc
 +++ b/data/maps/LittlerootTown/scripts.inc
-@@ -241,9 +241,111 @@
+@@ -241,9 +241,114 @@
  	msgbox LittlerootTown_Text_CanUsePCToStoreItems, MSGBOX_NPC
  	end
  
@@ -74,20 +74,86 @@ diff --git a/data/maps/LittlerootTown/scripts.inc b/data/maps/LittlerootTown/scr
 +LittlerootTown_EventScript_Boy::
 +	msgbox LittlerootTown_Text_BirchSpendsDaysInLab, MSGBOX_NPC
 +	end
++
 +@ Permanent offline replacement for historical external ticket distribution.
-+@ The NPC stays independent from story state and can be revisited at any time.
++@ Choose exactly one ticket per interaction; revisit the NPC for another.
 +LittlerootTown_EventScript_EventTicketCourier::
 +	lock
 +	faceplayer
-+	setvar VAR_TEMP_0, 0
-+	setvar VAR_TEMP_1, 0
 +	msgbox LittlerootTown_Text_EventTicketCourierIntro, MSGBOX_DEFAULT
-+	call LittlerootTown_EventScript_GiveEonTicket
-+	call LittlerootTown_EventScript_GiveMysticTicket
-+	call LittlerootTown_EventScript_GiveAuroraTicket
-+	call LittlerootTown_EventScript_GiveOldSeaMap
-+	goto_if_eq VAR_TEMP_1, 1, LittlerootTown_EventScript_EventTicketCourierBagFull
-+	goto_if_eq VAR_TEMP_0, 0, LittlerootTown_EventScript_EventTicketCourierAlreadyDelivered
++	multichoice 0, 0, MULTI_EVENT_TICKETS, FALSE
++	switch VAR_RESULT
++	case 0, LittlerootTown_EventScript_SelectEonTicket
++	case 1, LittlerootTown_EventScript_SelectMysticTicket
++	case 2, LittlerootTown_EventScript_SelectAuroraTicket
++	case 3, LittlerootTown_EventScript_SelectOldSeaMap
++	case MULTI_B_PRESSED, LittlerootTown_EventScript_EventTicketCourierCancel
++	release
++	end
++
++LittlerootTown_EventScript_EventTicketCourierCancel::
++	release
++	end
++
++LittlerootTown_EventScript_SelectEonTicket::
++	checkitem ITEM_EON_TICKET
++	goto_if_eq VAR_RESULT, TRUE, LittlerootTown_EventScript_EonTicketAlreadyDelivered
++	checkitemspace ITEM_EON_TICKET
++	goto_if_eq VAR_RESULT, FALSE, LittlerootTown_EventScript_EventTicketCourierBagFull
++	giveitem ITEM_EON_TICKET
++	setflag FLAG_ENABLE_SHIP_SOUTHERN_ISLAND
++	goto LittlerootTown_EventScript_EventTicketCourierDelivered
++
++LittlerootTown_EventScript_EonTicketAlreadyDelivered::
++	setflag FLAG_ENABLE_SHIP_SOUTHERN_ISLAND
++	goto LittlerootTown_EventScript_EventTicketCourierAlreadyDelivered
++
++LittlerootTown_EventScript_SelectMysticTicket::
++	checkitem ITEM_MYSTIC_TICKET
++	goto_if_eq VAR_RESULT, TRUE, LittlerootTown_EventScript_MysticTicketAlreadyDelivered
++	checkitemspace ITEM_MYSTIC_TICKET
++	goto_if_eq VAR_RESULT, FALSE, LittlerootTown_EventScript_EventTicketCourierBagFull
++	giveitem ITEM_MYSTIC_TICKET
++	setflag FLAG_ENABLE_SHIP_NAVEL_ROCK
++	setflag FLAG_RECEIVED_MYSTIC_TICKET
++	goto LittlerootTown_EventScript_EventTicketCourierDelivered
++
++LittlerootTown_EventScript_MysticTicketAlreadyDelivered::
++	setflag FLAG_ENABLE_SHIP_NAVEL_ROCK
++	setflag FLAG_RECEIVED_MYSTIC_TICKET
++	goto LittlerootTown_EventScript_EventTicketCourierAlreadyDelivered
++
++LittlerootTown_EventScript_SelectAuroraTicket::
++	checkitem ITEM_AURORA_TICKET
++	goto_if_eq VAR_RESULT, TRUE, LittlerootTown_EventScript_AuroraTicketAlreadyDelivered
++	checkitemspace ITEM_AURORA_TICKET
++	goto_if_eq VAR_RESULT, FALSE, LittlerootTown_EventScript_EventTicketCourierBagFull
++	giveitem ITEM_AURORA_TICKET
++	setflag FLAG_ENABLE_SHIP_BIRTH_ISLAND
++	setflag FLAG_RECEIVED_AURORA_TICKET
++	goto LittlerootTown_EventScript_EventTicketCourierDelivered
++
++LittlerootTown_EventScript_AuroraTicketAlreadyDelivered::
++	setflag FLAG_ENABLE_SHIP_BIRTH_ISLAND
++	setflag FLAG_RECEIVED_AURORA_TICKET
++	goto LittlerootTown_EventScript_EventTicketCourierAlreadyDelivered
++
++LittlerootTown_EventScript_SelectOldSeaMap::
++	checkitem ITEM_OLD_SEA_MAP
++	goto_if_eq VAR_RESULT, TRUE, LittlerootTown_EventScript_OldSeaMapAlreadyDelivered
++	checkitemspace ITEM_OLD_SEA_MAP
++	goto_if_eq VAR_RESULT, FALSE, LittlerootTown_EventScript_EventTicketCourierBagFull
++	giveitem ITEM_OLD_SEA_MAP
++	setflag FLAG_ENABLE_SHIP_FARAWAY_ISLAND
++	setflag FLAG_RECEIVED_OLD_SEA_MAP
++	goto LittlerootTown_EventScript_EventTicketCourierDelivered
++
++LittlerootTown_EventScript_OldSeaMapAlreadyDelivered::
++	setflag FLAG_ENABLE_SHIP_FARAWAY_ISLAND
++	setflag FLAG_RECEIVED_OLD_SEA_MAP
++	goto LittlerootTown_EventScript_EventTicketCourierAlreadyDelivered
++
++LittlerootTown_EventScript_EventTicketCourierDelivered::
 +	msgbox LittlerootTown_Text_EventTicketCourierDelivered, MSGBOX_DEFAULT
 +	release
 +	end
@@ -102,80 +168,75 @@ diff --git a/data/maps/LittlerootTown/scripts.inc b/data/maps/LittlerootTown/scr
 +	release
 +	end
 +
-+LittlerootTown_EventScript_GiveEonTicket::
-+	checkitem ITEM_EON_TICKET
-+	goto_if_eq VAR_RESULT, TRUE, LittlerootTown_EventScript_GiveEonTicket_Return
-+	checkitemspace ITEM_EON_TICKET
-+	goto_if_eq VAR_RESULT, FALSE, LittlerootTown_EventScript_GiveEonTicket_NoRoom
-+	giveitem ITEM_EON_TICKET
-+	setflag FLAG_ENABLE_SHIP_SOUTHERN_ISLAND
-+	setvar VAR_TEMP_0, 1
-+LittlerootTown_EventScript_GiveEonTicket_Return::
-+	return
-+LittlerootTown_EventScript_GiveEonTicket_NoRoom::
-+	setvar VAR_TEMP_1, 1
-+	return
-+
-+LittlerootTown_EventScript_GiveMysticTicket::
-+	checkitem ITEM_MYSTIC_TICKET
-+	goto_if_eq VAR_RESULT, TRUE, LittlerootTown_EventScript_GiveMysticTicket_Return
-+	checkitemspace ITEM_MYSTIC_TICKET
-+	goto_if_eq VAR_RESULT, FALSE, LittlerootTown_EventScript_GiveMysticTicket_NoRoom
-+	giveitem ITEM_MYSTIC_TICKET
-+	setflag FLAG_ENABLE_SHIP_NAVEL_ROCK
-+	setflag FLAG_RECEIVED_MYSTIC_TICKET
-+	setvar VAR_TEMP_0, 1
-+LittlerootTown_EventScript_GiveMysticTicket_Return::
-+	return
-+LittlerootTown_EventScript_GiveMysticTicket_NoRoom::
-+	setvar VAR_TEMP_1, 1
-+	return
-+
-+LittlerootTown_EventScript_GiveAuroraTicket::
-+	checkitem ITEM_AURORA_TICKET
-+	goto_if_eq VAR_RESULT, TRUE, LittlerootTown_EventScript_GiveAuroraTicket_Return
-+	checkitemspace ITEM_AURORA_TICKET
-+	goto_if_eq VAR_RESULT, FALSE, LittlerootTown_EventScript_GiveAuroraTicket_NoRoom
-+	giveitem ITEM_AURORA_TICKET
-+	setflag FLAG_ENABLE_SHIP_BIRTH_ISLAND
-+	setflag FLAG_RECEIVED_AURORA_TICKET
-+	setvar VAR_TEMP_0, 1
-+LittlerootTown_EventScript_GiveAuroraTicket_Return::
-+	return
-+LittlerootTown_EventScript_GiveAuroraTicket_NoRoom::
-+	setvar VAR_TEMP_1, 1
-+	return
-+
-+LittlerootTown_EventScript_GiveOldSeaMap::
-+	checkitem ITEM_OLD_SEA_MAP
-+	goto_if_eq VAR_RESULT, TRUE, LittlerootTown_EventScript_GiveOldSeaMap_Return
-+	checkitemspace ITEM_OLD_SEA_MAP
-+	goto_if_eq VAR_RESULT, FALSE, LittlerootTown_EventScript_GiveOldSeaMap_NoRoom
-+	giveitem ITEM_OLD_SEA_MAP
-+	setflag FLAG_ENABLE_SHIP_FARAWAY_ISLAND
-+	setflag FLAG_RECEIVED_OLD_SEA_MAP
-+	setvar VAR_TEMP_0, 1
-+LittlerootTown_EventScript_GiveOldSeaMap_Return::
-+	return
-+LittlerootTown_EventScript_GiveOldSeaMap_NoRoom::
-+	setvar VAR_TEMP_1, 1
-+	return
-+
 +LittlerootTown_Text_EventTicketCourierIntro:
-+	.string "I have some special items that were\n"
-+	.string "entrusted to me for you.$"
++	.string "Which item should I deliver to you?$"
 +
 +LittlerootTown_Text_EventTicketCourierDelivered:
-+	.string "That's everything I can deliver now.\n"
-+	.string "Please keep them safe.$"
++	.string "Delivery complete. Please keep it safe.$"
 +
 +LittlerootTown_Text_EventTicketCourierBagFull:
-+	.string "It looks like I couldn't hand over\n"
-+	.string "everything. Make some room and return.$"
++	.string "There isn't enough room in your BAG.$"
 +
 +LittlerootTown_Text_EventTicketCourierAlreadyDelivered:
-+	.string "Everything entrusted to me has already\n"
-+	.string "been delivered.$"
++	.string "I've already delivered that item to you.$"
  
  LittlerootTown_EventScript_Twin::
  	lock
+
+diff --git a/include/constants/script_menu.h b/include/constants/script_menu.h
+--- a/include/constants/script_menu.h
++++ b/include/constants/script_menu.h
+@@ -59,7 +59,7 @@
+ #define MULTI_GAME_CORNER_DOLLS            48
+ #define MULTI_GAME_CORNER_COINS            49
+ #define MULTI_HOWS_FISHING                 50
+-#define MULTI_UNUSED_51                    51
++#define MULTI_EVENT_TICKETS                51
+ #define MULTI_SSTIDAL_SLATEPORT_WITH_BF    52
+ #define MULTI_SSTIDAL_BATTLE_FRONTIER      53
+ #define MULTI_RIGHTLEFT                    54
+
+diff --git a/src/data/script_menu.h b/src/data/script_menu.h
+--- a/src/data/script_menu.h
++++ b/src/data/script_menu.h
+@@ -771,10 +771,23 @@
+     {gText_Exit},
+ };
+ 
+-static const struct MenuAction MultichoiceList_Exit[] =
+-{
+-    {gText_Exit},
+-};
++static const struct MenuAction MultichoiceList_Exit[] =
++{
++    {gText_Exit},
++};
++
++static const u8 sText_EventTicketEon[] = _("EON TICKET");
++static const u8 sText_EventTicketMystic[] = _("MYSTIC TICKET");
++static const u8 sText_EventTicketAurora[] = _("AURORA TICKET");
++static const u8 sText_EventTicketOldSeaMap[] = _("OLD SEA MAP");
++
++static const struct MenuAction MultichoiceList_EventTickets[] =
++{
++    {sText_EventTicketEon},
++    {sText_EventTicketMystic},
++    {sText_EventTicketAurora},
++    {sText_EventTicketOldSeaMap},
++};
+ 
+ struct MultichoiceListStruct
+ {
+
+diff --git a/src/data/script_menu.h b/src/data/script_menu.h
+--- a/src/data/script_menu.h
++++ b/src/data/script_menu.h
+@@ -835,7 +835,7 @@
+     [MULTI_GAME_CORNER_DOLLS]          = MULTICHOICE(MultichoiceList_GameCornerDolls),
+     [MULTI_GAME_CORNER_COINS]          = MULTICHOICE(MultichoiceList_GameCornerCoins),
+     [MULTI_HOWS_FISHING]               = MULTICHOICE(MultichoiceList_HowsFishing),
+-    [MULTI_UNUSED_51]                  = MULTICHOICE(MultichoiceList_Exit),
++    [MULTI_EVENT_TICKETS]              = MULTICHOICE(MultichoiceList_EventTickets),
+     [MULTI_SSTIDAL_SLATEPORT_WITH_BF]  = MULTICHOICE(MultichoiceList_SSTidalSlateportWithBF),
+     [MULTI_SSTIDAL_BATTLE_FRONTIER]    = MULTICHOICE(MultichoiceList_SSTidalBattleFrontier),
+     [MULTI_RIGHTLEFT]                  = MULTICHOICE(MultichoiceList_RightLeft),
