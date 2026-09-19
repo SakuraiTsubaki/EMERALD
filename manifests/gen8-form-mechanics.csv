@@ -1,0 +1,35 @@
+game,species,form_or_state,state_model,trigger,hp,atk,def,spe,spa,spd,type1,type2,auxiliary_state,notes
+SWSH,Dynamax,Dynamax,battle_transform,trainer activation,,,,,,,,,DynamaxLevel,"3 turns; HP multiplier 1.5x to 2.0x"
+SWSH,Gigantamax,G-Max,battle_transform,CanGigantamax + Dynamax,,,,,,,,,GigantamaxFactor,"eligibility separate from Form"
+SWSH,Morpeko,Hangry,battle_only,Hunger Switch end turn,58,95,58,97,70,58,Electric,Dark,battleForm,"Aura Wheel becomes Dark"
+SWSH,Cramorant,Gulping,battle_only,Surf/Dive HP>50%,70,85,55,85,85,95,Flying,Water,prey=Arrokuda,"Gulp Missile payload state"
+SWSH,Cramorant,Gorging,battle_only,Surf/Dive HP<=50%,70,85,55,85,85,95,Flying,Water,prey=Pikachu,"Gulp Missile payload state"
+SWSH,Eiscue,Ice Face,battle_only,default/hail restore,75,80,110,50,65,90,Ice,Ice,shield_state,"physical hit negated"
+SWSH,Eiscue,Noice Face,battle_only,physical hit breaks Ice Face,75,80,70,130,65,50,Ice,Ice,shield_state,
+SWSH,Galarian Darmanitan,Standard,regional_plus_battle,regional identity,105,140,55,95,30,55,Ice,Ice,regionalForm,
+SWSH,Galarian Darmanitan,Zen,regional_plus_battle,Zen Mode low HP,105,160,55,135,30,55,Ice,Fire,battleForm,
+SWSH,Toxtricity,Amped,persistent_identity,Nature-based evolution,75,98,70,75,114,70,Electric,Poison,form,"Plus ability slot"
+SWSH,Toxtricity,Low Key,persistent_identity,Nature-based evolution,75,98,70,75,114,70,Electric,Poison,form,"Minus ability slot"
+SWSH,Sinistea/Polteageist,Phony,persistent_identity,generated authenticity,,,,,,,,,authenticity,"Cracked Pot path"
+SWSH,Sinistea/Polteageist,Antique,persistent_identity,generated authenticity,,,,,,,,,authenticity,"Chipped Pot path"
+SWSH,Alcremie,63 combinations,multi_parameter_identity,Sweet + spin/time,65,60,75,64,110,121,Fairy,Fairy,cream+sweet,"G-Max flag separate"
+SWSH,Zacian,Hero,persistent/base,without Rusted Sword,92,130,115,138,80,115,Fairy,Fairy,held_item,
+SWSH,Zacian,Crowned Sword,battle_item_derived,hold Rusted Sword,92,170,115,148,80,115,Fairy,Steel,held_item,"Iron Head -> Behemoth Blade"
+SWSH,Zamazenta,Hero,persistent/base,without Rusted Shield,92,130,115,138,80,115,Fighting,Fighting,held_item,
+SWSH,Zamazenta,Crowned Shield,battle_item_derived,hold Rusted Shield,92,130,145,128,80,145,Fighting,Steel,held_item,"Iron Head -> Behemoth Bash"
+SWSH,Eternatus,Base,persistent/base,normal,140,85,95,130,145,95,Poison,Dragon,,
+SWSH,Eternatus,Eternamax,scripted_boss,boss script,255,115,250,130,125,250,Poison,Dragon,boss_state,"not ordinary player-stored form"
+SWSH,Urshifu,Single Strike,persistent_identity,Tower of Darkness evolution,100,130,100,97,63,60,Fighting,Dark,form,"G-Max eligibility separate"
+SWSH,Urshifu,Rapid Strike,persistent_identity,Tower of Waters evolution,100,130,100,97,63,60,Fighting,Water,form,"G-Max eligibility separate"
+SWSH,Calyrex,Ice Rider,persistent_fusion,Reins + Glastrier,100,165,150,50,85,130,Psychic,Ice,fusionPartner,"As One + Glacial Lance"
+SWSH,Calyrex,Shadow Rider,persistent_fusion,Reins + Spectrier,100,85,80,150,165,100,Psychic,Ghost,fusionPartner,"As One + Astral Barrage"
+PLA,Dialga,Origin,persistent_item,use Adamant Crystal,100,100,120,90,150,120,Steel,Dragon,form,
+PLA,Palkia,Origin,persistent_item,use Lustrous Globe,90,100,100,120,150,120,Water,Dragon,form,
+PLA,Giratina,Origin,persistent_item,use Griseous Core,150,120,100,90,120,100,Ghost,Dragon,form,"active-use trigger in PLA"
+PLA,Enamorus,Incarnate,persistent_item,use Reveal Glass,74,115,70,106,135,80,Fairy,Flying,form,
+PLA,Enamorus,Therian,persistent_item,use Reveal Glass,74,115,110,46,135,100,Fairy,Flying,form,
+PLA,Basculegion,Male,gender_identity,gender,120,112,65,78,80,75,Water,Ghost,genderForm,
+PLA,Basculegion,Female,gender_identity,gender,120,92,65,78,100,75,Water,Ghost,genderForm,
+PLA,Arceus,Legend Plate dynamic,battle_move_target,use Legend Plate then Judgment,120,120,120,120,120,120,dynamic,dynamic,formArgument/battleForm,"target-derived type selection"
+PLA,Any eligible,Alpha,individual_flag,encounter,,,,,,,,,IsAlpha,"not a form ID"
+PLA,Any eligible,Noble,individual_flag,script/boss identity,,,,,,,,,IsNoble,"not a form ID"
