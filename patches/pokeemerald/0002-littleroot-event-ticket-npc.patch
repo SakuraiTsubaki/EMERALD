@@ -14,19 +14,35 @@ receipt flags used by Emerald's original event distribution scripts.
 diff --git a/data/maps/LittlerootTown/map.json b/data/maps/LittlerootTown/map.json
 --- a/data/maps/LittlerootTown/map.json
 +++ b/data/maps/LittlerootTown/map.json
-@@
-     {
-       "graphics_id": "OBJ_EVENT_GFX_BOY_2",
-       "x": 14,
-       "y": 17,
-       "elevation": 3,
-       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
-       "movement_range_x": 2,
-       "movement_range_y": 1,
-       "trainer_type": "TRAINER_TYPE_NONE",
-       "trainer_sight_or_berry_tree_id": "0",
-       "script": "LittlerootTown_EventScript_Boy",
-       "flag": "0"
+@@ -47,19 +47,32 @@
+       "script": "LittlerootTown_EventScript_FatMan",
+       "flag": "FLAG_HIDE_LITTLEROOT_TOWN_FAT_MAN"
+     },
+-    {
+-      "graphics_id": "OBJ_EVENT_GFX_BOY_2",
+-      "x": 14,
+-      "y": 17,
+-      "elevation": 3,
+-      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+-      "movement_range_x": 2,
+-      "movement_range_y": 1,
+-      "trainer_type": "TRAINER_TYPE_NONE",
+-      "trainer_sight_or_berry_tree_id": "0",
+-      "script": "LittlerootTown_EventScript_Boy",
+-      "flag": "0"
+-    },
++    {
++      "graphics_id": "OBJ_EVENT_GFX_BOY_2",
++      "x": 14,
++      "y": 17,
++      "elevation": 3,
++      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
++      "movement_range_x": 2,
++      "movement_range_y": 1,
++      "trainer_type": "TRAINER_TYPE_NONE",
++      "trainer_sight_or_berry_tree_id": "0",
++      "script": "LittlerootTown_EventScript_Boy",
++      "flag": "0"
 +    },
 +    {
 +      "graphics_id": "OBJ_EVENT_GFX_MYSTERY_GIFT_MAN",
@@ -40,7 +56,7 @@ diff --git a/data/maps/LittlerootTown/map.json b/data/maps/LittlerootTown/map.js
 +      "trainer_sight_or_berry_tree_id": "0",
 +      "script": "LittlerootTown_EventScript_EventTicketCourier",
 +      "flag": "0"
-     },
++    },
      {
        "local_id": "LOCALID_LITTLEROOT_MOM",
        "graphics_id": "OBJ_EVENT_GFX_MOM",
@@ -48,11 +64,16 @@ diff --git a/data/maps/LittlerootTown/map.json b/data/maps/LittlerootTown/map.js
 diff --git a/data/maps/LittlerootTown/scripts.inc b/data/maps/LittlerootTown/scripts.inc
 --- a/data/maps/LittlerootTown/scripts.inc
 +++ b/data/maps/LittlerootTown/scripts.inc
-@@
- LittlerootTown_EventScript_Boy::
- 	msgbox LittlerootTown_Text_BirchSpendsDaysInLab, MSGBOX_NPC
+@@ -241,9 +241,111 @@
+ 	msgbox LittlerootTown_Text_CanUsePCToStoreItems, MSGBOX_NPC
  	end
-+
+ 
+-LittlerootTown_EventScript_Boy::
+-	msgbox LittlerootTown_Text_BirchSpendsDaysInLab, MSGBOX_NPC
+-	end
++LittlerootTown_EventScript_Boy::
++	msgbox LittlerootTown_Text_BirchSpendsDaysInLab, MSGBOX_NPC
++	end
 +@ Permanent offline replacement for historical external ticket distribution.
 +@ The NPC stays independent from story state and can be revisited at any time.
 +LittlerootTown_EventScript_EventTicketCourier::
@@ -155,3 +176,6 @@ diff --git a/data/maps/LittlerootTown/scripts.inc b/data/maps/LittlerootTown/scr
 +LittlerootTown_Text_EventTicketCourierAlreadyDelivered:
 +	.string "Everything entrusted to me has already\\n"
 +	.string "been delivered.$"
+ 
+ LittlerootTown_EventScript_Twin::
+ 	lock
