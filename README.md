@@ -19,14 +19,14 @@ Pokémon Emerald의 외부 배포/외부 장치 의존 이벤트를 게임 내�
 
 ### Ticket events
 
-상시 배달원에게서 다음 티켓을 받을 수 있게 하고, 항구/목적지/전설 이벤트는 원본 Emerald 로직을 그대로 둡니다.
+미로마을(Littleroot Town)에 새 상시 NPC를 추가해 아직 없는 티켓을 한 번에 지급하고, 항구/목적지/전설 이벤트는 원본 Emerald 로직을 그대로 둡니다.
 
 - Southern Island / Eon Ticket
 - Birth Island / Aurora Ticket
 - Navel Rock / Mystic Ticket
 - Faraway Island / Old Sea Map
 
-패치: `patches/pokeemerald/0002-internalize-event-deliveryman.patch`
+패치: `patches/pokeemerald/0002-littleroot-event-ticket-npc.patch`
 
 ### Other external events
 
