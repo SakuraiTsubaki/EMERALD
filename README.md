@@ -10,26 +10,27 @@ Pokémon Emerald의 외부 배포/외부 장치 의존 이벤트를 게임 내�
 
 - 외부 배포 서버, 무선 어댑터, e-Reader, 다른 카트리지에 의존하지 않습니다.
 - 원래 한 번만 잡거나 한 번만 받는 콘텐츠의 완료 플래그는 보존합니다.
+- **티켓 이벤트는 목적지를 강제 해제하지 않고 티켓을 상시 지급합니다. 이후 이벤트는 원본 흐름을 그대로 사용합니다.**
 - 단순히 세이브 플래그를 미리 켜는 방식에만 의존하지 않습니다. 기존 세이브에서도 ROM 수정만으로 접근 가능해야 합니다.
 - 언어 기준은 일본판을 최우선으로 하고, 한국어 자료가 없으면 영어를 기준으로 대조한 뒤 독일어/프랑스어/이탈리아어/스페인어판에 확장합니다.
 - ROM 바이너리는 GitHub에 올리지 않습니다. 패치, 분석, 매니페스트, 검증 자료만 관리합니다.
 
 ## 현재 작업
 
-### Core external events
+### Ticket events
+
+상시 배달원에게서 다음 티켓을 받을 수 있게 하고, 항구/목적지/전설 이벤트는 원본 Emerald 로직을 그대로 둡니다.
 
 - Southern Island / Eon Ticket
 - Birth Island / Aurora Ticket
 - Navel Rock / Mystic Ticket
 - Faraway Island / Old Sea Map
+
+패치: `patches/pokeemerald/0002-internalize-event-deliveryman.patch`
+
+### Other external events
+
 - Altering Cave Mystery Gift encounter sets
-
-첫 소스 패치는 `patches/pokeemerald/0001-always-available-core-external-events.patch`에 있습니다.
-
-### Data-driven external events
-
-다음 항목도 전체 상시화 범위에 포함합니다.
-
 - Mystery Gift / Mystery Event 기능
 - Wonder Card + saved RAM script
 - Surf Pichu gift script
@@ -37,7 +38,6 @@ Pokémon Emerald의 외부 배포/외부 장치 의존 이벤트를 게임 내�
 - Sootopolis visiting e-Reader trainer
 - e-Reader trainer data
 - Trainer Hill e-Reader trainer/map data
-- Enigma Berry external event data
 
 전체 범위와 구현 상태는 `manifests/external-events.yml`을 기준으로 추적합니다.
 
