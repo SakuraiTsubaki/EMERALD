@@ -1,0 +1,24 @@
+category,action,file_count,emerald_target,policy
+binary_eggmove_resources,extract_reference_data,13,generated egg-move tables,Parse into EMERALD-owned CSV/JSON/YAML; retain source commit/provenance.
+binary_evolution_resources,extract_reference_data,13,generated evolution tables,Parse into EMERALD-owned CSV/JSON/YAML; retain source commit/provenance.
+binary_levelup_resources,extract_reference_data,24,generated learnset tables,Parse into EMERALD-owned CSV/JSON/YAML; retain source commit/provenance.
+binary_personal_resources,extract_reference_data,28,generated reference tables,Parse into EMERALD-owned CSV/JSON/YAML; retain source commit/provenance.
+ci_meta,reference_only,15,none,Reference upstream; no direct import.
+core_logic,extract_or_reimplement,62,reimplement only when needed,Use as behavioral/schema reference; reimplement in EMERALD unless GPL-compatible reuse is explicitly chosen.
+core_util,extract_or_reimplement,20,reimplement only when needed,Use as behavioral/schema reference; reimplement in EMERALD unless GPL-compatible reuse is explicitly chosen.
+drawing,do_not_import,7326,none,Not required for ROM/data project; keep upstream only.
+editing_logic,reference_only,160,research only,Reference upstream; no direct import.
+entity_formats,extract_or_reimplement,183,manifests/pkhex/entity-formats + save/entity research,Use as behavioral/schema reference; reimplement in EMERALD unless GPL-compatible reuse is explicitly chosen.
+game_metadata,extract_or_reimplement,41,manifests/pkhex/game-metadata,Use as behavioral/schema reference; reimplement in EMERALD unless GPL-compatible reuse is explicitly chosen.
+items,extract_or_reimplement,49,manifests/pkhex/items,Use as behavioral/schema reference; reimplement in EMERALD unless GPL-compatible reuse is explicitly chosen.
+legality,extract_or_reimplement,642,research/pkhex/legality + trigger/transfer matrices,Use as behavioral/schema reference; reimplement in EMERALD unless GPL-compatible reuse is explicitly chosen.
+legality_resources,extract_reference_data,200,generated encounter/legality reference tables,Parse into EMERALD-owned CSV/JSON/YAML; retain source commit/provenance.
+localized_text,extract_reference_data,1392,Japanese > Korean > English reference labels,Parse into EMERALD-owned CSV/JSON/YAML; retain source commit/provenance.
+moves,extract_or_reimplement,16,manifests/pkhex/moves,Use as behavioral/schema reference; reimplement in EMERALD unless GPL-compatible reuse is explicitly chosen.
+mystery_gifts,extract_or_reimplement,21,manifests/pkhex/mystery-gifts,Use as behavioral/schema reference; reimplement in EMERALD unless GPL-compatible reuse is explicitly chosen.
+personal_data,extract_or_reimplement,48,manifests/pkhex/personal + form/species parameters,Use as behavioral/schema reference; reimplement in EMERALD unless GPL-compatible reuse is explicitly chosen.
+project_meta,reference_only,9,none,Reference upstream; no direct import.
+ribbons_marks,extract_or_reimplement,20,manifests/pkhex/ribbons-marks,Use as behavioral/schema reference; reimplement in EMERALD unless GPL-compatible reuse is explicitly chosen.
+save_formats,extract_or_reimplement,617,research/pkhex/saves + manifests/pkhex/save-fields,Use as behavioral/schema reference; reimplement in EMERALD unless GPL-compatible reuse is explicitly chosen.
+tests,reference_tests,264,verification checklist,Translate behavior into EMERALD verification cases; do not copy test suite wholesale.
+ui,do_not_import,501,none,Not required for ROM/data project; keep upstream only.
