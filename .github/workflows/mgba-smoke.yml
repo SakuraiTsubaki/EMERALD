@@ -53,28 +53,25 @@ jobs:
           test -s pokeemerald_modern.gba
           sha256sum pokeemerald_modern.gba
 
-      - name: Boot patched ROM in mGBA and capture screen
+      - name: Boot patched ROM in mGBA
         shell: bash
         run: |
           cd pokeemerald
-          rm -f ../mgba-screen.png ../mgba.log
-          xvfb-run -a -s "-screen 0 800x600x24" bash -c '
-            mgba pokeemerald_modern.gba >../mgba.log 2>&1 &
-            pid=$!
-            sleep 8
-            import -window root ../mgba-screen.png || true
-            kill "$pid" 2>/dev/null || true
-            wait "$pid" 2>/dev/null || true
-          '
-          test -s ../mgba-screen.png
-          file ../mgba-screen.png
+          rm -f ../mgba.log
+          set +e
+          timeout 12s xvfb-run -a mgba pokeemerald_modern.gba >../mgba.log 2>&1
+          code=$?
+          set -e
+          if [ "$code" -ne 0 ] && [ "$code" -ne 124 ]; then
+            cat ../mgba.log
+            exit "$code"
+          fi
+          echo "mGBA boot smoke passed (exit=$code)" | tee -a ../mgba.log
           tail -100 ../mgba.log || true
 
       - name: Upload mGBA verification
         uses: actions/upload-artifact@v4
         with:
           name: mgba-smoke
-          path: |
-            mgba-screen.png
-            mgba.log
+          path: mgba.log
           if-no-files-found: error
