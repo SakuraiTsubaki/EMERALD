@@ -1,0 +1,10 @@
+introduced_gen,system,state_kind,trigger,effect_layer,notes
+3,Castform weather,battle-derived form system,weather + Forecast,battle form/type,stock Emerald special-case
+4,Arceus Multitype,held-item derived type/form,Plate hold effect,persistent/derived type form,form index follows type table
+6,Mega Evolution,trainer battle transformation,Key Stone + Mega Stone / special exception,battle transformation,separate from stored normal form
+6,Primal Reversion,automatic held-item battle transformation,Red Orb / Blue Orb,battle transformation,not Mega allowance
+7,Ultra Burst,nested battle transformation,fused Necrozma + Ultranecrozium Z,battle transformation,layered over fusion
+8,Dynamax,trainer battle transformation,Dynamax activation,battle HP/move transformation,DynamaxLevel is separate individual parameter
+8,Gigantamax capability,individual capability flag,Gigantamax Factor + Dynamax,battle G-Max form,capability flag is not normal Form
+9,Terastallization,trainer battle transformation,Tera Orb + stored Tera Type,battle type transformation,PK9 stores Form and Tera Type separately
+9,Z-A Mega Evolution,resource-based battle transformation,Key Stone + Mega Stone + Mega Gauge,battle transformation,real-time gauge controller
