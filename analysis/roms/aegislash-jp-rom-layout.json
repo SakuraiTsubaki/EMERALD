@@ -1,0 +1,28 @@
+{
+  "rom": {
+    "title": "Pocket Monsters - Emerald (Japan)",
+    "game_code": "BPEJ",
+    "revision": 0,
+    "size": 16777216,
+    "sha1": "d7cf8f156ba9c455d164e1ea780a6bf1945465c2",
+    "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c"
+  },
+  "observed": {
+    "base_stats_table": "0x002F0D54",
+    "bulbasaur_entry": "0x002F0D70",
+    "castform_entry": "0x002F3770",
+    "deoxys_entry": "0x002F3A2C",
+    "chimecho_entry": "0x002F3A48",
+    "candidate_ff_free_space": {
+      "start": "0x009158E0",
+      "end_exclusive": "0x00B00000",
+      "length": "0x001EA720"
+    }
+  },
+  "notes": [
+    "Castform is a single species entry with runtime battle-form graphics/state.",
+    "Castform front graphics observed as 0x2000 decompressed bytes (four 0x800 frames).",
+    "Emerald Deoxys base table retains Normal-form-like stats and relies on special runtime handling, demonstrating a second native precedent for form-dependent runtime data.",
+    "Candidate FF space is an observation only; do not allocate permanently until the reconstructed BPEJ linker/map confirms ownership."
+  ]
+}

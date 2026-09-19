@@ -1,0 +1,27 @@
+{
+  "clean_bpej_sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c",
+  "stage1_sha256": "ae507c9f9b51cf0b6a191d9a8e9c8789ccd250ad59c01063efe9c8b83a7ffba5",
+  "stage2_sha256": "5284b9d8aea2a204b6304aec25b0170bccc0204fdc00d131545a77ef12277f55",
+  "runtime": {
+    "rom_offset": "0x917000",
+    "rom_address": "0x08917000",
+    "size": 1166,
+    "sha256": "45d320fdf027e5752c97fa74467ef6c7ff802fe61f30bf2a5872fddc49dbf78f",
+    "relocations": 0
+  },
+  "hooks": [
+    {"address":"0x08045DAC","before":"164a17490b781801","entry":"0x08917001","purpose":"stance_change"},
+    {"address":"0x08045EF0","before":"ae2b0fd11f4a2048","entry":"0x0891701B","purpose":"kings_shield_status_filter"},
+    {"address":"0x08045F34","before":"084000284ad00f48","entry":"0x08917051","purpose":"kings_shield_contact_penalty"},
+    {"address":"0x0804F9B0","before":"b62809d0c52807d0","entry":"0x08917075","purpose":"protect_chain"}
+  ],
+  "resources": {
+    "shield_front":"0x08918000",
+    "blade_front":"0x08918800",
+    "shield_back":"0x08919000",
+    "blade_back":"0x08919800",
+    "shield_palette":"0x0891A000",
+    "blade_palette":"0x0891A020"
+  },
+  "runtime_test_status": "static validation complete; emulator execution pending"
+}

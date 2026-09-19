@@ -1,0 +1,29 @@
+{
+  "source": {
+    "repository": "rh-hideout/pokeemerald-expansion",
+    "commit": "4c680433909c7fb2219cc9e755f05cdd081d4778"
+  },
+  "target": {
+    "platform": "GBA",
+    "tile_format": "4bpp",
+    "canvas": "64x64",
+    "palette_entries": 16,
+    "front_resource": {"size_uncompressed": 8192, "frame_order": ["shield_0","shield_1","blade_0","blade_1"]},
+    "back_resource": {"size_uncompressed": 4096, "frame_order": ["shield_0","blade_0"]},
+    "form_ids": {"shield": 0, "blade": 1}
+  },
+  "files": {
+    "shield_front_anim.png": {"size": 1405, "sha256": "98edefe4da814897a7e6118759d93e7bab93199ced7344aff4740fce1d538480"},
+    "shield_back.png": {"size": 582, "sha256": "d42a0b0f53a314776a1e409d4a9b893052d263386c031199b356673b4377ac94"},
+    "blade_front_anim.png": {"size": 1561, "sha256": "1e6bfa223e16c3f0c17f5c64d3420f2bc1159212baec7d7e14dcce04a61c378d"},
+    "blade_back.png": {"size": 560, "sha256": "5ad12d2f1a08db6aec1105cd95c40d1b977b86d0dd177ae82a05d68996338888"},
+    "shield.pal": {"size": 183, "sha256": "0917c062d0a70d2ace63959c8e6f919b07554466adf4bab7be9b0f75b785028a"},
+    "blade.pal": {"size": 186, "sha256": "5954c9d2a685e3eb68626a4b487270128facf4619845474e3c989b4a3210f71f"},
+    "shield.gbapal": {"size": 32, "sha256": "7764aa8e00c6f91e90121f90691ffb1e46e3881fe9d86949b8b15a6e3d32e116"},
+    "blade.gbapal": {"size": 32, "sha256": "a7d3e9a93a2aa8a37b4b6d40f03d279f119d97f51b18dc8a87171fa021ec744a"},
+    "aegislash_front.4bpp": {"size": 8192, "sha256": "a2adad429dc7041ad568e726a92edb93705e072d22ce78103424587e878c486f"},
+    "aegislash_front.4bpp.lz": {"size": 3556, "sha256": "53a66f4f49241d6863e37196d15b79f4147f121b03eb2ac98a3920a10353962a"},
+    "aegislash_back.4bpp": {"size": 4096, "sha256": "b68b8e081d6a908a54eeaef027d0bc167608d850ebe28d04f505ad6f9a54beba"},
+    "aegislash_back.4bpp.lz": {"size": 1072, "sha256": "f7bb69207452d076e0285729111f2a2bcbc59d1a7530f373ed5f0ef33f785e6a"}
+  }
+}
