@@ -1,0 +1,16 @@
+domain,pkhex_sources,extract,emerald_target,priority
+personal/species/forms,PKHeX.Core/PersonalInfo; PKHeX.Core/Resources/byte/personal_*; PKHeX.Core/PKM/Util/Conversion/FormConverter.cs; PKHeX.Core/Legality/Tables/FormInfo.cs,"species IDs, forms, base stats, types, abilities, growth, gender, hatch, form indexes",manifests/pkhex-normalized/personal/*,highest
+save formats,PKHeX.Core/Saves; PKHeX.Core/PKM,"save block layouts, checksum/encryption, Pokémon entity fields PK1-PK9/PA8/PA9",research/pkhex/save/*; manifests/pkhex-normalized/save/*,highest
+legality/encounters,PKHeX.Core/Legality/Encounters; Restrictions; Verifiers; RNG,"encounter tables, version restrictions, RNG legality, form legality, transfer rules",manifests/pkhex-normalized/legality/*,high
+evolution,PKHeX.Core/Legality/Evolutions,evolution methods/conditions/form inheritance,manifests/pkhex-normalized/evolution/*,high
+learnsets/moves,PKHeX.Core/Legality/LearnSource; Learnset; Moves; PKHeX.Core/Moves; Resources/byte,"learnsets, TM/tutor compatibility, move metadata/PP/version rules",manifests/pkhex-normalized/moves/*,high
+items,PKHeX.Core/Items; Resources/text/other/*/text_Items*; legality item rules,"item IDs, bag availability, version storage, held/form dependencies",manifests/pkhex-normalized/items/*,high
+abilities,PersonalInfo + strings + legality,"ability IDs, slots and form-linked abilities",manifests/pkhex-normalized/abilities/*,high
+mystery gifts/events,PKHeX.Core/MysteryGifts; Legality/Encounters/MysteryGift,"PGT/PCD/PGF/WC formats, event Pokémon/items, generation conversion",manifests/pkhex-normalized/events/*,high
+locations/game strings,PKHeX.Core/Game; Resources/text,localized species/item/move/ability/location/form strings,manifests/pkhex-normalized/localization/*,medium
+ribbons/marks,PKHeX.Core/Ribbons; PKM interfaces,ribbon/mark IDs and generation persistence,manifests/pkhex-normalized/ribbons/*,medium
+conversion/transfer,PKHeX.Core/PKM/Util/Conversion; HOME; legality transfer restrictions,cross-generation species/item/form/entity conversion semantics,research/pkhex/conversion/*,highest
+editing helpers,PKHeX.Core/Editing,"nature, hidden power, Pokérus, bulk edits; validation helpers",research/pkhex/helpers/*,low
+sprites/assets,PKHeX.Drawing.PokeSprite; PKHeX.Drawing.Misc,sprite lookup/name mapping only,reference-only,do_not_copy_assets
+UI,PKHeX.WinForms,presentation/editor behavior only,reference-only,do_not_port
+tests,Tests,known invariants and regression cases,tests/reference/pkhex/*,validation
