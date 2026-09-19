@@ -1,0 +1,53 @@
+species_num,species,full_name,form_name,introduced_gen,state_kind,reason
+-5014,Pokestar Black Belt,Pokestar Black Belt-Prop,Prop,5,cosmetic_identity,exact numeric form index not yet target-verified
+-5013,Pokestar White Door,Pokestar White Door-Prop,Prop,5,cosmetic_identity,exact numeric form index not yet target-verified
+-5012,Pokestar Black Door,Pokestar Black Door-Prop,Prop,5,cosmetic_identity,exact numeric form index not yet target-verified
+-5011,Pokestar Spirit,Pokestar Spirit-Prop,Prop,5,cosmetic_identity,exact numeric form index not yet target-verified
+-5010,Pokestar F-002,Pokestar F-002-Prop,Prop,5,cosmetic_identity,exact numeric form index not yet target-verified
+-5009,Pokestar F-00,Pokestar F-00-Prop,Prop,5,cosmetic_identity,exact numeric form index not yet target-verified
+-5008,Pokestar Monster,Pokestar Monster-Prop,Prop,5,cosmetic_identity,exact numeric form index not yet target-verified
+-5007,Pokestar Humanoid,Pokestar Humanoid-Prop,Prop,5,cosmetic_identity,exact numeric form index not yet target-verified
+-5006,Pokestar Giant,Pokestar Giant-2,2,5,cosmetic_identity,exact numeric form index not yet target-verified
+-5006,Pokestar Giant,Pokestar Giant-PropO1,PropO1,5,cosmetic_identity,exact numeric form index not yet target-verified
+-5006,Pokestar Giant,Pokestar Giant-PropO2,PropO2,5,cosmetic_identity,exact numeric form index not yet target-verified
+-5005,Pokestar Transport,Pokestar Transport-Prop,Prop,5,cosmetic_identity,exact numeric form index not yet target-verified
+-5004,Pokestar MT2,Pokestar MT2-Prop,Prop,5,cosmetic_identity,exact numeric form index not yet target-verified
+-5003,Pokestar MT,Pokestar MT-Prop,Prop,5,cosmetic_identity,exact numeric form index not yet target-verified
+-5002,Pokestar Brycen-Man,Pokestar Brycen-Man-Prop,Prop,5,cosmetic_identity,exact numeric form index not yet target-verified
+-5001,Pokestar UFO,Pokestar UFO-2,2,5,persistent_identity,exact numeric form index not yet target-verified
+-5001,Pokestar UFO,Pokestar UFO-PropU1,PropU1,5,cosmetic_identity,exact numeric form index not yet target-verified
+-5001,Pokestar UFO,Pokestar UFO-PropU2,PropU2,5,persistent_identity,exact numeric form index not yet target-verified
+3,Venusaur,Venusaur-Gmax,Gmax,1,battle_transformation,exact numeric form index not yet target-verified
+6,Charizard,Charizard-Gmax,Gmax,1,battle_transformation,exact numeric form index not yet target-verified
+9,Blastoise,Blastoise-Gmax,Gmax,1,battle_transformation,exact numeric form index not yet target-verified
+12,Butterfree,Butterfree-Gmax,Gmax,1,battle_transformation,exact numeric form index not yet target-verified
+25,Pikachu,Pikachu-Gmax,Gmax,1,battle_transformation,exact numeric form index not yet target-verified
+52,Meowth,Meowth-Gmax,Gmax,1,battle_transformation,exact numeric form index not yet target-verified
+68,Machamp,Machamp-Gmax,Gmax,1,battle_transformation,exact numeric form index not yet target-verified
+94,Gengar,Gengar-Gmax,Gmax,1,battle_transformation,exact numeric form index not yet target-verified
+99,Kingler,Kingler-Gmax,Gmax,1,battle_transformation,exact numeric form index not yet target-verified
+131,Lapras,Lapras-Gmax,Gmax,1,battle_transformation,exact numeric form index not yet target-verified
+133,Eevee,Eevee-Gmax,Gmax,1,battle_transformation,exact numeric form index not yet target-verified
+143,Snorlax,Snorlax-Gmax,Gmax,1,battle_transformation,exact numeric form index not yet target-verified
+569,Garbodor,Garbodor-Gmax,Gmax,5,battle_transformation,exact numeric form index not yet target-verified
+809,Melmetal,Melmetal-Gmax,Gmax,7,battle_transformation,exact numeric form index not yet target-verified
+812,Rillaboom,Rillaboom-Gmax,Gmax,8,battle_transformation,exact numeric form index not yet target-verified
+815,Cinderace,Cinderace-Gmax,Gmax,8,battle_transformation,exact numeric form index not yet target-verified
+818,Inteleon,Inteleon-Gmax,Gmax,8,battle_transformation,exact numeric form index not yet target-verified
+823,Corviknight,Corviknight-Gmax,Gmax,8,battle_transformation,exact numeric form index not yet target-verified
+826,Orbeetle,Orbeetle-Gmax,Gmax,8,battle_transformation,exact numeric form index not yet target-verified
+834,Drednaw,Drednaw-Gmax,Gmax,8,battle_transformation,exact numeric form index not yet target-verified
+839,Coalossal,Coalossal-Gmax,Gmax,8,battle_transformation,exact numeric form index not yet target-verified
+841,Flapple,Flapple-Gmax,Gmax,8,battle_transformation,exact numeric form index not yet target-verified
+842,Appletun,Appletun-Gmax,Gmax,8,battle_transformation,exact numeric form index not yet target-verified
+844,Sandaconda,Sandaconda-Gmax,Gmax,8,battle_transformation,exact numeric form index not yet target-verified
+849,Toxtricity,Toxtricity-Gmax,Gmax,8,battle_transformation,exact numeric form index not yet target-verified
+849,Toxtricity,Toxtricity-Low-Key-Gmax,Low-Key-Gmax,8,battle_transformation,exact numeric form index not yet target-verified
+851,Centiskorch,Centiskorch-Gmax,Gmax,8,battle_transformation,exact numeric form index not yet target-verified
+858,Hatterene,Hatterene-Gmax,Gmax,8,battle_transformation,exact numeric form index not yet target-verified
+861,Grimmsnarl,Grimmsnarl-Gmax,Gmax,8,battle_transformation,exact numeric form index not yet target-verified
+869,Alcremie,Alcremie-Gmax,Gmax,8,battle_transformation,exact numeric form index not yet target-verified
+879,Copperajah,Copperajah-Gmax,Gmax,8,battle_transformation,exact numeric form index not yet target-verified
+884,Duraludon,Duraludon-Gmax,Gmax,8,battle_transformation,exact numeric form index not yet target-verified
+892,Urshifu,Urshifu-Gmax,Gmax,8,battle_transformation,exact numeric form index not yet target-verified
+892,Urshifu,Urshifu-Rapid-Strike-Gmax,Rapid-Strike-Gmax,8,battle_transformation,exact numeric form index not yet target-verified
