@@ -27,7 +27,7 @@ typedef signed int s32;
 #define PLAYER_PARTY_MON_SIZE 0x64
 #define BATTLE_MON_SIZE 0x58
 #define SPRITE_SIZE_BYTES 0x44
-#define BATTLE_MOVE_SIZE 12
+#define BATTLE_MOVE_SIZE 9
 
 #define SHIELD_FRONT ((const u32 *)0x08918000)
 #define BLADE_FRONT  ((const u32 *)0x08918800)
