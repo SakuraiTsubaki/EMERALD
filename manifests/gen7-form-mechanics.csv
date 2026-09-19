@@ -1,0 +1,26 @@
+species,form,state_model,trigger,hp,atk,def,spe,spa,spd,type1,type2,ability,item_or_state,notes
+Oricorio,Baile,persistent_item,use Red Nectar,75,70,70,93,98,70,Fire,Flying,Dancer,ITEM_853,
+Oricorio,Pom-Pom,persistent_item,use Yellow Nectar,75,70,70,93,98,70,Electric,Flying,Dancer,ITEM_854,
+Oricorio,Pa'u,persistent_item,use Pink Nectar,75,70,70,93,98,70,Psychic,Flying,Dancer,ITEM_855,
+Oricorio,Sensu,persistent_item,use Purple Nectar,75,70,70,93,98,70,Ghost,Flying,Dancer,ITEM_856,
+Lycanroc,Midday,persistent_identity,time/version evolution,75,115,65,112,55,65,Rock,Rock,varies,,
+Lycanroc,Midnight,persistent_identity,time/version evolution,85,115,75,82,55,75,Rock,Rock,varies,,
+Lycanroc,Dusk,persistent_identity,Own Tempo Rockruff evolution 17:00-17:59 USUM,75,117,65,110,55,65,Rock,Rock,Tough Claws,,
+Wishiwashi,Solo,battle_only,Schooling level<20 or HP<=25%,45,20,20,40,25,25,Water,Water,Schooling,,
+Wishiwashi,School,battle_only,Schooling level>=20 and HP>25%,45,140,130,30,140,135,Water,Water,Schooling,,
+Minior,Meteor,battle_only_layer,Shields Down HP state,60,60,100,60,60,100,Rock,Flying,Shields Down,,"plus immutable core color"
+Minior,Core,battle_only_layer,Shields Down HP state,60,100,60,120,100,60,Rock,Flying,Shields Down,,"7 persistent colors"
+Mimikyu,Disguised,battle_only,start battle,55,90,80,96,50,105,Ghost,Fairy,Disguise,,"Gen7 first hit zero damage"
+Mimikyu,Busted,battle_only,first damaging hit,55,90,80,96,50,105,Ghost,Fairy,Disguise,,"until battle end"
+Greninja,Ash,battle_only, Battle Bond KO trigger,72,145,67,132,153,71,Water,Dark,Battle Bond,,"Water Shuriken 20 power x3"
+Zygarde,10%,persistent_identity,Zygarde Cube/Reassembly,54,100,71,115,61,85,Dragon,Ground,Aura Break or Power Construct,ITEM_847,"ability variants are separate internal forms"
+Zygarde,50%,persistent_identity,Zygarde Cube/Reassembly,108,100,121,95,81,95,Dragon,Ground,Aura Break or Power Construct,ITEM_847,"ability variants are separate internal forms"
+Zygarde,Complete,battle_only,Power Construct <=50% HP end turn,216,100,121,85,91,95,Dragon,Ground,Power Construct,,"returns after battle"
+Silvally,Type Form,held_item_derived,hold Memory,95,95,95,95,95,95,Memory-derived,Memory-derived,RKS System,ITEM_904-920,"Multi-Attack power 90 in Gen7"
+Necrozma,Base,persistent_identity,default,97,107,101,79,127,89,Psychic,Psychic,Prism Armor,,
+Necrozma,Dusk Mane,persistent_fusion,N-Solarizer + Solgaleo,97,157,127,77,113,109,Psychic,Steel,Prism Armor,ITEM_943/945,"retain Solgaleo data"
+Necrozma,Dawn Wings,persistent_fusion,N-Lunarizer + Lunala,97,113,109,77,157,127,Psychic,Ghost,Prism Armor,ITEM_944/946,"retain Lunala data"
+Necrozma,Ultra,battle_only_nested,Ultranecrozium Z + Ultra Burst,97,167,97,129,167,97,Psychic,Dragon,Neuroforce,ITEM_923/929,"once per battle; requires fused form"
+Magearna,Original Color,immutable_cosmetic,data-only in Gen7,80,95,115,65,130,115,Steel,Fairy,Soul-Heart,,"unobtainable legitimately until Gen8"
+Totem-like,Totem size,hidden_internal_form,USUM Totem Sticker gifts,,,,,,,,,,"height/weight/internal form; not normal Pokédex form"
+Alolan forms,Regional,persistent_identity,encounter/evolution region/time,,,,,,,,,,"18 regional forms introduced"
