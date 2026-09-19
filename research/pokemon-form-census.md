@@ -1,62 +1,48 @@
-# Pokémon form census — master inventory
+# Pokémon form census — normalized master inventory
 
-Generated: 2026-09-19
+Updated: 2026-09-19
 
-## Scope
+## Census result
 
-This is the first normalized **one-row-per-form/state** master inventory for EMERALD.
-
-Primary enumeration baselines:
-- Pokémon Showdown `data/pokedex.ts@2ddfa0476f8207e12e204b1c69f7c7683b17633c`
-- PKHeX form/internal-form rules `@8ad201e80244f630ab5a46922ab72fb79c5ad4f4`
-
-Japanese and Korean species names are pulled from the same pinned PKHeX revision. English technical form labels remain in the machine-readable form columns so source identifiers stay stable.
-
-## Current census size
-
-- normalized rows: **770**
-- form families: **259**
-- rows with unresolved exact numeric form index: **52**
-- separate transformation-system rows: **9**
+- Pokémon form/state rows: **799**
+- non-Pokémon Pokéstar battle-actor rows moved out of census: **38**
+- remaining unresolved numeric form-index rows: **0**
+- Alcremie 63 cream/Sweet appearance combinations are expanded individually.
+- Koraidon/Miraidon five presentation modes are explicitly represented.
+- Ogerpon battle-only Embody Aspect forms are explicitly represented as form IDs 4-7.
+- Gigantamax rows are no longer treated as missing persistent Form IDs; Gigantamax capability is a separate individual flag and G-Max is a battle transformation representation.
 
 Rows by introduction generation:
 
-- Gen 1: 123
-- Gen 2: 56
-- Gen 3: 58
-- Gen 4: 60
-- Gen 5: 91
-- Gen 6: 124
-- Gen 7: 82
-- Gen 8: 89
-- Gen 9: 87
+- Gen 1: 58
+- Gen 2: 44
+- Gen 3: 34
+- Gen 4: 55
+- Gen 5: 47
+- Gen 6: 168
+- Gen 7: 100
+- Gen 8: 200
+- Gen 9: 93
 
-## What is included
+## Evidence model
 
-- base forms for every species family that has an alternate form;
-- alternate personal-data forms;
-- Mega / Mega X / Mega Y / Mega Z forms present in the current source baseline;
-- Gigantamax forms represented as Pokémon form data;
-- regional forms;
-- battle-only forms represented as separate personal/form records;
-- cosmetic forms referenced by the source data;
-- Totem forms represented in the form data;
-- Unown letters/punctuation;
-- Vivillon patterns;
-- Pikachu costume/cap forms;
-- Alcremie cream forms (Sweet decoration remains a form argument/sub-identity, not a distinct numeric Form);
-- data-only / unobtainable forms surfaced by the source data;
-- manual internal additions: Mothim cloak values, Scatterbug/Spewpa hidden Vivillon-pattern values, Gen IV ??? Arceus, PLA Lord/Lady forms;
-- Spinda procedural appearance as a non-discrete census row.
+Enumeration and internal-form rules:
+- PKHeX @ 8ad201e80244f630ab5a46922ab72fb79c5ad4f4
 
-## Important distinction
+Current cross-generation personal parameters:
+- Pokémon Showdown data/pokedex.ts @ 2ddfa0476f8207e12e204b1c69f7c7683b17633c
 
-Not every transformation is a stored form ID. `manifests/pokemon-form-transformation-systems.csv` separately tracks systems such as Dynamax and Terastallization where the entity's ordinary persistent Form is not replaced.
+The census distinguishes **reference-order form indices** from **target-ROM-verified indices**. A Showdown formeOrder is useful for census ordering but is not promoted to a Japanese retail-ROM address/index claim.
 
-## What still blocks the word "fully verified"
+## What "complete" means here
 
-The identity census is now mechanically broad, but 52 rows still lack a target-verified numeric form index. These are mostly records where the public parameter source names the form but does not expose the game's numeric form slot directly.
+The **identity/state census** is now broad enough to enumerate normal alternate forms, cosmetic forms, battle-only forms, regional forms, Mega/G-Max forms, hidden/internal form values, compound FormArgument identities, scripted Lord/Lady forms and procedural Spinda appearance.
 
-Also, later-generation user repositories still have exact Japanese build identity marked `unselected`. Until those exact retail/update builds are pinned, ROM offsets and binary table indices cannot honestly be called target-verified.
+What is still a separate verification campaign is per-title/per-revision binary proof:
+- exact Japanese retail/update build identity;
+- exact personal-table form index and data-table offset;
+- trigger/reset code address;
+- graphics/model/cry table reference;
+- historical parameter changes between generations.
 
-The next verification pass is therefore **numeric form-index and per-game trigger reconciliation**, not another representative-form survey.
+That work belongs in a per-game parameter/ROM-evidence matrix, not by bloating the identity census.
