@@ -13,7 +13,10 @@ Cave by making every encounter table reachable in normal play.
 diff --git a/src/wild_encounter.c b/src/wild_encounter.c
 --- a/src/wild_encounter.c
 +++ b/src/wild_encounter.c
-@@
+@@ -318,9 +318,10 @@
+             if (gSaveBlock1Ptr->location.mapGroup == MAP_GROUP(MAP_ALTERING_CAVE) &&
+                 gSaveBlock1Ptr->location.mapNum == MAP_NUM(MAP_ALTERING_CAVE))
+             {
 -                u16 alteringCaveId = VarGet(VAR_ALTERING_CAVE_WILD_SET);
 -                if (alteringCaveId >= NUM_ALTERING_CAVE_TABLES)
 -                    alteringCaveId = 0;
