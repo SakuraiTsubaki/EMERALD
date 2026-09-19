@@ -10,7 +10,7 @@
 
 티켓 계열은 목적지 자체를 강제로 항상 표시하지 않습니다.
 
-플레이어가 상시 배달원에게서 다음 이벤트 아이템을 받을 수 있게 하고, 이후 항구와 섬 이벤트는 원본 Emerald 로직을 그대로 사용합니다.
+미로마을(Littleroot Town)에 새 이벤트 배달 NPC를 상시 배치합니다. 이 NPC는 스토리 진행 상태와 무관하게 존재하며, 플레이어가 말을 걸면 아직 가지고 있지 않은 이벤트 티켓을 한 번에 지급합니다. 이후 항구와 섬 이벤트는 원본 Emerald 로직을 그대로 사용합니다.
 
 - Eon Ticket
 - Aurora Ticket
@@ -19,7 +19,7 @@
 
 원본 `src/script_menu.c`의 S.S. Tidal 목적지 판정은 **티켓 아이템과 해당 ship-enable flag를 모두 확인**합니다. 원본 Mystery Gift/Record Mixing 지급 루틴 역시 티켓을 줄 때 그 플래그를 함께 설정합니다.
 
-따라서 EMERALD 패치도 목적지 코드는 건드리지 않고, 티켓 수령 시에만 원본과 동일한 ship-enable flag를 설정합니다. 플레이어에게 보이는 변경점은 "외부 배포 없이 티켓을 받을 수 있다"는 것뿐입니다.
+따라서 EMERALD 패치도 목적지 코드는 건드리지 않고, 미로마을의 새 NPC가 티켓을 건넬 때만 원본과 동일한 ship-enable flag를 설정합니다. 기존 Pokémon Center Mystery Gift Man과 Cable Club 스크립트는 수정하지 않습니다.
 
 포획/격파/완료 플래그는 미리 설정하지 않습니다.
 
