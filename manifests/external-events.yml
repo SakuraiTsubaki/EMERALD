@@ -23,8 +23,8 @@ ticket_provider:
   always_present: true
   menu_choices:
     - ITEM_EON_TICKET
-    - ITEM_MYSTIC_TICKET
     - ITEM_AURORA_TICKET
+    - ITEM_MYSTIC_TICKET
     - ITEM_OLD_SEA_MAP
   delivery_mode: one_selected_item_per_interaction
   can_cancel_with_b: true
