@@ -1,0 +1,5 @@
+case,species_id,classification,form_count_or_variation,rom_evidence,emerald_behavior
+CASTFORM,385,runtime_form_change,4,"front/back graphics decompress to 0x2000 = four 0x800 pictures","Normal/Sunny/Rainy/Snowy selected by weather"
+UNOWN,201,personality_derived_form,28,"A at species 201; graphics-only slots 413-439 for B-Z ! ?","form derived from personality"
+DEOXYS,410,game_version_selected_form,2,"two-frame graphics plus unique Speed-form runtime stat vector","Emerald normally presents Speed Forme; normal handling retained for specific link contexts"
+SPINDA,308,procedural_appearance,PID-dependent,"single base sprite plus runtime spot masks","four spot masks positioned from personality nibbles"
