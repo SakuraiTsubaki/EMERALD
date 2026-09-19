@@ -1,0 +1,157 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+Subject: [PATCH 2/2] Add permanent event-ticket courier to Littleroot Town
+
+Reference: pret/pokeemerald @ 5eff78649e7170a877b961ef0b3da13b81a16038
+
+Keep the original S.S. Tidal destination logic, Pokemon Center Mystery Gift
+deliveryman, and all legendary encounter completion logic unchanged.
+
+A new always-present NPC is added to Littleroot Town near Professor Birch's
+Lab. The NPC uses the existing Mystery Gift Man overworld graphic and gives
+any missing event tickets. Ticket receipt sets only the same ship-enable /
+receipt flags used by Emerald's original event distribution scripts.
+
+diff --git a/data/maps/LittlerootTown/map.json b/data/maps/LittlerootTown/map.json
+--- a/data/maps/LittlerootTown/map.json
++++ b/data/maps/LittlerootTown/map.json
+@@
+     {
+       "graphics_id": "OBJ_EVENT_GFX_BOY_2",
+       "x": 14,
+       "y": 17,
+       "elevation": 3,
+       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+       "movement_range_x": 2,
+       "movement_range_y": 1,
+       "trainer_type": "TRAINER_TYPE_NONE",
+       "trainer_sight_or_berry_tree_id": "0",
+       "script": "LittlerootTown_EventScript_Boy",
+       "flag": "0"
++    },
++    {
++      "graphics_id": "OBJ_EVENT_GFX_MYSTERY_GIFT_MAN",
++      "x": 9,
++      "y": 17,
++      "elevation": 3,
++      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
++      "movement_range_x": 0,
++      "movement_range_y": 0,
++      "trainer_type": "TRAINER_TYPE_NONE",
++      "trainer_sight_or_berry_tree_id": "0",
++      "script": "LittlerootTown_EventScript_EventTicketCourier",
++      "flag": "0"
+     },
+     {
+       "local_id": "LOCALID_LITTLEROOT_MOM",
+       "graphics_id": "OBJ_EVENT_GFX_MOM",
+
+diff --git a/data/maps/LittlerootTown/scripts.inc b/data/maps/LittlerootTown/scripts.inc
+--- a/data/maps/LittlerootTown/scripts.inc
++++ b/data/maps/LittlerootTown/scripts.inc
+@@
+ LittlerootTown_EventScript_Boy::
+ 	msgbox LittlerootTown_Text_BirchSpendsDaysInLab, MSGBOX_NPC
+ 	end
++
++@ Permanent offline replacement for historical external ticket distribution.
++@ The NPC stays independent from story state and can be revisited at any time.
++LittlerootTown_EventScript_EventTicketCourier::
++	lock
++	faceplayer
++	setvar VAR_TEMP_0, 0
++	setvar VAR_TEMP_1, 0
++	msgbox LittlerootTown_Text_EventTicketCourierIntro, MSGBOX_DEFAULT
++	call LittlerootTown_EventScript_GiveEonTicket
++	call LittlerootTown_EventScript_GiveMysticTicket
++	call LittlerootTown_EventScript_GiveAuroraTicket
++	call LittlerootTown_EventScript_GiveOldSeaMap
++	goto_if_eq VAR_TEMP_1, 1, LittlerootTown_EventScript_EventTicketCourierBagFull
++	goto_if_eq VAR_TEMP_0, 0, LittlerootTown_EventScript_EventTicketCourierAlreadyDelivered
++	msgbox LittlerootTown_Text_EventTicketCourierDelivered, MSGBOX_DEFAULT
++	release
++	end
++
++LittlerootTown_EventScript_EventTicketCourierBagFull::
++	msgbox LittlerootTown_Text_EventTicketCourierBagFull, MSGBOX_DEFAULT
++	release
++	end
++
++LittlerootTown_EventScript_EventTicketCourierAlreadyDelivered::
++	msgbox LittlerootTown_Text_EventTicketCourierAlreadyDelivered, MSGBOX_DEFAULT
++	release
++	end
++
++LittlerootTown_EventScript_GiveEonTicket::
++	checkitem ITEM_EON_TICKET
++	goto_if_eq VAR_RESULT, TRUE, LittlerootTown_EventScript_GiveEonTicket_Return
++	checkitemspace ITEM_EON_TICKET
++	goto_if_eq VAR_RESULT, FALSE, LittlerootTown_EventScript_GiveEonTicket_NoRoom
++	giveitem ITEM_EON_TICKET
++	setflag FLAG_ENABLE_SHIP_SOUTHERN_ISLAND
++	setvar VAR_TEMP_0, 1
++LittlerootTown_EventScript_GiveEonTicket_Return::
++	return
++LittlerootTown_EventScript_GiveEonTicket_NoRoom::
++	setvar VAR_TEMP_1, 1
++	return
++
++LittlerootTown_EventScript_GiveMysticTicket::
++	checkitem ITEM_MYSTIC_TICKET
++	goto_if_eq VAR_RESULT, TRUE, LittlerootTown_EventScript_GiveMysticTicket_Return
++	checkitemspace ITEM_MYSTIC_TICKET
++	goto_if_eq VAR_RESULT, FALSE, LittlerootTown_EventScript_GiveMysticTicket_NoRoom
++	giveitem ITEM_MYSTIC_TICKET
++	setflag FLAG_ENABLE_SHIP_NAVEL_ROCK
++	setflag FLAG_RECEIVED_MYSTIC_TICKET
++	setvar VAR_TEMP_0, 1
++LittlerootTown_EventScript_GiveMysticTicket_Return::
++	return
++LittlerootTown_EventScript_GiveMysticTicket_NoRoom::
++	setvar VAR_TEMP_1, 1
++	return
++
++LittlerootTown_EventScript_GiveAuroraTicket::
++	checkitem ITEM_AURORA_TICKET
++	goto_if_eq VAR_RESULT, TRUE, LittlerootTown_EventScript_GiveAuroraTicket_Return
++	checkitemspace ITEM_AURORA_TICKET
++	goto_if_eq VAR_RESULT, FALSE, LittlerootTown_EventScript_GiveAuroraTicket_NoRoom
++	giveitem ITEM_AURORA_TICKET
++	setflag FLAG_ENABLE_SHIP_BIRTH_ISLAND
++	setflag FLAG_RECEIVED_AURORA_TICKET
++	setvar VAR_TEMP_0, 1
++LittlerootTown_EventScript_GiveAuroraTicket_Return::
++	return
++LittlerootTown_EventScript_GiveAuroraTicket_NoRoom::
++	setvar VAR_TEMP_1, 1
++	return
++
++LittlerootTown_EventScript_GiveOldSeaMap::
++	checkitem ITEM_OLD_SEA_MAP
++	goto_if_eq VAR_RESULT, TRUE, LittlerootTown_EventScript_GiveOldSeaMap_Return
++	checkitemspace ITEM_OLD_SEA_MAP
++	goto_if_eq VAR_RESULT, FALSE, LittlerootTown_EventScript_GiveOldSeaMap_NoRoom
++	giveitem ITEM_OLD_SEA_MAP
++	setflag FLAG_ENABLE_SHIP_FARAWAY_ISLAND
++	setflag FLAG_RECEIVED_OLD_SEA_MAP
++	setvar VAR_TEMP_0, 1
++LittlerootTown_EventScript_GiveOldSeaMap_Return::
++	return
++LittlerootTown_EventScript_GiveOldSeaMap_NoRoom::
++	setvar VAR_TEMP_1, 1
++	return
++
++LittlerootTown_Text_EventTicketCourierIntro:
++	.string "I have some special items that were\\n"
++	.string "entrusted to me for you.$"
++
++LittlerootTown_Text_EventTicketCourierDelivered:
++	.string "That's everything I can deliver now.\\n"
++	.string "Please keep them safe.$"
++
++LittlerootTown_Text_EventTicketCourierBagFull:
++	.string "It looks like I couldn't hand over\\n"
++	.string "everything. Make some room and return.$"
++
++LittlerootTown_Text_EventTicketCourierAlreadyDelivered:
++	.string "Everything entrusted to me has already\\n"
++	.string "been delivered.$"
