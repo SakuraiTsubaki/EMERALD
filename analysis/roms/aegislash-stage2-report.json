@@ -10,18 +10,53 @@
     "relocations": 0
   },
   "hooks": [
-    {"address":"0x08045DAC","before":"164a17490b781801","entry":"0x08917001","purpose":"stance_change"},
-    {"address":"0x08045EF0","before":"ae2b0fd11f4a2048","entry":"0x0891701B","purpose":"kings_shield_status_filter"},
-    {"address":"0x08045F34","before":"084000284ad00f48","entry":"0x08917051","purpose":"kings_shield_contact_penalty"},
-    {"address":"0x0804F9B0","before":"b62809d0c52807d0","entry":"0x08917075","purpose":"protect_chain"}
+    {
+      "address": "0x08045DAC",
+      "before": "164a17490b781801",
+      "entry": "0x08917001",
+      "purpose": "stance_change"
+    },
+    {
+      "address": "0x08045EF0",
+      "before": "ae2b0fd11f4a2048",
+      "entry": "0x0891701B",
+      "purpose": "kings_shield_status_filter"
+    },
+    {
+      "address": "0x08045F42",
+      "before": "0e4a107801210843",
+      "entry": "0x08917051",
+      "purpose": "kings_shield_contact_penalty",
+      "original_address": "0x08045F34",
+      "original_before": "084000284ad00f48",
+      "note": "relocated from STATUS2_MULTIPLETURNS sub-branch to common DEFENDER_IS_PROTECTED block"
+    },
+    {
+      "address": "0x0804F9B0",
+      "before": "b62809d0c52807d0",
+      "entry": "0x08917075",
+      "purpose": "protect_chain"
+    }
   ],
   "resources": {
-    "shield_front":"0x08918000",
-    "blade_front":"0x08918800",
-    "shield_back":"0x08919000",
-    "blade_back":"0x08919800",
-    "shield_palette":"0x0891A000",
-    "blade_palette":"0x0891A020"
+    "shield_front": "0x08918000",
+    "blade_front": "0x08918800",
+    "shield_back": "0x08919000",
+    "blade_back": "0x08919800",
+    "shield_palette": "0x0891A000",
+    "blade_palette": "0x0891A020"
   },
-  "runtime_test_status": "static validation complete; emulator execution pending"
+  "runtime_test_status": "Stage 2.1 control-flow fix statically verified; emulator execution pending",
+  "stage2_1": {
+    "reason": "King's Shield Attack -2 hook at 0x08045F34 was skipped by ordinary one-turn protected contact moves",
+    "corrected_hook_address": "0x08045F42",
+    "corrected_hook_before": "0e4a107801210843",
+    "restored_original_address": "0x08045F34",
+    "restored_original_bytes": "084000284ad00f48",
+    "runtime_entry": "0x08917051",
+    "protect_chain_entry_preserved": "0x08917075",
+    "local_rebuild_runtime_size": 1180,
+    "local_rebuild_runtime_sha256": "0596ea95f53eca867681635477b68951c61f0a65a918304ed09e098f43650a98",
+    "status": "static control-flow validation complete; emulator runtime execution pending"
+  }
 }
