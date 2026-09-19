@@ -1,0 +1,26 @@
+name: mGBA tool bootstrap
+
+on:
+  push:
+    branches:
+      - feature/aegislash-gen6
+    paths:
+      - .github/workflows/mgba-tool-bootstrap.yml
+
+jobs:
+  package:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Download mGBA Ubuntu build
+        run: |
+          set -eux
+          curl -L --fail --retry 3 -o mgba.tar.xz https://s3.amazonaws.com/mgba/mGBA-build-latest-ubuntu64-noble.tar.xz
+          mkdir mgba
+          tar -xJf mgba.tar.xz -C mgba
+          find mgba -maxdepth 3 -type f -print
+      - name: Upload mGBA
+        uses: actions/upload-artifact@v4
+        with:
+          name: mgba-linux-x64
+          path: mgba
+          retention-days: 1
