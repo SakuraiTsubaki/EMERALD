@@ -97,17 +97,24 @@ events:
 
   - id: trainer_hill_ereader
     source: src/trainer_hill.c
-    external_path: e-Reader trainer/map cards
+    external_path: e-Reader Trainer cards
+    payload_scope:
+      main_trainer_cards: 64
+      promotional_trainer_cards: 2
+      total_data_cards: 66
+      non_data_map_puzzle_cards: 19
+    identity_manifest: manifests/battle-e-emerald-cards.csv
     policy: embed_all_available_card_data
-    status: queued
+    status: identities_manifested_payload_decode_pending
 
   - id: enigma_berry
     source:
       - src/mystery_event_script.c
       - src/berry.c
-    external_path: Mystery Event / e-Reader berry data
-    policy: embed_event_data_and_expose_in_game
-    status: queued
+    external_path: generic Mystery Event / e-Reader berry data
+    emerald_distribution_status: not_confirmed_as_pokemon_battle_e_emerald_content
+    policy: preserve_engine_compatibility_without_misclassifying_rs_card_data
+    status: research
 
 verification:
   source_build: pending
