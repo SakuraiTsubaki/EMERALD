@@ -4,18 +4,24 @@
 
 이 프로젝트에서 "외부 이벤트 상시화"는 외부 장치나 과거 배포를 재현해야만 콘텐츠가 생기는 상태를 제거하는 것을 뜻합니다.
 
-단순히 모든 완료 플래그를 켜는 것이 아닙니다. 그렇게 하면 이벤트를 이미 끝낸 것으로 처리해 전투/보상 자체가 사라질 수 있으므로, **접근 게이트만 제거하고 완료 상태는 원래 로직을 유지**하는 것을 기본 원칙으로 합니다.
+단순히 모든 완료 플래그를 켜는 것이 아닙니다. 그렇게 하면 이벤트를 이미 끝낸 것으로 처리해 전투/보상 자체가 사라질 수 있으므로, 원본 이벤트 진행과 완료 상태는 가능한 한 그대로 유지합니다.
 
-## Built-in event islands
+## Ticket events: distribute the ticket, keep the original event
 
-`pret/pokeemerald`의 `src/script_menu.c`에서 S.S. Tidal 목적지는 다음 두 조건을 동시에 요구합니다.
+티켓 계열은 목적지 자체를 강제로 항상 표시하지 않습니다.
 
-- Eon Ticket + `FLAG_ENABLE_SHIP_SOUTHERN_ISLAND`
-- Mystic Ticket + `FLAG_ENABLE_SHIP_NAVEL_ROCK`
-- Aurora Ticket + `FLAG_ENABLE_SHIP_BIRTH_ISLAND`
-- Old Sea Map + `FLAG_ENABLE_SHIP_FARAWAY_ISLAND`
+플레이어가 상시 배달원에게서 다음 이벤트 아이템을 받을 수 있게 하고, 이후 항구와 섬 이벤트는 원본 Emerald 로직을 그대로 사용합니다.
 
-Core patch 0001은 이 네 목적지를 티켓 및 배포 플래그와 무관하게 목적지 목록에 포함시킵니다. 포획/격파 완료 플래그는 수정하지 않습니다.
+- Eon Ticket
+- Aurora Ticket
+- Mystic Ticket
+- Old Sea Map
+
+원본 `src/script_menu.c`의 S.S. Tidal 목적지 판정은 **티켓 아이템과 해당 ship-enable flag를 모두 확인**합니다. 원본 Mystery Gift/Record Mixing 지급 루틴 역시 티켓을 줄 때 그 플래그를 함께 설정합니다.
+
+따라서 EMERALD 패치도 목적지 코드는 건드리지 않고, 티켓 수령 시에만 원본과 동일한 ship-enable flag를 설정합니다. 플레이어에게 보이는 변경점은 "외부 배포 없이 티켓을 받을 수 있다"는 것뿐입니다.
+
+포획/격파/완료 플래그는 미리 설정하지 않습니다.
 
 ## Altering Cave
 
@@ -38,16 +44,15 @@ Core patch 0001은 조우 헤더를 결정할 때 모든 Altering Cave 테이블
 
 Eon Ticket은 별도로 Record Mixing / Cable Club 경로에 있습니다.
 
-이 항목들은 단순 게이트 제거만으로는 모두 재현되지 않습니다. Wonder Card RAM script, e-Reader trainer 구조체, Enigma Berry 데이터처럼 **외부에서 실제 payload가 들어오는 타입**이 있기 때문입니다. 따라서 다음 단계에서는 이 payload를 ROM 내부 데이터로 승격하고 게임 내 이벤트 허브에서 선택할 수 있게 합니다.
+티켓 이외의 항목은 Wonder Card RAM script, e-Reader trainer 구조체 등 외부에서 실제 payload가 들어오는 타입이 있으므로 각각 원본 데이터를 ROM 내부 데이터로 승격하는 방식으로 처리합니다.
 
 ## e-Reader data-driven scope
 
-다음은 반드시 별도 데이터 내장 작업이 필요합니다.
+다음은 별도 데이터 내장 작업이 필요합니다.
 
 - Sootopolis Mystery Events House visiting trainer
 - e-Reader trainer payload
 - Trainer Hill e-Reader trainer/map data
-- Enigma Berry payload
 - Wonder Card / Wonder News saved data and RAM scripts
 
-이 항목도 제외하지 않습니다. `manifests/external-events.yml`에서 구현 완료 전까지 계속 추적합니다.
+`manifests/external-events.yml`에서 구현 완료 전까지 계속 추적합니다.
