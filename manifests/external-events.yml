@@ -21,7 +21,13 @@ ticket_provider:
   script: LittlerootTown_EventScript_EventTicketCourier
   graphics: OBJ_EVENT_GFX_MYSTERY_GIFT_MAN
   always_present: true
-  gives_all_missing_tickets: true
+  menu_choices:
+    - ITEM_EON_TICKET
+    - ITEM_MYSTIC_TICKET
+    - ITEM_AURORA_TICKET
+    - ITEM_OLD_SEA_MAP
+  delivery_mode: one_selected_item_per_interaction
+  can_cancel_with_b: true
   story_state_dependency: false
 
 reference:
