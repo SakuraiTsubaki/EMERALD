@@ -2,40 +2,51 @@
 
 Updated: 2026-09-19
 
-## Identity census
+## Cross-generation identity/state census
 
-**Complete at the cross-generation reference level.**
+**Completed at the reference-data level.**
 
-- master Pokémon form/state rows: 799
-- numeric-index gaps in the normalized reference census: 0
-- non-Pokémon Pokéstar Studio battle actors: separated into their own manifest
-- Alcremie 63 appearance combinations: expanded
-- hidden/internal form values: included where identified by PKHeX rules
-- Gigantamax: correctly classified as battle transformation/capability rather than a missing persistent Form ID
+- master Pokémon form/state rows: **809**
+- normalized numeric-index gaps: **0**
+- PKHeX `BattleForms` families missing from census: **0**
+- PKHeX `FormChange` families missing from census: **0**
+- PKHeX `BattleMegas` families missing from census: **0**
+- non-Pokémon Pokéstar Studio actors are separated from the Pokémon census
+- Alcremie 63 cream/Sweet combinations are expanded
+- Koraidon and Miraidon five form/mode values are included
+- Ogerpon battle-only form IDs 4-7 are included
+- procedural Spinda appearance is tracked as non-discrete
 
-Primary file:
-- `manifests/pokemon-form-census.csv`
+Rows by introduction generation:
 
-## Game-parameter census
+- Gen 1: 58
+- Gen 2: 44
+- Gen 3: 34
+- Gen 4: 55
+- Gen 5: 47
+- Gen 6: 168
+- Gen 7: 100
+- Gen 8: 200
+- Gen 9: 103
 
-A normalized parameter table now exists:
+## Parameter and trigger manifests
+
 - `manifests/pokemon-form-game-parameters.csv`
-
-It contains per-form reference stats, types and Abilities plus form/sub-identity indices where the source model exposes them.
-
-A trigger table also exists:
 - `manifests/pokemon-form-trigger-matrix.csv`
+- `manifests/pokemon-form-transformation-systems.csv`
 
-## What is NOT yet target-ROM verified
+The parameter manifest stores the normalized reference stats/types/Abilities and form/sub-identity values. The trigger matrix stores item/move/Ability/Tera/change-from evidence and links the remaining behavior to generation research.
 
-"Cross-generation census complete" is not the same as "every retail binary fully reverse-engineered."
+## Separate target-ROM verification layer
 
-Still pending as a separate verification layer:
-- exact Japanese retail/update build identity for repositories whose target is still unselected;
-- exact ROM/personal-table offsets for each later title;
-- exact historical per-title parameter overrides when a form was rebalanced;
-- exact trigger/reset function addresses;
-- graphics/model/icon/cry archive indices;
-- transfer/Pokédex flags in every individual title/revision.
+The remaining work is **not finding more form identities**. It is proving each row against exact retail binaries and historical versions:
 
-Those fields should be added as per-game evidence rows without changing the 799-row identity census.
+- select exact Japanese release/revision/update for repositories still marked `identity_status: unselected`;
+- verify exact personal-table form index/offset;
+- record historical stat/type/Ability changes by game;
+- record exact trigger/reset routine addresses;
+- record graphics/model/icon/cry archive indexes;
+- record Pokédex/transfer/save behavior by title/revision.
+
+Until that binary layer is completed, use the wording:
+**"form identity census complete; per-title ROM verification in progress."**
