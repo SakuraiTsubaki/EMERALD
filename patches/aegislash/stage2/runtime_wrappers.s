@@ -49,16 +49,26 @@ ks_filter_entry:
 .type ks_penalty_entry,%function
 .thumb_func
 ks_penalty_entry:
-    ands r0, r1
-    cmp r0, #0
-    beq 1f
     push {r4}
     bl ks_contact_penalty
     pop {r4}
-    ldr r0, =0x02023EAF
-    JUMP_ABS 0x08045F3D
-1:
-    JUMP_ABS 0x08045FD1
+
+    @ Hooked after CancelMultiTurnMoves in the confirmed
+    @ DEFENDER_IS_PROTECTED block. Replay the overwritten
+    @ gMoveResultFlags |= MOVE_RESULT_MISSED setup, then resume.
+    ldr r2, =0x02023F20
+    ldrb r0, [r2]
+    movs r1, #1
+    orrs r0, r1
+    JUMP_ABS 0x08045F4B
+
+    @ Keep protect_chain_entry at its original runtime address
+    @ 0x08917075 so the existing fourth trampoline remains valid.
+    nop
+    nop
+    nop
+    nop
+    nop
 .size ks_penalty_entry, .-ks_penalty_entry
 
 .global protect_chain_entry
