@@ -1,0 +1,155 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+Subject: [PATCH 2/2] Internalize built-in event delivery
+
+Reference: pret/pokeemerald @ 5eff78649e7170a877b961ef0b3da13b81a16038
+
+Reuse the existing Pokemon Center 2F Mystery Gift deliveryman as a permanent,
+offline event distributor. The deliveryman is always visible, enables all four
+event-island ship flags, gives missing event tickets when bag space permits,
+and gives the built-in Surf Pichu Egg once.
+
+The one-time Surf Pichu receipt state uses an otherwise unused save flag.
+Legendary encounter completion flags are not changed.
+
+diff --git a/include/constants/flags.h b/include/constants/flags.h
+--- a/include/constants/flags.h
++++ b/include/constants/flags.h
+@@
+-#define FLAG_UNUSED_0x1E3                    0x1E3 // Unused Flag
++#define FLAG_RECEIVED_PERMANENT_SURF_PICHU   0x1E3 // EMERALD: offline external-event delivery
+
+diff --git a/data/scripts/cable_club.inc b/data/scripts/cable_club.inc
+--- a/data/scripts/cable_club.inc
++++ b/data/scripts/cable_club.inc
+@@
+ CableClub_EventScript_HideOrShowMysteryGiftMan::
+-	specialvar VAR_RESULT, ShouldDistributeEonTicket
+-	goto_if_eq VAR_RESULT, TRUE, CableClub_EventScript_ShowMysteryGiftMan
+-	specialvar VAR_RESULT, ValidateSavedWonderCard
+-	goto_if_eq VAR_RESULT, FALSE, CableClub_EventScript_HideMysteryGiftMan
+-	goto CableClub_EventScript_ShowMysteryGiftMan
+-	end
++	clearflag FLAG_HIDE_POKEMON_CENTER_2F_MYSTERY_GIFT_MAN
++	return
+@@
+ CableClub_EventScript_MysteryGiftMan::
+-	specialvar VAR_RESULT, ShouldDistributeEonTicket
+-	goto_if_eq VAR_RESULT, TRUE, CableClub_EventScript_DistributeEonTicket
+-	goto CableClub_EventScript_TryWonderCardScript
+-	end
++	lock
++	faceplayer
++	setflag FLAG_ENABLE_SHIP_SOUTHERN_ISLAND
++	setflag FLAG_ENABLE_SHIP_BIRTH_ISLAND
++	setflag FLAG_ENABLE_SHIP_NAVEL_ROCK
++	setflag FLAG_ENABLE_SHIP_FARAWAY_ISLAND
++	call PermanentExternalEvents_GiveEonTicket
++	call PermanentExternalEvents_GiveAuroraTicket
++	call PermanentExternalEvents_GiveMysticTicket
++	call PermanentExternalEvents_GiveOldSeaMap
++	goto PermanentEventScript_SurfPichu
++	end
++
++PermanentExternalEvents_GiveEonTicket:
++	checkitem ITEM_EON_TICKET
++	goto_if_eq VAR_RESULT, TRUE, PermanentExternalEvents_GiveEonTicket_Return
++	checkitemspace ITEM_EON_TICKET
++	goto_if_eq VAR_RESULT, FALSE, PermanentExternalEvents_GiveEonTicket_Return
++	giveitem ITEM_EON_TICKET
++PermanentExternalEvents_GiveEonTicket_Return:
++	return
++
++PermanentExternalEvents_GiveAuroraTicket:
++	checkitem ITEM_AURORA_TICKET
++	goto_if_eq VAR_RESULT, TRUE, PermanentExternalEvents_GiveAuroraTicket_Return
++	checkitemspace ITEM_AURORA_TICKET
++	goto_if_eq VAR_RESULT, FALSE, PermanentExternalEvents_GiveAuroraTicket_Return
++	giveitem ITEM_AURORA_TICKET
++	setflag FLAG_RECEIVED_AURORA_TICKET
++PermanentExternalEvents_GiveAuroraTicket_Return:
++	return
++
++PermanentExternalEvents_GiveMysticTicket:
++	checkitem ITEM_MYSTIC_TICKET
++	goto_if_eq VAR_RESULT, TRUE, PermanentExternalEvents_GiveMysticTicket_Return
++	checkitemspace ITEM_MYSTIC_TICKET
++	goto_if_eq VAR_RESULT, FALSE, PermanentExternalEvents_GiveMysticTicket_Return
++	giveitem ITEM_MYSTIC_TICKET
++	setflag FLAG_RECEIVED_MYSTIC_TICKET
++PermanentExternalEvents_GiveMysticTicket_Return:
++	return
++
++PermanentExternalEvents_GiveOldSeaMap:
++	checkitem ITEM_OLD_SEA_MAP
++	goto_if_eq VAR_RESULT, TRUE, PermanentExternalEvents_GiveOldSeaMap_Return
++	checkitemspace ITEM_OLD_SEA_MAP
++	goto_if_eq VAR_RESULT, FALSE, PermanentExternalEvents_GiveOldSeaMap_Return
++	giveitem ITEM_OLD_SEA_MAP
++	setflag FLAG_RECEIVED_OLD_SEA_MAP
++PermanentExternalEvents_GiveOldSeaMap_Return:
++	return
+
+diff --git a/data/scripts/gift_pichu.inc b/data/scripts/gift_pichu.inc
+--- a/data/scripts/gift_pichu.inc
++++ b/data/scripts/gift_pichu.inc
+@@
+ sText_FullParty:
+ 	.string "Oh, your party appears to be full.\p"
+ 	.string "Please come see me after storing\n"
+ 	.string "a POKéMON on a PC.$"
++
++@ Permanent offline entry point used by the Pokemon Center 2F deliveryman.
++@ This deliberately uses its own receipt flag instead of
++@ FLAG_MYSTERY_GIFT_DONE, because that flag belongs to saved Wonder Cards.
++PermanentEventScript_SurfPichu::
++	goto_if_set FLAG_RECEIVED_PERMANENT_SURF_PICHU, PermanentEventScript_SurfPichu_AlreadyReceived
++	specialvar VAR_GIFT_PICHU_SLOT, CalculatePlayerPartyCount
++	goto_if_eq VAR_GIFT_PICHU_SLOT, PARTY_SIZE, PermanentEventScript_SurfPichu_FullParty
++	call PermanentEventScript_SurfPichu_GiveEgg
++	setflag FLAG_RECEIVED_PERMANENT_SURF_PICHU
++	msgbox sText_MysteryGiftEgg, MSGBOX_DEFAULT
++	playfanfare MUS_OBTAIN_ITEM
++	waitfanfare
++	release
++	end
++
++PermanentEventScript_SurfPichu_FullParty:
++	msgbox sText_FullParty, MSGBOX_DEFAULT
++	release
++	end
++
++PermanentEventScript_SurfPichu_AlreadyReceived:
++	msgbox gText_ThankYouForAccessingMysteryGift, MSGBOX_NPC
++	release
++	end
++
++PermanentEventScript_SurfPichu_GiveEgg:
++	giveegg SPECIES_PICHU
++	setmodernfatefulencounter VAR_GIFT_PICHU_SLOT
++	setmonmetlocation VAR_GIFT_PICHU_SLOT, METLOC_FATEFUL_ENCOUNTER
++	goto_if_eq VAR_GIFT_PICHU_SLOT, 1, PermanentEventScript_SurfPichu_Slot1
++	goto_if_eq VAR_GIFT_PICHU_SLOT, 2, PermanentEventScript_SurfPichu_Slot2
++	goto_if_eq VAR_GIFT_PICHU_SLOT, 3, PermanentEventScript_SurfPichu_Slot3
++	goto_if_eq VAR_GIFT_PICHU_SLOT, 4, PermanentEventScript_SurfPichu_Slot4
++	goto_if_eq VAR_GIFT_PICHU_SLOT, 5, PermanentEventScript_SurfPichu_Slot5
++	return
++
++PermanentEventScript_SurfPichu_Slot1:
++	setmonmove 1, 2, MOVE_SURF
++	return
++
++PermanentEventScript_SurfPichu_Slot2:
++	setmonmove 2, 2, MOVE_SURF
++	return
++
++PermanentEventScript_SurfPichu_Slot3:
++	setmonmove 3, 2, MOVE_SURF
++	return
++
++PermanentEventScript_SurfPichu_Slot4:
++	setmonmove 4, 2, MOVE_SURF
++	return
++
++PermanentEventScript_SurfPichu_Slot5:
++	setmonmove 5, 2, MOVE_SURF
++	return
