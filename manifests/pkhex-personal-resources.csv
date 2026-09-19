@@ -1,0 +1,24 @@
+table_key,generation,resource,resource_bytes,record_size_hex,record_size_bytes,generic_form_fields,form_count_offset,form_stats_index_offset,games,entry_count,source_commit
+RB,1,personal_rb,4256,0x1C,28,no,,,Red/Blue,152,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+Y,1,personal_y,4256,0x1C,28,no,,,Yellow,152,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+GS,2,personal_gs,8064,0x20,32,no,,,Gold/Silver,252,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+C,2,personal_c,8064,0x20,32,no,,,Crystal,252,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+RS,3,personal_rs,10836,0x1C,28,no,,,Ruby/Sapphire,387,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+E,3,personal_e,10836,0x1C,28,no,,,Emerald,387,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+FR,3,personal_fr,10836,0x1C,28,no,,,FireRed,387,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+LG,3,personal_lg,10836,0x1C,28,no,,,LeafGreen,387,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+DP,4,personal_dp,22044,0x2C,44,yes,0x29,0x2A,Diamond/Pearl,501,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+Pt,4,personal_pt,22352,0x2C,44,yes,0x29,0x2A,Platinum,508,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+HGSS,4,personal_hgss,22352,0x2C,44,yes,0x29,0x2A,HeartGold/SoulSilver,508,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+BW,5,personal_bw,40080,0x3C,60,yes,0x20,0x1C,Black/White,668,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+B2W2,5,personal_b2w2,53884,0x4C,76,yes,0x20,0x1C,Black2/White2,709,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+XY,6,personal_xy,51136,0x40,64,yes,0x20,0x1C,X/Y,799,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+AO,6,personal_ao,66080,0x50,80,yes,0x20,0x1C,Omega Ruby/Alpha Sapphire,826,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SM,7,personal_sm,80724,0x54,84,yes,0x20,0x1C,Sun/Moon,961,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+USUM,7,personal_uu,81984,0x54,84,yes,0x20,0x1C,Ultra Sun/Ultra Moon,976,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+GG,7,personal_gg,82320,0x54,84,yes,0x20,0x1C,Let's Go Pikachu/Eevee,980,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SWSH,8,personal_swsh,209792,0xB0,176,yes,0x20,0x1E,Sword/Shield,1192,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+BDSP,8,personal_bdsp,38080,0x44,68,yes,0x20,0x1E,Brilliant Diamond/Shining Pearl,560,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+LA,8,personal_la,224576,0xB0,176,yes,0x20,0x1E,Legends: Arceus,1276,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SV,9,personal_sv,113920,0x50,80,yes,0x1A,0x18,Scarlet/Violet,1424,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+ZA,9,personal_za,115600,0x50,80,yes,0x1A,0x18,Legends: Z-A,1445,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
