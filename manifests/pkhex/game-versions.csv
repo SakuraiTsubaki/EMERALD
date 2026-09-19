@@ -1,0 +1,55 @@
+id,symbol,name_ja,name_ko,name_en,source_commit
+0,Any,,,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+1,S,サファイア,사파이어,Sapphire,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+2,R,ルビー,루비,Ruby,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+3,E,エメラルド,에메랄드,Emerald,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+4,FR,ファイアレッド,파이어레드,FireRed,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+5,LG,リーフグリーン,리프그린,LeafGreen,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+6,,,,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+7,HG,ハートゴールド,하트골드,HeartGold,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+8,SS,ソウルシルバー,소울실버,SoulSilver,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+9,,,,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+10,D,ダイヤモンド,DP 디아루가,Diamond,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+11,P,パール,DP 펄기아,Pearl,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+12,Pt,プラチナ,Pt 기라티나,Platinum,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+13,,,,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+14,,,,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+15,CXD,コロシアム/XD,콜로세움/XD,Colosseum/XD,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+16,BATREV,バトルレボリューション,배틀 레볼루션,Battle Revolution,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+17,,,,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+18,,,,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+19,,,,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+20,W,ホワイト,화이트,White,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+21,B,ブラック,블랙,Black,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+22,W2,ホワイト2,화이트 2,White 2,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+23,B2,ブラック2,블랙 2,Black 2,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+24,X,X,X,X,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+25,Y,Y,Y,Y,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+26,AS,アルファサファイア,알파사파이어,Alpha Sapphire,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+27,OR,オメガルビー,오메가루비,Omega Ruby,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+28,,,,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+29,,,,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+30,SN,サン,썬,Sun,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+31,MN,ムーン,문,Moon,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+32,US,ウルトラサン,울트라썬,Ultra Sun,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+33,UM,ウルトラムーン,울트라문,Ultra Moon,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+34,GO,GO,고,GO,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+35,RD,赤,레드,Red,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+36,GN,青 [INT]/緑 [JP],블루 [INT]/그린 [JP],Blue [INT]/Green [JP],8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+37,BU,青 [JP],블루 [JP],Blue [JP],8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+38,YW,黄,피카츄,Yellow,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+39,GD,金,금,Gold,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+40,SI,銀,은,Silver,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+41,C,クリスタル,크리스탈,Crystal,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+42,GP,Let's Go! ピカチュウ,레츠고! 피카츄,"Let's Go, Pikachu!",8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+43,GE,Let's Go! イーブイ,레츠고! 이브이,"Let's Go, Eevee!",8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+44,SW,ソード,소드,Sword,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+45,SH,シールド,실드,Shield,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+46,,,,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+47,PLA,LEGENDS アルセウス,LEGENDS 아르세우스,Legends: Arceus,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+48,BD,ブリリアントダイヤモンド,브릴리언트 다이아몬드,Brilliant Diamond,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+49,SP,シャイニングパール,샤이닝 펄,Shining Pearl,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+50,SL,スカーレット,스칼렛,Scarlet,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+51,VL,バイオレット,바이올렛,Violet,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+52,ZA,LEGENDS Z-A,LEGENDS Z-A,Legends: Z-A,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+53,CP,ャンピオンズ,Champions,Champions,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
