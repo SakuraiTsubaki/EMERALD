@@ -84,8 +84,8 @@ diff --git a/data/maps/LittlerootTown/scripts.inc b/data/maps/LittlerootTown/scr
 +	multichoice 0, 0, MULTI_EVENT_TICKETS, FALSE
 +	switch VAR_RESULT
 +	case 0, LittlerootTown_EventScript_SelectEonTicket
-+	case 1, LittlerootTown_EventScript_SelectMysticTicket
-+	case 2, LittlerootTown_EventScript_SelectAuroraTicket
++	case 1, LittlerootTown_EventScript_SelectAuroraTicket
++	case 2, LittlerootTown_EventScript_SelectMysticTicket
 +	case 3, LittlerootTown_EventScript_SelectOldSeaMap
 +	case MULTI_B_PRESSED, LittlerootTown_EventScript_EventTicketCourierCancel
 +	release
@@ -213,15 +213,15 @@ diff --git a/src/data/script_menu.h b/src/data/script_menu.h
 +};
 +
 +static const u8 sText_EventTicketEon[] = _("EON TICKET");
-+static const u8 sText_EventTicketMystic[] = _("MYSTIC TICKET");
 +static const u8 sText_EventTicketAurora[] = _("AURORA TICKET");
++static const u8 sText_EventTicketMystic[] = _("MYSTIC TICKET");
 +static const u8 sText_EventTicketOldSeaMap[] = _("OLD SEA MAP");
 +
 +static const struct MenuAction MultichoiceList_EventTickets[] =
 +{
 +    {sText_EventTicketEon},
-+    {sText_EventTicketMystic},
 +    {sText_EventTicketAurora},
++    {sText_EventTicketMystic},
 +    {sText_EventTicketOldSeaMap},
 +};
  
