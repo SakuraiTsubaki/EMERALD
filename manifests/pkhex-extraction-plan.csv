@@ -1,24 +1,16 @@
-category,action,file_count,emerald_target,policy
-binary_eggmove_resources,extract_reference_data,13,generated egg-move tables,Parse into EMERALD-owned CSV/JSON/YAML; retain source commit/provenance.
-binary_evolution_resources,extract_reference_data,13,generated evolution tables,Parse into EMERALD-owned CSV/JSON/YAML; retain source commit/provenance.
-binary_levelup_resources,extract_reference_data,24,generated learnset tables,Parse into EMERALD-owned CSV/JSON/YAML; retain source commit/provenance.
-binary_personal_resources,extract_reference_data,28,generated reference tables,Parse into EMERALD-owned CSV/JSON/YAML; retain source commit/provenance.
-ci_meta,reference_only,15,none,Reference upstream; no direct import.
-core_logic,extract_or_reimplement,62,reimplement only when needed,Use as behavioral/schema reference; reimplement in EMERALD unless GPL-compatible reuse is explicitly chosen.
-core_util,extract_or_reimplement,20,reimplement only when needed,Use as behavioral/schema reference; reimplement in EMERALD unless GPL-compatible reuse is explicitly chosen.
-drawing,do_not_import,7326,none,Not required for ROM/data project; keep upstream only.
-editing_logic,reference_only,160,research only,Reference upstream; no direct import.
-entity_formats,extract_or_reimplement,183,manifests/pkhex/entity-formats + save/entity research,Use as behavioral/schema reference; reimplement in EMERALD unless GPL-compatible reuse is explicitly chosen.
-game_metadata,extract_or_reimplement,41,manifests/pkhex/game-metadata,Use as behavioral/schema reference; reimplement in EMERALD unless GPL-compatible reuse is explicitly chosen.
-items,extract_or_reimplement,49,manifests/pkhex/items,Use as behavioral/schema reference; reimplement in EMERALD unless GPL-compatible reuse is explicitly chosen.
-legality,extract_or_reimplement,642,research/pkhex/legality + trigger/transfer matrices,Use as behavioral/schema reference; reimplement in EMERALD unless GPL-compatible reuse is explicitly chosen.
-legality_resources,extract_reference_data,200,generated encounter/legality reference tables,Parse into EMERALD-owned CSV/JSON/YAML; retain source commit/provenance.
-localized_text,extract_reference_data,1392,Japanese > Korean > English reference labels,Parse into EMERALD-owned CSV/JSON/YAML; retain source commit/provenance.
-moves,extract_or_reimplement,16,manifests/pkhex/moves,Use as behavioral/schema reference; reimplement in EMERALD unless GPL-compatible reuse is explicitly chosen.
-mystery_gifts,extract_or_reimplement,21,manifests/pkhex/mystery-gifts,Use as behavioral/schema reference; reimplement in EMERALD unless GPL-compatible reuse is explicitly chosen.
-personal_data,extract_or_reimplement,48,manifests/pkhex/personal + form/species parameters,Use as behavioral/schema reference; reimplement in EMERALD unless GPL-compatible reuse is explicitly chosen.
-project_meta,reference_only,9,none,Reference upstream; no direct import.
-ribbons_marks,extract_or_reimplement,20,manifests/pkhex/ribbons-marks,Use as behavioral/schema reference; reimplement in EMERALD unless GPL-compatible reuse is explicitly chosen.
-save_formats,extract_or_reimplement,617,research/pkhex/saves + manifests/pkhex/save-fields,Use as behavioral/schema reference; reimplement in EMERALD unless GPL-compatible reuse is explicitly chosen.
-tests,reference_tests,264,verification checklist,Translate behavior into EMERALD verification cases; do not copy test suite wholesale.
-ui,do_not_import,501,none,Not required for ROM/data project; keep upstream only.
+domain,pkhex_sources,emerald_output,status,scope
+species_forms,PKM + PersonalInfo + Resources/text/other,manifests/pokemon-form-census.csv,done,폼/종/지역/전투폼/내부폼
+personal_by_game,PersonalInfo + Resources/byte/personal,manifests/pokemon-personal-by-game.csv,next,세대/게임별 종족값 타입 특성 성장률 등
+items,Items + Resources/text/items,manifests/pokemon-item-census.csv,next,게임별 아이템 ID/가방/유효성/전송
+moves,Moves + Resources/byte/levelup + Legality/LearnSource,manifests/pokemon-move-census.csv,next,기술 ID/PP/세대별 존재/학습원
+learnsets,Resources/byte/levelup + eggmove + Legality/Learnset,manifests/pokemon-learnset-by-game.csv,pending,레벨업/유전/머신/튜터
+evolution,Resources/byte/evolve + Legality/Evolutions,manifests/pokemon-evolution-census.csv,pending,진화 조건/폼/성별/지역/아이템
+save_fields,Saves + PKM,manifests/pokemon-save-field-matrix.csv,pending,SAV1-SAV9/PA8/PA9 필드와 체크섬
+encounters,Legality/Encounters,manifests/pokemon-encounter-census.csv,pending,야생/고정/선물/레이드 등
+rng,Legality/RNG,manifests/pokemon-rng-matrix.csv,pending,PID/IV/EC/세대별 생성 규칙
+transfer,PKM/Util/Conversion + Legality/Restrictions,manifests/pokemon-transfer-conversion-matrix.csv,pending,세대간 변환/폼/아이템/기술 정규화
+mystery_gift,MysteryGifts + Resources/text/wondercard,manifests/pokemon-mystery-gift-format-matrix.csv,pending,PGT/PCD/PGF/WC* 구조
+ribbons_marks,Ribbons,manifests/pokemon-ribbon-mark-census.csv,pending,세대별 리본/마크 비트/전송
+locations,Game/Locations + Resources/text/locations,manifests/pokemon-location-census.csv,pending,게임별 장소 ID/이름/전송
+legality_rules,Legality,research/pkhex-legality-reference.md,pending,구현대상 아님; 검증 oracle
+tests,Tests,research/pkhex-test-coverage.md,pending,추출 결과 회귀검증
