@@ -14,7 +14,7 @@ jobs:
       - name: Download missing runtime dependency
         run: |
           set -eux
-          apt-get update
+          sudo apt-get update
           apt-get download libxcb-cursor0
           ls -lh *.deb
       - name: Upload dependency
