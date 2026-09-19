@@ -1,0 +1,130 @@
+schema: 1
+project: EMERALD
+policy:
+  goal: "Make all external-distribution and external-device event content permanently accessible in-game."
+  preserve_one_time_completion: true
+  require_external_hardware: false
+  require_external_distribution: false
+  rom_binaries_in_repository: false
+  language_priority:
+    - ja
+    - ko
+    - en
+    - de
+    - fr
+    - it
+    - es
+
+reference:
+  repository: pret/pokeemerald
+  commit: 5eff78649e7170a877b961ef0b3da13b81a16038
+
+events:
+  - id: southern_island
+    source_gate:
+      item: ITEM_EON_TICKET
+      flag: FLAG_ENABLE_SHIP_SOUTHERN_ISLAND
+      original_external_path: Record Mixing / Eon Ticket
+    content: Latios/Latias event
+    policy: always_accessible
+    status: core_patch_0001
+
+  - id: birth_island
+    source_gate:
+      item: ITEM_AURORA_TICKET
+      flag: FLAG_ENABLE_SHIP_BIRTH_ISLAND
+      original_external_path: Mystery Gift / Aurora Ticket
+    content: Deoxys event
+    policy: always_accessible
+    status: core_patch_0001
+
+  - id: navel_rock
+    source_gate:
+      item: ITEM_MYSTIC_TICKET
+      flag: FLAG_ENABLE_SHIP_NAVEL_ROCK
+      original_external_path: Mystery Gift / Mystic Ticket
+    content: Lugia and Ho-Oh event
+    policy: always_accessible
+    status: core_patch_0001
+
+  - id: faraway_island
+    source_gate:
+      item: ITEM_OLD_SEA_MAP
+      flag: FLAG_ENABLE_SHIP_FARAWAY_ISLAND
+      original_external_path: Mystery Gift / Old Sea Map
+    content: Mew event
+    policy: always_accessible
+    status: core_patch_0001
+
+  - id: altering_cave
+    source_gate:
+      var: VAR_ALTERING_CAVE_WILD_SET
+      original_external_path: Mystery Gift
+    content: all Altering Cave encounter tables
+    policy: all_tables_permanently_available
+    status: core_patch_0001
+
+  - id: mystery_gift_system
+    source_gate:
+      flag: FLAG_SYS_MYSTERY_GIFT_ENABLE
+      external_path: Wireless Adapter / Wonder Card
+    policy: internalize
+    status: queued
+
+  - id: mystery_event_system
+    source_gate:
+      flag: FLAG_SYS_MYSTERY_EVENT_ENABLE
+      external_path: e-Reader / Mystery Event
+    policy: internalize
+    status: queued
+
+  - id: surf_pichu
+    source_script: data/scripts/gift_pichu.inc
+    external_path: Mystery Gift RAM script
+    policy: expose_in_game_preserve_once_only
+    status: queued
+
+  - id: battle_count_card
+    source_script: data/scripts/gift_battle_card.inc
+    external_path: Wonder Card
+    policy: expose_in_game
+    status: queued
+
+  - id: stamp_card
+    source_script: data/scripts/gift_stamp_card.inc
+    external_path: Wonder Card
+    policy: expose_in_game
+    status: queued
+
+  - id: visiting_trainer
+    source_script: data/scripts/gift_trainer.inc
+    source_maps:
+      - data/maps/SootopolisCity_MysteryEventsHouse_1F
+      - data/maps/SootopolisCity_MysteryEventsHouse_B1F
+    external_path: e-Reader / Wonder Card trainer data
+    policy: embed_data_and_expose_in_game
+    status: queued
+
+  - id: trainer_hill_ereader
+    source: src/trainer_hill.c
+    external_path: e-Reader trainer/map cards
+    policy: embed_all_available_card_data
+    status: queued
+
+  - id: enigma_berry
+    source:
+      - src/mystery_event_script.c
+      - src/berry.c
+    external_path: Mystery Event / e-Reader berry data
+    policy: embed_event_data_and_expose_in_game
+    status: queued
+
+verification:
+  source_build: pending
+  localized_rom_signature_scan: pending
+  jp_rom: pending
+  en_rom: pending
+  de_rom: pending
+  fr_rom: pending
+  it_rom: pending
+  es_rom: pending
