@@ -28,6 +28,17 @@ Pokémon Emerald의 외부 배포/외부 장치 의존 이벤트를 게임 내�
 
 패치: `patches/pokeemerald/0002-littleroot-event-ticket-npc.patch`
 
+### Item table normalization
+
+Emerald의 아이템 ID와 게임 파라미터를 최종 기준으로 두고, DP / Pt / HGSS 아이템 테이블은 비교·확장 소스로 사용합니다.
+
+- Emerald 원본 377개 슬롯 파라미터: `manifests/emerald-item-parameters.csv`
+- Emerald ↔ Gen IV 공식 AGB 대응: `manifests/emerald-gen4-item-crosswalk.csv`
+- DP / Pt / HGSS ID 비교: `manifests/gen4-item-id-crosswalk.csv`
+- 분석 문서: `research/emerald-gen4-item-crosswalk.md`, `research/gen4-item-table.md`
+
+기존 Emerald 아이템은 번호와 동작을 유지하고, 이후 세대 전용 아이템은 Emerald 쪽 확장 ID를 별도로 배정하는 방식으로 진행합니다.
+
 ### Other external events
 
 - Altering Cave Mystery Gift encounter sets
