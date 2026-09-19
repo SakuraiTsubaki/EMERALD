@@ -1,92 +1,157 @@
-# PKHeX as EMERALD reference backbone
+# PKHeX reference backbone
 
-Pinned reference: `kwsch/PKHeX@8ad201e80244f630ab5a46922ab72fb79c5ad4f4` (GPL-3.0).
+Pinned upstream:
+- repository: `kwsch/PKHeX`
+- commit: `8ad201e80244f630ab5a46922ab72fb79c5ad4f4`
+- license: GPLv3
 
 ## Decision
 
-Use PKHeX as a **cross-generation reference oracle**, not as code to paste into the Emerald ROM project.
+PKHeX is the cross-generation **reference backbone** for EMERALD.
 
-PKHeX.Core already centralizes:
-- personal/species/form tables from Gen I through Gen IX/Z-A;
-- PK1-PK9, PA8/PA9 Pokémon entity layouts;
-- save formats and block structures across generations;
-- encounter and legality constraints;
-- evolution, learnset, tutor/TM and transfer rules;
-- item availability/storage;
-- Mystery Gift formats;
-- ribbons/marks;
-- localized strings;
-- generation conversion behavior.
+We do **not** vendor/copy the PKHeX source tree into EMERALD. Instead:
 
-This gives EMERALD one consistent place to discover *what must be represented*. Exact Japanese ROM/decomp evidence remains authoritative for *how the target game actually implements it*.
+1. pin a known PKHeX commit;
+2. inventory every relevant PKHeX.Core file;
+3. extract facts/data into EMERALD-owned CSV/JSON/YAML manifests;
+4. record the PKHeX source path + commit for provenance;
+5. cross-check important behavior against game decompilation/disassembly and retail ROMs;
+6. implement Emerald-side mechanics independently.
 
-## Snapshot size
+This keeps the Emerald implementation native to the project while using PKHeX as a mature cross-generation oracle.
 
-The pinned repository contains **11664 files**.
-`PKHeX.Core` contains **3549 files**.
+## Coverage discovered
 
-Largest Core groups:
-- Resources: 1731
-- Legality: 642
-- Saves: 617
+PKHeX.Core pinned revision contains **3528 files** across the following domains:
+
 - PKM: 183
-- Editing: 160
-- Items: 49
 - PersonalInfo: 48
-- Game: 41
+- Items: 49
+- Moves: 16
+- Saves: 617
+- Legality: 642
 - MysteryGifts: 21
 - Ribbons: 20
-- Moves: 16
+- Game: 41
+- Resources: 1731
+- Editing: 160
 
-## Why not copy it wholesale
+## What this gives us
 
-PKHeX is GPLv3. More importantly, its C# implementation targets a desktop/save-editor domain, not a GBA ROM engine. Directly porting classes would couple EMERALD to unrelated UI/editor architecture and make source provenance harder to audit.
+### Pokémon entity formats
+`PK1` through `PK9`, plus formats such as `PA8`, `PA9`, `PB7`, `PB8`, and GameCube entity formats.
 
-Instead:
-1. pin PKHeX revision;
-2. catalog every relevant source/resource path;
-3. extract factual tables/rules into EMERALD-owned normalized manifests;
-4. retain source path + commit provenance on every generated row;
-5. compare against the exact game/version decomp or ROM;
-6. implement the mechanic natively in Emerald C/ASM/data.
+Use for:
+- field layout;
+- encryption/checksum rules;
+- form storage;
+- ribbon/mark flags;
+- Tera/Gigantamax/Alpha/etc. auxiliary state;
+- generation conversion.
 
-## Authority rule
+### Personal data
+`PersonalTable` exposes game-specific personal tables for:
+- RB / Yellow
+- GS / Crystal
+- RS / Emerald / FR / LG
+- DP / Pt / HGSS
+- BW / B2W2
+- XY / ORAS
+- SM / USUM / LGPE
+- SwSh / BDSP / PLA
+- SV / Z-A
 
-When sources disagree:
-1. exact Japanese target retail ROM / exact decomp revision;
-2. exact game/version PKHeX table;
-3. PKHeX conversion/legal model;
-4. secondary references.
+Use for:
+- stats;
+- types;
+- abilities;
+- gender ratios;
+- growth/egg data;
+- form counts and form-table lookup;
+- game-specific differences.
 
-PKHeX is therefore the **coverage oracle**; the ROM is the **implementation oracle**.
+### Save structures
+PKHeX includes generation-specific save classes from Gen I through Gen IX plus substructures for:
+- blocks;
+- inventory;
+- Pokédex;
+- mystery gifts;
+- daycare;
+- time;
+- records;
+- mail;
+- battle videos;
+- rentals and other title-specific state.
 
-## Import waves
+For this project, `SAV3E`, Gen III save blocks and save substructures are especially important.
 
-### Wave A — schema backbone
-Species/forms, personal data, moves, abilities, items, evolution and game IDs.
+### Legality / mechanics metadata
+The legality tree supplies:
+- encounter definitions;
+- evolution rules;
+- learnsets;
+- move-source logic;
+- form rules;
+- RNG restrictions;
+- transfer restrictions;
+- legality verification.
 
-### Wave B — entity/save semantics
-PK1-PK9/PA8/PA9 layouts, encryption/checksums, save blocks and form arguments.
+This is valuable as a **behavioral index**, but legality decisions must not be mistaken for ROM implementation code.
 
-### Wave C — gameplay relationships
-Learnsets, TM/tutor compatibility, encounter/form legality, transfer conversion and item-driven form rules.
+### Items / moves / ribbons / gifts
+Use these to build cross-generation ID maps and behavior manifests:
+- item storage / legal pocket sets;
+- move metadata;
+- ribbons/marks;
+- Mystery Gift file formats and conversion.
 
-### Wave D — events
-Mystery Gifts, event encounters, ribbons/marks and special distribution metadata.
+### Resources
+PKHeX bundles machine-readable resources for:
+- personal data;
+- level-up learnsets;
+- evolution data;
+- egg moves;
+- Pokédex research data;
+- localized species/item/move/form/location strings.
 
-### Wave E — regression oracle
-Translate useful PKHeX test invariants into EMERALD-side validation without copying the application code.
+Project language priority remains:
+**Japanese -> Korean -> English -> other languages.**
 
-## Asset rule
+## Licensing boundary
 
-`PKHeX.Drawing.PokeSprite` and other artwork are cataloged only as references. Do not copy sprite/image assets into EMERALD as part of this pipeline. Actual game graphics must come from the appropriate game assets/extraction pipeline with their own provenance.
+PKHeX itself is GPLv3.
 
-## Files
+The project should avoid blindly copying code if the intent is to keep EMERALD's implementation independent. Facts and normalized game data should be extracted with provenance, while actual source-code reuse would require GPLv3 compliance.
 
-- `manifests/pkhex-source-pin.yml`
-- `manifests/pkhex-domain-map.csv`
-- `manifests/pkhex-repository-summary.csv`
-- `manifests/pkhex-core-inventory.csv`
-- `tools/pkhex_reference_extract.py`
+PKHeX's README also identifies sprite/image collections with separate upstream provenance/licenses. Therefore:
+- do not auto-import `PKHeX.Drawing.PokeSprite` assets;
+- keep sprite acquisition/conversion in the project's existing asset pipeline;
+- record asset provenance separately.
 
-The existing 809-row Pokémon form census is the first consumer of this backbone.
+## Next extraction targets
+
+The reference inventory is now in:
+- `manifests/pkhex-core-reference-files.csv`
+- `manifests/pkhex-reference-sections.csv`
+
+The next actual data extraction should proceed in this order:
+
+1. personal tables / forms;
+2. species IDs and entity field layouts;
+3. item IDs + storage/pocket legality;
+4. move IDs + parameters;
+5. ability IDs;
+6. evolution + learnset + egg-move resources;
+7. save layouts;
+8. Pokédex;
+9. Mystery Gift/event formats;
+10. encounters/RNG/transfer rules;
+11. ribbons/marks;
+12. localization strings.
+
+Each extracted table should preserve:
+- PKHeX commit;
+- source path/resource;
+- game/context;
+- original index;
+- normalized EMERALD-facing semantic key.
