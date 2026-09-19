@@ -1,0 +1,15 @@
+domain,pkhex_scope,emerald_output,ingestion_mode,priority
+personal,"PersonalInfo + PersonalTable","manifests/pkhex/personal-parameters.csv",extract_normalize,1
+forms,"FormConverter + FormInfo + personal form tables","manifests/pkhex/species-forms.csv;manifests/pkhex/form-rules.csv",extract_normalize,1
+items,"item constants/resources/conversion tables","manifests/pkhex/items.csv",extract_normalize,1
+moves,"move tables/resources","manifests/pkhex/moves.csv",extract_normalize,1
+abilities,"ability tables/resources","manifests/pkhex/abilities.csv",extract_normalize,1
+evolutions,"Evolution data","manifests/pkhex/evolutions.csv",extract_normalize,1
+encounters,"Legality/Encounters","manifests/pkhex/encounters.csv",extract_normalize,2
+save_structures,"PKM + Saves","manifests/pkhex/save-fields.csv",document_extract,2
+legality,"Legality validators/tables","manifests/pkhex/form-rules.csv",behavior_reference,2
+conversions,"PKM/Util/Conversion","manifests/pkhex/conversions.csv",behavior_reference,2
+mystery_gifts,"MysteryGifts","manifests/pkhex/mystery-gifts.csv",extract_normalize,2
+ribbons_marks,"Ribbon/Mark data","manifests/pkhex/ribbons-marks.csv",extract_normalize,3
+locations,"Location data","manifests/pkhex/locations.csv",extract_normalize,3
+localization,"Resources/text/other","localized name columns",cross_check,3
