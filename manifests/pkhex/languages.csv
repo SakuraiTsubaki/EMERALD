@@ -1,0 +1,13 @@
+id,symbol,name_ja,name_ko,name_en,source_commit
+0,None,﻿,﻿,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+1,Japanese,JPN (日本語),JPN (日本語),JPN (日本語),8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+2,English,ENG (English),ENG (English),ENG (English),8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+3,French,FRA (Français),FRA (Français),FRA (Français),8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+4,Italian,ITA (Italiano),ITA (Italiano),ITA (Italiano),8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+5,German,DEU (Deutsch),DEU (Deutsch),DEU (Deutsch),8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+6,UNUSED_6,,,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+7,Spanish,ES-ES (Español),ES-ES (Español),ES-ES (Español),8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+8,Korean,KOR (한국어),KOR (한국어),KOR (한국어),8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+9,ChineseS,CHS (简体中文),CHS (简体中文),CHS (简体中文),8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+10,ChineseT,CHT (繁體中文),CHT (繁體中文),CHT (繁體中文),8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+11,SpanishL,ES-LA (Español),ES-LA (Español),ES-LA (Español),8ad201e80244f630ab5a46922ab72fb79c5ad4f4
