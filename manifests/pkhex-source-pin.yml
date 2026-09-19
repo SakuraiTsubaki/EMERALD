@@ -1,0 +1,27 @@
+source:
+  repository: kwsch/PKHeX
+  commit: 8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+  license: GPL-3.0
+  snapshot_date: 2026-09-19
+  total_files: 11664
+  core_files: 3549
+
+policy:
+  copy_pkhex_source_into_emerald: false
+  copy_pkhex_sprite_assets_into_emerald: false
+  use_as_reference_oracle: true
+  extract_facts_and_normalized_metadata: true
+  retain_source_provenance: true
+  prefer_exact_game_rom_source_when_conflicting: true
+
+precedence:
+  - exact_target_japanese_rom_or_decomp
+  - exact_game_version_pkhex_table
+  - pkhex_cross_generation_conversion_rules
+  - secondary_cross_check
+
+language_priority:
+  - ja
+  - ko
+  - en
+  - other
