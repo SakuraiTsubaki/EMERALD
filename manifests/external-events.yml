@@ -6,7 +6,7 @@ policy:
   require_external_hardware: false
   require_external_distribution: false
   rom_binaries_in_repository: false
-  ticket_policy: "Distribute the original ticket item; do not bypass the original destination logic."
+  ticket_policy: "A new permanent NPC in Littleroot Town distributes the original ticket items; do not bypass the original destination logic."
   language_priority:
     - ja
     - ko
@@ -15,6 +15,14 @@ policy:
     - fr
     - it
     - es
+
+ticket_provider:
+  map: MAP_LITTLEROOT_TOWN
+  script: LittlerootTown_EventScript_EventTicketCourier
+  graphics: OBJ_EVENT_GFX_MYSTERY_GIFT_MAN
+  always_present: true
+  gives_all_missing_tickets: true
+  story_state_dependency: false
 
 reference:
   repository: pret/pokeemerald
@@ -28,7 +36,7 @@ events:
       original_external_path: Record Mixing / Eon Ticket
     content: Latios/Latias event
     policy: distribute_ticket_preserve_original_travel_logic
-    status: ticket_delivery_patch_0002
+    status: littleroot_ticket_npc_patch_0002
 
   - id: birth_island
     source_gate:
@@ -37,7 +45,7 @@ events:
       original_external_path: Mystery Gift / Aurora Ticket
     content: Deoxys event
     policy: distribute_ticket_preserve_original_travel_logic
-    status: ticket_delivery_patch_0002
+    status: littleroot_ticket_npc_patch_0002
 
   - id: navel_rock
     source_gate:
@@ -46,7 +54,7 @@ events:
       original_external_path: Mystery Gift / Mystic Ticket
     content: Lugia and Ho-Oh event
     policy: distribute_ticket_preserve_original_travel_logic
-    status: ticket_delivery_patch_0002
+    status: littleroot_ticket_npc_patch_0002
 
   - id: faraway_island
     source_gate:
@@ -55,7 +63,7 @@ events:
       original_external_path: Mystery Gift / Old Sea Map
     content: Mew event
     policy: distribute_ticket_preserve_original_travel_logic
-    status: ticket_delivery_patch_0002
+    status: littleroot_ticket_npc_patch_0002
 
   - id: altering_cave
     source_gate:
