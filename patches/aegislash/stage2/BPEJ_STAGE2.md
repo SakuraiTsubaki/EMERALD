@@ -69,12 +69,6 @@ Additional Stage-2 behavior:
 - Clear Body, Hyper Cutter, and White Smoke are excluded.
 - King's Shield shares the vanilla Protect / Detect / Endure consecutive-use counter.
 
-## Stage 2.1 — King's Shield contact-penalty fix
-
-The original Stage-2 runtime incorrectly used a 12-byte stride for `gBattleMoves`. Emerald's `struct BattleMove` is 9 bytes (`effect, power, type, accuracy, pp, secondaryEffectChance, target, priority, flags`). As a result, the King's Shield contact check could read `power` and `flags` from the wrong move-table address and skip the Attack -2 penalty.
-
-Stage 2.1 changes `BATTLE_MOVE_SIZE` from 12 to 9. The four injected hook entry addresses remain unchanged (`0x08917001`, `0x0891701B`, `0x08917051`, `0x08917075`). A local rebuild with the current LLVM toolchain produced a 1176-byte runtime (`SHA-256 1918e1f01b511659e34cd95dc814c53e40f5f2f9a4659abe1d9d43b2c9ee96db`). Emulator execution still needs runtime verification.
-
 ## Remaining mechanics
 
 Stage 2 is a runtime core, not the final polished implementation:
