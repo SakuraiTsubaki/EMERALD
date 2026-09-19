@@ -1,0 +1,20 @@
+id,name_ja,name_ko,name_en,semantic_space,source_commit
+0,ノーマル,노말,Normal,MoveType,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+1,かくとう,격투,Fighting,MoveType,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+2,ひこう,비행,Flying,MoveType,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+3,どく,독,Poison,MoveType,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+4,じめん,땅,Ground,MoveType,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+5,いわ,바위,Rock,MoveType,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+6,むし,벌레,Bug,MoveType,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+7,ゴースト,고스트,Ghost,MoveType,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+8,はがね,강철,Steel,MoveType,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+9,ほのお,불꽃,Fire,MoveType,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+10,みず,물,Water,MoveType,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+11,くさ,풀,Grass,MoveType,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+12,でんき,전기,Electric,MoveType,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+13,エスパー,에스퍼,Psychic,MoveType,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+14,こおり,얼음,Ice,MoveType,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+15,ドラゴン,드래곤,Dragon,MoveType,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+16,あく,악,Dark,MoveType,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+17,フェアリー,페어리,Fairy,MoveType,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+18,ステラ,스텔라,Stellar,Tera-only / Stellar,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
