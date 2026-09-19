@@ -24,10 +24,16 @@ Code is linked at ROM address `0x08917000`. There are no unresolved symbols or r
 |---|---|---|
 | 0x08045DAC | 0x08917001 | Stance Change after inability/PP/disobedience checks |
 | 0x08045EF0 | 0x0891701B | King's Shield lets ordinary status moves through |
-| 0x08045F34 | 0x08917051 | King's Shield blocked-contact Attack penalty |
+| 0x08045F42 | 0x08917051 | King's Shield blocked-contact Attack penalty after protection is confirmed |
 | 0x0804F9B0 | 0x08917075 | Add King's Shield to Protect-family consecutive-use chain |
 
 Each hook replaces eight verified vanilla bytes with an aligned absolute Thumb trampoline: `ldr r3,[pc,#0]; bx r3; .word target|1`.
+
+### King's Shield -2 hook correction
+
+The original Stage-2 contact-penalty trampoline was placed at `0x08045F34`. That instruction is part of the `STATUS2_MULTIPLETURNS` condition inside `Cmd_attackcanceler`, so ordinary one-turn contact moves can bypass the hook entirely. The corrected hook is `0x08045F42`, immediately after `CancelMultiTurnMoves()` in the common `DEFENDER_IS_PROTECTED` block and immediately before `gMoveResultFlags |= MOVE_RESULT_MISSED`. The wrapper applies the King's Shield contact penalty, replays the overwritten move-result setup, and resumes at `0x08045F4A` (`0x08045F4B` as a Thumb address).
+
+The retail BPEJ move table remains 12 bytes per entry; the earlier 12-byte runtime stride is correct for this ROM layout.
 
 ## Stance Change behavior
 
@@ -73,6 +79,6 @@ Additional Stage-2 behavior:
 
 Stage 2 is a runtime core, not the final polished implementation:
 - No dedicated stance-change message/transition animation yet; sprite/palette switches immediately.
-- The Attack drop is currently a direct stage edit. Standard stat-change plumbing is still needed for Mist, Contrary, Defiant/Competitive, messages and stat animations.
+- The Attack drop is currently a direct stage edit. The corrected hook now reaches ordinary protected contact moves; standard stat-change plumbing is still needed for Mist, Contrary, Defiant/Competitive, messages and stat animations.
 - Shiny-specific Shield/Blade palettes are not yet split.
 - Static binary validation passed. mGBA runtime execution was unavailable in the build container.
