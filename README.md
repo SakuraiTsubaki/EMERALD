@@ -19,7 +19,7 @@ Pokémon Emerald의 외부 배포/외부 장치 의존 이벤트를 게임 내�
 
 ### Ticket events
 
-미로마을(Littleroot Town)에 새 상시 NPC를 추가하고, Eon Ticket / Mystic Ticket / Aurora Ticket / Old Sea Map 중 하나를 선택해 한 번에 하나씩 받을 수 있게 합니다. 항구/목적지/전설 이벤트는 원본 Emerald 로직을 그대로 둡니다.
+미로마을(Littleroot Town)에 새 상시 NPC를 추가하고, Eon Ticket / Aurora Ticket / Mystic Ticket / Old Sea Map 중 하나를 선택해 한 번에 하나씩 받을 수 있게 합니다. 항구/목적지/전설 이벤트는 원본 Emerald 로직을 그대로 둡니다.
 
 - Southern Island / Eon Ticket
 - Birth Island / Aurora Ticket
