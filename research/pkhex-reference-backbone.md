@@ -1,90 +1,79 @@
 # PKHeX reference backbone
 
-Pinned upstream: `kwsch/PKHeX@8ad201e80244f630ab5a46922ab72fb79c5ad4f4`
-
-License: **GPL-3.0**.
-
-## Goal
-
-Use PKHeX as the project's cross-generation reference backbone without blindly copying its implementation into the Emerald ROM codebase.
-
-The project extracts factual/reference data into EMERALD-owned manifests and uses PKHeX logic as a verification oracle for:
-- Pokémon entity formats (PK1-PK9, PA/PB formats);
-- species/forms/personal data;
-- items and bag/storage rules;
-- moves and learnsets;
-- Abilities/form logic via legality/personal data;
-- save structures from Gen I through Gen IX;
-- encounters, evolution, RNG and legality;
-- transfer/conversion behavior;
-- Mystery Gift/Wonder Card structures;
-- ribbons/marks;
-- localized game strings and identifiers.
+Pinned upstream:
+- repository: `kwsch/PKHeX`
+- commit: `8ad201e80244f630ab5a46922ab72fb79c5ad4f4`
+- license: **GPLv3**
 
 ## Inventory
 
-The pinned repository contains **11664 files** in this inventory.
+The pinned repository has been split into stable per-section manifests under `manifests/pkhex/`.
 
-`manifests/pkhex-reference-inventory.csv` records every file with:
-- upstream path;
-- blob SHA;
-- size;
-- category;
-- action policy;
-- source commit.
+Total inventoried files: **11,643**
 
-`manifests/pkhex-extraction-plan.csv` summarizes the import/reference strategy by category.
+Core data/logic inventory:
+- PKM: 183
+- PersonalInfo: 48
+- Items: 49
+- Moves: 16
+- Saves: 617
+- Legality: 642
+- Resources: 1,731
+- MysteryGifts: 21
+- Ribbons: 20
+- Game metadata: 41
+- Editing/reference algorithms: 160
 
-## Import policy
+Non-target layers:
+- WinForms: 501
+- Drawing: 3
+- Drawing.Misc: 863
+- Drawing.PokeSprite: 6,460
+- Tests: 264
+- .github: 15
+- root files: 9
 
-### Extract reference data
-Binary/text resources that encode factual game tables are converted into EMERALD-owned CSV/JSON/YAML with explicit provenance.
+## Import rule
 
-Examples:
-- personal tables;
-- level-up learnsets;
-- evolution tables;
-- egg moves;
-- localized names;
-- legality/encounter resources.
+PKHeX is the **reference oracle**, not the Emerald runtime implementation.
 
-### Reimplement behavior
-C# logic is treated as a schema/behavior reference unless the project explicitly elects GPL-compatible code reuse.
+We extract and normalize facts into EMERALD-owned CSV/JSON/YAML, then reconcile them against the actual game source/ROM before changing Emerald.
 
-Examples:
-- save parsing;
-- PKM encryption/decryption;
-- form legality;
-- transfers/conversions;
-- item/form update logic.
+This is especially important because:
+- PKHeX is GPLv3;
+- current PKHeX abstractions can merge knowledge from many games and updates;
+- an editor/legality rule is not automatically the same as a retail ROM routine;
+- drawing/sprite projects contain additional third-party asset provenance.
 
-### Do not import UI
-`PKHeX.WinForms` and drawing projects are not required for Emerald ROM/source normalization.
-
-### Tests as verification
-PKHeX tests are useful to derive expected behavior and regression cases, but are not copied wholesale.
+Therefore:
+- **data facts / IDs / layouts / relationships:** extract + verify;
+- **algorithms:** use as reference, independently implement when needed;
+- **WinForms/UI:** do not import;
+- **sprite/drawing assets:** do not import without independent provenance review;
+- **Tests:** use as verification reference.
 
 ## Language priority
 
-When textual labels are needed:
+For names/text:
 1. Japanese
 2. Korean
 3. English
 4. other official languages
 
-Machine identifiers remain stable English/source symbols where appropriate.
+## Target policy
 
-## Immediate extraction order
+Existing Emerald content remains canonical for existing Emerald entries:
+- existing Emerald item IDs stay fixed;
+- existing Emerald gameplay parameters stay fixed unless the project explicitly chooses a mechanic update;
+- later-generation content is appended/extended rather than renumbering Emerald;
+- source/reference data never overrides a verified Emerald ROM fact merely because it is newer.
 
-1. Personal tables + forms
-2. Species/form names and IDs
-3. Items
-4. Moves / level-up / egg moves
-5. Evolution tables
-6. Abilities and form-change rules
-7. Save/entity layouts
-8. Encounter/legality data
-9. Mystery Gifts
-10. Ribbons/marks and transfer restrictions
+## Extraction program
 
-This turns PKHeX into a pinned reference database while keeping the Emerald implementation independently structured.
+See:
+- `manifests/pkhex-extraction-plan.csv`
+- `manifests/pkhex-reference-index.csv`
+
+The existing 809-row form census is the first completed normalized dataset from this backbone.
+
+Next high-value extraction is **PersonalInfo by game**, because it gives one consistent backbone for species/form stats, typing, abilities, growth, gender and form-table identity across generations.
