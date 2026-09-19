@@ -10,7 +10,7 @@
 
 티켓 계열은 목적지 자체를 강제로 항상 표시하지 않습니다.
 
-미로마을(Littleroot Town)에 새 이벤트 배달 NPC를 상시 배치합니다. 이 NPC는 스토리 진행 상태와 무관하게 존재하며, 말을 걸면 Eon Ticket / Mystic Ticket / Aurora Ticket / Old Sea Map의 네 선택지가 표시됩니다. 한 번의 대화에서는 선택한 하나만 지급하고, 나머지는 다시 말을 걸어 받을 수 있습니다. B 버튼으로 취소할 수도 있습니다. 이후 항구와 섬 이벤트는 원본 Emerald 로직을 그대로 사용합니다.
+미로마을(Littleroot Town)에 새 이벤트 배달 NPC를 상시 배치합니다. 이 NPC는 스토리 진행 상태와 무관하게 존재하며, 말을 걸면 Eon Ticket / Aurora Ticket / Mystic Ticket / Old Sea Map의 네 선택지가 표시됩니다. 한 번의 대화에서는 선택한 하나만 지급하고, 나머지는 다시 말을 걸어 받을 수 있습니다. B 버튼으로 취소할 수도 있습니다. 이후 항구와 섬 이벤트는 원본 Emerald 로직을 그대로 사용합니다.
 
 - Eon Ticket
 - Aurora Ticket
