@@ -6,6 +6,7 @@ policy:
   require_external_hardware: false
   require_external_distribution: false
   rom_binaries_in_repository: false
+  ticket_policy: "Distribute the original ticket item; do not bypass the original destination logic."
   language_priority:
     - ja
     - ko
@@ -26,8 +27,8 @@ events:
       flag: FLAG_ENABLE_SHIP_SOUTHERN_ISLAND
       original_external_path: Record Mixing / Eon Ticket
     content: Latios/Latias event
-    policy: always_accessible
-    status: core_patch_0001_and_delivery_patch_0002
+    policy: distribute_ticket_preserve_original_travel_logic
+    status: ticket_delivery_patch_0002
 
   - id: birth_island
     source_gate:
@@ -35,8 +36,8 @@ events:
       flag: FLAG_ENABLE_SHIP_BIRTH_ISLAND
       original_external_path: Mystery Gift / Aurora Ticket
     content: Deoxys event
-    policy: always_accessible
-    status: core_patch_0001_and_delivery_patch_0002
+    policy: distribute_ticket_preserve_original_travel_logic
+    status: ticket_delivery_patch_0002
 
   - id: navel_rock
     source_gate:
@@ -44,8 +45,8 @@ events:
       flag: FLAG_ENABLE_SHIP_NAVEL_ROCK
       original_external_path: Mystery Gift / Mystic Ticket
     content: Lugia and Ho-Oh event
-    policy: always_accessible
-    status: core_patch_0001_and_delivery_patch_0002
+    policy: distribute_ticket_preserve_original_travel_logic
+    status: ticket_delivery_patch_0002
 
   - id: faraway_island
     source_gate:
@@ -53,8 +54,8 @@ events:
       flag: FLAG_ENABLE_SHIP_FARAWAY_ISLAND
       original_external_path: Mystery Gift / Old Sea Map
     content: Mew event
-    policy: always_accessible
-    status: core_patch_0001_and_delivery_patch_0002
+    policy: distribute_ticket_preserve_original_travel_logic
+    status: ticket_delivery_patch_0002
 
   - id: altering_cave
     source_gate:
@@ -82,7 +83,7 @@ events:
     source_script: data/scripts/gift_pichu.inc
     external_path: Mystery Gift RAM script
     policy: expose_in_game_preserve_once_only
-    status: delivery_patch_0002
+    status: queued
 
   - id: battle_count_card
     source_script: data/scripts/gift_battle_card.inc
