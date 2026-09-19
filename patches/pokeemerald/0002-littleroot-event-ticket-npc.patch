@@ -162,19 +162,19 @@ diff --git a/data/maps/LittlerootTown/scripts.inc b/data/maps/LittlerootTown/scr
 +	return
 +
 +LittlerootTown_Text_EventTicketCourierIntro:
-+	.string "I have some special items that were\\n"
++	.string "I have some special items that were\n"
 +	.string "entrusted to me for you.$"
 +
 +LittlerootTown_Text_EventTicketCourierDelivered:
-+	.string "That's everything I can deliver now.\\n"
++	.string "That's everything I can deliver now.\n"
 +	.string "Please keep them safe.$"
 +
 +LittlerootTown_Text_EventTicketCourierBagFull:
-+	.string "It looks like I couldn't hand over\\n"
++	.string "It looks like I couldn't hand over\n"
 +	.string "everything. Make some room and return.$"
 +
 +LittlerootTown_Text_EventTicketCourierAlreadyDelivered:
-+	.string "Everything entrusted to me has already\\n"
++	.string "Everything entrusted to me has already\n"
 +	.string "been delivered.$"
  
  LittlerootTown_EventScript_Twin::
