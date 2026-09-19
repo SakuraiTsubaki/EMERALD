@@ -1,29 +1,14 @@
 From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
-Subject: [PATCH 1/1] Make core external events permanently accessible
+Subject: [PATCH 1/2] Make Altering Cave external sets permanently available
 
 Reference: pret/pokeemerald @ 5eff78649e7170a877b961ef0b3da13b81a16038
 
-This patch removes external-distribution gates from the four S.S. Tidal
-event-island destinations and makes every Altering Cave encounter table
-available without Mystery Gift.
+Ticket islands are intentionally NOT modified here. Their original travel
+logic remains intact; permanent access is handled by distributing the
+corresponding event tickets through patch 0002.
 
-It intentionally does not set caught/defeated/completion flags.
-
-diff --git a/src/script_menu.c b/src/script_menu.c
---- a/src/script_menu.c
-+++ b/src/script_menu.c
-@@
--    if (CheckBagHasItem(ITEM_EON_TICKET, 1) == TRUE && FlagGet(FLAG_ENABLE_SHIP_SOUTHERN_ISLAND) == TRUE)
-+    if (TRUE)
-@@
--    if (CheckBagHasItem(ITEM_MYSTIC_TICKET, 1) == TRUE && FlagGet(FLAG_ENABLE_SHIP_NAVEL_ROCK) == TRUE)
-+    if (TRUE)
-@@
--    if (CheckBagHasItem(ITEM_AURORA_TICKET, 1) == TRUE && FlagGet(FLAG_ENABLE_SHIP_BIRTH_ISLAND) == TRUE)
-+    if (TRUE)
-@@
--    if (CheckBagHasItem(ITEM_OLD_SEA_MAP, 1) == TRUE && FlagGet(FLAG_ENABLE_SHIP_FARAWAY_ISLAND) == TRUE)
-+    if (TRUE)
+This patch only removes the external Mystery Gift dependency from Altering
+Cave by making every encounter table reachable in normal play.
 
 diff --git a/src/wild_encounter.c b/src/wild_encounter.c
 --- a/src/wild_encounter.c
