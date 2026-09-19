@@ -1,6 +1,6 @@
 domain,pkhex_sources,emerald_output,status,scope
 species_forms,PKM + PersonalInfo + Resources/text/other,manifests/pokemon-form-census.csv,done,폼/종/지역/전투폼/내부폼
-personal_by_game,PersonalInfo + Resources/byte/personal,manifests/pokemon-personal-by-game.csv,next,세대/게임별 종족값 타입 특성 성장률 등
+personal_by_game,PersonalInfo + Resources/byte/personal,manifests/pokemon-personal-by-game.csv,extractor_ready,세대/게임별 종족값 타입 특성 성장률 등
 items,Items + Resources/text/items,manifests/pokemon-item-census.csv,next,게임별 아이템 ID/가방/유효성/전송
 moves,Moves + Resources/byte/levelup + Legality/LearnSource,manifests/pokemon-move-census.csv,next,기술 ID/PP/세대별 존재/학습원
 learnsets,Resources/byte/levelup + eggmove + Legality/Learnset,manifests/pokemon-learnset-by-game.csv,pending,레벨업/유전/머신/튜터
