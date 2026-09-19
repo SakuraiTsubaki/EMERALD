@@ -1,0 +1,265 @@
+path,blob_sha,size,source_commit,use_policy
+Tests/PKHeX.Core.Tests/Entity/AbilityPermissionTests.cs,a57007aae295e1fa4768c8a54d4ca20059f804f2,1209,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Entity/BatchInstructionTests.cs,13262bddd26d3ff2c8e614bfd5204e604820783f,4281,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Entity/HiddenPowerTests.cs,3f0473e3e89472de9472e3e0ac4f7013eaafbd3f,1320,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Entity/LCRNGTest.cs,f926c21045311a0badd414f73fb285a489b94903,813,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Entity/PIDIVTests.cs,57c2993c6d9533a0b298530bbb9b23c68308a0dd,13681,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Entity/PKMTests.cs,78f18cfac26e40becfabf2cc2401a7dd6534ab88,3543,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Entity/ScaleTests.cs,e64c665935bb362fa7bad01df11d8bd6c1ec0f6d,2041,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Entity/SpeciesConverterTests.cs,93c588637551229627334036fd9fbe279d94522a,1703,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Entity/StatTest.cs,d6efca14f9dbc290f1bed0fa5261fbadc9f0f3ab,2574,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Entity/StringTests.cs,85d82fbacb4e105a7e8c4d9a2b4ed49f1407c7ac,4377,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/General/GeneralTests.cs,df3fa73a637281d748d7793c40d9533c431569f5,837,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/General/LocalizationTests.cs,26ebd879239b8d2f72b4b7c7e0b9b8ecc7876973,472,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/General/MarshalTests.cs,f51b8e83c7d79f515a1a2618eba56a5c8deeaebd,1134,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/General/XorShiftTests.cs,47a50ffd0cd227bf0eb098508cbde821a6f1a647,1392,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/General/Xoroshiro128Tests.cs,3a25dfee8356c1cacad8a9813bf914d7f55cb111,4781,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/General/Xoroshiro128bTests.cs,b3c694a9c9179bd3f29fa32482e85d8384355dc1,1323,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/BallTests.cs,aa42787e16d3c6d355f10728fef617f62fb8cc3b,708,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/BreedTests.cs,84ad70e55a5cdb513b051ca12532203861cb34f8,4176,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/ChainBreedLegalityTests.cs,aae5c328667c2d751eea33801cc58e73637f87b7,6486,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/EffortExpLegalityTests.cs,7c5ea1333b56716cc220353dc53f6eee4eddd337,8160,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/AltForm/105-02 - Marowak - A36BF82DC6F6.pk7,59b6ab4be28414f8e32c2da947a0704b072174bd,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/AltForm/423-01 - Gastrodon - 6CE785FF60E2.pk7,ec0b1b3227f0c936ca23fff024e2fe5d031e88c2,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/AltForm/678-01 ★ - Meowstic - 01873505869C.pk7,4972082f259c4a5a44d9e7cc1e95916c0b4695a8,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/AltForm/865_-_Sirfetchd_-_DC8686B1C0B9.pk8,efd662416736a96500749ca0a6da7e122ce857ea,344,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Evolution/196 ★ - ESPEON - 20386C1C9080.pk4,4dd32cebb3810b8d5c62ed72e429b9382dd19c8c,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Gen2 Tradeback/0061 - Poliwhirl - 4B4A648BA093.pk7,39d8780631d0436cef34a3a9a36565fb0f03d737,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Gen2 Tradeback/0149 - Dragonite - B1A1E209D2E0.pk7,8ee95d4ff0ac5a1df58feb3fe62bcd4c46a82f59,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Gen2 Tradeback/0149 - Dragonite - D1C5E209D2E0.pk7,db39343379c2177684e522878c1907aa9a0bd88c,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Gen2/043 - ODDISH - 2DCE noChain.pk2,0317031f73a964628d9835833758c06093071623,73,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Gen2/107 - HITMONCHAN - 26B0.pk2,d53ff4922f192b3f7456043fdda53292313b3c6d,73,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Gen3/0032 - NIDORAN♂ - 92A9F5C939C9 - edited issue4356.pk3,b53a66708f0625f4a51d95db31607582e177c278,100,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Gen7b/027-01 - Sandshrew - 1CD585997938 wrong version.pb7,42f7c29cff10db67acd56eac84c2cfb3bbd7cd86,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Gen7b/037-01 - Vulpix - A71285997938 wrong version.pb7,259e55cd5655fbb65ebbae4bbce5fc7c24a1e01c,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Gen8/0292 - ヌケニン - A7D95B63395C raid shedinja bad height.pk8,2dbe8034bda3d9a51f0546557919e125ff47ff46,344,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Gen8/0761 - Bounsweet - FDD89FC902E6 raid downleveled antishiny bad weight.pk8,a0cdb8b273f8eb195075e41905282cb30871fe78,344,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Misc/0123 ★ - Insécateur - BFFD5B0473FE safari badgen.pk7,834628b68391625ac10ce4bec84b1ae84f71f620,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Misc/038 - タマゴ - D8E92C842F48 Evo Egg.pk3,dcb3957c01dca4d857db881b6ed195df7288a074,80,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Misc/0382 - KYOGRE - 7D62F8447ED2 untrained 85EVs.pk4,d2fcf15a8f1f7ac5414f094c4bf62cf0dd2877e7,236,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Misc/094 - Gengar - B781C838BA27 Transfer BadAbilNum.pk7,9b3ad67557a78cdbd2c6585248d582ca15e20bc1,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Misc/121 ★ - EGG - 1B87 Evo Egg.pk2,91d6f2221781e05ecbbf9b67a6f09d321a7c0b4d,73,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Misc/146-01 - Moltres - F9E5ADA9EFD1 no overworld, bad genloc.pk8,eb4dde40241e067ecef65d38ec5d16236674dc09,344,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Misc/196 - Espeon - 84F87989E70A ability capsule evolved single ability wrongLanguage.pk8,a6859585c347c57137394d57cd5bd4e71e6e6630,344,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Misc/196 - Mentali - 16FD27C35E93 Transfer LevelUp VC1.pk7,e2cb8c1de8d29d8cfa775fa175436568ed2a64c1,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Misc/199 ★ - EGG - EDB6 Evo Egg.pk2,04c65e35b9c21022413c4b4257822f13c1baa5d4,73,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Misc/208 - タマゴ - E4466BAA9428 Evo Egg.pk3,2299a900a870f3bc2c9aa21bdfd2e78885c4dfc6,80,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Misc/251 - CELEBI - E96B nomet notradeback.pk2,160d5efead57b515ef4f72262ec76b0f79cccb51,73,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Misc/497 - Serperior - gen5 HA not available.pk7,8e36e6b8d17298905b33972f7c6a6097b05983cf,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Misc/JPN mew long nickname.pk6,5a915de9afe22bfb5548046663d3d74ed4e3e05c,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Misc/Kingdra Korean VC1.pk7,10e0c6f20972fd7ea3d68b00011d48f9bfee8660,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Misc/Regigigas No Language.pk7,f65dc8da3883b78519fe25fdb845c91936a493ef,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Misc/Spearow VC Contest Stats.pk7,072dea8b7ae4800ef0061d76ae351a65f572b767,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Misc/UltraBallTeddiursa.xk3,ee09969fb758d0b8c04f5f4b73ce50eb85487279,196,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Misc/VC1 Celebi transfer.pk7,99decd8269c62dc0dc12c91964536a317a18142b,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Misc/VC1 Sentret transfer.pk7,00c806573a30c6cfbf0b307828e571939600d149,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Misc/XD Shuckle Gift no Fateful.ck3,c6656d8165d6a681360f30dd64d3b221ee9ca0cd,312,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Moves/292 - SHEDINJA - 4E10A0E852EE (two Ninjask Moves).pk3,4a8136ac617b6b20df7f3d95fafb34dccd3fa0e4,80,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Moves/803 - Poipole - C7B3534918F0.pk7,834f455301fc5c977c405a3f0dbc8998290ac2f9,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Ribbons/Illegal (has 8 out of 8 Battle Memory).pk7,30173438602d2c608b11192562f5ab482c24b334,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Ribbons/Illegal (has Winning Ribbon).ck3,8cbc2d5ddbbeb0de079b270cce28e8ea5ebd423b,312,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/WC3/001 - Bulbasaur - 4543EBE98C5F.pk7,380e4470a08ef9030c37f0dc57b32d5c15bfce3b,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/WC3/004 - ヒトカゲ - 1CCD0A2B1E99.pk7,a9042e066eec73d0726fcadd7d994291abef95b1,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/WC7/658-01 - Greninja - E95300000021.pk7,cb94dc21bdba72a159b7dbce333bb33b2d75f888,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/WC7/745-01 - Lycanroc - AA223CC9A6E7.pk7,44f24f43933013c944222130f5448b11cda6cfbf,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/WC7/745-02 - Lycanroc - B2A43CC9A6E7.pk7,96b8b146601b57a7b7f5bc2a4e27fca036e6a80a,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/WC7/745-02 - Lycanroc - B3A83CC9A6E7.pk7,bf93148f65a4af881b5c19c0e6a433fde2398208,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/WC7/Illegal Zygarde-1 10% Shiny with Aura Break (can't change).pk7,7236cac7654ebc53297a03094f14be34652affaa,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Wild/132 - Ditto - 5CD1D273663D.pk6,100674a3f4b4420164adf9497e435ca568e9ad04,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Wild/213 - Shuckle - 825B411103A3.pk6,b834d99982927ea0e7ac1b162253960e22d24709,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Wild/646-01 ★ - キュレム - 0D420000000A.pk5,d6763ae9653d1539e2897bcdeb5c8b6bda7852ad,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Wild/706_-_Goodra_-_971B6773DCC2.pk7,154904c6d3e8c48ea44a952f2d717029f5e9618e,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Wild/744-01 - Rockruff - BEBC85FF60E2.pk7,570c215300348c95a0af38cd24a0bb7073c9c7e9,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Illegal/Wild/745-02 - Lycanroc - 047385FF60E2.pk7,cd6a4de2df18f55075c117cfd67a626ab7896553,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/LearnabilityTests.cs,2707ace89c6d19f6e6e20986b21b268e491ac65d,2514,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/General/004 - CHARMANDER - D5EF.pk1,37196fb7963fe08e8a1ee8d703f224e6924cf69c,69,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/General/0089-01_-_Muk_-_07FBB3839D09 move bleed HOME minimize initial GO.pk9,3e7165f8b27ba23bcaa6485a1d94c993baec03e6,344,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/General/124 - ZYNX - 70DF498A2E1D.pk3,c5e8493a8fe6ad6cf037a1338e4aee467a490bf3,80,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/General/172 - Egg - 7D3CF55CFC10.pk4,7dcfe4cb08cda7f35e2c6a8f161dda6828aa9974,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/General/183 - 알 - AA4E3344817C.pk5,4634f0f6021cec19aa46fd816500f71db4478ab4,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/General/235 - 알 - 10DB.pk2,7a4e161c58a452980efaaa2da38ec5d211f32331,73,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/General/236 - Oeuf - 5E05C020CB44.pk4,bcb0144e5a1f723a6e8bf2796dc8b8e52a50e47d,236,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/General/236 - 알 - F55CC3F29788.pk5,10de96ff6f567bdf12953535b4350c153840adbc,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/General/292 - SHEDINJA - 4889A0E852EE.pk3,4716418d6ba1b1ce5e8aff1c45a3263f92cb02b4,80,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/General/300 - Egg - 0673311A3560.pk5,01e16cb083f63f00b41746d52acf9aa675c64920,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/General/300 - Uovo - 0C910B68370A.pk4,51048b5b074c003e844aa889df0e6e2e4108519c,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/General/343 - 알 - 5871F88A9BCE.pk5,08f6c0294edae39ba795a65238a412d7e8617b7d,220,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/General/479 - Ei - B7178C463B60.pk4,cd4444e0e8bdcb7292c7642c4f5354d5706a46a2,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/General/479 ★ - 알 - BE0D0000000A.pk5,871750532826c81d578582930adae70b42428d14,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/General/610 - キバゴ - 6F91B110EED1.pk5,1dd396a81e7105617d17a587590b242af73337c3,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/General/645-01 - Landorus - 57BA472C4EB8.pk6,aae62abf45024ef8812419c9dc65ef14b68a03a0,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/General/Ribbons/0248 - Tyranitar - DC689F6F123B (has 7 out of 8 Battle Memory).pk7,24ea345aba511d214797961b1d22398ef8d4fff2,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/General/Ribbons/Legal (Missing Winning Ribbon).ck3,be2c241940ddbe84b1b11394568bb68119860027,312,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 1 Only/025 - PIKACHU - E9D3.pk1,c26bbbbe8c9f83ec77b0c95e14ac20e8d9f046e9,69,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 1 Only/026 - RAZOR - 9BD7.pk1,4abfdd582010b41cb4ca337c56ec194fff404549,69,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 1 Only/133 - EEVEE - D278.pk1,6a8a35302c9676d86926b1df1db8d8b0ea3bc363,69,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 1 Only/134 - VAPOREON - F896.pk1,1134d1958a65f3de3d6a5cf351282567644da5d3,69,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 1 Only/135 - JOLTEON - 7E45.pk1,a1b71f6e60a82e55532a0a25dbfbf2555d5e4db0,69,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 1 Only/135 - JOLTEON - 7F90.pk1,8841a73b1f44c0f02c885a570e2a3914f35c069d,69,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 1 Only/136 - FLAREON - 50CF.pk1,53be39b531dccc118fcfa868f8a87e4a42566423,69,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 1 Tradeback/107 ★ - エビワラー - 68EC Gen2 Future-Gen Evo Egg.pk1,1d30b8d3ac2d53a04c8471ac89a8f2e5beec16f4,59,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 2/0106 - HITMONLEE - EC97.pk2,d3cd2701245b894bf5741ba7dd8bc87040490c81,73,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 2/0107 - HITMONCHAN - C054.pk2,7aea7144dd41f2cf7a06f113be2a3e62fac57796,73,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 2/0138 - AMONITAS - 071B.pk2,1022080f6823ca00281c71b52fd0b84ca6d0171f,73,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 2/025 - PIKACHU - 2129.pk2,7085b2bc78d4bdaa3e09a11fd01a8aa5e981b322,73,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 2/031 - NIDOQUEEN - A016.pk2,a385fd0dbe5aaaea43bfb9eb16083fbab3d6d080,73,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 2/035 - CLEFAIRY - 8A0C.pk2,0ec9814fdc4134c402a8961dc6574c837c1c9423,73,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 2/082 - TATO - 2D6E.pk2,7ca3d0b94b485a0063c1b90892401db74da76b7b,73,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 2/085 - DORIS - 5C9F.pk2,efc15ab69e79aa4fbc98df04ad49de37a9ce5112,73,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 2/112 - DON - 4DD6.pk2,8b9dfde8ea93f446fc611019c620cdf54ceee28e,73,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 2/142 - AEROY - 56BA.pk2,67d85c8c5e4e571dcd5dbd24d4e55cb4efcf563a,73,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 2/211 - Pvffs - 92DC vc.pk2,4df8e99158033ba5bc7b62c0473ea9103b87a58b,73,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 2/213 - SHUCKI - 3572.pk2,0984e2d556870191092dd9f9a3cc366b703f1418,73,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 2/217 - リングマ - 1241 (Gold).pk2,dd54563de926941c0fd715a6aa2e24968901ecc1,63,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 2/230 - KINGDRA - 3712.pk2,21b5800b2124a9a0c039c2a0f19bbd23f55e6c23,73,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 2/230 - Kingdra - D08E85FF60E2.pk7,5dac04439a133e1b903dee6fe290d53125838a5c,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 2/251 - Celebi - F8B063C95344.pk7,b6e7cda2b237443a43700c9a445088db9fb2e4bd,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 2/251_-_CELEBI_-_1EE8.pk2,193563ce675c14503ac2b21295026f6956aedb67,73,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 3/144 - 3008 - BDFCED1D5D5B.pk3,49189c9b848c3029b0851a9fb8192ca8f4345a93,100,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 3/297 - MAKIT - C47400009C40 evolve ability mismatch.pk3,923e0a3e5046b81b8e9ffb1c7ef70da2cb7a6983,100,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 3/Eggs/0032 - NIDORAN♂ - 92A9F5C9B9C9 - NidoranF parent issue4356.pk3,c49e267a2802c1ebd68b7aed428a069f0210b32e,100,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 3/Eggs/0032 - NIDORAN♂ - F436F4EF3BFC - Ditto parent issue4356.pk3,e61e2949c8f5e56bda3aed2f3e884c2a8012721d,100,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 3/LevelUp learn move then Evolve/195 - QUAGSIRE - E2AD60FEC722.pk3,133dd9d6e6b4e7e921e21eeb51ca94ad350926dc,80,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 3/LevelUp learn move then Evolve/229 - HOUNDOOM - 4311EC0CD621.pk3,1c0b7c8f2ea26505eec0b13ba9c344b92394660f,80,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 3/LevelUp learn move then Evolve/284 - MASQUERAIN - 8C49324DA947.pk3,2ad3f6b6245fa921a4604aea66df4052959d72ee,80,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 3/LevelUp learn move then Evolve/461 - Weavile - 041331D10483.pk7,1f608949bb7c965d0efda6e24f53580c3a9d970f,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 3/Misc/0283 ★ - TEST - 5143F610D91A swarm lead matching.pk3,e0833b05fdf2f854bd21b2bbb08e54b2b9809a56,100,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 3/Misc/054 - PSYDUCK - 1FE1F661FBE0.pk3,4e16b6e9527c7ce284823c5b499367d68fb398d5,100,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 3/Misc/134 - VAPOREON - B2D7984A102F XD split evo starter.pk3,90c8c816d233181ae7ddc9aec34b5f1db4e0bdce,80,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 3/Misc/228 - タマゴ - 10F596FA62A6 longOTedge.pk3,e9b8106b51472b2cc54805031489b8f9496451c1,80,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 3/Misc/250 - HO-OH - 2241C625EB05 Italian longOT.ck3,0c4e6cfb091434ac50d157ab859251fb0a1a1dd4,312,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 3/Misc/327 - Spinda - 88283DD1BB49 Method 3.pk3,77abf11ab6f8dd5c81450d542b5cd692b8af7d83,80,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 3/XD Fateful Gifts/213 - SHUCKLE - 1904411103A3 NoFateful.xk3,6c6debb84670d4c50d846b92f361dfc66fc49613,196,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 3/XD Fateful Gifts/213 - SHUCKLE - 475E411103A3 Fateful.xk3,40342c229725d33f76df470451870983a856a4aa,196,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4 GroundTile/Rock Smash/074 - GEODUDE - B16E2318D744.pk4,c0c985792b5c40180dc781c59029d30f2a5b23bd,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4 GroundTile/Rock Smash/098 - KRABBY - 86943584D01B.pk4,f67775f47d4414c7236ed1dde4e6d1c065ba2b1e,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4 GroundTile/Rock Smash/098 - KRABBY - C589B4EFB45F.pk4,15d70d61d587645e29c98555f6651b6d45e0d41e,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4 GroundTile/Special Handling/104 ★ - CUBONE - ABE400000004.pk4,19f688999149d069e154c33a980b1b536f437095,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4 GroundTile/Special Handling/201 - UNOWN - E8FFA68025F9.pk4,30e14d90ca7bce71ece8efae5a71b9598e4d5799,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4 GroundTile/Special Handling/215 - SNEASEL - 72E6A36A07BD.pk4,49440ad543288aaa025e0ec7c06e163f5decd5fa,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4 GroundTile/Special Handling/231 - PHANPY - 579744E8F948.pk4,43a4a47e5e6f5a9045d1ea362bcf34716fc1ebd3,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4 GroundTile/Special Handling/246 - LARVITAR - 2AC20000000E.pk4,1e1e1a082611168954f7b707da092b74d9d3590a,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4 GroundTile/Special Handling/246 ★ - LARVITAR - E4CF00000002.pk4,2d27ffe9da8617444415c2bc00e4dd97dae86d50,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4 GroundTile/Special Handling/308 - MEDICHAM - 25F8A56FA3F2.pk4,e56d3219559a060295e95605c53ba75668b32889,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4 GroundTile/Special Handling/477 - DUSKNOIR - 12DF9E28828D.pk4,8c246e62f1f2980a33281fa2134da038a7a478f6,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4 Transfer/230 - SEASOR - 4E170000007F.pk4,b6918ad80f01dc9eabe4e3b45026892383dc8c6d,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4 Transfer/323 - CAMERUPT - 1EAB066E02B3.pk4,db10d19f0ccaf2389c0248e877132ec35346dc93,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4 Transfer/479-04 - Fan - 68FCC25F9AB6 dp formchange egg.pk4,eff442211e162d28c251af426bd5ceb3161e7d50,236,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4/0081 - MAGNETI - B2F0B116BC4C safari 4iv fail.pk4,6e5492b531f57d8dd365758a1cb98285d71f41bb,236,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4/0095 - Egg - 3C46CD462454 pt egg.pk4,9b457b992155ab18028f75d3337f303adeb9ae84,236,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4/0095 - ONIX - D1BE00E5AE9E pt2hg hatch.pk4,30a6d6e76250d9dd8da7c432f48c4e10f3d7a922,236,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4/0113 - CHANSEY - 806A14061105 swarm1 pressure.pk4,bede57f6ee039f67f309886c63949ec47d23e526,236,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4/0113 - CHANSEY - D4E98650DFCD swarm1 pressure.pk4,beb152cc74e0ee2a19c56880d300490beb2cf9ef,236,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4/0218 - Egg - 30859D41D013 hg egg.pk4,171d7c916dc1b76cf2a9faa92ff8c186ee9face0,236,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4/0218 - SLUGMA - 4F02838CED63 hg2pt hatch.pk4,e5d344c4a5252643850a7d5b16afa698df3bb034,236,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4/0407 - ROSERADE - E24358625928.pk4,7af5f3f12c9ae95cdd77cfd43224c7a2a0ad7782,236,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4/184 - AZUMARILL - 70F46DFFFF94 static genderchange.pk4,1976de1d4486f59446e304e52ced4b0755442f6d,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4/194 - Egg - B7B3E1614DCB Primo Wooper.pk4,d03f74ed47a79dacf1b3721831a3abaa4d3b62a1,236,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4/242 - HEITEIRA - E83AB36E7C5C.pk4,b562ce17c8124e77876a9ba4944a71eee13203e8,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4/440 - ピンプク - 17961FFFFFFE.pk4,b3167ef762fed294b4062d480d0812624be18bdb,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 4/470  - LEAFEON - 65B05FEF8D69.pk4,77db1dfa41b3b0413fe0a51d9e6d64c7620a2a74,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 5/015 - Beedrill - 2F3A638FD1B9 gen3 transfer highlevel.pk5,0ccec5c3f887d0c994bc0e980aca3ee2c347802c,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 5/0242 - Heiteira - C862311C7FE4.pk5,1c4e6f70677fc458a4159dc6e6cb6175ac1ddbf9,220,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 5/0407 - Roserade - 83F5F7E60F78.pk5,54d03a5e2bb96d953b20a7ccb564d86415db1521,220,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 5/0550-01 - Basculin - C46358B4FA76 wrongAbility.pk5,019b75d918d95eb1b3055b5aeb26c70873e3ba03,220,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 5/143 - Tripón - D4336200001F Evolved.pk5,73454e95c0e14623765f7a42bf837f8e43cc4456,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 5/440 - Egg - 5B70552258BA Breeder Happiny.pk5,3963ce8554c7ed26f184c69a9bef0805d81bdbe1,220,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 5/446 - Tripón - BDC46200001F Trade Ability Mismatch.pk5,99ee8660d8a33bbc0429a2434ee2b29c4d40cac1,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 5/546 - Jersey - C31DDBEA71D8 french accented OT name.pk5,ceffc84d3c4c67659ed39946389a85effd923464,136,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 5/612 ★ - Haxorus - A1AC5BB800F7.pk5,db5c45424d25ca15b0e7f70f1c377959b778147c,220,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 5/636 - Egg - F2C5552258BA Breeder Larvesta.pk5,ed8810ad9bd995490bd57bdb8cc906d90dfd86ac,220,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 6 Static/351 - Castform - 4988DDF4362E.pk6,28a202e53f1aa9e2e7415d3cac2f093968823c35,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 6 Static/360 - Egg - 4E07D3239217 Hot Springs Wynaut.pk6,a7d352001150505a6c95657494b177e10f452110,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 6/0061_-_Quaputzi_-_81DD3D8C0FFD safari gen3 level.pk6,d2d76bd5f61e73ca317913417cb0a78f0328a969,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 6/035 - Clefairy - 2A2C8A94FA80 dexnav.pk6,69afc0d58d7931fa3cbc4520b5bb52aac4c8cc9a,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 6/087 - Dewgong - B33438369BC5 dexnav.pk6,2789bfe55ae366ed7e74956f75a0e1c254f9ddfa,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 6/097 - Hypno - F845514A2D54 dexnav.pk6,5198eea90b24e9c949abc6a99abb5981858d504b,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 6/236 - Tyrogue - 88A5A8BF7345.pk6,534046cba89c65760762121b13f99d3a4c09f944,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 6/263 - Zigzagoon - 2746E8288E7E.pk6,32a61d20d409cfc22eaf83e7a27e5ade0845324a,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 6/272 - Ludicolo - 2154AE8EDAF2 flute -4.pk7,f9c90a63f9fd2039201b3ea5527dac61b1a81cd7,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 6/276 ★ - Nirondelle - 0F8089C9AA57 flute level1.pk6,dd67e00e8dc1896c5afdf3364afa479d672def7b,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 6/280 - Ralts - 4732E9FE3B34 No Nickname Trade.pk6,5b2b40102e39f452d42ceb64e7f3af089022997b,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 6/295 - Exploud - 24A2112B6A94 dexnav.pk6,2ef5c33c12e0bcd78af9077b751ac5745b392287,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 6/350 - Milotic - C65D0BA29204 transfer minlevel evo.pk6,4adb3585d6365c46b473faf36fe3792e3fa00c6e,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 6/357 ★ - Walker Mower - 0272CF40335F.pk6,a25955639f1076f82a603d04052c1f8cbfae012b,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 6/665-17 - Spewpa - 9DBBA19BC145 Route 7 berry field.pk6,08981284152b76a5ddf901bdfa0691066fd762f1,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Static/132 - Ditto - D2606D168C32.pk7,672c4eca08326516feb906a6f4c4b8e576254430,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Static/133 - Egg - 9FD9E55BFB28 Daycare Eevee.pk7,9ca006abe887611fb6c2f6366a27696beb6a1274,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Static/664-07 - Scatterbug - 6703815D4F75.pk7,2d223220e36d299570d252581375406b589e9077,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Static/666-07 - Vivillon - 6560815D4F75.pk7,3eadeedb50c1b2475b1d05d5d4906ba4e8fa8dcf,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Transfer/0021 - Spearow - Hardy - 13.8.9.31.31.31 - アアアアア - 05397 - Poké - 4432DFD41B97 badPP diffLanguage.pk7,5a42220b0446fc5274b1b425b2cb0852b22d6721,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Transfer/0267_-_Beautifly_-_02EC2BFA04AE gen3 l5 silcoon.pk7,1e0906e0bb1cf27c62033727161f1ea486991774,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Transfer/028 ★ - Sandslash - 583900000000.pk7,e6aa06baf3350da2b1747980f6afbbb2b346b848,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Transfer/100 - VOLTI - B086FE1296FC FALCçN.pk7,a98e4e7a60c33572b6c6e819c785f0b7beaf3658,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Transfer/106 - Kicklee - F14B2085C4CF.pk7,7a3bd784f4743b4d18bdfcb94a37c518e5c8e1af,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Transfer/107 - Tygnon - AB06C469F5A7.pk7,29b7f3f84ead28e14e63e6ca6590506eddc68244,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Transfer/107 ★ - Hitmonchan - A6016DD483CC.pk7,88ca43068c9119efde47e7cd870edca5d3d9b1a3,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Transfer/124 - LOLA - 0F0EBB7A9D04.pk7,cb9bcdf8aee014e3aa4223790d94a393c47fc4f5,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Transfer/132 - Ditto - 3159082DBAD7.pk7,92dabfa5fbe94a2e2ca409bb34a4666fa9574901,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Transfer/144 ★ - Articuno - A4103D3BFB2D badPP.pk7,51da84f05a184eec81e81ba37fb4937f25812da7,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Transfer/145 ★ - Zapdos - 018B4D16087D badPP.pk7,158c92285d2adfe691896264c1036340f253dca9,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Transfer/151 - ミュウ - 6B9DADB23EB0.pk7,e76ada18cf1b773d9ffe02bafd380aea89b8f6d8,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Transfer/204 - クヌギダマ - 4CF0E7EAFE99.pk7,5f94bfaeeaccaa4808b981278cfbbb228eaaf686,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Transfer/213 - MODRI - 24E7F51FC5F2.pk7,9d6af1195fe3f0bd74e055fc82ecc6a72ffafc23,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Transfer/213 - SHUCKI - 736B6898378B MANôA.pk7,0facc6046f67ed88d1733d74179228e1089c1a79,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Transfer/230 - Seedraking - CC38FEBB3C31.pk7,4b4e8885ba702692710aa2aa98bef9dd9ccad4fc,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Transfer/251 ★ - Celebi - 6695A818ECEA badPP.pk7,cf6f8613c0a2f3fa46c86ad438a58beb4295148e,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Transfer/466 - Electivire - FF102D8B375B.pk7,8b09aff28aa08afb7e0fdc4772d17c51a407b819,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Transfer/466 - エレキブル - 45346A2454B8.pk7,05b1c89588a37f497edd3a2769db0943647aeb2c,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Transfer/700 - ニンフィア - F093560A57A2.pk7,cc4c70f0ebf4338422f6a562e841fb51a78c505b,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Wild/080 - Slowbro - A0935F4796B1.pk7,bbe9944237c7e7d888900ae5f41b9eb09ff51fbc,232,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Wild/131 - Lapras - 967A2886F5BC.pb7,3ba8e29fdf0ba8e85f29181a62b85019c1011b26,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Wild/744 - Rockruff - B9D885FF60E2.pk7,381d25754b4c1a0faa4c5880194e233c1207f4a0,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 7 Wild/745 - Lycanroc - F73885FF60E2.pk7,60120601cfee25751e69a81bd7f34f50e23f317b,260,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 8/0037-01 - Vulpix - 94616918E5A7 home4.pa8,c9f26a914842e0689f1d260afcdde2004c383751,376,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 8/0083-01 - Egg - 219CD3317179 legal traded HT memory no HT.pk8,6a0ca7d44609285ce735150d83c2d5d9f054bd8f,344,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 8/0105-01 - Test - 6DDD2B435BBC alolan evolution.pk8,8cf2ebb8b75f385cd32b0280b1ec1527e9332fce,344,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 8/0196 - エーフィ - 42DD7989E70A ability capsule evolved single ability.pk8,a57f190ad7553572665c04791b08469070a28704,344,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 8/0292 - ヌケニン - A7DA5B63395C raid shedinja.pk8,70c0ef4f6c675f76d9b34eaecaa165daf9effd65,344,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 8/0465 - Tangrowth - E181E068A61E fakeHOME sharedInherit evolve.pa8,ab93fab7ff797499d0b0ea2eacf60903e848f6ff,376,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 8/0761 - Bounsweet - FE9A9FC902E6 raid downlevel antishiny.pk8,71fdfd0b0b031c076ea4dc89f15d7f0359247fa3,344,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 8/2026.06.08 - 0502 ■ - Dewott - Serious - 17.31.21.31.21.22 - Anubis - 042748 - Poké - 75AED7512243 home4 evo.pa8,fa78bf3cfda4224a3e04aff0c90efbf85df171a0,376,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 8/454 - Toxicroak - 74B8A6FA55D1 underlevel area6-3badge.pb8,ae7a5247753a7e38faa551234199bbb40fcac94d,344,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 8/481 ★ - Mesprit - 1FE0DA9D86A4 roamer8 force shiny.pb8,8b78eaae71f9738b7da48cdec0db1ce4fe73d94a,344,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 8/780 - Sen-Long - EE8A09A6B32F LinkTrade Egg with HT memory.pk8,fb26fea44fa5d8561e34d52a8eddaf9d77f71223,344,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 9/0585-01 ★ - Deerling - 11D0C90A7F2F pk6 formchange.pk9,7944c585a720e99c46a7e593bf85c1a947d0aa1e,344,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 9/0904 - Overqwil - 2F49E4F1319B inherit barb 2.pk9,90ae6962dbac92407ecefa6f645c9985efb68d77,344,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 9/FormArg/0979 - Second Wind - F595DB8A1056.pk9,dd7f47cc141614395584dfa7ae4c17e84dd780a6,344,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 9/FormArg/0983 - Kingambit - 6BE42E9A9EF4 0 asKing.pk9,f47ccf53b22b7a8e1660fd9dea8291d7f9af9db0,344,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/Legal/Generation 9/FormArg/0983 - Kingambit - 6BE72E9A9EF4 3 asBisharp.pk9,a015b8df51b146955e6f246ad29cedd6c778aad9,344,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/LegalityData.cs,f95aeaddc63353625a4f35f90464276e4fdbbf71,1085,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/LegalityRules.cs,f13106782a3744225f6e063c54e5d1ff3371f1fc,833,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/LegalityTests.cs,530d1b86ce7eca0724b22087ae3a25db98a74c20,6756,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/RNG/MethodJChecks.cs,1aff59be6efb6f3a4bc2f10b3cd5665c57217899,2356,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/RNG/MockSlot4.cs,486700d3a2dfc918465ced7a46194740a82a7a61,1059,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/RNG/RaidTests.cs,16d7b847fe7ec964fb6ac7434b2f708d12d512a7,3452,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/RNG/ShadowTeamTests.cs,963fc7f5ff50eb2077d43cdeca4e2534067b8d57,4928,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/RNG/ShadowTests.cs,b31e96b5d70a0f6d18684b19271425166545222a,1946,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/RNG/Wild8aRNGTests.cs,8c2aed90ffe4a8a32c84b31a56e18ca2f785d8fe,1963,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Legality/RNG/Wild8bRNGTests.cs,c83fa7bbe5f71941894041e7189aa280f0588a26,777,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/PKHeX.Core.Tests.csproj,8945d27117aaeebc7fc86d8d0beeecbe88b77d5d,901,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Saves/Gen6/SubEventLog6XYTests.cs,8c0fbe98876d8ecc4f4d7f5134b192a2477b2ee7,1956,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Saves/HomeTests.cs,ab580fda7ad393c4e0b49e1f3430efe52c8ec54c,2179,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Saves/MemeCrypto/MemeCryptoTests.cs,6ca1f3117c426522c3238baab0107899ef7996c2,26303,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Saves/MemeCrypto/SwishCryptoTests.cs,b40dcc30aae28ee86318e2946484b495a4edcb37,378,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Saves/PokeDex.cs,4b44635d95d147cce04f73c4463bb31485b5d428,2117,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Saves/SAV5DLC.cs,671f49e0a035c59238be1aa25d74a7e80011f07e,991,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Saves/SMTests.cs,293de2af2e61ac86e4e5ea73c48343a1a051b1ce,1132,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Simulator/GeneratorTests.cs,5b964b8879417a9ac5c663e7ab13993811188dc7,3693,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Simulator/MysteryGiftIVTests.cs,47e1ef3d2ac729d4b9f0fc6d88badec500bbdf66,2097,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Simulator/ShowdownSetTests.cs,56736d30cc12464006bdbdbdf2721af12f9d558c,17732,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/TestData/001 - Bulbasaur - Impish - Anubis.eh1,cbf8549101b35c843ae3c9e03d4884e34c4f0ef9,304,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/TestData/001 - Bulbasaur - Quirky - Anubis.eh1,4c958025eda2f21a1f00f5b26a5a4d51af50294b,304,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/TestData/001 ■ - Bulbasaur - Calm - Anubis.eh1,3a6d7c1150ce02f0da687eb1b56ee4886a861fbb,304,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/TestData/003 - Venusaur - Calm - Anubis.eh1,c1f3e11acc55ac01b5e67f1c28814ee84fccff58,304,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/TestData/003 - Venusaur - Rash - Anubis.eh1,b5305ae70f96efdd2101908b1de629f13b7c05d7,304,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/TestData/025 - Pikachu - Anubis.eh2,3c8c15e50c831c989fd916249d225d63f36d5f76,288,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/TestData/SM Project 802.main,11b45b93bf2995332d024d4484d53afb203813ec,441856,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/TestData/mew.eh4,79d0e8cbf9efe1daf35ae05ec88de7e02a83f573,304,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Util/ConvertUtilTests.cs,c1371f5aa98408f9575dd0a70967e2507e10c5bb,2368,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Util/DataUtilTests.cs,1222ecb9d644399f6fbba37d65e9a283943a3dfc,1322,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Util/DateUtilTests.cs,e08a84746ffc173eba9e04875a2df2e1f9a23ac1,2481,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Util/FlagUtilTests.cs,1d49adb358b1ca6b471e30d62eaa6e3d289e58c4,1411,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Util/GeoLocationTests.cs,35b41e77bbf456b091dca1fb31e1e445dbdec595,1187,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Util/StringQualityTests.cs,1bb8b1e3d2d016ac10163575a7bb405c62d6edb9,5093,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
+Tests/PKHeX.Core.Tests/Util/TestUtil.cs,90665f50f2c1c7223a4aa9fc582a346f30d39d8e,842,8ad201e80244f630ab5a46922ab72fb79c5ad4f4,verification_reference
