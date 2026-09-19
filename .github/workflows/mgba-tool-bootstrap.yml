@@ -11,16 +11,15 @@ jobs:
   package:
     runs-on: ubuntu-24.04
     steps:
-      - name: Download mGBA AppImage
+      - name: Download missing runtime dependency
         run: |
           set -eux
-          curl -L --fail --retry 3 -o mGBA.AppImage https://s3.amazonaws.com/mgba/mGBA-build-latest-appimage-x64.appimage
-          chmod +x mGBA.AppImage
-          ./mGBA.AppImage --appimage-extract
-          find squashfs-root -maxdepth 3 -type f -print
-      - name: Upload extracted mGBA
+          apt-get update
+          apt-get download libxcb-cursor0
+          ls -lh *.deb
+      - name: Upload dependency
         uses: actions/upload-artifact@v4
         with:
-          name: mgba-appimage-extracted
-          path: squashfs-root
+          name: mgba-xcb-cursor
+          path: '*.deb'
           retention-days: 1
