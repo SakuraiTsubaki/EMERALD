@@ -1,0 +1,800 @@
+species_num,species,full_name,form_name,introduced_gen,state_kind,persistence,required_item,required_move,required_ability,required_tera_type,changes_from,battle_only_from,trigger_evidence,reset_evidence,notes
+3,Venusaur,Venusaur,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+3,Venusaur,Venusaur-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Venusaur,,changesFrom=Venusaur,see generation research / battle-state rules,
+3,Venusaur,Venusaur-Mega,Mega,6,battle_transformation,battle/temporary,Venusaurite,,,,,,item=Venusaurite,see generation research / battle-state rules,
+6,Charizard,Charizard,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+6,Charizard,Charizard-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Charizard,,changesFrom=Charizard,see generation research / battle-state rules,
+6,Charizard,Charizard-Mega-X,Mega-X,6,battle_transformation,battle/temporary,Charizardite X,,,,,,item=Charizardite X,see generation research / battle-state rules,
+6,Charizard,Charizard-Mega-Y,Mega-Y,6,battle_transformation,battle/temporary,Charizardite Y,,,,,,item=Charizardite Y,see generation research / battle-state rules,
+9,Blastoise,Blastoise,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+9,Blastoise,Blastoise-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Blastoise,,changesFrom=Blastoise,see generation research / battle-state rules,
+9,Blastoise,Blastoise-Mega,Mega,6,battle_transformation,battle/temporary,Blastoisinite,,,,,,item=Blastoisinite,see generation research / battle-state rules,
+12,Butterfree,Butterfree,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+12,Butterfree,Butterfree-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Butterfree,,changesFrom=Butterfree,see generation research / battle-state rules,
+15,Beedrill,Beedrill,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+15,Beedrill,Beedrill-Mega,Mega,6,battle_transformation,battle/temporary,Beedrillite,,,,,,item=Beedrillite,see generation research / battle-state rules,
+18,Pidgeot,Pidgeot,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+18,Pidgeot,Pidgeot-Mega,Mega,6,battle_transformation,battle/temporary,Pidgeotite,,,,,,item=Pidgeotite,see generation research / battle-state rules,
+19,Rattata,Rattata,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+19,Rattata,Rattata-Alola,Alola,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+20,Raticate,Raticate,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+20,Raticate,Raticate-Alola,Alola,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+20,Raticate,Raticate-Alola-Totem,Alola-Totem,7,hidden_internal_form,context-dependent,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+25,Pikachu,Pikachu,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+25,Pikachu,Pikachu-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Pikachu,,changesFrom=Pikachu,see generation research / battle-state rules,
+25,Pikachu,Pikachu-Original,Original,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+25,Pikachu,Pikachu-Hoenn,Hoenn,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+25,Pikachu,Pikachu-Sinnoh,Sinnoh,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+25,Pikachu,Pikachu-Unova,Unova,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+25,Pikachu,Pikachu-Kalos,Kalos,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+25,Pikachu,Pikachu-Alola,Alola,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+25,Pikachu,Pikachu-Partner,Partner,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+25,Pikachu,Pikachu-Starter,Starter,1,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+25,Pikachu,Pikachu-World,World,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+25,Pikachu,Pikachu-Rock-Star,Rock-Star,6,persistent_identity,persistent/derived,,,,,Pikachu-Cosplay,,changesFrom=Pikachu-Cosplay,see generation research / battle-state rules,
+25,Pikachu,Pikachu-Belle,Belle,6,persistent_identity,persistent/derived,,,,,Pikachu-Cosplay,,changesFrom=Pikachu-Cosplay,see generation research / battle-state rules,
+25,Pikachu,Pikachu-Pop-Star,Pop-Star,6,persistent_identity,persistent/derived,,,,,Pikachu-Cosplay,,changesFrom=Pikachu-Cosplay,see generation research / battle-state rules,
+25,Pikachu,Pikachu-PhD,PhD,6,persistent_identity,persistent/derived,,,,,Pikachu-Cosplay,,changesFrom=Pikachu-Cosplay,see generation research / battle-state rules,
+25,Pikachu,Pikachu-Libre,Libre,6,persistent_identity,persistent/derived,,,,,Pikachu-Cosplay,,changesFrom=Pikachu-Cosplay,see generation research / battle-state rules,
+25,Pikachu,Pikachu-Cosplay,Cosplay,6,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+26,Raichu,Raichu,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+26,Raichu,Raichu-Alola,Alola,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+26,Raichu,Raichu-Mega-X,Mega-X,9,battle_transformation,battle/temporary,Raichunite X,,,,,,item=Raichunite X,see generation research / battle-state rules,
+26,Raichu,Raichu-Mega-Y,Mega-Y,9,battle_transformation,battle/temporary,Raichunite Y,,,,,,item=Raichunite Y,see generation research / battle-state rules,
+27,Sandshrew,Sandshrew,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+27,Sandshrew,Sandshrew-Alola,Alola,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+28,Sandslash,Sandslash,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+28,Sandslash,Sandslash-Alola,Alola,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+36,Clefable,Clefable,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+36,Clefable,Clefable-Mega,Mega,9,battle_transformation,battle/temporary,Clefablite,,,,,,item=Clefablite,see generation research / battle-state rules,
+37,Vulpix,Vulpix,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+37,Vulpix,Vulpix-Alola,Alola,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+38,Ninetales,Ninetales,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+38,Ninetales,Ninetales-Alola,Alola,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+50,Diglett,Diglett,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+50,Diglett,Diglett-Alola,Alola,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+51,Dugtrio,Dugtrio,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+51,Dugtrio,Dugtrio-Alola,Alola,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+52,Meowth,Meowth,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+52,Meowth,Meowth-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Meowth,,changesFrom=Meowth,see generation research / battle-state rules,
+52,Meowth,Meowth-Alola,Alola,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+52,Meowth,Meowth-Galar,Galar,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+53,Persian,Persian,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+53,Persian,Persian-Alola,Alola,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+58,Growlithe,Growlithe,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+58,Growlithe,Growlithe-Hisui,Hisui,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+59,Arcanine,Arcanine,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+59,Arcanine,Arcanine-Hisui,Hisui,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+59,Arcanine,Arcanine-Hisui-Lord,Hisuian-Lord,8,scripted_boss_internal_form,context-dependent,,,,,,,see generation research / form definition,see generation research / battle-state rules,Pokémon Legends: Arceus Lord/Lady form; not a normal player-owned form.
+65,Alakazam,Alakazam,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+65,Alakazam,Alakazam-Mega,Mega,6,battle_transformation,battle/temporary,Alakazite,,,,,,item=Alakazite,see generation research / battle-state rules,
+68,Machamp,Machamp,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+68,Machamp,Machamp-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Machamp,,changesFrom=Machamp,see generation research / battle-state rules,
+71,Victreebel,Victreebel,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+71,Victreebel,Victreebel-Mega,Mega,9,battle_transformation,battle/temporary,Victreebelite,,,,,,item=Victreebelite,see generation research / battle-state rules,
+74,Geodude,Geodude,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+74,Geodude,Geodude-Alola,Alola,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+75,Graveler,Graveler,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+75,Graveler,Graveler-Alola,Alola,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+76,Golem,Golem,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+76,Golem,Golem-Alola,Alola,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+77,Ponyta,Ponyta,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+77,Ponyta,Ponyta-Galar,Galar,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+78,Rapidash,Rapidash,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+78,Rapidash,Rapidash-Galar,Galar,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+79,Slowpoke,Slowpoke,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+79,Slowpoke,Slowpoke-Galar,Galar,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+80,Slowbro,Slowbro,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+80,Slowbro,Slowbro-Mega,Mega,6,battle_transformation,battle/temporary,Slowbronite,,,,,,item=Slowbronite,see generation research / battle-state rules,
+80,Slowbro,Slowbro-Galar,Galar,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+83,Farfetch\u2019d,Farfetch\u2019d,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+83,Farfetch\u2019d,Farfetch\u2019d-Galar,Galar,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+88,Grimer,Grimer,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+88,Grimer,Grimer-Alola,Alola,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+89,Muk,Muk,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+89,Muk,Muk-Alola,Alola,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+94,Gengar,Gengar,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+94,Gengar,Gengar-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Gengar,,changesFrom=Gengar,see generation research / battle-state rules,
+94,Gengar,Gengar-Mega,Mega,6,battle_transformation,battle/temporary,Gengarite,,,,,,item=Gengarite,see generation research / battle-state rules,
+99,Kingler,Kingler,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+99,Kingler,Kingler-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Kingler,,changesFrom=Kingler,see generation research / battle-state rules,
+100,Voltorb,Voltorb,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+100,Voltorb,Voltorb-Hisui,Hisui,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+101,Electrode,Electrode,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+101,Electrode,Electrode-Hisui,Hisui,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+101,Electrode,Electrode-Hisui-Lord,Hisuian-Lord,8,scripted_boss_internal_form,context-dependent,,,,,,,see generation research / form definition,see generation research / battle-state rules,Pokémon Legends: Arceus Lord/Lady form; not a normal player-owned form.
+103,Exeggutor,Exeggutor,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+103,Exeggutor,Exeggutor-Alola,Alola,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+105,Marowak,Marowak,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+105,Marowak,Marowak-Alola,Alola,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+105,Marowak,Marowak-Alola-Totem,Alola-Totem,7,hidden_internal_form,context-dependent,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+110,Weezing,Weezing,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+110,Weezing,Weezing-Galar,Galar,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+115,Kangaskhan,Kangaskhan,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+115,Kangaskhan,Kangaskhan-Mega,Mega,6,battle_transformation,battle/temporary,Kangaskhanite,,,,,,item=Kangaskhanite,see generation research / battle-state rules,
+121,Starmie,Starmie,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+121,Starmie,Starmie-Mega,Mega,9,battle_transformation,battle/temporary,Starminite,,,,,,item=Starminite,see generation research / battle-state rules,
+122,Mr. Mime,Mr. Mime,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+122,Mr. Mime,Mr. Mime-Galar,Galar,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+127,Pinsir,Pinsir,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+127,Pinsir,Pinsir-Mega,Mega,6,battle_transformation,battle/temporary,Pinsirite,,,,,,item=Pinsirite,see generation research / battle-state rules,
+128,Tauros,Tauros,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+128,Tauros,Tauros-Paldea-Combat,Paldea-Combat,9,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+128,Tauros,Tauros-Paldea-Blaze,Paldea-Blaze,9,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+128,Tauros,Tauros-Paldea-Aqua,Paldea-Aqua,9,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+130,Gyarados,Gyarados,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+130,Gyarados,Gyarados-Mega,Mega,6,battle_transformation,battle/temporary,Gyaradosite,,,,,,item=Gyaradosite,see generation research / battle-state rules,
+131,Lapras,Lapras,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+131,Lapras,Lapras-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Lapras,,changesFrom=Lapras,see generation research / battle-state rules,
+133,Eevee,Eevee,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+133,Eevee,Eevee-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Eevee,,changesFrom=Eevee,see generation research / battle-state rules,
+133,Eevee,Eevee-Starter,Starter,1,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+142,Aerodactyl,Aerodactyl,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+142,Aerodactyl,Aerodactyl-Mega,Mega,6,battle_transformation,battle/temporary,Aerodactylite,,,,,,item=Aerodactylite,see generation research / battle-state rules,
+143,Snorlax,Snorlax,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+143,Snorlax,Snorlax-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Snorlax,,changesFrom=Snorlax,see generation research / battle-state rules,
+144,Articuno,Articuno,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+144,Articuno,Articuno-Galar,Galar,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+145,Zapdos,Zapdos,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+145,Zapdos,Zapdos-Galar,Galar,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+146,Moltres,Moltres,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+146,Moltres,Moltres-Galar,Galar,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+149,Dragonite,Dragonite,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+149,Dragonite,Dragonite-Mega,Mega,9,battle_transformation,battle/temporary,Dragoninite,,,,,,item=Dragoninite,see generation research / battle-state rules,
+150,Mewtwo,Mewtwo,Base,1,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+150,Mewtwo,Mewtwo-Mega-X,Mega-X,6,battle_transformation,battle/temporary,Mewtwonite X,,,,,,item=Mewtwonite X,see generation research / battle-state rules,
+150,Mewtwo,Mewtwo-Mega-Y,Mega-Y,6,battle_transformation,battle/temporary,Mewtwonite Y,,,,,,item=Mewtwonite Y,see generation research / battle-state rules,
+154,Meganium,Meganium,Base,2,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+154,Meganium,Meganium-Mega,Mega,9,battle_transformation,battle/temporary,Meganiumite,,,,,,item=Meganiumite,see generation research / battle-state rules,
+157,Typhlosion,Typhlosion,Base,2,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+157,Typhlosion,Typhlosion-Hisui,Hisui,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+160,Feraligatr,Feraligatr,Base,2,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+160,Feraligatr,Feraligatr-Mega,Mega,9,battle_transformation,battle/temporary,Feraligite,,,,,,item=Feraligite,see generation research / battle-state rules,
+172,Pichu,Pichu,Base,2,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+172,Pichu,Pichu-Spiky-eared,Spiky-eared,4,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+181,Ampharos,Ampharos,Base,2,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+181,Ampharos,Ampharos-Mega,Mega,6,battle_transformation,battle/temporary,Ampharosite,,,,,,item=Ampharosite,see generation research / battle-state rules,
+194,Wooper,Wooper,Base,2,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+194,Wooper,Wooper-Paldea,Paldea,9,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+199,Slowking,Slowking,Base,2,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+199,Slowking,Slowking-Galar,Galar,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+201,Unown,Unown,A,2,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+201,Unown,Unown-B,B,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-C,C,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-D,D,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-E,E,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-F,F,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-G,G,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-H,H,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-I,I,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-J,J,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-K,K,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-L,L,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-M,M,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-N,N,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-O,O,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-P,P,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-Q,Q,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-R,R,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-S,S,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-T,T,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-U,U,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-V,V,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-W,W,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-X,X,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-Y,Y,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-Z,Z,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-Exclamation,Exclamation,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+201,Unown,Unown-Question,Question,2,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+208,Steelix,Steelix,Base,2,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+208,Steelix,Steelix-Mega,Mega,6,battle_transformation,battle/temporary,Steelixite,,,,,,item=Steelixite,see generation research / battle-state rules,
+211,Qwilfish,Qwilfish,Base,2,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+211,Qwilfish,Qwilfish-Hisui,Hisui,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+212,Scizor,Scizor,Base,2,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+212,Scizor,Scizor-Mega,Mega,6,battle_transformation,battle/temporary,Scizorite,,,,,,item=Scizorite,see generation research / battle-state rules,
+214,Heracross,Heracross,Base,2,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+214,Heracross,Heracross-Mega,Mega,6,battle_transformation,battle/temporary,Heracronite,,,,,,item=Heracronite,see generation research / battle-state rules,
+215,Sneasel,Sneasel,Base,2,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+215,Sneasel,Sneasel-Hisui,Hisui,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+222,Corsola,Corsola,Base,2,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+222,Corsola,Corsola-Galar,Galar,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+227,Skarmory,Skarmory,Base,2,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+227,Skarmory,Skarmory-Mega,Mega,9,battle_transformation,battle/temporary,Skarmorite,,,,,,item=Skarmorite,see generation research / battle-state rules,
+229,Houndoom,Houndoom,Base,2,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+229,Houndoom,Houndoom-Mega,Mega,6,battle_transformation,battle/temporary,Houndoominite,,,,,,item=Houndoominite,see generation research / battle-state rules,
+248,Tyranitar,Tyranitar,Base,2,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+248,Tyranitar,Tyranitar-Mega,Mega,6,battle_transformation,battle/temporary,Tyranitarite,,,,,,item=Tyranitarite,see generation research / battle-state rules,
+254,Sceptile,Sceptile,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+254,Sceptile,Sceptile-Mega,Mega,6,battle_transformation,battle/temporary,Sceptilite,,,,,,item=Sceptilite,see generation research / battle-state rules,
+257,Blaziken,Blaziken,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+257,Blaziken,Blaziken-Mega,Mega,6,battle_transformation,battle/temporary,Blazikenite,,,,,,item=Blazikenite,see generation research / battle-state rules,
+260,Swampert,Swampert,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+260,Swampert,Swampert-Mega,Mega,6,battle_transformation,battle/temporary,Swampertite,,,,,,item=Swampertite,see generation research / battle-state rules,
+263,Zigzagoon,Zigzagoon,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+263,Zigzagoon,Zigzagoon-Galar,Galar,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+264,Linoone,Linoone,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+264,Linoone,Linoone-Galar,Galar,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+282,Gardevoir,Gardevoir,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+282,Gardevoir,Gardevoir-Mega,Mega,6,battle_transformation,battle/temporary,Gardevoirite,,,,,,item=Gardevoirite,see generation research / battle-state rules,
+302,Sableye,Sableye,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+302,Sableye,Sableye-Mega,Mega,6,battle_transformation,battle/temporary,Sablenite,,,,,,item=Sablenite,see generation research / battle-state rules,
+303,Mawile,Mawile,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+303,Mawile,Mawile-Mega,Mega,6,battle_transformation,battle/temporary,Mawilite,,,,,,item=Mawilite,see generation research / battle-state rules,
+306,Aggron,Aggron,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+306,Aggron,Aggron-Mega,Mega,6,battle_transformation,battle/temporary,Aggronite,,,,,,item=Aggronite,see generation research / battle-state rules,
+308,Medicham,Medicham,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+308,Medicham,Medicham-Mega,Mega,6,battle_transformation,battle/temporary,Medichamite,,,,,,item=Medichamite,see generation research / battle-state rules,
+310,Manectric,Manectric,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+310,Manectric,Manectric-Mega,Mega,6,battle_transformation,battle/temporary,Manectite,,,,,,item=Manectite,see generation research / battle-state rules,
+319,Sharpedo,Sharpedo,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+319,Sharpedo,Sharpedo-Mega,Mega,6,battle_transformation,battle/temporary,Sharpedonite,,,,,,item=Sharpedonite,see generation research / battle-state rules,
+323,Camerupt,Camerupt,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+323,Camerupt,Camerupt-Mega,Mega,6,battle_transformation,battle/temporary,Cameruptite,,,,,,item=Cameruptite,see generation research / battle-state rules,
+327,Spinda,Spinda-PID-Spots,Procedural spots,3,procedural_appearance,derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Personality-derived spot positions; not a finite discrete form ID.
+334,Altaria,Altaria,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+334,Altaria,Altaria-Mega,Mega,6,battle_transformation,battle/temporary,Altarianite,,,,,,item=Altarianite,see generation research / battle-state rules,
+351,Castform,Castform,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+351,Castform,Castform-Sunny,Sunny,3,battle_only_form,battle/temporary,,,Forecast,,,Castform,ability=Forecast,see generation research / battle-state rules,
+351,Castform,Castform-Rainy,Rainy,3,battle_only_form,battle/temporary,,,Forecast,,,Castform,ability=Forecast,see generation research / battle-state rules,
+351,Castform,Castform-Snowy,Snowy,3,battle_only_form,battle/temporary,,,Forecast,,,Castform,ability=Forecast,see generation research / battle-state rules,
+354,Banette,Banette,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+354,Banette,Banette-Mega,Mega,6,battle_transformation,battle/temporary,Banettite,,,,,,item=Banettite,see generation research / battle-state rules,
+358,Chimecho,Chimecho,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+358,Chimecho,Chimecho-Mega,Mega,9,battle_transformation,battle/temporary,Chimechite,,,,,,item=Chimechite,see generation research / battle-state rules,
+359,Absol,Absol,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+359,Absol,Absol-Mega,Mega,6,battle_transformation,battle/temporary,Absolite,,,,,,item=Absolite,see generation research / battle-state rules,
+359,Absol,Absol-Mega-Z,Mega-Z,9,battle_transformation,battle/temporary,Absolite Z,,,,,,item=Absolite Z,see generation research / battle-state rules,
+362,Glalie,Glalie,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+362,Glalie,Glalie-Mega,Mega,6,battle_transformation,battle/temporary,Glalitite,,,,,,item=Glalitite,see generation research / battle-state rules,
+373,Salamence,Salamence,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+373,Salamence,Salamence-Mega,Mega,6,battle_transformation,battle/temporary,Salamencite,,,,,,item=Salamencite,see generation research / battle-state rules,
+376,Metagross,Metagross,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+376,Metagross,Metagross-Mega,Mega,6,battle_transformation,battle/temporary,Metagrossite,,,,,,item=Metagrossite,see generation research / battle-state rules,
+380,Latias,Latias,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+380,Latias,Latias-Mega,Mega,6,battle_transformation,battle/temporary,Latiasite,,,,,,item=Latiasite,see generation research / battle-state rules,
+381,Latios,Latios,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+381,Latios,Latios-Mega,Mega,6,battle_transformation,battle/temporary,Latiosite,,,,,,item=Latiosite,see generation research / battle-state rules,
+382,Kyogre,Kyogre,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+382,Kyogre,Kyogre-Primal,Primal,6,battle_transformation,battle/temporary,Blue Orb,,,,,,item=Blue Orb,see generation research / battle-state rules,
+383,Groudon,Groudon,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+383,Groudon,Groudon-Primal,Primal,6,battle_transformation,battle/temporary,Red Orb,,,,,,item=Red Orb,see generation research / battle-state rules,
+384,Rayquaza,Rayquaza,Base,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+384,Rayquaza,Rayquaza-Mega,Mega,6,battle_transformation,battle/temporary,,Dragon Ascent,,,,,move=Dragon Ascent,see generation research / battle-state rules,
+386,Deoxys,Deoxys,Normal,3,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+386,Deoxys,Deoxys-Attack,Attack,3,persistent_identity,persistent/derived,,,,,Deoxys,,changesFrom=Deoxys,see generation research / battle-state rules,
+386,Deoxys,Deoxys-Defense,Defense,3,persistent_identity,persistent/derived,,,,,Deoxys,,changesFrom=Deoxys,see generation research / battle-state rules,
+386,Deoxys,Deoxys-Speed,Speed,3,persistent_identity,persistent/derived,,,,,Deoxys,,changesFrom=Deoxys,see generation research / battle-state rules,
+398,Staraptor,Staraptor,Base,4,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+398,Staraptor,Staraptor-Mega,Mega,9,battle_transformation,battle/temporary,Staraptite,,,,,,item=Staraptite,see generation research / battle-state rules,
+412,Burmy,Burmy,Plant,4,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+412,Burmy,Burmy-Sandy,Sandy,4,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+412,Burmy,Burmy-Trash,Trash,4,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+413,Wormadam,Wormadam,Plant,4,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+413,Wormadam,Wormadam-Sandy,Sandy,4,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+413,Wormadam,Wormadam-Trash,Trash,4,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+414,Mothim,Mothim-Plant-Internal,Plant,4,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Burmy cloak form value is retained on male evolution; Mothim appearance/personal data is shared.
+414,Mothim,Mothim-Sandy-Internal,Sandy,4,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Burmy cloak form value is retained on male evolution; Mothim appearance/personal data is shared.
+414,Mothim,Mothim-Trash-Internal,Trash,4,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Burmy cloak form value is retained on male evolution; Mothim appearance/personal data is shared.
+421,Cherrim,Cherrim,Overcast,4,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+421,Cherrim,Cherrim-Sunshine,Sunshine,4,battle_only_form,battle/temporary,,,Flower Gift,,,Cherrim,ability=Flower Gift,see generation research / battle-state rules,
+422,Shellos,Shellos,West,4,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+422,Shellos,Shellos-East,East,4,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+423,Gastrodon,Gastrodon,West,4,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+423,Gastrodon,Gastrodon-East,East,4,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+428,Lopunny,Lopunny,Base,4,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+428,Lopunny,Lopunny-Mega,Mega,6,battle_transformation,battle/temporary,Lopunnite,,,,,,item=Lopunnite,see generation research / battle-state rules,
+445,Garchomp,Garchomp,Base,4,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+445,Garchomp,Garchomp-Mega,Mega,6,battle_transformation,battle/temporary,Garchompite,,,,,,item=Garchompite,see generation research / battle-state rules,
+445,Garchomp,Garchomp-Mega-Z,Mega-Z,9,battle_transformation,battle/temporary,Garchompite Z,,,,,,item=Garchompite Z,see generation research / battle-state rules,
+448,Lucario,Lucario,Base,4,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+448,Lucario,Lucario-Mega,Mega,6,battle_transformation,battle/temporary,Lucarionite,,,,,,item=Lucarionite,see generation research / battle-state rules,
+448,Lucario,Lucario-Mega-Z,Mega-Z,9,battle_transformation,battle/temporary,Lucarionite Z,,,,,,item=Lucarionite Z,see generation research / battle-state rules,
+460,Abomasnow,Abomasnow,Base,4,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+460,Abomasnow,Abomasnow-Mega,Mega,6,battle_transformation,battle/temporary,Abomasite,,,,,,item=Abomasite,see generation research / battle-state rules,
+475,Gallade,Gallade,Base,4,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+475,Gallade,Gallade-Mega,Mega,6,battle_transformation,battle/temporary,Galladite,,,,,,item=Galladite,see generation research / battle-state rules,
+478,Froslass,Froslass,Base,4,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+478,Froslass,Froslass-Mega,Mega,9,battle_transformation,battle/temporary,Froslassite,,,,,,item=Froslassite,see generation research / battle-state rules,
+479,Rotom,Rotom,Base,4,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+479,Rotom,Rotom-Heat,Heat,4,persistent_identity,persistent/derived,,,,,Rotom,,changesFrom=Rotom,see generation research / battle-state rules,
+479,Rotom,Rotom-Wash,Wash,4,persistent_identity,persistent/derived,,,,,Rotom,,changesFrom=Rotom,see generation research / battle-state rules,
+479,Rotom,Rotom-Frost,Frost,4,persistent_identity,persistent/derived,,,,,Rotom,,changesFrom=Rotom,see generation research / battle-state rules,
+479,Rotom,Rotom-Fan,Fan,4,persistent_identity,persistent/derived,,,,,Rotom,,changesFrom=Rotom,see generation research / battle-state rules,
+479,Rotom,Rotom-Mow,Mow,4,persistent_identity,persistent/derived,,,,,Rotom,,changesFrom=Rotom,see generation research / battle-state rules,
+483,Dialga,Dialga,Base,4,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+483,Dialga,Dialga-Origin,Origin,8,held_item_derived,persistent/derived,Adamant Crystal,,,,Dialga,,item=Adamant Crystal; changesFrom=Dialga,see generation research / battle-state rules,
+484,Palkia,Palkia,Base,4,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+484,Palkia,Palkia-Origin,Origin,8,held_item_derived,persistent/derived,Lustrous Globe,,,,Palkia,,item=Lustrous Globe; changesFrom=Palkia,see generation research / battle-state rules,
+485,Heatran,Heatran,Base,4,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+485,Heatran,Heatran-Mega,Mega,9,battle_transformation,battle/temporary,Heatranite,,,,,,item=Heatranite,see generation research / battle-state rules,
+487,Giratina,Giratina,Altered,4,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+487,Giratina,Giratina-Origin,Origin,4,held_item_derived,persistent/derived,Griseous Core,,,,Giratina,,item=Griseous Core; changesFrom=Giratina,see generation research / battle-state rules,
+491,Darkrai,Darkrai,Base,4,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+491,Darkrai,Darkrai-Mega,Mega,9,battle_transformation,battle/temporary,Darkranite,,,,,,item=Darkranite,see generation research / battle-state rules,
+492,Shaymin,Shaymin,Land,4,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+492,Shaymin,Shaymin-Sky,Sky,4,persistent_identity,persistent/derived,,,,,Shaymin,,changesFrom=Shaymin,see generation research / battle-state rules,
+493,Arceus,Arceus,Normal,4,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+493,Arceus,Arceus-Fighting,Fighting,4,held_item_derived,persistent/derived,Fist Plate|Fightinium Z,,,,Arceus,,item=Fist Plate|Fightinium Z; changesFrom=Arceus,see generation research / battle-state rules,
+493,Arceus,Arceus-Flying,Flying,4,held_item_derived,persistent/derived,Sky Plate|Flyinium Z,,,,Arceus,,item=Sky Plate|Flyinium Z; changesFrom=Arceus,see generation research / battle-state rules,
+493,Arceus,Arceus-Poison,Poison,4,held_item_derived,persistent/derived,Toxic Plate|Poisonium Z,,,,Arceus,,item=Toxic Plate|Poisonium Z; changesFrom=Arceus,see generation research / battle-state rules,
+493,Arceus,Arceus-Ground,Ground,4,held_item_derived,persistent/derived,Earth Plate|Groundium Z,,,,Arceus,,item=Earth Plate|Groundium Z; changesFrom=Arceus,see generation research / battle-state rules,
+493,Arceus,Arceus-Rock,Rock,4,held_item_derived,persistent/derived,Stone Plate|Rockium Z,,,,Arceus,,item=Stone Plate|Rockium Z; changesFrom=Arceus,see generation research / battle-state rules,
+493,Arceus,Arceus-Bug,Bug,4,held_item_derived,persistent/derived,Insect Plate|Buginium Z,,,,Arceus,,item=Insect Plate|Buginium Z; changesFrom=Arceus,see generation research / battle-state rules,
+493,Arceus,Arceus-Ghost,Ghost,4,held_item_derived,persistent/derived,Spooky Plate|Ghostium Z,,,,Arceus,,item=Spooky Plate|Ghostium Z; changesFrom=Arceus,see generation research / battle-state rules,
+493,Arceus,Arceus-Steel,Steel,4,held_item_derived,persistent/derived,Iron Plate|Steelium Z,,,,Arceus,,item=Iron Plate|Steelium Z; changesFrom=Arceus,see generation research / battle-state rules,
+493,Arceus,Arceus-???-Gen4-Internal,???,4,data_only_unused_form,context-dependent,,,,,,,see generation research / form definition,see generation research / battle-state rules,Generation IV internal Mystery/??? type slot; not a normally obtainable Plate form.
+493,Arceus,Arceus-Fire,Fire,4,held_item_derived,persistent/derived,Flame Plate|Firium Z,,,,Arceus,,item=Flame Plate|Firium Z; changesFrom=Arceus,see generation research / battle-state rules,
+493,Arceus,Arceus-Water,Water,4,held_item_derived,persistent/derived,Splash Plate|Waterium Z,,,,Arceus,,item=Splash Plate|Waterium Z; changesFrom=Arceus,see generation research / battle-state rules,
+493,Arceus,Arceus-Grass,Grass,4,held_item_derived,persistent/derived,Meadow Plate|Grassium Z,,,,Arceus,,item=Meadow Plate|Grassium Z; changesFrom=Arceus,see generation research / battle-state rules,
+493,Arceus,Arceus-Electric,Electric,4,held_item_derived,persistent/derived,Zap Plate|Electrium Z,,,,Arceus,,item=Zap Plate|Electrium Z; changesFrom=Arceus,see generation research / battle-state rules,
+493,Arceus,Arceus-Psychic,Psychic,4,held_item_derived,persistent/derived,Mind Plate|Psychium Z,,,,Arceus,,item=Mind Plate|Psychium Z; changesFrom=Arceus,see generation research / battle-state rules,
+493,Arceus,Arceus-Ice,Ice,4,held_item_derived,persistent/derived,Icicle Plate|Icium Z,,,,Arceus,,item=Icicle Plate|Icium Z; changesFrom=Arceus,see generation research / battle-state rules,
+493,Arceus,Arceus-Dragon,Dragon,4,held_item_derived,persistent/derived,Draco Plate|Dragonium Z,,,,Arceus,,item=Draco Plate|Dragonium Z; changesFrom=Arceus,see generation research / battle-state rules,
+493,Arceus,Arceus-Dark,Dark,4,held_item_derived,persistent/derived,Dread Plate|Darkinium Z,,,,Arceus,,item=Dread Plate|Darkinium Z; changesFrom=Arceus,see generation research / battle-state rules,
+493,Arceus,Arceus-Fairy,Fairy,6,held_item_derived,persistent/derived,Pixie Plate|Fairium Z,,,,Arceus,,item=Pixie Plate|Fairium Z; changesFrom=Arceus,see generation research / battle-state rules,
+500,Emboar,Emboar,Base,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+500,Emboar,Emboar-Mega,Mega,9,battle_transformation,battle/temporary,Emboarite,,,,,,item=Emboarite,see generation research / battle-state rules,
+503,Samurott,Samurott,Base,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+503,Samurott,Samurott-Hisui,Hisui,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+530,Excadrill,Excadrill,Base,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+530,Excadrill,Excadrill-Mega,Mega,9,battle_transformation,battle/temporary,Excadrite,,,,,,item=Excadrite,see generation research / battle-state rules,
+531,Audino,Audino,Base,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+531,Audino,Audino-Mega,Mega,6,battle_transformation,battle/temporary,Audinite,,,,,,item=Audinite,see generation research / battle-state rules,
+545,Scolipede,Scolipede,Base,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+545,Scolipede,Scolipede-Mega,Mega,9,battle_transformation,battle/temporary,Scolipite,,,,,,item=Scolipite,see generation research / battle-state rules,
+549,Lilligant,Lilligant,Base,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+549,Lilligant,Lilligant-Hisui,Hisui,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+549,Lilligant,Lilligant-Hisui-Lady,Hisuian-Lady,8,scripted_boss_internal_form,context-dependent,,,,,,,see generation research / form definition,see generation research / battle-state rules,Pokémon Legends: Arceus Lord/Lady form; not a normal player-owned form.
+550,Basculin,Basculin,Red-Striped,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+550,Basculin,Basculin-Blue-Striped,Blue-Striped,5,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+550,Basculin,Basculin-White-Striped,White-Striped,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+554,Darumaka,Darumaka,Base,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+554,Darumaka,Darumaka-Galar,Galar,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+555,Darmanitan,Darmanitan,Standard,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+555,Darmanitan,Darmanitan-Zen,Zen,5,battle_only_form,battle/temporary,,,Zen Mode,,,Darmanitan,ability=Zen Mode,see generation research / battle-state rules,
+555,Darmanitan,Darmanitan-Galar,Galar,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+555,Darmanitan,Darmanitan-Galar-Zen,Galar-Zen,8,battle_only_form,battle/temporary,,,Zen Mode,,,Darmanitan-Galar,ability=Zen Mode,see generation research / battle-state rules,
+560,Scrafty,Scrafty,Base,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+560,Scrafty,Scrafty-Mega,Mega,9,battle_transformation,battle/temporary,Scraftinite,,,,,,item=Scraftinite,see generation research / battle-state rules,
+562,Yamask,Yamask,Base,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+562,Yamask,Yamask-Galar,Galar,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+569,Garbodor,Garbodor,Base,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+569,Garbodor,Garbodor-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Garbodor,,changesFrom=Garbodor,see generation research / battle-state rules,
+570,Zorua,Zorua,Base,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+570,Zorua,Zorua-Hisui,Hisui,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+571,Zoroark,Zoroark,Base,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+571,Zoroark,Zoroark-Hisui,Hisui,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+585,Deerling,Deerling,Spring,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+585,Deerling,Deerling-Summer,Summer,5,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+585,Deerling,Deerling-Autumn,Autumn,5,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+585,Deerling,Deerling-Winter,Winter,5,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+586,Sawsbuck,Sawsbuck,Spring,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+586,Sawsbuck,Sawsbuck-Summer,Summer,5,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+586,Sawsbuck,Sawsbuck-Autumn,Autumn,5,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+586,Sawsbuck,Sawsbuck-Winter,Winter,5,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+604,Eelektross,Eelektross,Base,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+604,Eelektross,Eelektross-Mega,Mega,9,battle_transformation,battle/temporary,Eelektrossite,,,,,,item=Eelektrossite,see generation research / battle-state rules,
+609,Chandelure,Chandelure,Base,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+609,Chandelure,Chandelure-Mega,Mega,9,battle_transformation,battle/temporary,Chandelurite,,,,,,item=Chandelurite,see generation research / battle-state rules,
+618,Stunfisk,Stunfisk,Base,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+618,Stunfisk,Stunfisk-Galar,Galar,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+623,Golurk,Golurk,Base,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+623,Golurk,Golurk-Mega,Mega,9,battle_transformation,battle/temporary,Golurkite,,,,,,item=Golurkite,see generation research / battle-state rules,
+628,Braviary,Braviary,Base,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+628,Braviary,Braviary-Hisui,Hisui,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+641,Tornadus,Tornadus,Incarnate,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+641,Tornadus,Tornadus-Therian,Therian,5,persistent_identity,persistent/derived,,,,,Tornadus,,changesFrom=Tornadus,see generation research / battle-state rules,
+642,Thundurus,Thundurus,Incarnate,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+642,Thundurus,Thundurus-Therian,Therian,5,persistent_identity,persistent/derived,,,,,Thundurus,,changesFrom=Thundurus,see generation research / battle-state rules,
+645,Landorus,Landorus,Incarnate,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+645,Landorus,Landorus-Therian,Therian,5,persistent_identity,persistent/derived,,,,,Landorus,,changesFrom=Landorus,see generation research / battle-state rules,
+646,Kyurem,Kyurem,Base,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+646,Kyurem,Kyurem-White,White,5,persistent_identity,persistent/derived,,,,,Kyurem,,changesFrom=Kyurem,see generation research / battle-state rules,
+646,Kyurem,Kyurem-Black,Black,5,persistent_identity,persistent/derived,,,,,Kyurem,,changesFrom=Kyurem,see generation research / battle-state rules,
+647,Keldeo,Keldeo,Ordinary,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+647,Keldeo,Keldeo-Resolute,Resolute,5,move_derived,context-dependent,,Secret Sword,,,Keldeo,,move=Secret Sword; changesFrom=Keldeo,see generation research / battle-state rules,
+648,Meloetta,Meloetta,Aria,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+648,Meloetta,Meloetta-Pirouette,Pirouette,5,battle_only_form,battle/temporary,,Relic Song,,,,Meloetta,move=Relic Song,see generation research / battle-state rules,
+649,Genesect,Genesect,Base,5,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+649,Genesect,Genesect-Douse,Douse,5,held_item_derived,persistent/derived,Douse Drive,,,,Genesect,,item=Douse Drive; changesFrom=Genesect,see generation research / battle-state rules,
+649,Genesect,Genesect-Shock,Shock,5,held_item_derived,persistent/derived,Shock Drive,,,,Genesect,,item=Shock Drive; changesFrom=Genesect,see generation research / battle-state rules,
+649,Genesect,Genesect-Burn,Burn,5,held_item_derived,persistent/derived,Burn Drive,,,,Genesect,,item=Burn Drive; changesFrom=Genesect,see generation research / battle-state rules,
+649,Genesect,Genesect-Chill,Chill,5,held_item_derived,persistent/derived,Chill Drive,,,,Genesect,,item=Chill Drive; changesFrom=Genesect,see generation research / battle-state rules,
+652,Chesnaught,Chesnaught,Base,6,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+652,Chesnaught,Chesnaught-Mega,Mega,9,battle_transformation,battle/temporary,Chesnaughtite,,,,,,item=Chesnaughtite,see generation research / battle-state rules,
+655,Delphox,Delphox,Base,6,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+655,Delphox,Delphox-Mega,Mega,9,battle_transformation,battle/temporary,Delphoxite,,,,,,item=Delphoxite,see generation research / battle-state rules,
+658,Greninja,Greninja,Base,6,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+658,Greninja,Greninja-Bond,Bond,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+658,Greninja,Greninja-Ash,Ash,7,battle_only_form,battle/temporary,,,Battle Bond,,,Greninja-Bond,ability=Battle Bond,see generation research / battle-state rules,
+658,Greninja,Greninja-Mega,Mega,9,battle_transformation,battle/temporary,Greninjite,,,,,,item=Greninjite,see generation research / battle-state rules,
+664,Scatterbug,Scatterbug-Icy Snow-Internal,Icy Snow,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+664,Scatterbug,Scatterbug-Polar-Internal,Polar,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+664,Scatterbug,Scatterbug-Tundra-Internal,Tundra,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+664,Scatterbug,Scatterbug-Continental-Internal,Continental,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+664,Scatterbug,Scatterbug-Garden-Internal,Garden,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+664,Scatterbug,Scatterbug-Elegant-Internal,Elegant,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+664,Scatterbug,Scatterbug-Meadow-Internal,Meadow,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+664,Scatterbug,Scatterbug-Modern-Internal,Modern,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+664,Scatterbug,Scatterbug-Marine-Internal,Marine,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+664,Scatterbug,Scatterbug-Archipelago-Internal,Archipelago,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+664,Scatterbug,Scatterbug-High Plains-Internal,High Plains,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+664,Scatterbug,Scatterbug-Sandstorm-Internal,Sandstorm,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+664,Scatterbug,Scatterbug-River-Internal,River,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+664,Scatterbug,Scatterbug-Monsoon-Internal,Monsoon,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+664,Scatterbug,Scatterbug-Savanna-Internal,Savanna,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+664,Scatterbug,Scatterbug-Sun-Internal,Sun,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+664,Scatterbug,Scatterbug-Ocean-Internal,Ocean,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+664,Scatterbug,Scatterbug-Jungle-Internal,Jungle,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+665,Spewpa,Spewpa-Icy Snow-Internal,Icy Snow,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+665,Spewpa,Spewpa-Polar-Internal,Polar,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+665,Spewpa,Spewpa-Tundra-Internal,Tundra,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+665,Spewpa,Spewpa-Continental-Internal,Continental,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+665,Spewpa,Spewpa-Garden-Internal,Garden,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+665,Spewpa,Spewpa-Elegant-Internal,Elegant,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+665,Spewpa,Spewpa-Meadow-Internal,Meadow,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+665,Spewpa,Spewpa-Modern-Internal,Modern,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+665,Spewpa,Spewpa-Marine-Internal,Marine,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+665,Spewpa,Spewpa-Archipelago-Internal,Archipelago,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+665,Spewpa,Spewpa-High Plains-Internal,High Plains,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+665,Spewpa,Spewpa-Sandstorm-Internal,Sandstorm,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+665,Spewpa,Spewpa-River-Internal,River,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+665,Spewpa,Spewpa-Monsoon-Internal,Monsoon,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+665,Spewpa,Spewpa-Savanna-Internal,Savanna,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+665,Spewpa,Spewpa-Sun-Internal,Sun,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+665,Spewpa,Spewpa-Ocean-Internal,Ocean,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+665,Spewpa,Spewpa-Jungle-Internal,Jungle,6,hidden_persistent_form_value,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Hidden form value carried toward Vivillon pattern; pre-evolution appearance does not visibly change.
+666,Vivillon,Vivillon-Icy Snow,Icy Snow,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+666,Vivillon,Vivillon-Polar,Polar,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+666,Vivillon,Vivillon-Tundra,Tundra,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+666,Vivillon,Vivillon-Continental,Continental,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+666,Vivillon,Vivillon-Garden,Garden,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+666,Vivillon,Vivillon-Elegant,Elegant,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+666,Vivillon,Vivillon,Meadow,6,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+666,Vivillon,Vivillon-Modern,Modern,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+666,Vivillon,Vivillon-Marine,Marine,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+666,Vivillon,Vivillon-Archipelago,Archipelago,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+666,Vivillon,Vivillon-High Plains,High Plains,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+666,Vivillon,Vivillon-Sandstorm,Sandstorm,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+666,Vivillon,Vivillon-River,River,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+666,Vivillon,Vivillon-Monsoon,Monsoon,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+666,Vivillon,Vivillon-Savanna,Savanna,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+666,Vivillon,Vivillon-Sun,Sun,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+666,Vivillon,Vivillon-Ocean,Ocean,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+666,Vivillon,Vivillon-Jungle,Jungle,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+666,Vivillon,Vivillon-Fancy,Fancy,6,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+666,Vivillon,Vivillon-Pokeball,Pokeball,6,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+668,Pyroar,Pyroar,Base,6,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+668,Pyroar,Pyroar-Mega,Mega,9,battle_transformation,battle/temporary,Pyroarite,,,,,,item=Pyroarite,see generation research / battle-state rules,
+669,Flabe\u0301be\u0301,Flabe\u0301be\u0301,Red,6,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+669,Flabe\u0301be\u0301,Flabe\u0301be\u0301-Yellow,Yellow,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+669,Flabe\u0301be\u0301,Flabe\u0301be\u0301-Orange,Orange,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+669,Flabe\u0301be\u0301,Flabe\u0301be\u0301-Blue,Blue,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+669,Flabe\u0301be\u0301,Flabe\u0301be\u0301-White,White,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+670,Floette,Floette,Red,6,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+670,Floette,Floette-Yellow,Yellow,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+670,Floette,Floette-Orange,Orange,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+670,Floette,Floette-Blue,Blue,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+670,Floette,Floette-White,White,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+670,Floette,Floette-Eternal,Eternal,6,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+670,Floette,Floette-Mega,Mega,9,battle_transformation,battle/temporary,Floettite,,,,,Floette-Eternal,item=Floettite,see generation research / battle-state rules,
+671,Florges,Florges,Red,6,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+671,Florges,Florges-Yellow,Yellow,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+671,Florges,Florges-Orange,Orange,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+671,Florges,Florges-Blue,Blue,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+671,Florges,Florges-White,White,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+676,Furfrou,Furfrou,Natural,6,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+676,Furfrou,Furfrou-Heart,Heart,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+676,Furfrou,Furfrou-Star,Star,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+676,Furfrou,Furfrou-Diamond,Diamond,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+676,Furfrou,Furfrou-Debutante,Debutante,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+676,Furfrou,Furfrou-Matron,Matron,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+676,Furfrou,Furfrou-Dandy,Dandy,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+676,Furfrou,Furfrou-La Reine,La Reine,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+676,Furfrou,Furfrou-Kabuki,Kabuki,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+676,Furfrou,Furfrou-Pharaoh,Pharaoh,6,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+678,Meowstic,Meowstic,M,6,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+678,Meowstic,Meowstic-F,F,6,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+678,Meowstic,Meowstic-M-Mega,M-Mega,9,battle_transformation,battle/temporary,Meowsticite,,,,,Meowstic,item=Meowsticite,see generation research / battle-state rules,
+678,Meowstic,Meowstic-F-Mega,F-Mega,9,battle_transformation,battle/temporary,Meowsticite,,,,,Meowstic-F,item=Meowsticite,see generation research / battle-state rules,
+681,Aegislash,Aegislash,Shield,6,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+681,Aegislash,Aegislash-Blade,Blade,6,battle_only_form,battle/temporary,,,Stance Change,,,Aegislash,ability=Stance Change,see generation research / battle-state rules,
+687,Malamar,Malamar,Base,6,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+687,Malamar,Malamar-Mega,Mega,9,battle_transformation,battle/temporary,Malamarite,,,,,,item=Malamarite,see generation research / battle-state rules,
+689,Barbaracle,Barbaracle,Base,6,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+689,Barbaracle,Barbaracle-Mega,Mega,9,battle_transformation,battle/temporary,Barbaracite,,,,,,item=Barbaracite,see generation research / battle-state rules,
+691,Dragalge,Dragalge,Base,6,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+691,Dragalge,Dragalge-Mega,Mega,9,battle_transformation,battle/temporary,Dragalgite,,,,,,item=Dragalgite,see generation research / battle-state rules,
+701,Hawlucha,Hawlucha,Base,6,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+701,Hawlucha,Hawlucha-Mega,Mega,9,battle_transformation,battle/temporary,Hawluchanite,,,,,,item=Hawluchanite,see generation research / battle-state rules,
+705,Sliggoo,Sliggoo,Base,6,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+705,Sliggoo,Sliggoo-Hisui,Hisui,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+706,Goodra,Goodra,Base,6,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+706,Goodra,Goodra-Hisui,Hisui,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+710,Pumpkaboo,Pumpkaboo,Average,6,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+710,Pumpkaboo,Pumpkaboo-Small,Small,6,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+710,Pumpkaboo,Pumpkaboo-Large,Large,6,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+710,Pumpkaboo,Pumpkaboo-Super,Super,6,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+711,Gourgeist,Gourgeist,Average,6,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+711,Gourgeist,Gourgeist-Small,Small,6,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+711,Gourgeist,Gourgeist-Large,Large,6,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+711,Gourgeist,Gourgeist-Super,Super,6,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+713,Avalugg,Avalugg,Base,6,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+713,Avalugg,Avalugg-Hisui,Hisui,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+713,Avalugg,Avalugg-Hisui-Lord,Hisuian-Lord,8,scripted_boss_internal_form,context-dependent,,,,,,,see generation research / form definition,see generation research / battle-state rules,Pokémon Legends: Arceus Lord/Lady form; not a normal player-owned form.
+716,Xerneas,Xerneas-Neutral,Neutral,6,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+716,Xerneas,Xerneas,Active,6,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+718,Zygarde,Zygarde,50%,6,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+718,Zygarde,Zygarde-10%,10%,7,persistent_identity,persistent/derived,,,,,Zygarde,,changesFrom=Zygarde,see generation research / battle-state rules,
+718,Zygarde,Zygarde-Complete,Complete,7,ability_derived,context-dependent,,,Power Construct,,,,ability=Power Construct,see generation research / battle-state rules,
+718,Zygarde,Zygarde-Mega,Mega,9,battle_transformation,battle/temporary,Zygardite,,,,,,item=Zygardite,see generation research / battle-state rules,
+719,Diancie,Diancie,Base,6,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+719,Diancie,Diancie-Mega,Mega,6,battle_transformation,battle/temporary,Diancite,,,,,,item=Diancite,see generation research / battle-state rules,
+720,Hoopa,Hoopa,Confined,6,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+720,Hoopa,Hoopa-Unbound,Unbound,6,persistent_identity,persistent/derived,,,,,Hoopa,,changesFrom=Hoopa,see generation research / battle-state rules,
+724,Decidueye,Decidueye,Base,7,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+724,Decidueye,Decidueye-Hisui,Hisui,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+735,Gumshoos,Gumshoos,Base,7,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+735,Gumshoos,Gumshoos-Totem,Totem,7,hidden_internal_form,context-dependent,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+738,Vikavolt,Vikavolt,Base,7,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+738,Vikavolt,Vikavolt-Totem,Totem,7,hidden_internal_form,context-dependent,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+740,Crabominable,Crabominable,Base,7,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+740,Crabominable,Crabominable-Mega,Mega,9,battle_transformation,battle/temporary,Crabominite,,,,,,item=Crabominite,see generation research / battle-state rules,
+741,Oricorio,Oricorio,Baile,7,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+741,Oricorio,Oricorio-Pom-Pom,Pom-Pom,7,persistent_identity,persistent/derived,,,,,Oricorio,,changesFrom=Oricorio,see generation research / battle-state rules,
+741,Oricorio,Oricorio-Pa'u,Pa'u,7,persistent_identity,persistent/derived,,,,,Oricorio,,changesFrom=Oricorio,see generation research / battle-state rules,
+741,Oricorio,Oricorio-Sensu,Sensu,7,persistent_identity,persistent/derived,,,,,Oricorio,,changesFrom=Oricorio,see generation research / battle-state rules,
+743,Ribombee,Ribombee,Base,7,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+743,Ribombee,Ribombee-Totem,Totem,7,hidden_internal_form,context-dependent,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+744,Rockruff,Rockruff,Midday,7,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+744,Rockruff,Rockruff-Dusk,Dusk,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+745,Lycanroc,Lycanroc,Midday,7,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+745,Lycanroc,Lycanroc-Midnight,Midnight,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+745,Lycanroc,Lycanroc-Dusk,Dusk,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+746,Wishiwashi,Wishiwashi,Solo,7,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+746,Wishiwashi,Wishiwashi-School,School,7,battle_only_form,battle/temporary,,,Schooling,,,Wishiwashi,ability=Schooling,see generation research / battle-state rules,
+752,Araquanid,Araquanid,Base,7,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+752,Araquanid,Araquanid-Totem,Totem,7,hidden_internal_form,context-dependent,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+754,Lurantis,Lurantis,Base,7,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+754,Lurantis,Lurantis-Totem,Totem,7,hidden_internal_form,context-dependent,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+758,Salazzle,Salazzle,Base,7,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+758,Salazzle,Salazzle-Totem,Totem,7,hidden_internal_form,context-dependent,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+768,Golisopod,Golisopod,Base,7,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+768,Golisopod,Golisopod-Mega,Mega,9,battle_transformation,battle/temporary,Golisopite,,,,,,item=Golisopite,see generation research / battle-state rules,
+773,Silvally,Silvally,Normal,7,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+773,Silvally,Silvally-Fighting,Fighting,7,held_item_derived,persistent/derived,Fighting Memory,,,,Silvally,,item=Fighting Memory; changesFrom=Silvally,see generation research / battle-state rules,
+773,Silvally,Silvally-Flying,Flying,7,held_item_derived,persistent/derived,Flying Memory,,,,Silvally,,item=Flying Memory; changesFrom=Silvally,see generation research / battle-state rules,
+773,Silvally,Silvally-Poison,Poison,7,held_item_derived,persistent/derived,Poison Memory,,,,Silvally,,item=Poison Memory; changesFrom=Silvally,see generation research / battle-state rules,
+773,Silvally,Silvally-Ground,Ground,7,held_item_derived,persistent/derived,Ground Memory,,,,Silvally,,item=Ground Memory; changesFrom=Silvally,see generation research / battle-state rules,
+773,Silvally,Silvally-Rock,Rock,7,held_item_derived,persistent/derived,Rock Memory,,,,Silvally,,item=Rock Memory; changesFrom=Silvally,see generation research / battle-state rules,
+773,Silvally,Silvally-Bug,Bug,7,held_item_derived,persistent/derived,Bug Memory,,,,Silvally,,item=Bug Memory; changesFrom=Silvally,see generation research / battle-state rules,
+773,Silvally,Silvally-Ghost,Ghost,7,held_item_derived,persistent/derived,Ghost Memory,,,,Silvally,,item=Ghost Memory; changesFrom=Silvally,see generation research / battle-state rules,
+773,Silvally,Silvally-Steel,Steel,7,held_item_derived,persistent/derived,Steel Memory,,,,Silvally,,item=Steel Memory; changesFrom=Silvally,see generation research / battle-state rules,
+773,Silvally,Silvally-Fire,Fire,7,held_item_derived,persistent/derived,Fire Memory,,,,Silvally,,item=Fire Memory; changesFrom=Silvally,see generation research / battle-state rules,
+773,Silvally,Silvally-Water,Water,7,held_item_derived,persistent/derived,Water Memory,,,,Silvally,,item=Water Memory; changesFrom=Silvally,see generation research / battle-state rules,
+773,Silvally,Silvally-Grass,Grass,7,held_item_derived,persistent/derived,Grass Memory,,,,Silvally,,item=Grass Memory; changesFrom=Silvally,see generation research / battle-state rules,
+773,Silvally,Silvally-Electric,Electric,7,held_item_derived,persistent/derived,Electric Memory,,,,Silvally,,item=Electric Memory; changesFrom=Silvally,see generation research / battle-state rules,
+773,Silvally,Silvally-Psychic,Psychic,7,held_item_derived,persistent/derived,Psychic Memory,,,,Silvally,,item=Psychic Memory; changesFrom=Silvally,see generation research / battle-state rules,
+773,Silvally,Silvally-Ice,Ice,7,held_item_derived,persistent/derived,Ice Memory,,,,Silvally,,item=Ice Memory; changesFrom=Silvally,see generation research / battle-state rules,
+773,Silvally,Silvally-Dragon,Dragon,7,held_item_derived,persistent/derived,Dragon Memory,,,,Silvally,,item=Dragon Memory; changesFrom=Silvally,see generation research / battle-state rules,
+773,Silvally,Silvally-Dark,Dark,7,held_item_derived,persistent/derived,Dark Memory,,,,Silvally,,item=Dark Memory; changesFrom=Silvally,see generation research / battle-state rules,
+773,Silvally,Silvally-Fairy,Fairy,7,held_item_derived,persistent/derived,Fairy Memory,,,,Silvally,,item=Fairy Memory; changesFrom=Silvally,see generation research / battle-state rules,
+774,Minior,Minior-Meteor,Meteor,7,battle_only_form,battle/temporary,,,Shields Down,,,Minior,ability=Shields Down,see generation research / battle-state rules,
+774,Minior,Minior,Red,7,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+774,Minior,Minior-Orange,Orange,7,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+774,Minior,Minior-Yellow,Yellow,7,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+774,Minior,Minior-Green,Green,7,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+774,Minior,Minior-Blue,Blue,7,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+774,Minior,Minior-Indigo,Indigo,7,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+774,Minior,Minior-Violet,Violet,7,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+777,Togedemaru,Togedemaru,Base,7,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+777,Togedemaru,Togedemaru-Totem,Totem,7,hidden_internal_form,context-dependent,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+778,Mimikyu,Mimikyu,Disguised,7,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+778,Mimikyu,Mimikyu-Busted,Busted,7,battle_only_form,battle/temporary,,,Disguise,,,Mimikyu,ability=Disguise,see generation research / battle-state rules,
+778,Mimikyu,Mimikyu-Totem,Totem,7,hidden_internal_form,context-dependent,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+778,Mimikyu,Mimikyu-Busted-Totem,Busted-Totem,7,hidden_internal_form,context-dependent,,,Disguise,,,Mimikyu-Totem,ability=Disguise,see generation research / battle-state rules,
+780,Drampa,Drampa,Base,7,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+780,Drampa,Drampa-Mega,Mega,9,battle_transformation,battle/temporary,Drampanite,,,,,,item=Drampanite,see generation research / battle-state rules,
+784,Kommo-o,Kommo-o,Base,7,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+784,Kommo-o,Kommo-o-Totem,Totem,7,hidden_internal_form,context-dependent,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+800,Necrozma,Necrozma,Base,7,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+800,Necrozma,Necrozma-Dusk-Mane,Dusk-Mane,7,persistent_identity,persistent/derived,,,,,Necrozma,,changesFrom=Necrozma,see generation research / battle-state rules,
+800,Necrozma,Necrozma-Dawn-Wings,Dawn-Wings,7,persistent_identity,persistent/derived,,,,,Necrozma,,changesFrom=Necrozma,see generation research / battle-state rules,
+800,Necrozma,Necrozma-Ultra,Ultra,7,held_item_derived,persistent/derived,Ultranecrozium Z,,,,,,item=Ultranecrozium Z,see generation research / battle-state rules,
+801,Magearna,Magearna,Base,7,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+801,Magearna,Magearna-Original,Original,7,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+801,Magearna,Magearna-Mega,Mega,9,battle_transformation,battle/temporary,Magearnite,,,,,,item=Magearnite,see generation research / battle-state rules,
+801,Magearna,Magearna-Original-Mega,Original-Mega,9,battle_transformation,battle/temporary,Magearnite,,,,,Magearna-Original,item=Magearnite,see generation research / battle-state rules,
+807,Zeraora,Zeraora,Base,7,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+807,Zeraora,Zeraora-Mega,Mega,9,battle_transformation,battle/temporary,Zeraorite,,,,,,item=Zeraorite,see generation research / battle-state rules,
+809,Melmetal,Melmetal,Base,7,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+809,Melmetal,Melmetal-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Melmetal,,changesFrom=Melmetal,see generation research / battle-state rules,
+812,Rillaboom,Rillaboom,Base,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+812,Rillaboom,Rillaboom-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Rillaboom,,changesFrom=Rillaboom,see generation research / battle-state rules,
+815,Cinderace,Cinderace,Base,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+815,Cinderace,Cinderace-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Cinderace,,changesFrom=Cinderace,see generation research / battle-state rules,
+818,Inteleon,Inteleon,Base,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+818,Inteleon,Inteleon-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Inteleon,,changesFrom=Inteleon,see generation research / battle-state rules,
+823,Corviknight,Corviknight,Base,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+823,Corviknight,Corviknight-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Corviknight,,changesFrom=Corviknight,see generation research / battle-state rules,
+826,Orbeetle,Orbeetle,Base,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+826,Orbeetle,Orbeetle-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Orbeetle,,changesFrom=Orbeetle,see generation research / battle-state rules,
+834,Drednaw,Drednaw,Base,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+834,Drednaw,Drednaw-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Drednaw,,changesFrom=Drednaw,see generation research / battle-state rules,
+839,Coalossal,Coalossal,Base,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+839,Coalossal,Coalossal-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Coalossal,,changesFrom=Coalossal,see generation research / battle-state rules,
+841,Flapple,Flapple,Base,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+841,Flapple,Flapple-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Flapple,,changesFrom=Flapple,see generation research / battle-state rules,
+842,Appletun,Appletun,Base,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+842,Appletun,Appletun-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Appletun,,changesFrom=Appletun,see generation research / battle-state rules,
+844,Sandaconda,Sandaconda,Base,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+844,Sandaconda,Sandaconda-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Sandaconda,,changesFrom=Sandaconda,see generation research / battle-state rules,
+845,Cramorant,Cramorant,Base,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+845,Cramorant,Cramorant-Gulping,Gulping,8,battle_only_form,battle/temporary,,,Gulp Missile,,,Cramorant,ability=Gulp Missile,see generation research / battle-state rules,
+845,Cramorant,Cramorant-Gorging,Gorging,8,battle_only_form,battle/temporary,,,Gulp Missile,,,Cramorant,ability=Gulp Missile,see generation research / battle-state rules,
+849,Toxtricity,Toxtricity,Amped,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+849,Toxtricity,Toxtricity-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Toxtricity,,changesFrom=Toxtricity,see generation research / battle-state rules,
+849,Toxtricity,Toxtricity-Low-Key-Gmax,Low-Key-Gmax,8,battle_transformation,battle/temporary,,,,,Toxtricity-Low-Key,Toxtricity-Low-Key,changesFrom=Toxtricity-Low-Key,see generation research / battle-state rules,
+849,Toxtricity,Toxtricity-Low-Key,Low-Key,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+851,Centiskorch,Centiskorch,Base,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+851,Centiskorch,Centiskorch-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Centiskorch,,changesFrom=Centiskorch,see generation research / battle-state rules,
+854,Sinistea,Sinistea,Phony,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+854,Sinistea,Sinistea-Antique,Antique,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+855,Polteageist,Polteageist,Phony,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+855,Polteageist,Polteageist-Antique,Antique,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+858,Hatterene,Hatterene,Base,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+858,Hatterene,Hatterene-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Hatterene,,changesFrom=Hatterene,see generation research / battle-state rules,
+861,Grimmsnarl,Grimmsnarl,Base,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+861,Grimmsnarl,Grimmsnarl-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Grimmsnarl,,changesFrom=Grimmsnarl,see generation research / battle-state rules,
+869,Alcremie,Alcremie,Vanilla-Cream,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+869,Alcremie,Alcremie-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Alcremie,,changesFrom=Alcremie,see generation research / battle-state rules,
+869,Alcremie,Alcremie-Vanilla-Cream-Berry-Sweet,Vanilla-Cream + Berry Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Vanilla-Cream-Clover-Sweet,Vanilla-Cream + Clover Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Vanilla-Cream-Flower-Sweet,Vanilla-Cream + Flower Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Vanilla-Cream-Love-Sweet,Vanilla-Cream + Love Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Vanilla-Cream-Ribbon-Sweet,Vanilla-Cream + Ribbon Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Vanilla-Cream-Star-Sweet,Vanilla-Cream + Star Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Vanilla-Cream-Strawberry-Sweet,Vanilla-Cream + Strawberry Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Ruby-Cream,Ruby-Cream,8,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+869,Alcremie,Alcremie-Ruby-Cream-Berry-Sweet,Ruby-Cream + Berry Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Ruby-Cream-Clover-Sweet,Ruby-Cream + Clover Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Ruby-Cream-Flower-Sweet,Ruby-Cream + Flower Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Ruby-Cream-Love-Sweet,Ruby-Cream + Love Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Ruby-Cream-Ribbon-Sweet,Ruby-Cream + Ribbon Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Ruby-Cream-Star-Sweet,Ruby-Cream + Star Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Ruby-Cream-Strawberry-Sweet,Ruby-Cream + Strawberry Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Matcha-Cream,Matcha-Cream,8,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+869,Alcremie,Alcremie-Matcha-Cream-Berry-Sweet,Matcha-Cream + Berry Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Matcha-Cream-Clover-Sweet,Matcha-Cream + Clover Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Matcha-Cream-Flower-Sweet,Matcha-Cream + Flower Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Matcha-Cream-Love-Sweet,Matcha-Cream + Love Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Matcha-Cream-Ribbon-Sweet,Matcha-Cream + Ribbon Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Matcha-Cream-Star-Sweet,Matcha-Cream + Star Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Matcha-Cream-Strawberry-Sweet,Matcha-Cream + Strawberry Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Mint-Cream,Mint-Cream,8,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+869,Alcremie,Alcremie-Mint-Cream-Berry-Sweet,Mint-Cream + Berry Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Mint-Cream-Clover-Sweet,Mint-Cream + Clover Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Mint-Cream-Flower-Sweet,Mint-Cream + Flower Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Mint-Cream-Love-Sweet,Mint-Cream + Love Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Mint-Cream-Ribbon-Sweet,Mint-Cream + Ribbon Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Mint-Cream-Star-Sweet,Mint-Cream + Star Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Mint-Cream-Strawberry-Sweet,Mint-Cream + Strawberry Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Lemon-Cream,Lemon-Cream,8,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+869,Alcremie,Alcremie-Lemon-Cream-Berry-Sweet,Lemon-Cream + Berry Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Lemon-Cream-Clover-Sweet,Lemon-Cream + Clover Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Lemon-Cream-Flower-Sweet,Lemon-Cream + Flower Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Lemon-Cream-Love-Sweet,Lemon-Cream + Love Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Lemon-Cream-Ribbon-Sweet,Lemon-Cream + Ribbon Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Lemon-Cream-Star-Sweet,Lemon-Cream + Star Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Lemon-Cream-Strawberry-Sweet,Lemon-Cream + Strawberry Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Salted-Cream,Salted-Cream,8,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,"Referenced by Showdown base-form list; no standalone block, parameters inherited from base."
+869,Alcremie,Alcremie-Salted-Cream-Berry-Sweet,Salted-Cream + Berry Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Salted-Cream-Clover-Sweet,Salted-Cream + Clover Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Salted-Cream-Flower-Sweet,Salted-Cream + Flower Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Salted-Cream-Love-Sweet,Salted-Cream + Love Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Salted-Cream-Ribbon-Sweet,Salted-Cream + Ribbon Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Salted-Cream-Star-Sweet,Salted-Cream + Star Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Salted-Cream-Strawberry-Sweet,Salted-Cream + Strawberry Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Ruby-Swirl,Ruby-Swirl,8,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+869,Alcremie,Alcremie-Ruby-Swirl-Berry-Sweet,Ruby-Swirl + Berry Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Ruby-Swirl-Clover-Sweet,Ruby-Swirl + Clover Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Ruby-Swirl-Flower-Sweet,Ruby-Swirl + Flower Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Ruby-Swirl-Love-Sweet,Ruby-Swirl + Love Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Ruby-Swirl-Ribbon-Sweet,Ruby-Swirl + Ribbon Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Ruby-Swirl-Star-Sweet,Ruby-Swirl + Star Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Ruby-Swirl-Strawberry-Sweet,Ruby-Swirl + Strawberry Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Caramel-Swirl,Caramel-Swirl,8,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+869,Alcremie,Alcremie-Caramel-Swirl-Berry-Sweet,Caramel-Swirl + Berry Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Caramel-Swirl-Clover-Sweet,Caramel-Swirl + Clover Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Caramel-Swirl-Flower-Sweet,Caramel-Swirl + Flower Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Caramel-Swirl-Love-Sweet,Caramel-Swirl + Love Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Caramel-Swirl-Ribbon-Sweet,Caramel-Swirl + Ribbon Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Caramel-Swirl-Star-Sweet,Caramel-Swirl + Star Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Caramel-Swirl-Strawberry-Sweet,Caramel-Swirl + Strawberry Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Rainbow-Swirl,Rainbow-Swirl,8,cosmetic_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+869,Alcremie,Alcremie-Rainbow-Swirl-Berry-Sweet,Rainbow-Swirl + Berry Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Rainbow-Swirl-Clover-Sweet,Rainbow-Swirl + Clover Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Rainbow-Swirl-Flower-Sweet,Rainbow-Swirl + Flower Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Rainbow-Swirl-Love-Sweet,Rainbow-Swirl + Love Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Rainbow-Swirl-Ribbon-Sweet,Rainbow-Swirl + Ribbon Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Rainbow-Swirl-Star-Sweet,Rainbow-Swirl + Star Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+869,Alcremie,Alcremie-Rainbow-Swirl-Strawberry-Sweet,Rainbow-Swirl + Strawberry Sweet,8,multi_parameter_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,Distinct Alcremie appearance combination: numeric Form selects cream; FormArgument selects Sweet decoration.
+870,Falinks,Falinks,Base,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+870,Falinks,Falinks-Mega,Mega,9,battle_transformation,battle/temporary,Falinksite,,,,,,item=Falinksite,see generation research / battle-state rules,
+875,Eiscue,Eiscue,Ice,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+875,Eiscue,Eiscue-Noice,Noice,8,battle_only_form,battle/temporary,,,Ice Face,,,Eiscue,ability=Ice Face,see generation research / battle-state rules,
+876,Indeedee,Indeedee,M,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+876,Indeedee,Indeedee-F,F,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+877,Morpeko,Morpeko,Full-Belly,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+877,Morpeko,Morpeko-Hangry,Hangry,8,battle_only_form,battle/temporary,,,Hunger Switch,,,Morpeko,ability=Hunger Switch,see generation research / battle-state rules,
+879,Copperajah,Copperajah,Base,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+879,Copperajah,Copperajah-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Copperajah,,changesFrom=Copperajah,see generation research / battle-state rules,
+884,Duraludon,Duraludon,Base,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+884,Duraludon,Duraludon-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Duraludon,,changesFrom=Duraludon,see generation research / battle-state rules,
+888,Zacian,Zacian,Hero,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+888,Zacian,Zacian-Crowned,Crowned,8,battle_only_form,battle/temporary,Rusted Sword,,,,,Zacian,item=Rusted Sword,see generation research / battle-state rules,
+889,Zamazenta,Zamazenta,Hero,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+889,Zamazenta,Zamazenta-Crowned,Crowned,8,battle_only_form,battle/temporary,Rusted Shield,,,,,Zamazenta,item=Rusted Shield,see generation research / battle-state rules,
+890,Eternatus,Eternatus,Base,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+890,Eternatus,Eternatus-Eternamax,Eternamax,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+892,Urshifu,Urshifu,Single-Strike,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+892,Urshifu,Urshifu-Gmax,Gmax,8,battle_transformation,battle/temporary,,,,,Urshifu,,changesFrom=Urshifu,see generation research / battle-state rules,
+892,Urshifu,Urshifu-Rapid-Strike-Gmax,Rapid-Strike-Gmax,8,battle_transformation,battle/temporary,,,,,Urshifu-Rapid-Strike,Urshifu-Rapid-Strike,changesFrom=Urshifu-Rapid-Strike,see generation research / battle-state rules,
+892,Urshifu,Urshifu-Rapid-Strike,Rapid-Strike,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+893,Zarude,Zarude,Base,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+893,Zarude,Zarude-Dada,Dada,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+898,Calyrex,Calyrex,Base,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+898,Calyrex,Calyrex-Ice,Ice,8,persistent_identity,persistent/derived,,,,,Calyrex,,changesFrom=Calyrex,see generation research / battle-state rules,
+898,Calyrex,Calyrex-Shadow,Shadow,8,persistent_identity,persistent/derived,,,,,Calyrex,,changesFrom=Calyrex,see generation research / battle-state rules,
+900,Kleavor,Kleavor-Lord,Lord,8,scripted_boss_internal_form,context-dependent,,,,,,,see generation research / form definition,see generation research / battle-state rules,Pokémon Legends: Arceus Lord/Lady form; not a normal player-owned form.
+901,Ursaluna,Ursaluna,Base,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+901,Ursaluna,Ursaluna-Bloodmoon,Bloodmoon,9,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+902,Basculegion,Basculegion,M,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+902,Basculegion,Basculegion-F,F,8,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+905,Enamorus,Enamorus,Incarnate,8,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+905,Enamorus,Enamorus-Therian,Therian,8,persistent_identity,persistent/derived,,,,,Enamorus,,changesFrom=Enamorus,see generation research / battle-state rules,
+916,Oinkologne,Oinkologne,M,9,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+916,Oinkologne,Oinkologne-F,F,9,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+925,Maushold,Maushold,Three,9,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+925,Maushold,Maushold-Four,Four,9,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+931,Squawkabilly,Squawkabilly,Green,9,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+931,Squawkabilly,Squawkabilly-Blue,Blue,9,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+931,Squawkabilly,Squawkabilly-Yellow,Yellow,9,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+931,Squawkabilly,Squawkabilly-White,White,9,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+952,Scovillain,Scovillain,Base,9,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+952,Scovillain,Scovillain-Mega,Mega,9,battle_transformation,battle/temporary,Scovillainite,,,,,,item=Scovillainite,see generation research / battle-state rules,
+964,Palafin,Palafin,Zero,9,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+964,Palafin,Palafin-Hero,Hero,9,battle_only_form,battle/temporary,,,Zero to Hero,,,Palafin,ability=Zero to Hero,see generation research / battle-state rules,
+970,Glimmora,Glimmora,Base,9,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+970,Glimmora,Glimmora-Mega,Mega,9,battle_transformation,battle/temporary,Glimmoranite,,,,,,item=Glimmoranite,see generation research / battle-state rules,
+978,Tatsugiri,Tatsugiri,Curly,9,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+978,Tatsugiri,Tatsugiri-Droopy,Droopy,9,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+978,Tatsugiri,Tatsugiri-Stretchy,Stretchy,9,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+978,Tatsugiri,Tatsugiri-Curly-Mega,Curly-Mega,9,battle_transformation,battle/temporary,Tatsugirinite,,,,,Tatsugiri,item=Tatsugirinite,see generation research / battle-state rules,
+978,Tatsugiri,Tatsugiri-Droopy-Mega,Droopy-Mega,9,battle_transformation,battle/temporary,Tatsugirinite,,,,,Tatsugiri-Droopy,item=Tatsugirinite,see generation research / battle-state rules,
+978,Tatsugiri,Tatsugiri-Stretchy-Mega,Stretchy-Mega,9,battle_transformation,battle/temporary,Tatsugirinite,,,,,Tatsugiri-Stretchy,item=Tatsugirinite,see generation research / battle-state rules,
+982,Dudunsparce,Dudunsparce,Two-Segment,9,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+982,Dudunsparce,Dudunsparce-Three-Segment,Three-Segment,9,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+998,Baxcalibur,Baxcalibur,Base,9,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+998,Baxcalibur,Baxcalibur-Mega,Mega,9,battle_transformation,battle/temporary,Baxcalibrite,,,,,,item=Baxcalibrite,see generation research / battle-state rules,
+999,Gimmighoul,Gimmighoul,Chest,9,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+999,Gimmighoul,Gimmighoul-Roaming,Roaming,9,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+1012,Poltchageist,Poltchageist,Counterfeit,9,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+1012,Poltchageist,Poltchageist-Artisan,Artisan,9,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+1013,Sinistcha,Sinistcha,Unremarkable,9,base_form,base,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+1013,Sinistcha,Sinistcha-Masterpiece,Masterpiece,9,persistent_identity,persistent/derived,,,,,,,see generation research / form definition,see generation research / battle-state rules,
+1017,Ogerpon,Ogerpon,Teal,9,base_form,base,,,,Grass,,,tera=Grass,see generation research / battle-state rules,
+1017,Ogerpon,Ogerpon-Wellspring,Wellspring,9,item_form_plus_tera_binding,persistent/derived,Wellspring Mask,,,Water,Ogerpon,,item=Wellspring Mask; tera=Water; changesFrom=Ogerpon,see generation research / battle-state rules,
+1017,Ogerpon,Ogerpon-Hearthflame,Hearthflame,9,item_form_plus_tera_binding,persistent/derived,Hearthflame Mask,,,Fire,Ogerpon,,item=Hearthflame Mask; tera=Fire; changesFrom=Ogerpon,see generation research / battle-state rules,
+1017,Ogerpon,Ogerpon-Cornerstone,Cornerstone,9,item_form_plus_tera_binding,persistent/derived,Cornerstone Mask,,,Rock,Ogerpon,,item=Cornerstone Mask; tera=Rock; changesFrom=Ogerpon,see generation research / battle-state rules,
+1017,Ogerpon,Ogerpon-Teal-Embody-Aspect,Teal Embody Aspect,9,battle_only_form,battle/temporary,,,,,,,see generation research / form definition,see generation research / battle-state rules,PKHeX FormInfo: Ogerpon form >= 4 is battle-only and reverts with form & 3; represents Terastallized Embody Aspect state.
+1017,Ogerpon,Ogerpon-Teal-Tera,Teal-Tera,9,battle_only_form,battle/temporary,,,,Grass,,Ogerpon,tera=Grass,see generation research / battle-state rules,
+1017,Ogerpon,Ogerpon-Wellspring-Embody-Aspect,Wellspring Embody Aspect,9,battle_only_form,battle/temporary,,,,,,,see generation research / form definition,see generation research / battle-state rules,PKHeX FormInfo: Ogerpon form >= 4 is battle-only and reverts with form & 3; represents Terastallized Embody Aspect state.
+1017,Ogerpon,Ogerpon-Wellspring-Tera,Wellspring-Tera,9,battle_only_form,battle/temporary,Wellspring Mask,,,Water,,Ogerpon-Wellspring,item=Wellspring Mask; tera=Water,see generation research / battle-state rules,
+1017,Ogerpon,Ogerpon-Hearthflame-Embody-Aspect,Hearthflame Embody Aspect,9,battle_only_form,battle/temporary,,,,,,,see generation research / form definition,see generation research / battle-state rules,PKHeX FormInfo: Ogerpon form >= 4 is battle-only and reverts with form & 3; represents Terastallized Embody Aspect state.
+1017,Ogerpon,Ogerpon-Hearthflame-Tera,Hearthflame-Tera,9,battle_only_form,battle/temporary,Hearthflame Mask,,,Fire,,Ogerpon-Hearthflame,item=Hearthflame Mask; tera=Fire,see generation research / battle-state rules,
+1017,Ogerpon,Ogerpon-Cornerstone-Embody-Aspect,Cornerstone Embody Aspect,9,battle_only_form,battle/temporary,,,,,,,see generation research / form definition,see generation research / battle-state rules,PKHeX FormInfo: Ogerpon form >= 4 is battle-only and reverts with form & 3; represents Terastallized Embody Aspect state.
+1017,Ogerpon,Ogerpon-Cornerstone-Tera,Cornerstone-Tera,9,battle_only_form,battle/temporary,Cornerstone Mask,,,Rock,,Ogerpon-Cornerstone,item=Cornerstone Mask; tera=Rock,see generation research / battle-state rules,
+1024,Terapagos,Terapagos,Base,9,base_form,base,,,,Stellar,,,tera=Stellar,see generation research / battle-state rules,
+1024,Terapagos,Terapagos-Terastal,Terastal,9,battle_only_form,battle/temporary,,,,Stellar,,Terapagos,tera=Stellar,see generation research / battle-state rules,
+1024,Terapagos,Terapagos-Stellar,Stellar,9,battle_only_form,battle/temporary,,,,Stellar,,Terapagos,tera=Stellar,see generation research / battle-state rules,
