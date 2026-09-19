@@ -27,28 +27,36 @@ events:
       original_external_path: Record Mixing / Eon Ticket
     content: Latios/Latias event
     policy: always_accessible
-    status: core_patch_0001_and_delivery_patch_0002\n\n  - id: birth_island
+    status: core_patch_0001_and_delivery_patch_0002
+
+  - id: birth_island
     source_gate:
       item: ITEM_AURORA_TICKET
       flag: FLAG_ENABLE_SHIP_BIRTH_ISLAND
       original_external_path: Mystery Gift / Aurora Ticket
     content: Deoxys event
     policy: always_accessible
-    status: core_patch_0001_and_delivery_patch_0002\n\n  - id: navel_rock
+    status: core_patch_0001_and_delivery_patch_0002
+
+  - id: navel_rock
     source_gate:
       item: ITEM_MYSTIC_TICKET
       flag: FLAG_ENABLE_SHIP_NAVEL_ROCK
       original_external_path: Mystery Gift / Mystic Ticket
     content: Lugia and Ho-Oh event
     policy: always_accessible
-    status: core_patch_0001_and_delivery_patch_0002\n\n  - id: faraway_island
+    status: core_patch_0001_and_delivery_patch_0002
+
+  - id: faraway_island
     source_gate:
       item: ITEM_OLD_SEA_MAP
       flag: FLAG_ENABLE_SHIP_FARAWAY_ISLAND
       original_external_path: Mystery Gift / Old Sea Map
     content: Mew event
     policy: always_accessible
-    status: core_patch_0001_and_delivery_patch_0002\n\n  - id: altering_cave
+    status: core_patch_0001_and_delivery_patch_0002
+
+  - id: altering_cave
     source_gate:
       var: VAR_ALTERING_CAVE_WILD_SET
       original_external_path: Mystery Gift
@@ -74,7 +82,9 @@ events:
     source_script: data/scripts/gift_pichu.inc
     external_path: Mystery Gift RAM script
     policy: expose_in_game_preserve_once_only
-    status: delivery_patch_0002\n\n  - id: battle_count_card/
+    status: delivery_patch_0002
+
+  - id: battle_count_card
     source_script: data/scripts/gift_battle_card.inc
     external_path: Wonder Card
     policy: expose_in_game
