@@ -1,0 +1,14 @@
+format,context,source_path,native_box_core_bytes,native_party_core_bytes,pkhex_stored_bytes,pkhex_party_bytes,form_storage,form_semantics,aux_form_state,notes,source_commit
+PK1,Gen1,PKHeX.Core/PKM/PK1.cs,33,44,69 US / 59 JP,same as serialized list,none,individual values derive identity; no generic form field,,PKHeX uses Gen1 list serialization sizes separately from native core mon bytes,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+PK2,Gen2,PKHeX.Core/PKM/PK2.cs,32,48,73 US / 63 JP,same as serialized list,none,Unown form derived from DVs; no generic form field,,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+PK3,Gen3,PKHeX.Core/PKM/PK3.cs,80,100,80,100,none,Unown/Spinda personality-derived; Castform/Deoxys handled by game logic,,checksum over encrypted substructure region,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+PK4,Gen4,PKHeX.Core/PKM/PK4.cs,136,236,136,236,0x40 bits 3-7,5-bit persistent form,none,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+PK5,Gen5,PKHeX.Core/PKM/PK5.cs,136,220,136,220,0x40 bits 3-7,5-bit persistent form,none,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+PK6,Gen6,PKHeX.Core/PKM/PK6.cs,232,260,232,260,0x1D bits 3-7,5-bit persistent form,FormArgument @0x3C; remain @0xED; elapsed @0xEE,timed forms such as Furfrou/Hoopa use auxiliary state,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+PK7,Gen7,PKHeX.Core/PKM/PK7.cs,232,260,232,260,0x1D bits 3-7,5-bit persistent form,FormArgument @0x3C; remain/elapsed/maximum packed in low 24 bits,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+PB7,Gen7b LGPE,PKHeX.Core/PKM/PB7.cs,260,260,260,260,0x1D bits 3-7,5-bit form,Stat_MegaForm @0x101,LGPE-specific entity format,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+PK8,Gen8 SWSH,PKHeX.Core/PKM/PK8.cs,328,344,328,344,0x24 byte,persistent form byte,CanGigantamax bit @0x16; DynamaxLevel @0x90; FormArgument @0xE4,inherits G8PKM,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+PB8,Gen8b BDSP,PKHeX.Core/PKM/PB8.cs,328,344,328,344,0x24 byte,persistent form byte,G8PKM auxiliary fields,BDSP-specific personal table,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+PA8,Gen8a PLA,PKHeX.Core/PKM/PA8.cs,360,376,360,376,0x24 byte,persistent form byte,CanGigantamax bit @0x16; IsAlpha bit5; IsNoble bit6; DynamaxLevel @0x98; FormArgument @0xF4,compatibility fields exist even when gameplay mechanic is absent,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+PK9,Gen9 SV,PKHeX.Core/PKM/PK9.cs,328,344,328,344,0x24 byte,persistent form byte,TeraTypeOriginal @0x94; TeraTypeOverride @0x95; FormArgument @0xD0,Form and Tera Type explicitly separate,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+PA9,Gen9a ZA,PKHeX.Core/PKM/PA9.cs,328,344,328,344,0x24 byte,persistent form byte,FormArgument retained; Alpha-capable interface,Z-A entity context,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
