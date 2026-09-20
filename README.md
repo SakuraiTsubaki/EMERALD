@@ -46,12 +46,15 @@ Branch: `feature/arceus-all-gen`
 
 Arceus is represented as one persistent species with explicit form metadata and battle-derived form state.
 
-- Gen IV: Normal + sixteen held-Plate forms; unused ??? form kept research-only.
-- Gen VI+: Pixie Plate / Fairy support for 18 playable type forms.
+- Gen IV/V: sixteen Plates / 17 playable forms with generation-specific item-manipulation and Transform rules.
+- Gen VI: Pixie Plate / Fairy support for 18 playable type forms.
+- Gen VII: type Z-Crystals also drive Multitype forms while Judgment remains Plate-only.
+- BDSP / Gen IX: held-Plate model, with a documented Gen IX Terastallization guard.
 - Pokémon Legends: Arceus: active-use Plates, Blank Plate, and Legend Plate target-derived Judgment transformation.
 - Persistent PLA form state uses the existing 16-bit Pokémon substruct filler slot without enlarging the save structure.
 - Judgment uses a separate move-category resolver so it remains Special under Emerald's type-based physical/special engine.
-- Plate extension IDs 377-395: `manifests/arceus-item-extensions.csv`
+- Item extension IDs 377-413: `manifests/arceus-item-extensions.csv`
+- Fairy chart additions: `manifests/fairy-type-chart-extension.csv`
 - Core mechanics: `src/extensions/arceus/`
 - Integration: `patches/arceus/INTEGRATION.md`
 - Acceptance tests: `tests/arceus_behavior.md`
