@@ -1,0 +1,1078 @@
+{
+  "source": {
+    "repository": "rh-hideout/pokeemerald-expansion",
+    "commit": "4c680433909c7fb2219cc9e755f05cdd081d4778",
+    "files": {
+      "artifacts/graphics/arceus/source/anim_front.png": {
+        "size": 1911,
+        "sha256": "81bbfb4dfc150246f45c9a217ab897bdb3a235c3f40128dcdfbc3364a9a771c6"
+      },
+      "artifacts/graphics/arceus/source/back.png": {
+        "size": 744,
+        "sha256": "ad15a63a8ed5ba10bd466676f926f8681a314c4c7a04c5c2d29c610d3c010884"
+      },
+      "artifacts/graphics/arceus/source/bug/normal.pal": {
+        "size": 190,
+        "sha256": "c6d223dd36665fda5e2cf7645a8b673104f9ffb6710193bb50fe90f960448535"
+      },
+      "artifacts/graphics/arceus/source/bug/shiny.pal": {
+        "size": 188,
+        "sha256": "6f5e8ff5b73c1862883478b34cbb1bbf809195e2a3c05279e924f9ecb552e8ff"
+      },
+      "artifacts/graphics/arceus/source/dark/normal.pal": {
+        "size": 184,
+        "sha256": "af6074774c696977cdd7e2b9fe27aad80373ff2588c41027eafe32e4a9bf3a9e"
+      },
+      "artifacts/graphics/arceus/source/dark/shiny.pal": {
+        "size": 183,
+        "sha256": "13e51239112059ba785aa4344ae7d05496f816a811b59d78ed6c6ea16799b6e8"
+      },
+      "artifacts/graphics/arceus/source/dragon/normal.pal": {
+        "size": 182,
+        "sha256": "f17f467830fbeaa97a6cf1ca966349d004923f3ba61de8c7686a1641ea443286"
+      },
+      "artifacts/graphics/arceus/source/dragon/shiny.pal": {
+        "size": 184,
+        "sha256": "8dbd3abcd3a47ff5ab2775347339d56a2f03de96cf07c150caad98fc6412d0ec"
+      },
+      "artifacts/graphics/arceus/source/electric/normal.pal": {
+        "size": 184,
+        "sha256": "6c2a0c618b79f093700d961cfe7054eba01dca44d56ad4a1062ea1f6596b8904"
+      },
+      "artifacts/graphics/arceus/source/electric/shiny.pal": {
+        "size": 187,
+        "sha256": "a386726bfc42139e5a1f5a03d4bc5c8bcec68c59ce60574083845eba687194c5"
+      },
+      "artifacts/graphics/arceus/source/fairy/normal.pal": {
+        "size": 195,
+        "sha256": "f608442addab320980778aaae3a5058f1a4f22e2c95b353b7a271f373bd089c0"
+      },
+      "artifacts/graphics/arceus/source/fairy/shiny.pal": {
+        "size": 192,
+        "sha256": "d62b7e78b3d5f545cb9b0ccc8a9eabf81310ce4966ae9ee31e6145f109e6a6a3"
+      },
+      "artifacts/graphics/arceus/source/fighting/normal.pal": {
+        "size": 180,
+        "sha256": "b04795c3f7121c0447942b2e65e59b0e6abbb09b9b908c4792cb65312b46d30f"
+      },
+      "artifacts/graphics/arceus/source/fighting/shiny.pal": {
+        "size": 181,
+        "sha256": "eead7e221ce5ea421b212eeb8001679d73844fdc9bebcf518c9197cb7dad3ef5"
+      },
+      "artifacts/graphics/arceus/source/fire/normal.pal": {
+        "size": 182,
+        "sha256": "5bf8bda9bf3fdb445fff5409cf5e38d199e21e9afc953fa3e8da177da7ff8ff4"
+      },
+      "artifacts/graphics/arceus/source/fire/shiny.pal": {
+        "size": 181,
+        "sha256": "748cb8e70a276df5b70ee8ee029754e595d8e45b35be0866b21bf57f59e6ab32"
+      },
+      "artifacts/graphics/arceus/source/flying/normal.pal": {
+        "size": 195,
+        "sha256": "1b670aeaa696df762806d2146b85a0920d348dcdf542a86152319c02069aeb2b"
+      },
+      "artifacts/graphics/arceus/source/flying/shiny.pal": {
+        "size": 193,
+        "sha256": "0ed9d9a830ec3f9202cd9152ed05bf7bfa2c19500dd2b4fb22f1dd5a2c229064"
+      },
+      "artifacts/graphics/arceus/source/ghost/normal.pal": {
+        "size": 185,
+        "sha256": "8b9231d64f3f1ebb304cf7972b38e2e821e2db3e8ac23909a224f6816e8d0d3f"
+      },
+      "artifacts/graphics/arceus/source/ghost/shiny.pal": {
+        "size": 187,
+        "sha256": "434059f67dfa2b2ce8e70ec11a998046bc1ebbc67878981d158543388a423060"
+      },
+      "artifacts/graphics/arceus/source/grass/normal.pal": {
+        "size": 184,
+        "sha256": "a63fb0ce1fdb201b4f9bd597708566e4af926698772eb199b9cdc6fb0f555b8f"
+      },
+      "artifacts/graphics/arceus/source/grass/shiny.pal": {
+        "size": 186,
+        "sha256": "46e09cd62beacdf5482e4a71b02136718adec4c59f4f2f2940bd4f4082c1eed3"
+      },
+      "artifacts/graphics/arceus/source/ground/normal.pal": {
+        "size": 188,
+        "sha256": "058ee58d61390fc243ae3014ccad15af1bf0afc05806a34a050b9f75a4b5f6f1"
+      },
+      "artifacts/graphics/arceus/source/ground/shiny.pal": {
+        "size": 188,
+        "sha256": "52837f20fd13277b7e83f10d76664a1618315f7c3710f63bbfd8e9456290f521"
+      },
+      "artifacts/graphics/arceus/source/ice/normal.pal": {
+        "size": 193,
+        "sha256": "cfd8a90520276006c66cd291e19edee9d53fa3464e9c7bc56f2834a47cfa1f77"
+      },
+      "artifacts/graphics/arceus/source/ice/shiny.pal": {
+        "size": 192,
+        "sha256": "25c370fd70f0093f517ffc36bfc2c466c89bd1057f353456c6bad9f1d74ddf11"
+      },
+      "artifacts/graphics/arceus/source/normal/normal.pal": {
+        "size": 182,
+        "sha256": "608def0e46feaa905015526a193901a9fa7550dc185c5945c9a65b548c75a64c"
+      },
+      "artifacts/graphics/arceus/source/normal/shiny.pal": {
+        "size": 185,
+        "sha256": "ff5e85a228004c429d430f2310b49a520f16854b29738df8debd4132dec9f095"
+      },
+      "artifacts/graphics/arceus/source/poison/normal.pal": {
+        "size": 189,
+        "sha256": "88df03a3b70c6b7e02b6429a73c2d0edbb5a636a74cfaab47e6a60297a8411cd"
+      },
+      "artifacts/graphics/arceus/source/poison/shiny.pal": {
+        "size": 188,
+        "sha256": "428605e4a131596ccf21834a6000e8897307d246ccaf17c3653d9c88ea5cb6bc"
+      },
+      "artifacts/graphics/arceus/source/psychic/normal.pal": {
+        "size": 181,
+        "sha256": "f66255c8120c3fce99041a4320d97c633d0e271c8a542b88a12637c4164ad380"
+      },
+      "artifacts/graphics/arceus/source/psychic/shiny.pal": {
+        "size": 185,
+        "sha256": "3db88dbbcf7fb4ac2c3d7a96beed0e55316b77081a882bba11c8ecbcf389b9fa"
+      },
+      "artifacts/graphics/arceus/source/rock/normal.pal": {
+        "size": 189,
+        "sha256": "6e927757235273588fdbded08713f030058d95c9cdebfb5d7c3bf9a094da0735"
+      },
+      "artifacts/graphics/arceus/source/rock/shiny.pal": {
+        "size": 186,
+        "sha256": "76d5e6e27600e4c6bca6a805a34696d705734fc6887969ad39ec1dc6fad079f8"
+      },
+      "artifacts/graphics/arceus/source/steel/normal.pal": {
+        "size": 188,
+        "sha256": "58643a3143006da45fb21477429f2179d35bbb101f879de21b74f17244ddcf8b"
+      },
+      "artifacts/graphics/arceus/source/steel/shiny.pal": {
+        "size": 187,
+        "sha256": "14a990bcf78d15994f6fd0d390bc750c2268e1b3a965519f0ca9edb0d3531f1e"
+      },
+      "artifacts/graphics/arceus/source/water/normal.pal": {
+        "size": 182,
+        "sha256": "4cc4e1ab0d9054e63343eb99fd0e93515e290174f6b894f45b31eaebd6c31677"
+      },
+      "artifacts/graphics/arceus/source/water/shiny.pal": {
+        "size": 183,
+        "sha256": "bf67bbe2e6286f89b523b3b7d0d5b1105fe341c461c68d1e21c041619489419a"
+      }
+    }
+  },
+  "representation": {
+    "palette_only_form_change": true,
+    "front_source_size": [
+      64,
+      128
+    ],
+    "front_frames": 2,
+    "back_source_size": [
+      64,
+      64
+    ],
+    "palette_index_0_transparent": true,
+    "max_palette_index": 15,
+    "front_4bpp_size": 4096,
+    "back_4bpp_size": 2048
+  },
+  "forms": [
+    {
+      "form": "normal",
+      "form_id": 0,
+      "type": "Normal",
+      "variants": {
+        "normal": {
+          "source_palette": "artifacts/graphics/arceus/source/normal/normal.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/normal/normal.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/normal/normal.gbapal.lz"
+        },
+        "shiny": {
+          "source_palette": "artifacts/graphics/arceus/source/normal/shiny.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/normal/shiny.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/normal/shiny.gbapal.lz"
+        }
+      }
+    },
+    {
+      "form": "fighting",
+      "form_id": 1,
+      "type": "Fighting",
+      "variants": {
+        "normal": {
+          "source_palette": "artifacts/graphics/arceus/source/fighting/normal.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/fighting/normal.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/fighting/normal.gbapal.lz"
+        },
+        "shiny": {
+          "source_palette": "artifacts/graphics/arceus/source/fighting/shiny.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/fighting/shiny.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/fighting/shiny.gbapal.lz"
+        }
+      }
+    },
+    {
+      "form": "flying",
+      "form_id": 2,
+      "type": "Flying",
+      "variants": {
+        "normal": {
+          "source_palette": "artifacts/graphics/arceus/source/flying/normal.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/flying/normal.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/flying/normal.gbapal.lz"
+        },
+        "shiny": {
+          "source_palette": "artifacts/graphics/arceus/source/flying/shiny.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/flying/shiny.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/flying/shiny.gbapal.lz"
+        }
+      }
+    },
+    {
+      "form": "poison",
+      "form_id": 3,
+      "type": "Poison",
+      "variants": {
+        "normal": {
+          "source_palette": "artifacts/graphics/arceus/source/poison/normal.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/poison/normal.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/poison/normal.gbapal.lz"
+        },
+        "shiny": {
+          "source_palette": "artifacts/graphics/arceus/source/poison/shiny.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/poison/shiny.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/poison/shiny.gbapal.lz"
+        }
+      }
+    },
+    {
+      "form": "ground",
+      "form_id": 4,
+      "type": "Ground",
+      "variants": {
+        "normal": {
+          "source_palette": "artifacts/graphics/arceus/source/ground/normal.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/ground/normal.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/ground/normal.gbapal.lz"
+        },
+        "shiny": {
+          "source_palette": "artifacts/graphics/arceus/source/ground/shiny.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/ground/shiny.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/ground/shiny.gbapal.lz"
+        }
+      }
+    },
+    {
+      "form": "rock",
+      "form_id": 5,
+      "type": "Rock",
+      "variants": {
+        "normal": {
+          "source_palette": "artifacts/graphics/arceus/source/rock/normal.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/rock/normal.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/rock/normal.gbapal.lz"
+        },
+        "shiny": {
+          "source_palette": "artifacts/graphics/arceus/source/rock/shiny.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/rock/shiny.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/rock/shiny.gbapal.lz"
+        }
+      }
+    },
+    {
+      "form": "bug",
+      "form_id": 6,
+      "type": "Bug",
+      "variants": {
+        "normal": {
+          "source_palette": "artifacts/graphics/arceus/source/bug/normal.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/bug/normal.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/bug/normal.gbapal.lz"
+        },
+        "shiny": {
+          "source_palette": "artifacts/graphics/arceus/source/bug/shiny.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/bug/shiny.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/bug/shiny.gbapal.lz"
+        }
+      }
+    },
+    {
+      "form": "ghost",
+      "form_id": 7,
+      "type": "Ghost",
+      "variants": {
+        "normal": {
+          "source_palette": "artifacts/graphics/arceus/source/ghost/normal.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/ghost/normal.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/ghost/normal.gbapal.lz"
+        },
+        "shiny": {
+          "source_palette": "artifacts/graphics/arceus/source/ghost/shiny.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/ghost/shiny.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/ghost/shiny.gbapal.lz"
+        }
+      }
+    },
+    {
+      "form": "steel",
+      "form_id": 8,
+      "type": "Steel",
+      "variants": {
+        "normal": {
+          "source_palette": "artifacts/graphics/arceus/source/steel/normal.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/steel/normal.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/steel/normal.gbapal.lz"
+        },
+        "shiny": {
+          "source_palette": "artifacts/graphics/arceus/source/steel/shiny.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/steel/shiny.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/steel/shiny.gbapal.lz"
+        }
+      }
+    },
+    {
+      "form": "fire",
+      "form_id": 9,
+      "type": "Fire",
+      "variants": {
+        "normal": {
+          "source_palette": "artifacts/graphics/arceus/source/fire/normal.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/fire/normal.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/fire/normal.gbapal.lz"
+        },
+        "shiny": {
+          "source_palette": "artifacts/graphics/arceus/source/fire/shiny.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/fire/shiny.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/fire/shiny.gbapal.lz"
+        }
+      }
+    },
+    {
+      "form": "water",
+      "form_id": 10,
+      "type": "Water",
+      "variants": {
+        "normal": {
+          "source_palette": "artifacts/graphics/arceus/source/water/normal.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/water/normal.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/water/normal.gbapal.lz"
+        },
+        "shiny": {
+          "source_palette": "artifacts/graphics/arceus/source/water/shiny.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/water/shiny.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/water/shiny.gbapal.lz"
+        }
+      }
+    },
+    {
+      "form": "grass",
+      "form_id": 11,
+      "type": "Grass",
+      "variants": {
+        "normal": {
+          "source_palette": "artifacts/graphics/arceus/source/grass/normal.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/grass/normal.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/grass/normal.gbapal.lz"
+        },
+        "shiny": {
+          "source_palette": "artifacts/graphics/arceus/source/grass/shiny.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/grass/shiny.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/grass/shiny.gbapal.lz"
+        }
+      }
+    },
+    {
+      "form": "electric",
+      "form_id": 12,
+      "type": "Electric",
+      "variants": {
+        "normal": {
+          "source_palette": "artifacts/graphics/arceus/source/electric/normal.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/electric/normal.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/electric/normal.gbapal.lz"
+        },
+        "shiny": {
+          "source_palette": "artifacts/graphics/arceus/source/electric/shiny.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/electric/shiny.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/electric/shiny.gbapal.lz"
+        }
+      }
+    },
+    {
+      "form": "psychic",
+      "form_id": 13,
+      "type": "Psychic",
+      "variants": {
+        "normal": {
+          "source_palette": "artifacts/graphics/arceus/source/psychic/normal.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/psychic/normal.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/psychic/normal.gbapal.lz"
+        },
+        "shiny": {
+          "source_palette": "artifacts/graphics/arceus/source/psychic/shiny.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/psychic/shiny.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/psychic/shiny.gbapal.lz"
+        }
+      }
+    },
+    {
+      "form": "ice",
+      "form_id": 14,
+      "type": "Ice",
+      "variants": {
+        "normal": {
+          "source_palette": "artifacts/graphics/arceus/source/ice/normal.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/ice/normal.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/ice/normal.gbapal.lz"
+        },
+        "shiny": {
+          "source_palette": "artifacts/graphics/arceus/source/ice/shiny.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/ice/shiny.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/ice/shiny.gbapal.lz"
+        }
+      }
+    },
+    {
+      "form": "dragon",
+      "form_id": 15,
+      "type": "Dragon",
+      "variants": {
+        "normal": {
+          "source_palette": "artifacts/graphics/arceus/source/dragon/normal.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/dragon/normal.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/dragon/normal.gbapal.lz"
+        },
+        "shiny": {
+          "source_palette": "artifacts/graphics/arceus/source/dragon/shiny.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/dragon/shiny.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/dragon/shiny.gbapal.lz"
+        }
+      }
+    },
+    {
+      "form": "dark",
+      "form_id": 16,
+      "type": "Dark",
+      "variants": {
+        "normal": {
+          "source_palette": "artifacts/graphics/arceus/source/dark/normal.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/dark/normal.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/dark/normal.gbapal.lz"
+        },
+        "shiny": {
+          "source_palette": "artifacts/graphics/arceus/source/dark/shiny.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/dark/shiny.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/dark/shiny.gbapal.lz"
+        }
+      }
+    },
+    {
+      "form": "fairy",
+      "form_id": 17,
+      "type": "Fairy",
+      "variants": {
+        "normal": {
+          "source_palette": "artifacts/graphics/arceus/source/fairy/normal.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/fairy/normal.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/fairy/normal.gbapal.lz"
+        },
+        "shiny": {
+          "source_palette": "artifacts/graphics/arceus/source/fairy/shiny.pal",
+          "gbapal": "artifacts/graphics/arceus/generated/forms/fairy/shiny.gbapal",
+          "gbapal_lz": "artifacts/graphics/arceus/generated/forms/fairy/shiny.gbapal.lz"
+        }
+      }
+    }
+  ],
+  "generated_files": {
+    "arceus_back.4bpp": {
+      "size": 2048,
+      "sha256": "ccbc5ed3a6aea21404ed52dd7e66d1200fd7a725ed86b04b15380f5b935d2c85"
+    },
+    "arceus_back.4bpp.lz": {
+      "size": 936,
+      "sha256": "b231ffb2132ca12cd3f59a6195106db1573e935d7561bd35a7cd981b1b5c4ee3"
+    },
+    "arceus_front.4bpp": {
+      "size": 4096,
+      "sha256": "0427cfd365ea9de366150b8a5aa3a2b3bac85bdf4903b9223e9ebe070c19acd7"
+    },
+    "arceus_front.4bpp.lz": {
+      "size": 2320,
+      "sha256": "039ebb49fcc3886463b4de5918d8db34d9aff8743587aee71ab200fd7768b58e"
+    },
+    "forms/bug/normal.gbapal": {
+      "size": 32,
+      "sha256": "002c20f295791b223a69894a872a4cd18acf284abfb7333b89905937afffe4c2"
+    },
+    "forms/bug/normal.gbapal.lz": {
+      "size": 40,
+      "sha256": "790c323ada593bf9cd166c4d7412f3d38d7b97cc70bab9678b265580688bb890"
+    },
+    "forms/bug/normal_back.png": {
+      "size": 1433,
+      "sha256": "7cc94ee42c0be3f299f33615d58f512c00e61eb02f37ccd93a581df0dcaf42d8"
+    },
+    "forms/bug/normal_front_anim.png": {
+      "size": 1971,
+      "sha256": "8179b74a06f5c49f4af8b1277b513465ed803b02948cac6b403d42712a7b860d"
+    },
+    "forms/bug/shiny.gbapal": {
+      "size": 32,
+      "sha256": "53d61f7a60c435068c5251941e5fbd868f1ca3249e71ab378bcc2cd124f09ced"
+    },
+    "forms/bug/shiny.gbapal.lz": {
+      "size": 40,
+      "sha256": "e8a850c8e2985a41261a0da44665ad06bbe97525378186de03b6ee9b9fb53488"
+    },
+    "forms/bug/shiny_back.png": {
+      "size": 1433,
+      "sha256": "ee0b1148e1a4155688e883ff3467273760b2828e948d2753489def4a03393cd6"
+    },
+    "forms/bug/shiny_front_anim.png": {
+      "size": 1971,
+      "sha256": "b7f7b6faed44a777390f5c2942b85776bf6b7b35a82cc66a9fa7d8d302c04023"
+    },
+    "forms/dark/normal.gbapal": {
+      "size": 32,
+      "sha256": "fa7f6ef84d82d7368e0a72fdcf3c8f67d037e65715ad50092772d4248e0ea869"
+    },
+    "forms/dark/normal.gbapal.lz": {
+      "size": 40,
+      "sha256": "0d243783363b052e202285ff9d0835a397922be54a37dda752b9febee99a5086"
+    },
+    "forms/dark/normal_back.png": {
+      "size": 1433,
+      "sha256": "1a773d42bd0a537159ebff69e9eac979cf4403b7968a6aed69cbf465550d6376"
+    },
+    "forms/dark/normal_front_anim.png": {
+      "size": 1971,
+      "sha256": "2e2ce679e1acbfc4f261d1fbdf886ae6c972a4095cec2feb805287ca7a726d35"
+    },
+    "forms/dark/shiny.gbapal": {
+      "size": 32,
+      "sha256": "88e37ac2dffcbc686b951b8161a8ef5defab41827c1ede0a3e56c3d5dc2670f0"
+    },
+    "forms/dark/shiny.gbapal.lz": {
+      "size": 40,
+      "sha256": "b5d839ce0e470b6628910fdaa484de2b908e1d0c2d0976ff5c81be4971d75c57"
+    },
+    "forms/dark/shiny_back.png": {
+      "size": 1433,
+      "sha256": "4cd7aa3c129918e81d5a1c5268d9de1a0e739b19eda724798cc6f445f665147f"
+    },
+    "forms/dark/shiny_front_anim.png": {
+      "size": 1971,
+      "sha256": "c1bcde3dd3e4bd474100a9aaf1d42fb873cbac71cd60284a7f49d53410063b3d"
+    },
+    "forms/dragon/normal.gbapal": {
+      "size": 32,
+      "sha256": "761c2cfbe10110989ef3140f936da3ef16a15ea098fe87960e7081c1165a6ebb"
+    },
+    "forms/dragon/normal.gbapal.lz": {
+      "size": 40,
+      "sha256": "6c4b0abe5a6acf7af6eb898cd9d6a7355038a95c4f226d4aaedf534839d5befe"
+    },
+    "forms/dragon/normal_back.png": {
+      "size": 1433,
+      "sha256": "f9926ff7d2608228b160af49ecff6024ee062e897cadf3843512e092e7f84423"
+    },
+    "forms/dragon/normal_front_anim.png": {
+      "size": 1971,
+      "sha256": "4c1d004a0aa9554fe584cdab8d5bb4b6b68011dcfaaf38a51346cbf0469b6bd6"
+    },
+    "forms/dragon/shiny.gbapal": {
+      "size": 32,
+      "sha256": "bcabc204194f18a89a556ee41fe09dc2a4be1f2e7dcea45312583cae444941f3"
+    },
+    "forms/dragon/shiny.gbapal.lz": {
+      "size": 40,
+      "sha256": "67b18fc33820191c5c4bddd7c5d74be099cff99566c112caed1a264f2a0b7521"
+    },
+    "forms/dragon/shiny_back.png": {
+      "size": 1433,
+      "sha256": "a4e58cf30e4d3d2380a5a8f9d7b4c077476db64f684f14e999727fb0f710733f"
+    },
+    "forms/dragon/shiny_front_anim.png": {
+      "size": 1971,
+      "sha256": "8513cc36b1d28621e525af2463cba1cc8ad13b31e9ba38e4a1b40edc55af4779"
+    },
+    "forms/electric/normal.gbapal": {
+      "size": 32,
+      "sha256": "c890c1814adbaffaf359ebe2615f2b0730813d5edcbabcb90015df4fb3efd0ba"
+    },
+    "forms/electric/normal.gbapal.lz": {
+      "size": 40,
+      "sha256": "59a1b43a030d9c9ac3538702900c1e3f33f41438bd540bb388835cf291d56204"
+    },
+    "forms/electric/normal_back.png": {
+      "size": 1433,
+      "sha256": "26933d7166ef32c8ddaa000bd9983e1da6a382760fc748ee8e506f497f61913b"
+    },
+    "forms/electric/normal_front_anim.png": {
+      "size": 1971,
+      "sha256": "ff28ec5472018df0e8ea2cce030adcc0f2b369f2967a1038f47fb28f85330ca5"
+    },
+    "forms/electric/shiny.gbapal": {
+      "size": 32,
+      "sha256": "a9a250a988b047a9fe2c96f9fa6141e8e99875469834eef64ba3650cba618343"
+    },
+    "forms/electric/shiny.gbapal.lz": {
+      "size": 40,
+      "sha256": "115cbb0b665301b147df660cc361707f623156367d69bd29a5a9df2428e995e2"
+    },
+    "forms/electric/shiny_back.png": {
+      "size": 1433,
+      "sha256": "4583238a0a86c3a826a1d3faa17f4cfb6f77b0e29c077c2ab742d1a140230698"
+    },
+    "forms/electric/shiny_front_anim.png": {
+      "size": 1971,
+      "sha256": "698d628454a8f7eb50d6856aa6094cfd7b6904d000c37a6ec4aef18e6b9d31b0"
+    },
+    "forms/fairy/normal.gbapal": {
+      "size": 32,
+      "sha256": "a87195f61f56775446be27f020b054f69854a337f059d8b029fb1755f5d80b48"
+    },
+    "forms/fairy/normal.gbapal.lz": {
+      "size": 40,
+      "sha256": "115d3616f38bb25f9bc02a516a36323e4076b5b109587cb17645fde69b95e903"
+    },
+    "forms/fairy/normal_back.png": {
+      "size": 1433,
+      "sha256": "f3d1c2b30a7a69cb5ce8343c47e0c63211180cf8f66b6a100c020108054dbbd5"
+    },
+    "forms/fairy/normal_front_anim.png": {
+      "size": 1971,
+      "sha256": "50987682a50f5e9f5601445f6bc411eba79853d721428f2f593ceccfbb5e0f68"
+    },
+    "forms/fairy/shiny.gbapal": {
+      "size": 32,
+      "sha256": "b25736e8060f53c9f132cc6df6fc5ba495f27df47e3a14cd586e5805f6c77876"
+    },
+    "forms/fairy/shiny.gbapal.lz": {
+      "size": 40,
+      "sha256": "8c391543b04bb4b454340e843f290ab557c7e2d7cc1e6edca6b6c9ca7ac908d6"
+    },
+    "forms/fairy/shiny_back.png": {
+      "size": 1433,
+      "sha256": "996be47baa5cec8da9ea26024733df9be471092b2d618cd4ff652a12ba2097d5"
+    },
+    "forms/fairy/shiny_front_anim.png": {
+      "size": 1971,
+      "sha256": "76d49070fbb0c7658820e0cfb1ecc68f27bc9e1703b1adb685d5fe8b2170aae7"
+    },
+    "forms/fighting/normal.gbapal": {
+      "size": 32,
+      "sha256": "35ad3aeeb857d138fddec1ca7ff9da4283264ff7ffc03c517ba4e807e702f66d"
+    },
+    "forms/fighting/normal.gbapal.lz": {
+      "size": 40,
+      "sha256": "95e2357e94b6b40ca04ab24303b452131ce9251e7d58fff2e50314a51180eace"
+    },
+    "forms/fighting/normal_back.png": {
+      "size": 1433,
+      "sha256": "158ffef0184a12ea22ab3e32491957ff695d7b386719a680d7a4b3d4dc6904c5"
+    },
+    "forms/fighting/normal_front_anim.png": {
+      "size": 1971,
+      "sha256": "897450026d6d20527692717b92044363f1466f086cdd8623dcc216dcbb4d6eb1"
+    },
+    "forms/fighting/shiny.gbapal": {
+      "size": 32,
+      "sha256": "fd4bd86fcba66ce1f5d69be190a7c3792eb7536e2fd330058a56fb34385757b5"
+    },
+    "forms/fighting/shiny.gbapal.lz": {
+      "size": 40,
+      "sha256": "b4a73519a7b33f2d75242debae3403d8c7aa4e383f78e7889fb99822f76f5c8f"
+    },
+    "forms/fighting/shiny_back.png": {
+      "size": 1433,
+      "sha256": "4a07c7bcc0004669f405b26ae99632fee6110522afbc5874af26520371ea0c8f"
+    },
+    "forms/fighting/shiny_front_anim.png": {
+      "size": 1971,
+      "sha256": "f73912a12c87cf5b4da011de8ca19b9ebaa79a2f164bfdec73a8d1ca0341fe4b"
+    },
+    "forms/fire/normal.gbapal": {
+      "size": 32,
+      "sha256": "34c0e86f302d2deca6dfb1ca503e3c0d3bef45de987b0a7fad83aac5641386b6"
+    },
+    "forms/fire/normal.gbapal.lz": {
+      "size": 40,
+      "sha256": "e79787090a21919b231421927c786cc92658b42dd2afa46243d1579affac0761"
+    },
+    "forms/fire/normal_back.png": {
+      "size": 1433,
+      "sha256": "6d4ad460364c8d514b8edbf905c483aabbb6c0b81d3049bc1456b2cdc8cbbe62"
+    },
+    "forms/fire/normal_front_anim.png": {
+      "size": 1971,
+      "sha256": "7f6c759e8ad6e6f45a9d0f3336d8b32fc94c4773d9859bce8d3e34f315260bf9"
+    },
+    "forms/fire/shiny.gbapal": {
+      "size": 32,
+      "sha256": "fa92e37735ec1caf041cacbf12ef5368f66144e6049bc4a4422c2491660fe35a"
+    },
+    "forms/fire/shiny.gbapal.lz": {
+      "size": 40,
+      "sha256": "02756b85bd948bca5399a8db8005c5c9940b93f3d117c08aea269ee2cda46c4e"
+    },
+    "forms/fire/shiny_back.png": {
+      "size": 1433,
+      "sha256": "4f072f6a7ecee033123f9b4455a5f0440287f80c01a242ce6307ae46380fd94d"
+    },
+    "forms/fire/shiny_front_anim.png": {
+      "size": 1971,
+      "sha256": "c9adeda55fcde07aac3586548791dcdff01b5bf13405762de6ea9415d64cd081"
+    },
+    "forms/flying/normal.gbapal": {
+      "size": 32,
+      "sha256": "f0087ea5da742c34160ce212cdab6bb174b8d093c4189e36684914bb42f6d483"
+    },
+    "forms/flying/normal.gbapal.lz": {
+      "size": 40,
+      "sha256": "406ef746cd955cdb470b1fdfc76183436ba8fa2cedffd17c4243ed60dc503c2e"
+    },
+    "forms/flying/normal_back.png": {
+      "size": 1433,
+      "sha256": "6cfa6922fea865663091060d23c1cb59f6f7cb20da178c95631bf9facf6805c1"
+    },
+    "forms/flying/normal_front_anim.png": {
+      "size": 1971,
+      "sha256": "010bca5e08a5aa7d8b75e4434dfd9ea9ef74637b9049beee9bac6b7ce9f5904f"
+    },
+    "forms/flying/shiny.gbapal": {
+      "size": 32,
+      "sha256": "1271108e68d34db05f2b5ea3fe40b602f14a9d6cdc8c9280573a1a15f1aef530"
+    },
+    "forms/flying/shiny.gbapal.lz": {
+      "size": 40,
+      "sha256": "7aedcec306d763371781c3cbd9d01a3789dcff920952ce63f79f37e5b0c892b8"
+    },
+    "forms/flying/shiny_back.png": {
+      "size": 1433,
+      "sha256": "f13dac33e89d92b7f38c325edfbaec04db8e370a1f7714e54485b65089509a96"
+    },
+    "forms/flying/shiny_front_anim.png": {
+      "size": 1971,
+      "sha256": "2e03dfa2a25c225075b2f6d2aa4703910f2a4855215b363b93ead40ac2c115a4"
+    },
+    "forms/ghost/normal.gbapal": {
+      "size": 32,
+      "sha256": "458710654de1157928f307bdf16c6cc65f927fcd93b56db12ae74d6ba4572afa"
+    },
+    "forms/ghost/normal.gbapal.lz": {
+      "size": 40,
+      "sha256": "7ea8d01a96864c156869fe43dfe8c4ac2a9ec72da11ec067f757f8b51d4d906b"
+    },
+    "forms/ghost/normal_back.png": {
+      "size": 1433,
+      "sha256": "860f13389543de9db26bfc771a6c787c31c32d3b4778b1ca9114a898354f8d6c"
+    },
+    "forms/ghost/normal_front_anim.png": {
+      "size": 1971,
+      "sha256": "f0ffdca9d2d6e9cca472016d90d7eb4171c567011f58c71223470e7f9516b637"
+    },
+    "forms/ghost/shiny.gbapal": {
+      "size": 32,
+      "sha256": "026deda8d3a9dbc138cce3c1eb229635d36c11f2f8604f54dff9000ef39c960c"
+    },
+    "forms/ghost/shiny.gbapal.lz": {
+      "size": 40,
+      "sha256": "3be5dd1d826f26453fad2aebfbdd819c333a3a98feafe3ab46913d25ecfc2454"
+    },
+    "forms/ghost/shiny_back.png": {
+      "size": 1433,
+      "sha256": "84ead77e8cdc6d64785a9e8f6c83452db3c7f84983800363c9a555d74b41b6cb"
+    },
+    "forms/ghost/shiny_front_anim.png": {
+      "size": 1971,
+      "sha256": "485bd3fd273bb4bf6e08199ad586dbb4cb09b6634bb2be8cd8b261afaf55c20b"
+    },
+    "forms/grass/normal.gbapal": {
+      "size": 32,
+      "sha256": "d673b7d47ccb6b2ef1edcd768b4d1e4239707271826703b174bcf22b47a89081"
+    },
+    "forms/grass/normal.gbapal.lz": {
+      "size": 40,
+      "sha256": "4284ee2fd5232319ae97101212fb1161d351bb4053bbfbc9a2e6a88aa5b2e98c"
+    },
+    "forms/grass/normal_back.png": {
+      "size": 1433,
+      "sha256": "63f853336898e8c7b9585a4dc07d5fcecc0f89e89c17dec335a524577e275476"
+    },
+    "forms/grass/normal_front_anim.png": {
+      "size": 1971,
+      "sha256": "74e1a614f9265ccb0583f8fd9aaddd9a41349344ef221220fc562a7ea035bb42"
+    },
+    "forms/grass/shiny.gbapal": {
+      "size": 32,
+      "sha256": "833f2dd6da3abfe9c8d362c5bf306260aebe2933398472a620247172ba906a22"
+    },
+    "forms/grass/shiny.gbapal.lz": {
+      "size": 40,
+      "sha256": "ff6a781a358cdde5708a71cbf6cfe1d81846d33f64a84cbf3d8f8915e5a9ef13"
+    },
+    "forms/grass/shiny_back.png": {
+      "size": 1433,
+      "sha256": "44c0d0bf4eb9bdc2bede5b25a504b3a05c40b974ee60af60e769fc09648d8c93"
+    },
+    "forms/grass/shiny_front_anim.png": {
+      "size": 1971,
+      "sha256": "e64b0b5f121f885eef6aadfe9dcd97569eca46e9a11286ae46346c29c8e2f0e8"
+    },
+    "forms/ground/normal.gbapal": {
+      "size": 32,
+      "sha256": "347dc3540a4fd3d27cee94f9fe20c9b77eb05b291e24b58b384174555d29b34d"
+    },
+    "forms/ground/normal.gbapal.lz": {
+      "size": 40,
+      "sha256": "f05d1190c16546280659ff01cbee0cd89bfa989cca463d8d428f3ed73e53d6e7"
+    },
+    "forms/ground/normal_back.png": {
+      "size": 1433,
+      "sha256": "160c8c74ba5a8b186539d39d7891b9fe84c0a8ea0290c56d322f575ab8488d00"
+    },
+    "forms/ground/normal_front_anim.png": {
+      "size": 1971,
+      "sha256": "b7b71061573802f31e344b5a1553ebe68233ec5649ba36f208282fa65a623f8f"
+    },
+    "forms/ground/shiny.gbapal": {
+      "size": 32,
+      "sha256": "cef819ea966426353e68bd52cc19c46968005aad247149a3b2d08a456181f93c"
+    },
+    "forms/ground/shiny.gbapal.lz": {
+      "size": 40,
+      "sha256": "3b76a2857b0aca15ddafe337f0642a161a811436b5591ef8b96bf424df9e303d"
+    },
+    "forms/ground/shiny_back.png": {
+      "size": 1433,
+      "sha256": "2a15013187f06f5d3ab111e2db3b96cb5d6a56d2b506dae437620583e043e7af"
+    },
+    "forms/ground/shiny_front_anim.png": {
+      "size": 1971,
+      "sha256": "0ac93e946e9992ad7dfd34542d0f4af2041336d52eab1e1523dca1ab42c4f106"
+    },
+    "forms/ice/normal.gbapal": {
+      "size": 32,
+      "sha256": "434070f917a5dd4f738d6bc5fa110a928e4cdd158f163bd94fa8e611a072cd51"
+    },
+    "forms/ice/normal.gbapal.lz": {
+      "size": 40,
+      "sha256": "ee08003913b1ceaa486cbe14c3f25535d9369bb4b360df2d39801eacdbcf2a8a"
+    },
+    "forms/ice/normal_back.png": {
+      "size": 1433,
+      "sha256": "eac6df1ca28323ff69a2b6da6d337bd5a333ae1e7ab0f6d0f78894da1f11a8cc"
+    },
+    "forms/ice/normal_front_anim.png": {
+      "size": 1971,
+      "sha256": "efa29a138f721c0b10290e9bfaa36bebde7729740cb57feb48520ade033fbac3"
+    },
+    "forms/ice/shiny.gbapal": {
+      "size": 32,
+      "sha256": "5ea932ec22ab624175813e6c98679488a912681b3ba03a68eba2c2d68397dc61"
+    },
+    "forms/ice/shiny.gbapal.lz": {
+      "size": 40,
+      "sha256": "55218a4d18d8bae44d41f5610fe858479c2bc871cf8b99d5b1c4c907f3adb81e"
+    },
+    "forms/ice/shiny_back.png": {
+      "size": 1433,
+      "sha256": "2c4b254b23449b9f89e83f912966e85c7c34c2d33e858e5fcb8614f34203b467"
+    },
+    "forms/ice/shiny_front_anim.png": {
+      "size": 1971,
+      "sha256": "ce1e591e32019fb08faaa7e199c348809a0e935abdd6fc6fdc07dbdb25345afc"
+    },
+    "forms/normal/normal.gbapal": {
+      "size": 32,
+      "sha256": "24dedb75998ab1fb0696eb171fc7df91619335b7858e9273ca06b4fe521aee79"
+    },
+    "forms/normal/normal.gbapal.lz": {
+      "size": 40,
+      "sha256": "e8a3d4a711b21c81b29c55a564db3b061d803410e42ab1fda694433f35604df4"
+    },
+    "forms/normal/normal_back.png": {
+      "size": 1433,
+      "sha256": "c8c25f76532be2453ff30c377f3812e60ba7b39c258ae011230313e9be7cc8a1"
+    },
+    "forms/normal/normal_front_anim.png": {
+      "size": 1971,
+      "sha256": "27bd5ac25bfe0f004fa3f6d9b8a6514703605b7bc4fae69f0d8727c129d57c98"
+    },
+    "forms/normal/shiny.gbapal": {
+      "size": 32,
+      "sha256": "cff37421a949fb7f32565a85e80856394d7fe8685586f4a6b110ce8e3c315857"
+    },
+    "forms/normal/shiny.gbapal.lz": {
+      "size": 40,
+      "sha256": "4ff49de74ebfee5449ac6e102d85a1e565e90241f3689f866c88b67de3d515ff"
+    },
+    "forms/normal/shiny_back.png": {
+      "size": 1433,
+      "sha256": "d84228865b77d3462eabccaf9e72a9225cb75bd72ed6e3ec07b6501d8e3c7757"
+    },
+    "forms/normal/shiny_front_anim.png": {
+      "size": 1971,
+      "sha256": "ed7a42d002bb07b4259aaa66f9f27f507946067ab6b8ba44e83a182fda9e4fb7"
+    },
+    "forms/poison/normal.gbapal": {
+      "size": 32,
+      "sha256": "5b176a1d4a1c284e2bd27ff6a96b73d48e96f6be2c8a6a95c32bc1002c6cb28e"
+    },
+    "forms/poison/normal.gbapal.lz": {
+      "size": 40,
+      "sha256": "ce88c71683e7de13853d1bb5f9a449ef23181ec475e428794390ee1c6a097e07"
+    },
+    "forms/poison/normal_back.png": {
+      "size": 1433,
+      "sha256": "638931187ffcd31f93867a5ec1dd40f481de455c37035fc9ff839e4e8f7bb54c"
+    },
+    "forms/poison/normal_front_anim.png": {
+      "size": 1971,
+      "sha256": "e728a362c36bf5e58be5a614ae563d0d4e514f3feb996af7eff3d9e199e4ed02"
+    },
+    "forms/poison/shiny.gbapal": {
+      "size": 32,
+      "sha256": "527bffda9d9d4c50dfe11c7cebe121223d9cff2f1503c7239c78ff31a389a2b8"
+    },
+    "forms/poison/shiny.gbapal.lz": {
+      "size": 40,
+      "sha256": "6a6c10be6753f1f175a2ff3f50d6dc2feb0982dc3582ad4a0ef27e3a2d96c4ce"
+    },
+    "forms/poison/shiny_back.png": {
+      "size": 1433,
+      "sha256": "0dc81b86c5ba3957c842f8467870562edbfa61db05ca84b062f5c5eeebfdf5a9"
+    },
+    "forms/poison/shiny_front_anim.png": {
+      "size": 1971,
+      "sha256": "2ed421e2912cdaf5d07d9a10cfa4bbcfe90a0cd848ba2cb4c6854ddcf5c8c630"
+    },
+    "forms/psychic/normal.gbapal": {
+      "size": 32,
+      "sha256": "1034cece60c04fb7016886f7fc3cc14da633510ea63edbd87099d197961f0bd5"
+    },
+    "forms/psychic/normal.gbapal.lz": {
+      "size": 40,
+      "sha256": "539e9b3d79c12ceeb2006cb302cf2e751bc7d3a7772dcd4e9484202651190291"
+    },
+    "forms/psychic/normal_back.png": {
+      "size": 1433,
+      "sha256": "42aa432c0e6edd047c05eadc51d0587e65bfced360922b00155a789dfd77b643"
+    },
+    "forms/psychic/normal_front_anim.png": {
+      "size": 1971,
+      "sha256": "cedbdc54021f8d140d2dde14f2ef5fe9ac987a37f0c02e155647a4fa5cbc17fb"
+    },
+    "forms/psychic/shiny.gbapal": {
+      "size": 32,
+      "sha256": "ef1f23f76e2986bc4146707045d5a8c5a15af5bb0d7f340683f410e18e8b24a9"
+    },
+    "forms/psychic/shiny.gbapal.lz": {
+      "size": 40,
+      "sha256": "8a00e01776c5e6bd1cad6aaa2d94034096f6c5736f870786924c9d9dcb94615c"
+    },
+    "forms/psychic/shiny_back.png": {
+      "size": 1433,
+      "sha256": "ba96b6a9576b08754a3e82ba1b33a14037c67748a3913cf6605dafe8eea29fdb"
+    },
+    "forms/psychic/shiny_front_anim.png": {
+      "size": 1971,
+      "sha256": "4009d58cab1682127421b55e761f7b06910d6aa3f045315f1d5d6e963bdc83df"
+    },
+    "forms/rock/normal.gbapal": {
+      "size": 32,
+      "sha256": "fabe12f81e12975f21a6e97919aa1800a71276ba8c3532513a91d7682a90ed27"
+    },
+    "forms/rock/normal.gbapal.lz": {
+      "size": 40,
+      "sha256": "27f361a6f695ecb857516aa97f3b45d6e7fc392ce18c3ee0956a83e5eb166f0c"
+    },
+    "forms/rock/normal_back.png": {
+      "size": 1433,
+      "sha256": "f4e15e5f2c422a128f2c88c88dcf30761d7a0498183495060865e3ed49df62c7"
+    },
+    "forms/rock/normal_front_anim.png": {
+      "size": 1971,
+      "sha256": "f1805e34c8ddd5b1e0a9b7a9dd24b7529c6e1aa6b0111b932583c34aa32a3253"
+    },
+    "forms/rock/shiny.gbapal": {
+      "size": 32,
+      "sha256": "5af54aafbdf8657a5a2889dd05391be52fe9b36aa083df5b757d8b25641e8ba3"
+    },
+    "forms/rock/shiny.gbapal.lz": {
+      "size": 40,
+      "sha256": "96f5b3d2e5242c7b07cd5868c1db57d65ae68e962babb7d7853987a5a3f59689"
+    },
+    "forms/rock/shiny_back.png": {
+      "size": 1433,
+      "sha256": "b8d1bedcd3f0cdf11486679d6a3e73e0b5c46db3a57628b78570c90f20f06c62"
+    },
+    "forms/rock/shiny_front_anim.png": {
+      "size": 1971,
+      "sha256": "43aec9454ab00271ae1c452e8dfecf6ca0109318a7c80d43ce5519ff4bb8066d"
+    },
+    "forms/steel/normal.gbapal": {
+      "size": 32,
+      "sha256": "09c00f79c7596f3c42fbd5a01a702ef6342258f1a41566400dad2a43bedeb4fa"
+    },
+    "forms/steel/normal.gbapal.lz": {
+      "size": 40,
+      "sha256": "8a85c985ac1bc43cbe5b71799cef44a06b69ce71dc5bd87b1e330352d6a715fd"
+    },
+    "forms/steel/normal_back.png": {
+      "size": 1433,
+      "sha256": "46df4229c9860af0e6c24a76e437b52e6b3b38266ca3d6fe0a81822e09e8f534"
+    },
+    "forms/steel/normal_front_anim.png": {
+      "size": 1971,
+      "sha256": "28f51945989f992acb60dad1f685bf7f689cbe6692119f666ec468dc6919bac6"
+    },
+    "forms/steel/shiny.gbapal": {
+      "size": 32,
+      "sha256": "1a9be39ac874f4d1bd603353ded6ac739ffcbecfcdfabb9bc07147b9d3b06dea"
+    },
+    "forms/steel/shiny.gbapal.lz": {
+      "size": 40,
+      "sha256": "61d96542c36291416ab9483b2cf666e0ea56a9da1a4b3a29954e1f67ede5c09f"
+    },
+    "forms/steel/shiny_back.png": {
+      "size": 1433,
+      "sha256": "2465c28f4fc9613067e07245edaf258d4d70400434dc2a48f8e7194bac2de057"
+    },
+    "forms/steel/shiny_front_anim.png": {
+      "size": 1971,
+      "sha256": "a053d211522afe8845d1725e4e8aa4d586ed725658dc42c7b616b0ee6275e30f"
+    },
+    "forms/water/normal.gbapal": {
+      "size": 32,
+      "sha256": "ba930db21cfd03a94d7e93200ed2ea3e5cb6fedd0888303dd87ee242668510eb"
+    },
+    "forms/water/normal.gbapal.lz": {
+      "size": 40,
+      "sha256": "256ec3b238e7af8efcf915c98e6088c31271bd7407de2a8c1614c6db657ef085"
+    },
+    "forms/water/normal_back.png": {
+      "size": 1433,
+      "sha256": "46c081b77340f61e0f902bf02ea5906838c88d40edbedcdfa9cd181bf4f31d93"
+    },
+    "forms/water/normal_front_anim.png": {
+      "size": 1971,
+      "sha256": "b159d94d2757c9092179e5a30658dccc3de764a142a44d5474f2c07aa2b832c0"
+    },
+    "forms/water/shiny.gbapal": {
+      "size": 32,
+      "sha256": "171c0012b10debfe26b6dc2bd6de99da89eab4c4623b7d829f082fc0c56fe1cc"
+    },
+    "forms/water/shiny.gbapal.lz": {
+      "size": 40,
+      "sha256": "a7a62ec14180f0a4b2ebc805cb7269bf5fa328d1f54a480cd99d590ca423cfe2"
+    },
+    "forms/water/shiny_back.png": {
+      "size": 1433,
+      "sha256": "8db6ed62af13c7b00e4fd3a6742434a15f7f9b833e14a6439165295a81fd9821"
+    },
+    "forms/water/shiny_front_anim.png": {
+      "size": 1971,
+      "sha256": "425af493d769cb3653b3f0c911e498348167d8ba58dd677a4f68bc21e9b16005"
+    }
+  }
+}
