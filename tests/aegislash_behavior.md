@@ -20,3 +20,23 @@
 18. Blocked non-contact move -> no Attack drop.
 19. Form transition reloads the matching palette; no Shield/Blade palette-index corruption.
 20. Front sprite selects Shield frames 0/1 or Blade frames 2/3; back selects Shield 0 or Blade 1.
+
+
+## mGBA runtime verification
+
+Verified on Pocket Monsters Emerald (Japan), BPEJ Rev.00, with mGBA headless development build `0.11-9139-3a5bc2462`.
+
+The corrected Stage-2 King's Shield runtime was executed by the mGBA ARM7TDMI CPU against synthetic battle RAM states so the battle result is independent of level, HP, damage rolls, or UI timing.
+
+- Test 17, blocked contact move: neutral Attack stage `6 -> 4` — **PASS**.
+- Blocked non-contact damaging move: stage remains `6` — **PASS**.
+- Ordinary status move while King's Shield is active: `ks_should_bypass() == 1` — **PASS**.
+- Clear Body attacker: stage remains `6` — **PASS**.
+- Protection inactive: stage remains `6` — **PASS**.
+- Defender's last resulting move is not King's Shield: stage remains `6` — **PASS**.
+- Attack stage floor: stage `1 -> 0`, not underflow — **PASS**.
+- Corrected `ks_penalty_entry` wrapper: helper executes, returns to the original protected-hit path, and the original `MOVE_RESULT_MISSED` store executes — **PASS**.
+- Move 354 / King's Shield enters the same repeated-Protect success-chain branch as Protect — **PASS**.
+- Ordinary unrelated move does not enter that branch — **PASS**.
+
+This is direct emulator CPU/runtime verification of the hook and mechanics. Full player-input battle presentation (messages/stat animation/stance transition polish) remains separate from this core-mechanics verification.
