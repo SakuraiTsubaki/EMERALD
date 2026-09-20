@@ -1,1 +1,17 @@
 domain,action,priority,file_count,bytes
+sprites_third_party,do_not_import_binary_assets,low,6460,0
+resources,extract_facts_only,high,1731,0
+drawing,reference_only,low,866,0
+legality_encounters_evolution,reimplement_rules_and_tests,high,642,0
+save_structures,extract_schema_and_offsets,critical,617,0
+ui,reference_only,low,501,0
+verification_tests,translate_test_vectors,high,264,0
+entity_formats,extract_schema_and_rules,critical,183,0
+editing_semantics,reference_and_reimplement,medium,160,0
+items,extract_normalized_data,critical,49,0
+personal_data,extract_normalized_data,critical,48,0
+game_metadata,extract_normalized_data,high,41,0
+mystery_gifts,extract_formats_and_validation,high,21,0
+ribbons_marks,extract_normalized_data,medium,20,0
+moves,extract_normalized_data,critical,16,0
+project_infra,reference_only,low,15,0
