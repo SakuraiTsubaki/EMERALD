@@ -16,32 +16,54 @@
 #define TYPE_FAIRY 18
 #endif
 
-struct ArceusPlateMap
+struct ArceusItemFormMap
 {
     u16 item;
     u8 form;
-    u8 minimumRuleset;
+    u8 introducedGeneration;
 };
 
-static const struct ArceusPlateMap sArceusPlateMap[] =
+static const struct ArceusItemFormMap sArceusPlateMap[] =
 {
-    { ITEM_FIST_PLATE,   ARCEUS_FORM_FIGHTING, ARCEUS_RULESET_GEN4 },
-    { ITEM_SKY_PLATE,    ARCEUS_FORM_FLYING,   ARCEUS_RULESET_GEN4 },
-    { ITEM_TOXIC_PLATE,  ARCEUS_FORM_POISON,   ARCEUS_RULESET_GEN4 },
-    { ITEM_EARTH_PLATE,  ARCEUS_FORM_GROUND,   ARCEUS_RULESET_GEN4 },
-    { ITEM_STONE_PLATE,  ARCEUS_FORM_ROCK,     ARCEUS_RULESET_GEN4 },
-    { ITEM_INSECT_PLATE, ARCEUS_FORM_BUG,      ARCEUS_RULESET_GEN4 },
-    { ITEM_SPOOKY_PLATE, ARCEUS_FORM_GHOST,    ARCEUS_RULESET_GEN4 },
-    { ITEM_IRON_PLATE,   ARCEUS_FORM_STEEL,    ARCEUS_RULESET_GEN4 },
-    { ITEM_FLAME_PLATE,  ARCEUS_FORM_FIRE,     ARCEUS_RULESET_GEN4 },
-    { ITEM_SPLASH_PLATE, ARCEUS_FORM_WATER,    ARCEUS_RULESET_GEN4 },
-    { ITEM_MEADOW_PLATE, ARCEUS_FORM_GRASS,    ARCEUS_RULESET_GEN4 },
-    { ITEM_ZAP_PLATE,    ARCEUS_FORM_ELECTRIC, ARCEUS_RULESET_GEN4 },
-    { ITEM_MIND_PLATE,   ARCEUS_FORM_PSYCHIC,  ARCEUS_RULESET_GEN4 },
-    { ITEM_ICICLE_PLATE, ARCEUS_FORM_ICE,      ARCEUS_RULESET_GEN4 },
-    { ITEM_DRACO_PLATE,  ARCEUS_FORM_DRAGON,   ARCEUS_RULESET_GEN4 },
-    { ITEM_DREAD_PLATE,  ARCEUS_FORM_DARK,     ARCEUS_RULESET_GEN4 },
-    { ITEM_PIXIE_PLATE,  ARCEUS_FORM_FAIRY,    ARCEUS_RULESET_GEN6_PLUS },
+    { ITEM_FIST_PLATE,   ARCEUS_FORM_FIGHTING, 4 },
+    { ITEM_SKY_PLATE,    ARCEUS_FORM_FLYING,   4 },
+    { ITEM_TOXIC_PLATE,  ARCEUS_FORM_POISON,   4 },
+    { ITEM_EARTH_PLATE,  ARCEUS_FORM_GROUND,   4 },
+    { ITEM_STONE_PLATE,  ARCEUS_FORM_ROCK,     4 },
+    { ITEM_INSECT_PLATE, ARCEUS_FORM_BUG,      4 },
+    { ITEM_SPOOKY_PLATE, ARCEUS_FORM_GHOST,    4 },
+    { ITEM_IRON_PLATE,   ARCEUS_FORM_STEEL,    4 },
+    { ITEM_FLAME_PLATE,  ARCEUS_FORM_FIRE,     4 },
+    { ITEM_SPLASH_PLATE, ARCEUS_FORM_WATER,    4 },
+    { ITEM_MEADOW_PLATE, ARCEUS_FORM_GRASS,    4 },
+    { ITEM_ZAP_PLATE,    ARCEUS_FORM_ELECTRIC, 4 },
+    { ITEM_MIND_PLATE,   ARCEUS_FORM_PSYCHIC,  4 },
+    { ITEM_ICICLE_PLATE, ARCEUS_FORM_ICE,      4 },
+    { ITEM_DRACO_PLATE,  ARCEUS_FORM_DRAGON,   4 },
+    { ITEM_DREAD_PLATE,  ARCEUS_FORM_DARK,     4 },
+    { ITEM_PIXIE_PLATE,  ARCEUS_FORM_FAIRY,    6 },
+};
+
+static const struct ArceusItemFormMap sArceusZCrystalMap[] =
+{
+    { ITEM_NORMALIUM_Z, ARCEUS_FORM_NORMAL,   7 },
+    { ITEM_FIRIUM_Z,    ARCEUS_FORM_FIRE,     7 },
+    { ITEM_WATERIUM_Z,  ARCEUS_FORM_WATER,    7 },
+    { ITEM_ELECTRIUM_Z, ARCEUS_FORM_ELECTRIC, 7 },
+    { ITEM_GRASSIUM_Z,  ARCEUS_FORM_GRASS,    7 },
+    { ITEM_ICIUM_Z,     ARCEUS_FORM_ICE,      7 },
+    { ITEM_FIGHTINIUM_Z,ARCEUS_FORM_FIGHTING, 7 },
+    { ITEM_POISONIUM_Z, ARCEUS_FORM_POISON,   7 },
+    { ITEM_GROUNDIUM_Z, ARCEUS_FORM_GROUND,   7 },
+    { ITEM_FLYINIUM_Z,  ARCEUS_FORM_FLYING,   7 },
+    { ITEM_PSYCHIUM_Z,  ARCEUS_FORM_PSYCHIC,  7 },
+    { ITEM_BUGINIUM_Z,  ARCEUS_FORM_BUG,      7 },
+    { ITEM_ROCKIUM_Z,   ARCEUS_FORM_ROCK,     7 },
+    { ITEM_GHOSTIUM_Z,  ARCEUS_FORM_GHOST,    7 },
+    { ITEM_DRAGONIUM_Z, ARCEUS_FORM_DRAGON,   7 },
+    { ITEM_DARKINIUM_Z, ARCEUS_FORM_DARK,     7 },
+    { ITEM_STEELIUM_Z,  ARCEUS_FORM_STEEL,    7 },
+    { ITEM_FAIRIUM_Z,   ARCEUS_FORM_FAIRY,    7 },
 };
 
 static const u8 sArceusFormTypes[ARCEUS_FORM_COUNT] =
@@ -71,6 +93,28 @@ static const u8 sArceusFormTypes[ARCEUS_FORM_COUNT] =
 // the most recent Judgment-selected type until the battle ends.
 static u8 sLegendBattleForms[2][PARTY_SIZE];
 
+static u8 RulesetGeneration(enum ArceusRuleset ruleset)
+{
+    switch (ruleset)
+    {
+    case ARCEUS_RULESET_GEN4:
+        return 4;
+    case ARCEUS_RULESET_GEN5:
+        return 5;
+    case ARCEUS_RULESET_GEN6:
+        return 6;
+    case ARCEUS_RULESET_GEN7:
+        return 7;
+    case ARCEUS_RULESET_GEN8_BDSP:
+    case ARCEUS_RULESET_LEGENDS_ARCEUS:
+        return 8;
+    case ARCEUS_RULESET_GEN9:
+        return 9;
+    default:
+        return 4;
+    }
+}
+
 static struct Pokemon *GetBattlerPartyMonForArceus(u8 battler)
 {
     if (GetBattlerSide(battler) == B_SIDE_PLAYER)
@@ -86,6 +130,19 @@ static u8 GetLegendBattleForm(u8 battler)
 static void SetLegendBattleForm(u8 battler, u8 form)
 {
     sLegendBattleForms[GetBattlerSide(battler)][gBattlerPartyIndexes[battler]] = form;
+}
+
+static u8 FindMappedForm(const struct ArceusItemFormMap *map, u32 count, u16 item, u8 generation)
+{
+    u32 i;
+
+    for (i = 0; i < count; i++)
+    {
+        if (map[i].item == item && generation >= map[i].introducedGeneration)
+            return map[i].form;
+    }
+
+    return ARCEUS_FORM_INVALID;
 }
 
 void Arceus_BeginBattle(void)
@@ -125,23 +182,65 @@ u8 Arceus_FormToType(u8 form)
 
 u8 Arceus_GetPlateForm(u16 item, enum ArceusRuleset ruleset)
 {
-    u32 i;
+    u8 generation = RulesetGeneration(ruleset);
 
     if (ruleset == ARCEUS_RULESET_LEGENDS_ARCEUS && item == ITEM_BLANK_PLATE)
         return ARCEUS_FORM_NORMAL;
 
-    for (i = 0; i < ARRAY_COUNT(sArceusPlateMap); i++)
-    {
-        if (sArceusPlateMap[i].item == item)
-        {
-            if (ruleset == ARCEUS_RULESET_GEN4
-             && sArceusPlateMap[i].minimumRuleset > ARCEUS_RULESET_GEN4)
-                return ARCEUS_FORM_INVALID;
-            return sArceusPlateMap[i].form;
-        }
-    }
+    return FindMappedForm(sArceusPlateMap, ARRAY_COUNT(sArceusPlateMap), item, generation);
+}
+
+u8 Arceus_GetHeldMultitypeForm(u16 item, enum ArceusRuleset ruleset)
+{
+    u8 form = Arceus_GetPlateForm(item, ruleset);
+
+    if (form != ARCEUS_FORM_INVALID)
+        return form;
+
+    if (ruleset == ARCEUS_RULESET_GEN7)
+        return FindMappedForm(sArceusZCrystalMap, ARRAY_COUNT(sArceusZCrystalMap), item, 7);
 
     return ARCEUS_FORM_INVALID;
+}
+
+static bool8 IsPlateForRuleset(u16 item, enum ArceusRuleset ruleset)
+{
+    return Arceus_GetPlateForm(item, ruleset) != ARCEUS_FORM_INVALID;
+}
+
+static bool8 IsTypeZCrystal(u16 item)
+{
+    return FindMappedForm(sArceusZCrystalMap, ARRAY_COUNT(sArceusZCrystalMap), item, 7) != ARCEUS_FORM_INVALID;
+}
+
+bool8 Arceus_BlocksItemManipulation(u8 battler, u16 incomingItem, enum ArceusRuleset ruleset)
+{
+    u16 currentItem;
+
+    if (gBattleMons[battler].species != SPECIES_ARCEUS
+     || gBattleMons[battler].ability != ABILITY_MULTITYPE
+     || ruleset == ARCEUS_RULESET_LEGENDS_ARCEUS)
+        return FALSE;
+
+    currentItem = gBattleMons[battler].item;
+
+    // Generation IV blocks item manipulation on a Multitype Pokémon
+    // regardless of which item it currently holds.
+    if (ruleset == ARCEUS_RULESET_GEN4)
+        return TRUE;
+
+    // Generation V onward protects the Plate relationship itself.
+    if (IsPlateForRuleset(currentItem, ruleset) || IsPlateForRuleset(incomingItem, ruleset))
+        return TRUE;
+
+    // Type Z-Crystals are globally non-manipulable in Gen VII; keeping this
+    // here lets the Arceus adapter remain correct even before a generic Z-item
+    // lock is introduced.
+    if (ruleset == ARCEUS_RULESET_GEN7
+     && (IsTypeZCrystal(currentItem) || IsTypeZCrystal(incomingItem)))
+        return TRUE;
+
+    return FALSE;
 }
 
 u16 Arceus_MakeFormState(u8 form, bool8 legendPlate)
@@ -244,7 +343,7 @@ void Arceus_ApplyBattleEntryForm(u8 battler, enum ArceusRuleset ruleset)
         return;
     }
 
-    form = Arceus_GetPlateForm(gBattleMons[battler].item, ruleset);
+    form = Arceus_GetHeldMultitypeForm(gBattleMons[battler].item, ruleset);
     if (form == ARCEUS_FORM_INVALID)
         form = ARCEUS_FORM_NORMAL;
     SetArceusBattleForm(battler, form, FALSE);
@@ -328,8 +427,8 @@ bool8 Arceus_TryPrepareJudgment(u8 attacker, u8 target, enum ArceusRuleset rules
         return FALSE;
 
     // Main-series Judgment changes type from the user's Plate even if the user
-    // is not Arceus. Legends: Arceus instead derives Judgment from Arceus's
-    // active form; a copied Judgment is Normal.
+    // is not Arceus. Z-Crystals can change Arceus's Gen VII Multitype form but
+    // do not change Judgment's type.
     if (ruleset != ARCEUS_RULESET_LEGENDS_ARCEUS)
     {
         form = Arceus_GetPlateForm(gBattleMons[attacker].item, ruleset);
@@ -340,12 +439,23 @@ bool8 Arceus_TryPrepareJudgment(u8 attacker, u8 target, enum ArceusRuleset rules
         gBattleStruct->dynamicMoveType =
             type | F_DYNAMIC_TYPE_SET | F_DYNAMIC_TYPE_IGNORE_PHYSICALITY;
 
+        // Gen IX Terastallization must bypass this form/type synchronization:
+        // Judgment still follows the Plate while Multitype is suppressed.
+        // The future Tera integration should skip this block for a
+        // Terastallized attacker.
         if (gBattleMons[attacker].species == SPECIES_ARCEUS
          && gBattleMons[attacker].ability == ABILITY_MULTITYPE)
-            SetArceusBattleForm(attacker, form, FALSE);
+        {
+            u8 heldForm = Arceus_GetHeldMultitypeForm(gBattleMons[attacker].item, ruleset);
+            if (heldForm == ARCEUS_FORM_INVALID)
+                heldForm = ARCEUS_FORM_NORMAL;
+            SetArceusBattleForm(attacker, heldForm, FALSE);
+        }
         return TRUE;
     }
 
+    // In PLA, copied Judgment is Normal. Plate-derived type belongs to
+    // Arceus's active form rather than to the copied move itself.
     if (gBattleMons[attacker].species != SPECIES_ARCEUS)
     {
         gBattleStruct->dynamicMoveType =
