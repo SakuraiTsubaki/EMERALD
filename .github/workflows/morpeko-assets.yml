@@ -1,0 +1,54 @@
+name: Morpeko asset verification
+
+on:
+  push:
+    branches:
+      - feature/morpeko-gen8
+    paths:
+      - "artifacts/graphics/morpeko/**"
+      - "tools/build_morpeko_assets.py"
+      - ".github/workflows/morpeko-assets.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-assets:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Pillow
+        run: python -m pip install --disable-pip-version-check pillow
+
+      - name: Rebuild Morpeko GBA assets
+        run: |
+          python tools/build_morpeko_assets.py
+          git diff --check
+          test "$(stat -c %s artifacts/graphics/morpeko/morpeko_front.4bpp)" -eq 4096
+          test "$(stat -c %s artifacts/graphics/morpeko/morpeko_back.4bpp)" -eq 4096
+          test "$(stat -c %s artifacts/graphics/morpeko/full_normal.gbapal)" -eq 32
+          test "$(stat -c %s artifacts/graphics/morpeko/hangry_normal.gbapal)" -eq 32
+          sha256sum artifacts/graphics/morpeko/morpeko_front.4bpp*
+          sha256sum artifacts/graphics/morpeko/morpeko_back.4bpp*
+
+      - name: Commit deterministic generated assets
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add artifacts/graphics/morpeko
+          if git diff --cached --quiet; then
+            echo "Generated assets already match."
+          else
+            git commit -m "Generate Morpeko GBA graphics assets"
+            git push origin "HEAD:${{ github.ref_name }}"
+          fi
