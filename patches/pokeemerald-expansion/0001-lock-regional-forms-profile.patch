@@ -10,7 +10,11 @@ change cannot silently drop regional forms or required cross-generation branches
 diff --git a/include/config/species_enabled.h b/include/config/species_enabled.h
 --- a/include/config/species_enabled.h
 +++ b/include/config/species_enabled.h
-@@ -34,6 +34,14 @@
+@@ -34,11 +34,19 @@
+ // Regional Forms. Includes Regional Form evolutions, like Sirfetch'd.
+ #define P_REGIONAL_FORMS                 TRUE
+ #define P_ALOLAN_FORMS                   P_REGIONAL_FORMS
+ #define P_GALARIAN_FORMS                 P_REGIONAL_FORMS
  #define P_HISUIAN_FORMS                  P_REGIONAL_FORMS
  #define P_PALDEAN_FORMS                  P_REGIONAL_FORMS
  
@@ -25,7 +29,8 @@ diff --git a/include/config/species_enabled.h b/include/config/species_enabled.h
  // Big groups of forms that aren't always desired when choosing families.
  #define P_PIKACHU_EXTRA_FORMS            TRUE
  #define P_COSPLAY_PIKACHU_FORMS          P_PIKACHU_EXTRA_FORMS
-@@ -44,6 +52,10 @@
+ #define P_CAP_PIKACHU_FORMS              P_PIKACHU_EXTRA_FORMS
+@@ -46,10 +54,14 @@
  // Cross-generation evolutions. Includes pre-evolutions.
  #define P_CROSS_GENERATION_EVOS          TRUE
 +
@@ -35,4 +40,9 @@ diff --git a/include/config/species_enabled.h b/include/config/species_enabled.h
 +
  #define P_GEN_2_CROSS_EVOS               P_CROSS_GENERATION_EVOS
  #define P_GEN_3_CROSS_EVOS               P_CROSS_GENERATION_EVOS
- #define P_GEN_4_CROSS_EVOS               P_CROSS_GENERATION_EVOS // Just Sylveon.
+ #define P_GEN_4_CROSS_EVOS               P_CROSS_GENERATION_EVOS
+ //#define P_GEN_5_CROSS_EVOS             // Gen 5 didn't introduce any cross-gen evos.
+ #define P_GEN_6_CROSS_EVOS               P_CROSS_GENERATION_EVOS // Just Sylveon.
+ //#define P_GEN_7_CROSS_EVOS             // Alolan evolutions handled by P_ALOLAN_FORMS.
+ #define P_GEN_8_CROSS_EVOS               P_CROSS_GENERATION_EVOS // Regional evolutions handled by P_GALARIAN_FORMS and P_HISUIAN_FORMS.
+ #define P_GEN_9_CROSS_EVOS               P_CROSS_GENERATION_EVOS // Clodsire handled by P_PALDEAN_FORMS.
