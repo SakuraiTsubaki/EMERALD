@@ -18,3 +18,21 @@ emerald_extension_id,hex,constant,japanese,korean,english,debut_generation,refer
 393,0x189,ITEM_PIXIE_PLATE,せいれいプレート,정령플레이트,Pixie Plate,6,644,held,use_on_arceus,Fairy,Fairy,20,Requires Fairy engine type
 394,0x18A,ITEM_BLANK_PLATE,まっさらプレート,순백플레이트,Blank Plate,8,1780,not_used,use_on_arceus,Normal,Normal,0,PLA active-use item
 395,0x18B,ITEM_LEGEND_PLATE,レジェンドプレート,레전드플레이트,Legend Plate,8,1828,not_used,use_on_arceus,Dynamic,Normal,0,PLA state is Normal outside battle and Judgment selects battle type
+396,0x18C,ITEM_NORMALIUM_Z,ノーマルＺ,노말Z,Normalium Z,7,776,held_multitype_gen7,not_used,Normal,Normal,0,Gen VII Multitype form trigger; Judgment ignores Z-Crystal
+397,0x18D,ITEM_FIRIUM_Z,ホノオＺ,불꽃Z,Firium Z,7,777,held_multitype_gen7,not_used,Fire,Fire,0,Judgment remains Normal unless a Plate is held
+398,0x18E,ITEM_WATERIUM_Z,ミズＺ,물Z,Waterium Z,7,778,held_multitype_gen7,not_used,Water,Water,0,Judgment remains Normal unless a Plate is held
+399,0x18F,ITEM_ELECTRIUM_Z,デンキＺ,전기Z,Electrium Z,7,779,held_multitype_gen7,not_used,Electric,Electric,0,Judgment remains Normal unless a Plate is held
+400,0x190,ITEM_GRASSIUM_Z,クサＺ,풀Z,Grassium Z,7,780,held_multitype_gen7,not_used,Grass,Grass,0,Judgment remains Normal unless a Plate is held
+401,0x191,ITEM_ICIUM_Z,コオリＺ,얼음Z,Icium Z,7,781,held_multitype_gen7,not_used,Ice,Ice,0,Judgment remains Normal unless a Plate is held
+402,0x192,ITEM_FIGHTINIUM_Z,カクトウＺ,격투Z,Fightinium Z,7,782,held_multitype_gen7,not_used,Fighting,Fighting,0,Judgment remains Normal unless a Plate is held
+403,0x193,ITEM_POISONIUM_Z,ドクＺ,독Z,Poisonium Z,7,783,held_multitype_gen7,not_used,Poison,Poison,0,Judgment remains Normal unless a Plate is held
+404,0x194,ITEM_GROUNDIUM_Z,ジメンＺ,땅Z,Groundium Z,7,784,held_multitype_gen7,not_used,Ground,Ground,0,Judgment remains Normal unless a Plate is held
+405,0x195,ITEM_FLYINIUM_Z,ヒコウＺ,비행Z,Flyinium Z,7,785,held_multitype_gen7,not_used,Flying,Flying,0,Judgment remains Normal unless a Plate is held
+406,0x196,ITEM_PSYCHIUM_Z,エスパーＺ,에스퍼Z,Psychium Z,7,786,held_multitype_gen7,not_used,Psychic,Psychic,0,Judgment remains Normal unless a Plate is held
+407,0x197,ITEM_BUGINIUM_Z,ムシＺ,벌레Z,Buginium Z,7,787,held_multitype_gen7,not_used,Bug,Bug,0,Judgment remains Normal unless a Plate is held
+408,0x198,ITEM_ROCKIUM_Z,イワＺ,바위Z,Rockium Z,7,788,held_multitype_gen7,not_used,Rock,Rock,0,Judgment remains Normal unless a Plate is held
+409,0x199,ITEM_GHOSTIUM_Z,ゴーストＺ,고스트Z,Ghostium Z,7,789,held_multitype_gen7,not_used,Ghost,Ghost,0,Judgment remains Normal unless a Plate is held
+410,0x19A,ITEM_DRAGONIUM_Z,ドラゴンＺ,드래곤Z,Dragonium Z,7,790,held_multitype_gen7,not_used,Dragon,Dragon,0,Judgment remains Normal unless a Plate is held
+411,0x19B,ITEM_DARKINIUM_Z,アクＺ,악Z,Darkinium Z,7,791,held_multitype_gen7,not_used,Dark,Dark,0,Judgment remains Normal unless a Plate is held
+412,0x19C,ITEM_STEELIUM_Z,ハガネＺ,강철Z,Steelium Z,7,792,held_multitype_gen7,not_used,Steel,Steel,0,Judgment remains Normal unless a Plate is held
+413,0x19D,ITEM_FAIRIUM_Z,フェアリーＺ,페어리Z,Fairium Z,7,793,held_multitype_gen7,not_used,Fairy,Fairy,0,Judgment remains Normal unless a Plate is held
