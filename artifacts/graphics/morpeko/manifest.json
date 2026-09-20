@@ -1,0 +1,157 @@
+{
+  "source": {
+    "repository": "rh-hideout/pokeemerald-expansion",
+    "commit": "c7d7ec67b0ca8134e5c290e624780a29440ee09c",
+    "paths": "graphics/pokemon/morpeko/{front.png,back.png,normal.pal,shiny.pal,hangry/*}"
+  },
+  "target": {
+    "platform": "GBA",
+    "canvas": "64x64",
+    "tile_format": "4bpp",
+    "palette_entries": 16,
+    "transparent_index": 0,
+    "battle_forms": {
+      "full_belly": 0,
+      "hangry": 1
+    },
+    "front_frame_order": [
+      "full_belly",
+      "hangry"
+    ],
+    "back_frame_order": [
+      "full_belly",
+      "hangry"
+    ]
+  },
+  "palette_indices": {
+    "full_front": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "full_back": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      9
+    ],
+    "hangry_front": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "hangry_back": [
+      0,
+      1,
+      2,
+      3,
+      5,
+      6,
+      10
+    ]
+  },
+  "files": {
+    "full_back.4bpp": {
+      "size": 2048,
+      "sha256": "2657a556626ef271d0b1e05f58defd965f9b1949cc35d530283ec3c5029e925e"
+    },
+    "full_back.png": {
+      "size": 506,
+      "sha256": "72a409c8e033ac8394cb47eec8850006357ccfe420fc956ede170d59808f265d"
+    },
+    "full_front.4bpp": {
+      "size": 2048,
+      "sha256": "20024642548d64d603bd539ab2f41001d2d3e3e9f42fd9a5c163524754ed48b5"
+    },
+    "full_front.png": {
+      "size": 499,
+      "sha256": "9be4a6af86dbc6bd13e884796ea2edd4eed5b6b9027ad9a13979f88a88d5cd8b"
+    },
+    "full_normal.gbapal": {
+      "size": 32,
+      "sha256": "ae7064690ed96f568ccbfa751ed4dc01421a7d807735375df548e4e8dd0d8ebe"
+    },
+    "full_normal.pal": {
+      "size": 172,
+      "sha256": "303b918a4de979461471bbf9902c344e198dc045fe6990ed56a5da3b286c8e2e"
+    },
+    "full_shiny.gbapal": {
+      "size": 32,
+      "sha256": "164ab8c273c70758a08f497bafbd01de48c0bced0b57027d3f945ac9d8702112"
+    },
+    "full_shiny.pal": {
+      "size": 173,
+      "sha256": "af367daeecff351973f0d9ef1783ef69f5b4392066d4a6215df082e07fe57077"
+    },
+    "hangry_back.4bpp": {
+      "size": 2048,
+      "sha256": "585544b4217766f4a1f5d5c3c82864065d7505809b44b21052b0e1f5663adcbf"
+    },
+    "hangry_back.png": {
+      "size": 459,
+      "sha256": "dae157b14f549011bf0e8222a032bd23e36dc618d028fdc286a9e210c3ed31ca"
+    },
+    "hangry_front.4bpp": {
+      "size": 2048,
+      "sha256": "6d28129da8bbf79facf10ee663b089c0c2e8290563d7f9c438ea9e20f3262e8e"
+    },
+    "hangry_front.png": {
+      "size": 479,
+      "sha256": "c0d833fb30d189b7fc91c7793dd652568c85e372747a8d97ae7c037a800d68b9"
+    },
+    "hangry_normal.gbapal": {
+      "size": 32,
+      "sha256": "335dab2352bb1950d47932c1d9f6bdb407b631b6eab6f15c66d06b070f1f6408"
+    },
+    "hangry_normal.pal": {
+      "size": 159,
+      "sha256": "ef68cac6e535310e9924bf44f88692443f5760ea8e05acc3426cbdf4e2243f6d"
+    },
+    "hangry_shiny.gbapal": {
+      "size": 32,
+      "sha256": "6c159bccb313136203e159f34af2a2615499143a640c409bd6604becfb06c3f7"
+    },
+    "hangry_shiny.pal": {
+      "size": 158,
+      "sha256": "b0a30eed47c8d1c2269d6e34de1c5d5257dd912d3395e1e0c10703f3b0cfe364"
+    },
+    "morpeko_back.4bpp": {
+      "size": 4096,
+      "sha256": "1f5cf352c3ac09dda7290a121410258118631a55b7a358cf81680ad4cbc94fac"
+    },
+    "morpeko_back.4bpp.lz": {
+      "size": 1096,
+      "sha256": "211b0b8bffaf01302573e7abfc93a9bae4d78eeea00c99bfc71ef337d21b9080"
+    },
+    "morpeko_front.4bpp": {
+      "size": 4096,
+      "sha256": "8702c3f960109ce473136d49605222f05f39815d0057765e3fd4d77f0e95fd2a"
+    },
+    "morpeko_front.4bpp.lz": {
+      "size": 1124,
+      "sha256": "7191e590781852882990bd7de6bf4ef0e83fd3ed2d4f9d021cfc6029c98900d6"
+    }
+  }
+}
