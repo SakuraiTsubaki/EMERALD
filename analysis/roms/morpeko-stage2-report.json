@@ -1,0 +1,66 @@
+{
+  "target": "Pocket Monsters Emerald (Japan) BPEJ Rev.00",
+  "clean_sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c",
+  "stage2_sha256": "fc00b6c66b2078a534f0696d9d061ad2016eb75f8f355e5a6003cfc399e15a7f",
+  "runtime": {
+    "rom_offset": "0x91B000",
+    "rom_address": "0x0891B000",
+    "size": 520,
+    "sha256": "f7fb7a1c6956aa3b90f5aa5cc1ca81979dbcf27517601e7aac24d8198b2acf5a",
+    "relocations": 0
+  },
+  "temporary_ids": {
+    "species": 253,
+    "species_alias": "OLD_UNOWN_C",
+    "ability": 76,
+    "ability_alias": "CACOPHONY"
+  },
+  "hooks": [
+    {
+      "address": "0x080406B8",
+      "before": "3178002000900120",
+      "entry": "0x0891B1C5",
+      "resume": "0x080406C9",
+      "purpose": "hunger_switch_end_turn"
+    },
+    {
+      "address": "0x0803E4B8",
+      "before": "1948002202801948",
+      "entry": "0x0891B1D7",
+      "resume": "0x0803E4C1",
+      "purpose": "full_belly_switch_reset"
+    }
+  ],
+  "resources": {
+    "full_front": "0x0891C000",
+    "hangry_front": "0x0891C800",
+    "full_back": "0x0891D000",
+    "hangry_back": "0x0891D800",
+    "full_normal_palette": "0x0891E000",
+    "hangry_normal_palette": "0x0891E020",
+    "full_shiny_palette": "0x0891E040",
+    "hangry_shiny_palette": "0x0891E060"
+  },
+  "retail_tables": {
+    "front": "0x082DDA1C",
+    "back": "0x082D6148",
+    "normal_palette": "0x082D6F08",
+    "shiny_palette": "0x082D7CC8",
+    "species_info": "0x082F0D54"
+  },
+  "species_253": {
+    "stats": [58, 95, 58, 97, 70, 58],
+    "types": ["Electric", "Dark"],
+    "ability_slots": [76, 76]
+  },
+  "ips": {
+    "path": "patches/morpeko/stage2/morpeko-bpej-stage2.ips",
+    "size": 10355,
+    "records": 45,
+    "sha256": "1aa079d9ba6f7286d615461690ba594b65a23247b93201a5b0eac5274cf37e05",
+    "reapply_matches_stage2": true
+  },
+  "static_validation": "PASS",
+  "mgba_runtime_verification": "PENDING",
+  "aura_wheel": "Stage 3; not claimed by this build"
+}
