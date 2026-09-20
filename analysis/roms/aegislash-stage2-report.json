@@ -46,7 +46,7 @@
     "shield_palette": "0x0891A000",
     "blade_palette": "0x0891A020"
   },
-  "runtime_test_status": "Stage 2.1 control-flow fix statically verified; emulator execution pending",
+  "runtime_test_status": "mGBA CPU/runtime verification passed for corrected King's Shield contact penalty, status bypass, and Protect-chain routing; full battle presentation remains pending",
   "stage2_1": {
     "reason": "King's Shield Attack -2 hook at 0x08045F34 was skipped by ordinary one-turn protected contact moves",
     "corrected_hook_address": "0x08045F42",
@@ -58,5 +58,22 @@
     "local_rebuild_runtime_size": 1180,
     "local_rebuild_runtime_sha256": "0596ea95f53eca867681635477b68951c61f0a65a918304ed09e098f43650a98",
     "status": "static control-flow validation complete; emulator runtime execution pending"
+  },
+  "mgba_runtime_verification": {
+    "emulator": "mGBA headless 0.11-9139-3a5bc2462",
+    "target": "Pocket Monsters Emerald (Japan) BPEJ Rev.00",
+    "method": "direct ARM7TDMI execution of injected runtime against synthetic battle RAM state",
+    "results": {
+      "contact_attack_stage_6_to_4": "PASS",
+      "noncontact_attack_unchanged": "PASS",
+      "status_move_bypass": "PASS",
+      "clear_body_immunity": "PASS",
+      "no_protection_unchanged": "PASS",
+      "non_kings_shield_unchanged": "PASS",
+      "stage_floor_1_to_0": "PASS",
+      "corrected_wrapper_resume_and_missed_flag": "PASS",
+      "kings_shield_protect_chain": "PASS"
+    },
+    "note": "Core mechanics verified independently of damage/level/UI timing. Standard stat-change messages/animation and full presentation remain future integration work."
   }
 }
