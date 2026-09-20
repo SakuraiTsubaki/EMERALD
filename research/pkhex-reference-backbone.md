@@ -1,81 +1,76 @@
-# PKHeX reference backbone
+# PKHeX reference backbone for EMERALD
 
-Pinned source: `kwsch/PKHeX@8ad201e80244f630ab5a46922ab72fb79c5ad4f4`
+Pinned upstream reference:
 
-## Inventory status
+- repository: `kwsch/PKHeX`
+- commit: `8ad201e80244f630ab5a46922ab72fb79c5ad4f4`
+- license: GPL-3.0
+- selected scope: `PKHeX.Core`
+- enumerated core files: **3,528**
 
-The pinned PKHeX tree has been inventoried file-by-file for EMERALD.
+## Why PKHeX.Core is the backbone
 
-- total inventoried files: **11634**
-- critical/high-priority reference files: **3612**
-- classified domains: **16**
+PKHeX already separates the cross-generation knowledge we need into reusable domains:
 
-Largest domains:
+- Pokémon entity layouts: PK1-PK9, PA8/PA9
+- per-game personal tables
+- alternate-form and battle-form rules
+- item validity/storage by game
+- move metadata by generation
+- save structures SAV1-SAV9
+- encounter/evolution/learnset/RNG/transfer legality
+- Mystery Gift formats
+- ribbons/marks
+- location/version metadata
+- binary resources for personal/evolution/level-up/egg moves
+- Japanese/Korean/English and other localized text resources
 
-- sprites_third_party: 6460 files
-- resources: 1731 files
-- drawing: 866 files
-- legality_encounters_evolution: 642 files
-- save_structures: 617 files
-- ui: 501 files
-- verification_tests: 264 files
-- entity_formats: 183 files
-- editing_semantics: 160 files
-- items: 49 files
-- personal_data: 48 files
-- game_metadata: 41 files
-- mystery_gifts: 21 files
-- ribbons_marks: 20 files
-- moves: 16 files
-- project_infra: 15 files
+## Import rule
 
-## Policy
+EMERALD will **not vendor/copy the PKHeX source tree**.
 
-PKHeX is GPLv3. EMERALD will not blindly copy PKHeX source code.
+Instead, PKHeX is treated as a pinned reference oracle:
 
-PKHeX is used as a pinned reference oracle:
-1. extract factual schemas, IDs, tables and behavior into EMERALD-owned CSV/JSON/YAML;
-2. independently implement required ROM/runtime behavior in EMERALD;
-3. retain PKHeX commit + source-path provenance;
-4. translate useful PKHeX tests into independent regression vectors;
-5. keep UI/rendering code reference-only;
-6. do not import PKHeX.Drawing.PokeSprite binary assets because their provenance/licenses are separate.
+1. inspect a specific PKHeX commit;
+2. extract factual mappings and tables;
+3. normalize them into EMERALD CSV/JSON/YAML manifests;
+4. record upstream path + commit provenance;
+5. implement Emerald-side behavior independently.
 
-## High-value extraction targets
+This avoids coupling the ROM implementation to PKHeX's C# architecture while preserving traceability.
 
-- `PKHeX.Core/PKM`: PK1-PK9, PA8/PA9 layouts, encryption/checksum, conversion semantics.
-- `PKHeX.Core/PersonalInfo`: species/form stats, types, Abilities, form indexing.
-- `PKHeX.Core/Saves`: SAV1-SAV9 structures, blocks, inventory, Pokédex, events, time.
-- `PKHeX.Core/Items`: per-title item storage and valid IDs.
-- `PKHeX.Core/Moves`: generation-specific move metadata.
-- `PKHeX.Core/Legality`: forms, evolution, encounters, learnsets, RNG and transfer rules.
-- `PKHeX.Core/MysteryGifts`: PGT/PCD/PGF/WC structures and conversion/validation.
-- `PKHeX.Core/Ribbons`: ribbons and marks.
-- `PKHeX.Core/Resources`: personal/evolution/level-up/egg-move resources and localization.
-- `Tests`: regression-oracle material.
+## Scope decision
 
-## Reference-only areas
+Do not recursively inventory WinForms/Drawing on every pass. They are not required for the ROM/game-parameter backbone.
 
-- `PKHeX.WinForms`: desktop UI.
-- `PKHeX.Drawing*`: rendering helpers.
-- `PKHeX.Drawing.PokeSprite`: third-party sprite binaries — do not import.
-- `.github`: PKHeX project infrastructure.
+Primary working scope is `PKHeX.Core`:
+- PKM
+- PersonalInfo
+- Items
+- Moves
+- Saves
+- Legality
+- MysteryGifts
+- Ribbons
+- Game
+- Resources
+- Editing helpers
 
-## Normalized outputs to build
+WinForms/Drawing can be consulted only when a specific UI/sprite reference is needed.
 
-- `manifests/pkhex/species-forms.csv`
-- `manifests/pkhex/personal-parameters.csv`
-- `manifests/pkhex/items.csv`
-- `manifests/pkhex/moves.csv`
-- `manifests/pkhex/abilities.csv`
-- `manifests/pkhex/entity-formats.csv`
-- `manifests/pkhex/save-formats.csv`
-- `manifests/pkhex/evolutions.csv`
-- `manifests/pkhex/learnsets.csv`
-- `manifests/pkhex/encounters.csv`
-- `manifests/pkhex/mystery-gifts.csv`
-- `manifests/pkhex/ribbons-marks.csv`
-- `manifests/pkhex/transfer-conversion.csv`
-- `manifests/pkhex/legality-rules.csv`
+## Next extraction order
 
-The inventory is the map; the files above are the extraction layer.
+1. species + form + personal tables
+2. items
+3. moves
+4. abilities
+5. evolutions
+6. learnsets / egg moves / tutors
+7. encounter tables
+8. entity/save field layouts
+9. conversion rules between generations
+10. mystery gifts
+11. ribbons/marks
+12. Pokédex / transfer / legality restrictions
+
+Japanese naming remains the primary language reference for this project, followed by Korean, then English.
