@@ -1,0 +1,20 @@
+emerald_extension_id,hex,constant,japanese,korean,english,debut_generation,reference_item_id,mainline_trigger,legends_arceus_trigger,type,form,move_boost_percent,notes
+377,0x179,ITEM_FLAME_PLATE,ひのたまプレート,불구슬플레이트,Flame Plate,4,298,held,use_on_arceus,Fire,Fire,20,First extension slot after Emerald ITEM_OLD_SEA_MAP 376
+378,0x17A,ITEM_SPLASH_PLATE,しずくプレート,물방울플레이트,Splash Plate,4,299,held,use_on_arceus,Water,Water,20,
+379,0x17B,ITEM_ZAP_PLATE,いかずちプレート,우레플레이트,Zap Plate,4,300,held,use_on_arceus,Electric,Electric,20,
+380,0x17C,ITEM_MEADOW_PLATE,みどりのプレート,초록플레이트,Meadow Plate,4,301,held,use_on_arceus,Grass,Grass,20,
+381,0x17D,ITEM_ICICLE_PLATE,つららのプレート,고드름플레이트,Icicle Plate,4,302,held,use_on_arceus,Ice,Ice,20,
+382,0x17E,ITEM_FIST_PLATE,こぶしのプレート,주먹플레이트,Fist Plate,4,303,held,use_on_arceus,Fighting,Fighting,20,
+383,0x17F,ITEM_TOXIC_PLATE,もうどくプレート,맹독플레이트,Toxic Plate,4,304,held,use_on_arceus,Poison,Poison,20,
+384,0x180,ITEM_EARTH_PLATE,だいちのプレート,대지플레이트,Earth Plate,4,305,held,use_on_arceus,Ground,Ground,20,
+385,0x181,ITEM_SKY_PLATE,あおぞらプレート,푸른하늘플레이트,Sky Plate,4,306,held,use_on_arceus,Flying,Flying,20,
+386,0x182,ITEM_MIND_PLATE,ふしぎのプレート,이상한플레이트,Mind Plate,4,307,held,use_on_arceus,Psychic,Psychic,20,
+387,0x183,ITEM_INSECT_PLATE,たまむしプレート,비단벌레플레이트,Insect Plate,4,308,held,use_on_arceus,Bug,Bug,20,
+388,0x184,ITEM_STONE_PLATE,がんせきプレート,암석플레이트,Stone Plate,4,309,held,use_on_arceus,Rock,Rock,20,
+389,0x185,ITEM_SPOOKY_PLATE,もののけプレート,원령플레이트,Spooky Plate,4,310,held,use_on_arceus,Ghost,Ghost,20,
+390,0x186,ITEM_DRACO_PLATE,りゅうのプレート,용의플레이트,Draco Plate,4,311,held,use_on_arceus,Dragon,Dragon,20,
+391,0x187,ITEM_DREAD_PLATE,こわもてプレート,공포플레이트,Dread Plate,4,312,held,use_on_arceus,Dark,Dark,20,
+392,0x188,ITEM_IRON_PLATE,こうてつプレート,강철플레이트,Iron Plate,4,313,held,use_on_arceus,Steel,Steel,20,
+393,0x189,ITEM_PIXIE_PLATE,せいれいプレート,정령플레이트,Pixie Plate,6,644,held,use_on_arceus,Fairy,Fairy,20,Requires Fairy engine type
+394,0x18A,ITEM_BLANK_PLATE,まっさらプレート,순백플레이트,Blank Plate,8,1780,not_used,use_on_arceus,Normal,Normal,0,PLA active-use item
+395,0x18B,ITEM_LEGEND_PLATE,レジェンドプレート,레전드플레이트,Legend Plate,8,1828,not_used,use_on_arceus,Dynamic,Normal,0,PLA state is Normal outside battle and Judgment selects battle type
