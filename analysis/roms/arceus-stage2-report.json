@@ -1,0 +1,61 @@
+{
+  "source_sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c",
+  "output_sha256": "bcd1a417adba623efb78e2bd9f9b6cd44d36dfea397be64b028c6bfc936d828b",
+  "ruleset": 2,
+  "runtime": {
+    "offset": "0x91C000",
+    "address": "0x0891C000",
+    "size": 1456,
+    "sha256": "6673cb7ef7c8522fe85687dc250a5d25897227de9463609437e8596fe663fc05",
+    "relocations": 0
+  },
+  "resources": {
+    "front": {
+      "offset": "0x91D000",
+      "size": 4096,
+      "sha256": "0427cfd365ea9de366150b8a5aa3a2b3bac85bdf4903b9223e9ebe070c19acd7"
+    },
+    "back": {
+      "offset": "0x91E000",
+      "size": 2048,
+      "sha256": "ccbc5ed3a6aea21404ed52dd7e66d1200fd7a725ed86b04b15380f5b935d2c85"
+    },
+    "palettes": {
+      "offset": "0x91E800",
+      "size": 576,
+      "sha256": "66636881fe5dcfd191baaffe7ebb2429185958e3a2a3cddc205c22e957ce0823"
+    },
+    "ruleset_byte": "0x91EA40"
+  },
+  "hook": {
+    "offset": "0x45DAC",
+    "address": "0x08045DAC",
+    "before": "164a17490b781801",
+    "after": "004b184701c09108",
+    "entry": "0x0891C001",
+    "resume": "0x08045DB5"
+  },
+  "bpej": {
+    "gBattleStructPointer": "0x02024140",
+    "dynamicMoveTypeOffset": "0x13",
+    "gTypeEffectiveness": "0x082EBB38",
+    "random": "0x0802BD8D"
+  },
+  "temporary_ids": {
+    "species": 253,
+    "move_judgment": 354,
+    "items": "377-413"
+  },
+  "base_stats_offset": "0x2f2900",
+  "move_offset": "0x2ee2b8",
+  "validation": {
+    "clean_rom_hash": "PASS",
+    "game_code_revision": "PASS",
+    "hook_original_bytes": "PASS",
+    "injection_region_ff": "PASS",
+    "runtime_fit": "PASS",
+    "front_size": "PASS",
+    "back_size": "PASS",
+    "palette_bank_size": "PASS"
+  }
+}
