@@ -1,0 +1,26 @@
+game_scope,context,max_species_id,max_move_id,max_item_id,notes,source_commit
+RB/Y,Gen1,151,165,255,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+GS/C,Gen2,251,251,255,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+RS,Gen3,386,354,346,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+Emerald,Gen3,386,354,376,canonical EMERALD item ceiling,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+FRLG,Gen3,386,354,374,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+DP,Gen4,493,467,464,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+Platinum,Gen4,493,467,467,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+HGSS,Gen4,493,467,536,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+BW,Gen5,649,559,632,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+B2W2,Gen5,649,559,638,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+XY,Gen6,721,617,717,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+ORAS,Gen6,721,621,775,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SM,Gen7,802,719,920,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+USUM,Gen7,807,728,959,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+LGPE,Gen7b,809,742,1057,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SWSH base,Gen8,890,796,1278,through Eternatus / Steel Beam,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SWSH Isle of Armor,Gen8,893,818,1589,through Zarude / Surging Strikes,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SWSH Crown Tundra,Gen8,898,826,1607,through Calyrex / Eerie Spell,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+PLA,Gen8a,905,850,1828,Enamorus / Take Heart / Legend Plate,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+BDSP,Gen8b,493,826,1822,species ceiling remains Arceus,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SV base+early update,Gen9,1010,900,2400,Iron Leaves / Magical Torque,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SV Teal Mask,Gen9,1017,904,2481,Ogerpon / Ivy Cudgel,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SV Indigo Disk,Gen9,1025,919,2557,Pecharunt / Malignant Chain,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+Z-A base,Gen9a,870,920,2634,Falinks is highest National Dex species ID in base table; Nihil Light,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+Z-A Mega Dimension,Gen9a,1000,920,2684,Gholdengo is highest National Dex species ID in MD table,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
