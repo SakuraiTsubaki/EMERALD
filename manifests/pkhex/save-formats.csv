@@ -1,0 +1,38 @@
+class,context,source_path,kind,extraction_goal,source_commit
+SAV1,Gen1,PKHeX.Core/Saves/SAV1.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV1Stadium,Gen1,PKHeX.Core/Saves/SAV1Stadium.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV1StadiumJ,Gen1,PKHeX.Core/Saves/SAV1StadiumJ.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV2,Gen2,PKHeX.Core/Saves/SAV2.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV2Stadium,Gen2,PKHeX.Core/Saves/SAV2Stadium.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV3,Gen3,PKHeX.Core/Saves/SAV3.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV3Colosseum,Gen3,PKHeX.Core/Saves/SAV3Colosseum.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV3E,Gen3,PKHeX.Core/Saves/SAV3E.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV3FRLG,Gen3,PKHeX.Core/Saves/SAV3FRLG.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV3RS,Gen3,PKHeX.Core/Saves/SAV3RS.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV3RSBox,Gen3,PKHeX.Core/Saves/SAV3RSBox.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV3XD,Gen3,PKHeX.Core/Saves/SAV3XD.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV4,Gen4,PKHeX.Core/Saves/SAV4.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV4BR,Gen4,PKHeX.Core/Saves/SAV4BR.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV4DP,Gen4,PKHeX.Core/Saves/SAV4DP.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV4HGSS,Gen4,PKHeX.Core/Saves/SAV4HGSS.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV4Pt,Gen4,PKHeX.Core/Saves/SAV4Pt.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV4Ranch,Gen4,PKHeX.Core/Saves/SAV4Ranch.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV4Sinnoh,Gen4,PKHeX.Core/Saves/SAV4Sinnoh.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV5,Gen5,PKHeX.Core/Saves/SAV5.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV5B2W2,Gen5,PKHeX.Core/Saves/SAV5B2W2.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV5BW,Gen5,PKHeX.Core/Saves/SAV5BW.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV6,Gen6,PKHeX.Core/Saves/SAV6.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV6AO,Gen6,PKHeX.Core/Saves/SAV6AO.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV6AODemo,Gen6,PKHeX.Core/Saves/SAV6AODemo.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV6XY,Gen6,PKHeX.Core/Saves/SAV6XY.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV7,Gen7,PKHeX.Core/Saves/SAV7.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV7SM,Gen7,PKHeX.Core/Saves/SAV7SM.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV7USUM,Gen7,PKHeX.Core/Saves/SAV7USUM.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV7b,Gen7b,PKHeX.Core/Saves/SAV7b.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV8BS,Gen8b BDSP,PKHeX.Core/Saves/SAV8BS.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV8LA,Gen8a PLA,PKHeX.Core/Saves/SAV8LA.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV8SWSH,Gen8 SWSH,PKHeX.Core/Saves/SAV8SWSH.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV9SV,Gen9 SV,PKHeX.Core/Saves/SAV9SV.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV9ZA,Gen9a ZA,PKHeX.Core/Saves/SAV9ZA.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV_BEEF,shared/base,PKHeX.Core/Saves/SAV_BEEF.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SAV_STADIUM,shared/base,PKHeX.Core/Saves/SAV_STADIUM.cs,save_class,extract blocks/offsets/party/box/inventory/dex/event/time structure,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
