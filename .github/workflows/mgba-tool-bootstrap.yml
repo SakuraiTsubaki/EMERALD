@@ -24,7 +24,7 @@ jobs:
           LIB=$(find pkgs -name 'libmgba.deb' | head -1)
           HEAD=$(find pkgs -name 'mgba-headless.deb' | head -1)
           sudo apt-get update
-          sudo apt-get install -y "$LIB" "$HEAD"
+          sudo apt-get install -y "./$LIB" "./$HEAD"
           /usr/bin/mgba-headless --version
       - name: Bundle binary and all linked libraries
         run: |
