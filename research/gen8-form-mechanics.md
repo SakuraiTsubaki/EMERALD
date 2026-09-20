@@ -493,15 +493,19 @@ Normal Plates in PLA are key items used directly on Arceus rather than held item
 The **Legend Plate** adds a new battle-derived form/type behavior.
 
 After using the Legend Plate:
-- Arceus is Normal outside the relevant attack state;
-- when Judgment is selected, the game chooses an advantageous type against the target;
+- Arceus's persistent/out-of-battle presentation is Normal;
+- a Legend-state Arceus enters battle as Normal;
+- when Judgment is allowed to execute, the game chooses an advantageous type against the selected target;
 - Arceus changes its type/form before attacking;
-- Judgment uses that selected type;
-- battle end restores the ordinary state.
+- Judgment uses that selected type and receives STAB;
+- the selected type remains battle state until another Judgment changes it or the battle ends;
+- battle end restores the Normal persistent presentation.
 
-This is effectively **move-target-derived dynamic type/form selection**.
+The target-derived selector prioritizes offensive effectiveness first, then resistance/immunity to the target's primary type, then the target's secondary type, and finally random choice among exact ties.
 
-It cannot be represented correctly by a simple persistent Plate form.
+This is effectively **move-target-derived dynamic type/form selection layered over a persistent Legend Plate state**.
+
+It cannot be represented correctly by a simple persistent Plate form or by a one-frame attack-only visual change.
 
 ---
 
