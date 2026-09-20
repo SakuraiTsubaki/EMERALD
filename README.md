@@ -28,6 +28,21 @@ Pokémon Emerald의 외부 배포/외부 장치 의존 이벤트를 게임 내�
 
 패치: `patches/pokeemerald/0002-littleroot-event-ticket-npc.patch`
 
+### Regional forms / regional evolutions — expanded profile
+
+리전폼과 리전 진화 전체 구현은 바닐라 `pret/pokeemerald` 위에 현대 포켓몬 엔진을 중복 재구현하지 않고, 검증된 `rh-hideout/pokeemerald-expansion` 소스를 고정하여 사용하는 별도 `expanded` 프로필로 관리합니다.
+
+- 고정 소스: `rh-hideout/pokeemerald-expansion@75b806a3ab57a81ff1eb6179288981f0b3cc3050`
+- 리전폼: 57개 + 백색근 배쓰나이 특례 1개 = 58 엔트리
+- 리전 진화 파라미터: 엄격한 9종 + 대쓰여너 수컷/암컷 2폼 = 11 엔트리
+- 마스터 데이터: 총 69행
+- 별도 중첩 전투폼: 가라르 불비달마 달마모드
+- 자동 검증: `tools/verify_regional_forms.py`
+- 상세 문서: `docs/regional-forms.md`
+- 데이터: `manifests/regional-forms/`
+
+기존 외부 이벤트용 `classic` 프로필은 그대로 유지하며, 두 기반은 `manifests/engine-base.yml`에서 명시적으로 분리합니다.
+
 ### Item table normalization
 
 Emerald의 아이템 ID와 게임 파라미터를 최종 기준으로 두고, DP / Pt / HGSS 아이템 테이블은 비교·확장 소스로 사용합니다.
