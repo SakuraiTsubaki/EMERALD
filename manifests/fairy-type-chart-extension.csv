@@ -1,0 +1,13 @@
+attacking_type,defending_type,multiplier,reason
+Fairy,Fighting,20,Fairy is super effective against Fighting
+Fairy,Dragon,20,Fairy is super effective against Dragon
+Fairy,Dark,20,Fairy is super effective against Dark
+Fairy,Fire,5,Fire resists Fairy
+Fairy,Poison,5,Poison resists Fairy
+Fairy,Steel,5,Steel resists Fairy
+Fighting,Fairy,5,Fairy resists Fighting
+Bug,Fairy,5,Fairy resists Bug
+Dark,Fairy,5,Fairy resists Dark
+Dragon,Fairy,0,Fairy is immune to Dragon
+Poison,Fairy,20,Fairy is weak to Poison
+Steel,Fairy,20,Fairy is weak to Steel
