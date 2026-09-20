@@ -1,0 +1,22 @@
+name: Export Arceus generated assets
+
+on:
+  push:
+    branches:
+      - feature/arceus-all-gen
+    paths:
+      - .github/workflows/export-arceus-assets.yml
+  workflow_dispatch:
+
+jobs:
+  export:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feature/arceus-all-gen
+      - uses: actions/upload-artifact@v4
+        with:
+          name: arceus-generated-assets
+          path: artifacts/graphics/arceus/generated
+          if-no-files-found: error
