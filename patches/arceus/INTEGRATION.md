@@ -5,7 +5,21 @@ Branch lineage: `feature/aegislash-gen6` -> `feature/arceus-all-gen`.
 
 Target representation: **one persistent `SPECIES_ARCEUS`**. Form identity is explicit metadata; battle presentation uses `gBattleMonForms[]`.
 
-## 1. Species / ability / move data
+## 1. Ruleset adapters
+
+The Arceus extension separates mechanics that changed by generation:
+
+- `ARCEUS_RULESET_GEN4`
+- `ARCEUS_RULESET_GEN5`
+- `ARCEUS_RULESET_GEN6`
+- `ARCEUS_RULESET_GEN7`
+- `ARCEUS_RULESET_GEN8_BDSP`
+- `ARCEUS_RULESET_LEGENDS_ARCEUS`
+- `ARCEUS_RULESET_GEN9`
+
+Do not collapse these back into a single "modern" path. Gen VII Z-Crystals and Gen IX Terastallization make that inaccurate.
+
+## 2. Species / ability / move data
 
 Add:
 - `SPECIES_ARCEUS`
@@ -17,37 +31,41 @@ Add:
 
 Do not encode forms as separate species.
 
-## 2. Fairy engine type
+## 3. Fairy engine type
 
 Gen VI+ and PLA require Fairy.
 
 Add `TYPE_FAIRY` after Dark and extend:
-- type-effectiveness table;
+- `gTypeEffectiveness`;
 - type names/messages;
 - summary/menu type graphics;
 - AI/type loops using `NUMBER_OF_MON_TYPES`;
 - any fixed-size type arrays.
 
+The exact non-neutral chart additions are in:
+`manifests/fairy-type-chart-extension.csv`.
+
 The Arceus module has a temporary `TYPE_FAIRY 18` fallback only to document the intended slot. A real engine constant/table entry is mandatory before build/runtime use.
 
-## 3. Plate item allocation
+## 4. Item allocation
 
 Use `manifests/arceus-item-extensions.csv`.
 
 Emerald stock ends at:
 - 376 / 0x178 = `ITEM_OLD_SEA_MAP`
 
-Arceus extension range:
-- 377-392: the sixteen Gen IV Plates in original Pt order;
+Allocated extension range:
+- 377-392: sixteen Gen IV Plates in original Pt order;
 - 393: Pixie Plate;
 - 394: Blank Plate;
-- 395: Legend Plate.
+- 395: Legend Plate;
+- 396-413: eighteen type-specific Z-Crystals in Gen VII order.
 
-Do not reuse Pt numeric IDs 298-313 inside Emerald.
+Do not reuse original later-generation numeric IDs inside Emerald.
 
-Mainline rulesets use ordinary Plates as held items. PLA ruleset exposes them through an out-of-battle use handler. Blank/Legend are PLA-only active-use entries.
+Mainline rulesets use ordinary Plates as held items. Gen VII additionally lets type Z-Crystals drive Multitype form only. PLA exposes Plates through an out-of-battle use handler.
 
-## 4. Persistent form state without changing save size
+## 5. Persistent form state without changing save size
 
 Stock `PokemonSubstruct0` ends with:
 
@@ -86,7 +104,28 @@ Use the normal `SetMonData` / `SetBoxMonData` path so the secure-data checksum i
 
 Compatibility property: untouched legacy saves have zero in this slot, which decodes as base form / no special trigger.
 
-## 5. Battle lifecycle
+## 6. Held-item form resolution
+
+Use `Arceus_GetHeldMultitypeForm(item, ruleset)`.
+
+- Gen IV/V: sixteen Plates only.
+- Gen VI: sixteen Plates + Pixie Plate.
+- Gen VII: Plates **or** eighteen type-specific Z-Crystals.
+- BDSP: Plates only.
+- Gen IX: Plates only.
+
+Judgment does **not** use this resolver. Judgment uses `Arceus_GetPlateForm` because Gen VII Z-Crystals change Arceus's form but do not change Judgment's type.
+
+## 7. Item-manipulation rules
+
+Call `Arceus_BlocksItemManipulation` from Trick / Switcheroo / Thief / Covet / Knock Off / Fling-style held-item mutation paths.
+
+- Gen IV: block item manipulation on a Multitype Arceus regardless of current item.
+- Gen V onward: block giving a Plate to Arceus or removing a Plate already held.
+- Gen VII: Z-Crystals must also be protected; the Arceus adapter currently supplies this until a generic Z-Crystal item-lock layer exists.
+- PLA: no held-item manipulation path.
+
+## 8. Battle lifecycle
 
 Call `Arceus_BeginBattle()` once when a new battle is initialized.
 
@@ -98,8 +137,8 @@ Arceus_ApplyBattleEntryForm(battler, gArceusRuleset);
 
 This must occur after any path that calls `ClearTemporarySpeciesSpriteData`, because stock Emerald clears `gBattleMonForms[battler]` there.
 
-Mainline rulesets:
-- derive form from current held Plate on each battle entry.
+Mainline:
+- derive form from the current held-item ruleset.
 
 PLA ordinary Plate:
 - derive form from persistent `MON_DATA_FORM_STATE`.
@@ -110,7 +149,7 @@ PLA Legend Plate:
 
 Do **not** blindly reset Legend Arceus to Normal on switch-out. Only `Arceus_EndBattle()` clears the temporary Legend battle state.
 
-## 6. PLA field item use
+## 9. PLA field item use
 
 Add an out-of-battle Plate use path that targets a party Arceus and calls:
 
@@ -125,31 +164,44 @@ Behavior:
 
 Refresh summary/menu sprite and displayed type from the resulting form.
 
-## 7. Judgment hook
+## 10. Judgment hook
 
 Call `Arceus_TryPrepareJudgment(gBattlerAttacker, gBattlerTarget, gArceusRuleset)` **after the attack-canceler has established that the move can execute** and before damage/type calculation.
 
-This timing is required because:
-- full paralysis / sleep / freeze / flinch must prevent Legend transformation;
-- a later accuracy miss must not undo the transformation;
-- dynamic move type must be set before damage, STAB and effectiveness calculation.
+Timing requirements:
+- full paralysis / sleep / freeze / flinch prevent Legend transformation;
+- a later accuracy miss does not undo the transformation;
+- dynamic move type is set before damage, STAB and effectiveness calculation.
 
-Mainline:
-- Judgment type comes from the user's held Plate;
-- an Arceus with Multitype is synchronized to that form.
+Mainline Plate:
+- Judgment type comes from the user's Plate, including a non-Arceus user that obtained/copied Judgment.
+
+Gen VII Z-Crystal:
+- Multitype form follows the Z-Crystal;
+- Judgment remains Normal because no Plate is held.
 
 PLA:
 - copied Judgment by non-Arceus -> Normal;
 - ordinary Plate -> current persistent Arceus form;
 - Legend Plate -> choose form from target matchup, then set Arceus and Judgment to that type.
 
-The Legend selector implemented in `src/extensions/arceus/arceus.c` uses:
+The Legend selector uses:
 1. best offensive multiplier;
 2. best defense against target primary type;
 3. best defense against target secondary type;
 4. random among exact ties.
 
-## 8. Judgment must remain Special
+## 11. Gen IX Terastallization guard
+
+When a future Tera subsystem is integrated:
+
+- if `ruleset == ARCEUS_RULESET_GEN9` and attacker is Terastallized, **do not** let Multitype overwrite the battler's Tera type;
+- still run the Plate-only Judgment resolver so Judgment keeps its Plate-derived move type;
+- STAB must be evaluated from the Tera rules, not from a forced Plate form.
+
+The current branch records this guard in the Arceus source comments but cannot execute it because EMERALD has no Tera state yet.
+
+## 12. Judgment must remain Special
 
 Stock Emerald's `CalculateBaseDamage` uses `IS_TYPE_PHYSICAL(type)` / `IS_TYPE_SPECIAL(type)`.
 
@@ -169,7 +221,17 @@ This keeps Judgment Special for Fighting/Rock/Ghost/etc. while retaining stock G
 
 Do not add a field to `struct BattleMove` yet: the BPEJ Aegislash Stage-2 runtime currently relies on the 12-byte move-entry layout.
 
-## 9. Graphics
+## 13. Plate 20% move boost
+
+Ordinary Plates boost matching-type moves by 20% in the mainline rulesets.
+
+Resolve Plate type from item identity with `Arceus_GetPlateForm` + `Arceus_FormToType`; do not allocate seventeen separate hold-effect opcodes unless another system needs them.
+
+Apply the 20% modifier to the stat path selected by the move-category resolver.
+
+Z-Crystals are **not** treated as ordinary 20% type-boosting items.
+
+## 14. Graphics
 
 Do not store 18 forms as 18 decompressed battler frames.
 
@@ -183,29 +245,39 @@ Follow the Aegislash Stage-2 model:
 
 The current branch contains mechanics/API only; Arceus PNG/palette/4bpp assets are not yet present in the connected repositories.
 
-## 10. Re-show / Transform / menu paths
+## 15. Re-show / menu paths
 
 Re-show battle:
 - reconstruct graphics from current `gBattleMonForms[battler]`, not frame-offset arithmetic.
 
 Summary / party / PC:
-- mainline ruleset derives visible form from held Plate;
+- mainline derives visible form from held-item rules;
 - PLA derives from persistent formState;
 - Legend state displays Normal outside the temporary battle transformation.
 
-Transform:
-- keep transformed species state separate from persistent Arceus form metadata.
-- Gen IV Multitype-specific Transform/item-lock semantics should be handled in the ruleset adapter, not by writing a form into the copied Pokémon save data.
+## 16. Transform rules
 
-## 11. Acceptance gate
+Keep Transform state separate from persistent Arceus metadata.
+
+Generation IV:
+- transformed Arceus may be re-resolved by the transformer's own Plate.
+
+Generation V onward:
+- transformed Pokémon keeps the target Arceus form regardless of its own held item.
+
+Implement this in the transform/ruleset adapter; never write the copied form back into save data.
+
+## 17. Acceptance gate
 
 Use `tests/arceus_behavior.md`.
 
 Minimum before merge:
-- all 40 logic cases accounted for;
+- all 66 logic cases accounted for;
 - Fairy type table verified;
+- Gen VII Z-Crystal form / Judgment split verified;
 - no out-of-bounds `gBattleMonForms` sprite-frame addressing;
 - Judgment category verified with at least one Gen III-physical dynamic type;
 - Legend switch-out/in preservation verified;
 - battle-end reset verified;
-- legacy save checksum/load verified.
+- legacy save checksum/load verified;
+- Gen IX Tera guard added when the Tera subsystem exists.
