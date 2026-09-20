@@ -31,7 +31,7 @@ The `expanded` profile therefore pins the verified expansion source and applies 
 
 ## Required configuration
 
-`patches/pokeemerald-expansion/0001-lock-regional-forms-profile.patch` makes the profile fail at preprocessing time if regional forms or cross-generation evolution support are disabled.
+`tools/verify_regional_forms.py` makes the integration fail verification if regional forms, new regional evolutions, or cross-generation evolution support are disabled in the pinned source.
 
 The pinned upstream already defaults to:
 
