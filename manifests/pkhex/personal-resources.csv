@@ -1,0 +1,24 @@
+game,context,resource,resource_bytes,entry_bytes,entry_count,parser_class,ability_slots,has_form_table,form_fields,notes,source_commit
+RB,Gen1,personal_rb,4256,28,152,PersonalInfo1,1,no,no generic form table,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+Yellow,Gen1,personal_y,4256,28,152,PersonalInfo1,1,no,no generic form table,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+GS,Gen2,personal_gs,8064,32,252,PersonalInfo2,1,no,no generic form table,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+Crystal,Gen2,personal_c,8064,32,252,PersonalInfo2,1,no,no generic form table,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+RS,Gen3,personal_rs,10836,28,387,PersonalInfo3,2,no,no FormCount/FormStatsIndex,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+Emerald,Gen3,personal_e,10836,28,387,PersonalInfo3,2,no,no FormCount/FormStatsIndex,canonical EMERALD target,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+FireRed,Gen3,personal_fr,10836,28,387,PersonalInfo3,2,no,no FormCount/FormStatsIndex,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+LeafGreen,Gen3,personal_lg,10836,28,387,PersonalInfo3,2,no,no FormCount/FormStatsIndex,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+DP,Gen4,personal_dp,22044,44,501,PersonalInfo4,2,yes,FormCount @0x29; FormStatsIndex u16 @0x2A,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+Platinum,Gen4,personal_pt,22352,44,508,PersonalInfo4,2,yes,FormCount @0x29; FormStatsIndex u16 @0x2A,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+HGSS,Gen4,personal_hgss,22352,44,508,PersonalInfo4,2,yes,FormCount @0x29; FormStatsIndex u16 @0x2A,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+BW,Gen5,personal_bw,40080,60,668,PersonalInfo5BW,3,yes,FormStatsIndex u16 @0x1C; FormCount @0x20,hidden ability supported,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+B2W2,Gen5,personal_b2w2,53884,76,709,PersonalInfo5B2W2,3,yes,FormStatsIndex u16 @0x1C; FormCount @0x20,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+XY,Gen6,personal_xy,51136,64,799,PersonalInfo6XY,3,yes,FormStatsIndex u16 @0x1C; FormCount @0x20,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+ORAS,Gen6,personal_ao,66080,80,826,PersonalInfo6AO,3,yes,FormStatsIndex u16 @0x1C; FormCount @0x20,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SM,Gen7,personal_sm,80724,84,961,PersonalInfo7,3,yes,FormStatsIndex u16 @0x1C; FormCount @0x20,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+USUM,Gen7,personal_uu,81984,84,976,PersonalInfo7,3,yes,FormStatsIndex u16 @0x1C; FormCount @0x20,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+LGPE,Gen7b,personal_gg,82320,84,980,PersonalInfo7GG,3,yes,FormStatsIndex u16 @0x1C; FormCount @0x20,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SWSH,Gen8,personal_swsh,209792,176,1192,PersonalInfo8SWSH,3,yes,FormStatsIndex u16 @0x1E; FormCount @0x20,abilities widened to u16,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+BDSP,Gen8b,personal_bdsp,38080,68,560,PersonalInfo8BDSP,3,yes,FormStatsIndex u16 @0x1E; FormCount @0x20,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+PLA,Gen8a,personal_la,224576,176,1276,PersonalInfo8LA,3,yes,FormStatsIndex u16 @0x1E; FormCount @0x20,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+SV,Gen9,personal_sv,113920,80,1424,PersonalInfo9SV,3,yes,FormStatsIndex u16 @0x18; FormCount @0x1A,regional form fields @0x26-0x2A,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
+Z-A,Gen9a,personal_za,115600,80,1445,PersonalInfo9ZA,3,yes,FormStatsIndex u16 @0x18; FormCount @0x1A,,8ad201e80244f630ab5a46922ab72fb79c5ad4f4
