@@ -81,4 +81,4 @@ Stage 2 is a runtime core, not the final polished implementation:
 - No dedicated stance-change message/transition animation yet; sprite/palette switches immediately.
 - The Attack drop is currently a direct stage edit. The corrected hook now reaches ordinary protected contact moves; standard stat-change plumbing is still needed for Mist, Contrary, Defiant/Competitive, messages and stat animations.
 - Shiny-specific Shield/Blade palettes are not yet split.
-- Static binary validation passed. mGBA runtime execution was unavailable in the build container.
+- Static binary validation passed. The corrected King's Shield core was also executed under mGBA headless on BPEJ Rev.00: contact Attack stage `6 -> 4`, non-contact/status/immunity controls passed, status-move bypass passed, and move 354 routed through the Protect-family chain. Full presentation/UI verification remains separate.
