@@ -39,6 +39,23 @@ Emerald의 아이템 ID와 게임 파라미터를 최종 기준으로 두고, DP
 
 기존 Emerald 아이템은 번호와 동작을 유지하고, 이후 세대 전용 아이템은 Emerald 쪽 확장 ID를 별도로 배정하는 방식으로 진행합니다.
 
+
+### Arceus all-generation form mechanics
+
+Branch: `feature/arceus-all-gen`
+
+Arceus is represented as one persistent species with explicit form metadata and battle-derived form state.
+
+- Gen IV: Normal + sixteen held-Plate forms; unused ??? form kept research-only.
+- Gen VI+: Pixie Plate / Fairy support for 18 playable type forms.
+- Pokémon Legends: Arceus: active-use Plates, Blank Plate, and Legend Plate target-derived Judgment transformation.
+- Persistent PLA form state uses the existing 16-bit Pokémon substruct filler slot without enlarging the save structure.
+- Judgment uses a separate move-category resolver so it remains Special under Emerald's type-based physical/special engine.
+- Plate extension IDs 377-395: `manifests/arceus-item-extensions.csv`
+- Core mechanics: `src/extensions/arceus/`
+- Integration: `patches/arceus/INTEGRATION.md`
+- Acceptance tests: `tests/arceus_behavior.md`
+
 ### Other external events
 
 - Altering Cave Mystery Gift encounter sets
