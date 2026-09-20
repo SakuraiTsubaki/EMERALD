@@ -8,8 +8,12 @@ struct Pokemon;
 enum ArceusRuleset
 {
     ARCEUS_RULESET_GEN4 = 0,
-    ARCEUS_RULESET_GEN6_PLUS,
+    ARCEUS_RULESET_GEN5,
+    ARCEUS_RULESET_GEN6,
+    ARCEUS_RULESET_GEN7,
+    ARCEUS_RULESET_GEN8_BDSP,
     ARCEUS_RULESET_LEGENDS_ARCEUS,
+    ARCEUS_RULESET_GEN9,
 };
 
 enum ArceusForm
@@ -46,6 +50,8 @@ void Arceus_EndBattle(void);
 
 u8 Arceus_FormToType(u8 form);
 u8 Arceus_GetPlateForm(u16 item, enum ArceusRuleset ruleset);
+u8 Arceus_GetHeldMultitypeForm(u16 item, enum ArceusRuleset ruleset);
+bool8 Arceus_BlocksItemManipulation(u8 battler, u16 incomingItem, enum ArceusRuleset ruleset);
 
 u16 Arceus_MakeFormState(u8 form, bool8 legendPlate);
 u8 Arceus_GetPersistentForm(struct Pokemon *mon);
