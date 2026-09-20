@@ -1,8 +1,13 @@
-section,file_count,policy,notes
-PKHeX.Core,3528,ingest-reference,"GPLv3 core logic/data; normalize into EMERALD manifests, do not source-copy by default"
-PKHeX.WinForms,501,reference-only,UI/editor behavior; not required for ROM parameter ingestion
-PKHeX.Drawing,3,reference-only,rendering helper
-PKHeX.Drawing.Misc,863,reference-only,drawing/assets; separate provenance may apply
-PKHeX.Drawing.PokeSprite,6460,do-not-auto-import,sprite collection has separate upstream licensing/provenance
-Tests,264,verification-reference,use to understand invariants and expected conversions
-.github,15,ignore,repository automation/documentation
+section,path,file_count,role,import_policy
+PKM,PKHeX.Core/PKM,183,"PK1-PK9, PA8/PA9 entity layouts; encryption; form/entity conversion","reference_and_normalize"
+PersonalInfo,PKHeX.Core/PersonalInfo,48,"generation/game personal tables, stats, types, abilities, form entries","reference_and_normalize"
+Items,PKHeX.Core/Items,49,"per-game item storage/valid IDs/pockets","reference_and_normalize"
+Moves,PKHeX.Core/Moves,16,"per-generation move metadata and availability","reference_and_normalize"
+Saves,PKHeX.Core/Saves,617,"SAV1-SAV9 structures, blocks, inventory, dex, time, mystery gift","reference_and_document"
+Legality,PKHeX.Core/Legality,642,"forms, encounters, evolutions, learnsets, RNG, restrictions, transfer legality","reference_oracle"
+MysteryGifts,PKHeX.Core/MysteryGifts,21,"Gen3+ gift formats and entity conversion","reference_and_normalize"
+Ribbons,PKHeX.Core/Ribbons,20,"ribbon/mark sets and generation mappings","reference_and_normalize"
+Game,PKHeX.Core/Game,41,"versions, strings, locations and game metadata","reference_and_normalize"
+Resources,PKHeX.Core/Resources,1731,"personal/evolution/levelup/eggmove binaries and localized text resources","extract_to_manifest"
+Editing,PKHeX.Core/Editing,160,"editor-side helpers; nature/hidden power/common edits","reference_only"
+TOTAL,PKHeX.Core,3528,"core reference backbone","pinned_reference"
