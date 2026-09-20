@@ -10,7 +10,7 @@ change cannot silently drop regional forms or required cross-generation branches
 diff --git a/include/config/species_enabled.h b/include/config/species_enabled.h
 --- a/include/config/species_enabled.h
 +++ b/include/config/species_enabled.h
-@@ -34,6 +34,15 @@
+@@ -34,6 +34,14 @@
  #define P_HISUIAN_FORMS                  P_REGIONAL_FORMS
  #define P_PALDEAN_FORMS                  P_REGIONAL_FORMS
  
@@ -18,10 +18,21 @@ diff --git a/include/config/species_enabled.h b/include/config/species_enabled.h
 +#error "EMERALD expanded profile requires P_REGIONAL_FORMS"
 +#endif
 +
-+#if !P_CROSS_GENERATION_EVOS
-+#error "EMERALD expanded profile requires P_CROSS_GENERATION_EVOS"
++#if !P_NEW_EVOS_IN_REGIONAL_DEX
++#error "EMERALD expanded profile requires P_NEW_EVOS_IN_REGIONAL_DEX"
 +#endif
 +
  // Big groups of forms that aren't always desired when choosing families.
  #define P_PIKACHU_EXTRA_FORMS            TRUE
  #define P_COSPLAY_PIKACHU_FORMS          P_PIKACHU_EXTRA_FORMS
+@@ -44,6 +52,10 @@
+ // Cross-generation evolutions. Includes pre-evolutions.
+ #define P_CROSS_GENERATION_EVOS          TRUE
++
++#if !P_CROSS_GENERATION_EVOS
++#error "EMERALD expanded profile requires P_CROSS_GENERATION_EVOS"
++#endif
++
+ #define P_GEN_2_CROSS_EVOS               P_CROSS_GENERATION_EVOS
+ #define P_GEN_3_CROSS_EVOS               P_CROSS_GENERATION_EVOS
+ #define P_GEN_4_CROSS_EVOS               P_CROSS_GENERATION_EVOS // Just Sylveon.
