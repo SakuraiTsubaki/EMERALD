@@ -1,0 +1,13 @@
+dispatch_index,file_offset_hex,bank_hex,address_hex,role,start_address_hex,end_address_exclusive_hex,size_bytes,storage,observed_records,expected_records,record_count_matches,sha256
+0,0x0035C3,0x6C,0x4C4A,,,,,,,,,
+1,0x0035C6,0x6C,0x564A,,,,,,,,,
+2,0x0035C9,0x00,0x0000,,,,,,,,,
+3,0x0035CC,0x6C,0x4000,,,,,,,,,
+4,0x0035CF,0x00,0xDC47,,,,,,,,,
+5,0x0035D2,0x00,0xDF7A,,,,,,,,,
+6,0x0035D5,0x6C,0x49A1,,,,,,,,,
+7,0x0035D8,0x04,0x4000,,,,,,,,,
+,0x1B0000,0x6C,,ITEM_NAMES,0x4000,0x49A1,2465,TERMINATED,256,256,True,f9cfba498a6410767d1bae8af3f016c62b176c838f4dd403926439b6261b968e
+,0x1B09A1,0x6C,,TRAINER_CLASS_NAMES,0x49A1,0x4C4A,681,TERMINATED,67,67,True,be849107e39cb65222a0aaab29baef6bf4dca84f7eb7959681ccc9571a0b2b57
+,0x1B0C4A,0x6C,,POKEMON_NAME_SLOTS,0x4C4A,0x564A,2560,FIXED_10_BYTES,256,256,True,df54fd7ea8a273d7b2681abb3adfd4a227005d7e0d013be08e38ee62498715f5
+,0x1B164A,0x6C,,MOVE_NAMES,0x564A,0x5EE1,2199,TERMINATED,251,251,True,3dcc29f82c63e2960a4dae3cbe3cca9b5e34993f74187b5f98f7626fd81b1cc3
