@@ -30,4 +30,17 @@ profiles:
       reserved_generation: 10
       current_behavior_generation: GEN_9
       capacity_patch: patches/pokeemerald-expansion/0001-reserve-generation-10-slot.patch
+      entity_storage_patch: patches/pokeemerald-expansion/0002-widen-held-item-save-field.patch
+      binary_baseline: manifests/emerald-binary-baseline.csv
+      rom_build_target_bytes: 33554432
+      save_compatibility:
+        flash_bytes: 131072
+        sector_bytes: 4096
+        save_slots: 2
+        gameplay_sectors_per_slot: 14
+        saveblock3_chunk_bytes_per_sector: 116
+        saveblock3_bytes_per_slot: 1624
+        footer_metadata_offset: 4084
+        preserve_original_flash_size: true
+        preserve_special_sectors: true
       speculative_content: false
