@@ -1,34 +1,41 @@
 {
   "schema": 1,
-  "scope": "Japanese Generation I-III special encounter systems outside the standard wild-header tables",
+  "scope": "Japanese Generation I-III special encounter systems outside standard wild tables",
   "revisionFindings": {
-    "Aka Rev0 -> RevA": "no special-fishing semantic change found",
-    "Midori Rev0 -> RevA": "no special-fishing semantic change found",
-    "Pikachu 0A -> B -> C -> D": "Good Rod relocates between 0A and later revisions; semantics unchanged. Super Rod direct table remains at 0xA4C7D.",
-    "Kin Rev0 -> RevA": "key fishing/swarm/tree/contest/Unown signatures unchanged",
-    "Gin Rev0 -> RevA": "key fishing/swarm/tree/contest/Unown signatures unchanged",
-    "FireRed Rev0 -> Rev1": "special encounter system design unchanged at source/behavior level"
+    "Aka Rev0 -> RevA": "no special-fishing semantic change",
+    "Midori Rev0 -> RevA": "no special-fishing semantic change",
+    "Pikachu 0A -> B -> C -> D": "Good Rod relocates after Rev0A; Good/Super Rod semantics unchanged",
+    "Kin Rev0 -> RevA": "fishing/swarm/headbutt/contest/roamer/Unown data unchanged",
+    "Gin Rev0 -> RevA": "fishing/swarm/headbutt/contest/roamer/Unown data unchanged",
+    "FireRed Rev0 -> Rev1": "special encounter design unchanged"
   },
   "generation1": {
-    "oldRod": {"storage":"code-only","result":"Magikarp Lv5"},
-    "goodRod": {"choices":[{"species":"Goldeen","level":10},{"species":"Poliwag","level":10}]},
+    "oldRod": {"storage":"code-only","result":"MAGIKARP Lv5"},
+    "goodRod": {
+      "choices":[{"species":"GOLDEEN","level":10},{"species":"POLIWAG","level":10}],
+      "sameAcrossAllJapaneseInputs":true
+    },
     "superRod": {
-      "AkaMidoriAo":{"maps":33,"sharedGroups":10,"format":"map -> group pointer"},
-      "Pikachu":{"maps":31,"slotsPerMap":4,"format":"direct species/level slots"}
+      "AkaMidoriAo":{"maps":33,"groups":10,"sameSemanticData":true},
+      "Pikachu":{"maps":31,"slotsPerMap":4,"allJapaneseRevisionsIdentical":true}
     }
   },
   "generation2": {
-    "fishing":{"fishGroups":13,"GoldSilverVsCrystal":"semantic fish-group source is identical"},
+    "fishing":{"fishGroups":13,"timeDependentSubstitution":true},
     "swarms":{
-      "GoldSilver":{"grassProfiles":4,"waterProfiles":1},
+      "KinGin":{"grassProfiles":4,"waterProfiles":1},
       "Crystal":{"grassProfiles":2,"waterProfiles":0}
     },
     "headbutt":{
-      "GoldSilver":{"setFamilyCount":6},
-      "Crystal":{"setFamilyCount":8}
+      "KinGin":{"mapMappings":34,"rockMappings":4,"setSlots":6},
+      "Crystal":{"mapMappings":34,"rockMappings":4,"functionalSetSlots":8}
     },
-    "bugCatchingContest":{"activeWeightedEntries":10,"GoldSilverVsCrystal":"identical"},
-    "roamerRouteGraph":{"nodes":16,"GoldSilverVsCrystal":"identical"},
+    "bugCatchingContest":{"activeWeightedEntries":10,"sameAcrossKinGinCrystal":true},
+    "roamerRouteGraph":{
+      "nodes":16,
+      "sameAcrossKinGinCrystal":true,
+      "romOffsets":{"KinGin":"0x2AA0E","Crystal":"0x2A3FF"}
+    },
     "unownUnlockSets":["A-K","L-R","S-W","X-Z"]
   },
   "generation3": {
@@ -37,40 +44,44 @@
       "map":"Route 119",
       "candidateFishingSpots":447,
       "selectedSpots":6,
-      "encounterChanceOnSelectedSpotPercent":50
+      "encounterChanceOnSelectedSpotPercent":50,
+      "levelRange":[20,25],
+      "seed":"Dewford trend random seed"
     },
     "massOutbreak":{
-      "titles":["Ruby","Sapphire","Emerald"],
-      "storage":"SaveBlock-backed species/map/level/moves/probability",
-      "behavior":"temporary land-encounter override",
-      "emeraldProbabilityPercent":50,
-      "emeraldDurationDaysAfterStart":2,
-      "emeraldBuiltInProfiles":[
-        {"species":"Seedot","level":3,"map":"Route 102"},
-        {"species":"Nuzleaf","level":15,"map":"Route 114"},
-        {"species":"Seedot","level":13,"map":"Route 117"},
-        {"species":"Seedot","level":25,"map":"Route 120"},
-        {"species":"Skitty","level":8,"map":"Route 116"}
-      ]
+      "storage":"save-backed species/map/level/moves/probability",
+      "rubySapphireProfiles":[
+        {"species":"SURSKIT","level":3,"map":"Route 102"},
+        {"species":"SURSKIT","level":15,"map":"Route 114"},
+        {"species":"SURSKIT","level":15,"map":"Route 117"},
+        {"species":"SURSKIT","level":28,"map":"Route 120"},
+        {"species":"SKITTY","level":15,"map":"Route 116"}
+      ],
+      "emeraldProfiles":[
+        {"species":"SEEDOT","level":3,"map":"Route 102"},
+        {"species":"NUZLEAF","level":15,"map":"Route 114"},
+        {"species":"SEEDOT","level":13,"map":"Route 117"},
+        {"species":"SEEDOT","level":25,"map":"Route 120"},
+        {"species":"SKITTY","level":8,"map":"Route 116"}
+      ],
+      "emeraldReplacementProbabilityPercent":50,
+      "emeraldActiveDurationDays":2
     },
     "roamers":{
-      "Ruby":{"species":"Latios","level":40},
-      "Sapphire":{"species":"Latias","level":40},
-      "Emerald":{"species":"Latias or Latios selected by TV choice","level":40},
+      "Ruby":{"species":"LATIOS","level":40},
+      "Sapphire":{"species":"LATIAS","level":40},
+      "Emerald":{"species":"LATIAS or LATIOS","level":40,"selection":"TV choice"},
       "FireRedLeafGreen":{
         "level":50,
-        "starterMapping":{
-          "Squirtle":"Raikou",
-          "Bulbasaur":"Entei",
-          "Charmander":"Suicune"
-        }
+        "starterMapping":{"BULBASAUR":"ENTEI","CHARMANDER":"SUICUNE","SQUIRTLE":"RAIKOU"}
       },
-      "encounterWhenOnSameMap":"25% per eligible encounter check"
+      "persistentState":["species","personality","IVs","HP","status","location"],
+      "sameMapEncounterCheck":"1 in 4"
     }
   },
-  "deferredToOtherLayers":[
-    "scripted/static legendary and gift encounters -> script/event survey",
-    "Safari catch/battle rules -> battle/field-system survey",
-    "Gen III Battle Pike/Pyramid facility wilds -> facility-system survey"
+  "deferredToMapScriptLayer":[
+    "static legendary encounters",
+    "gift Pokemon",
+    "scripted one-off encounters"
   ]
 }
