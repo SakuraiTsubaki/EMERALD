@@ -1,0 +1,76 @@
+generation,project,title,revision,subsystem,rom_offset,structure,verified
+1,RED,Aka,Rev 0,good_rod,0xE3CE,"2 fixed level/species entries",direct-rom
+1,RED,Aka,Rev A,good_rod,0xE3CE,"2 fixed level/species entries",direct-rom
+1,GREEN,Midori,Rev 0,good_rod,0xE3CE,"2 fixed level/species entries",direct-rom
+1,GREEN,Midori,Rev A,good_rod,0xE3CE,"2 fixed level/species entries",direct-rom
+1,BLUE,Ao,Rev 0,good_rod,0xE3F3,"2 fixed level/species entries",direct-rom
+1,YELLOW,Pikachu,Rev 0A,good_rod,0xE241,"2 fixed level/species entries",direct-rom
+1,YELLOW,Pikachu,Rev B,good_rod,0xE238,"2 fixed level/species entries",direct-rom
+1,YELLOW,Pikachu,Rev C,good_rod,0xE238,"2 fixed level/species entries",direct-rom
+1,YELLOW,Pikachu,Rev D,good_rod,0xE238,"2 fixed level/species entries",direct-rom
+1,RED,Aka,Rev 0,super_rod,0xEC24,"33 map records -> 10 fishing groups",direct-rom
+1,RED,Aka,Rev A,super_rod,0xEC24,"33 map records -> 10 fishing groups",direct-rom
+1,GREEN,Midori,Rev 0,super_rod,0xEC24,"33 map records -> 10 fishing groups",direct-rom
+1,GREEN,Midori,Rev A,super_rod,0xEC24,"33 map records -> 10 fishing groups",direct-rom
+1,BLUE,Ao,Rev 0,super_rod,0xEC49,"33 map records -> 10 fishing groups",direct-rom
+1,YELLOW,Pikachu,Rev 0A,super_rod,0xA4C7D,"31 direct map records x 4 slots",direct-rom
+1,YELLOW,Pikachu,Rev B,super_rod,0xA4C7D,"31 direct map records x 4 slots",direct-rom
+1,YELLOW,Pikachu,Rev C,super_rod,0xA4C7D,"31 direct map records x 4 slots",direct-rom
+1,YELLOW,Pikachu,Rev D,super_rod,0xA4C7D,"31 direct map records x 4 slots",direct-rom
+2,GOLD,Kin,Rev 0,fishing_groups,0x92946,"13 FishGroups; old/good/super + time groups",direct-rom
+2,GOLD,Kin,Rev A,fishing_groups,0x92946,"13 FishGroups; old/good/super + time groups",direct-rom
+2,SILVER,Gin,Rev 0,fishing_groups,0x92946,"13 FishGroups; old/good/super + time groups",direct-rom
+2,SILVER,Gin,Rev A,fishing_groups,0x92946,"13 FishGroups; old/good/super + time groups",direct-rom
+2,CRYSTAL,Crystal,Rev 0,fishing_groups,0x929FB,"13 FishGroups; old/good/super + time groups",direct-rom
+2,GOLD,Kin,Rev 0,swarm_grass,0x2BF02,"4 grass swarm encounter blocks",direct-rom
+2,GOLD,Kin,Rev A,swarm_grass,0x2BF02,"4 grass swarm encounter blocks",direct-rom
+2,SILVER,Gin,Rev 0,swarm_grass,0x2BF02,"4 grass swarm encounter blocks",direct-rom
+2,SILVER,Gin,Rev A,swarm_grass,0x2BF02,"4 grass swarm encounter blocks",direct-rom
+2,CRYSTAL,Crystal,Rev 0,swarm_grass,0x2B8F3,"2 grass swarm encounter blocks",direct-rom
+2,GOLD,Kin,Rev 0,swarm_water,0x2BFBF,"1 surfing swarm block",direct-rom
+2,GOLD,Kin,Rev A,swarm_water,0x2BFBF,"1 surfing swarm block",direct-rom
+2,SILVER,Gin,Rev 0,swarm_water,0x2BFBF,"1 surfing swarm block",direct-rom
+2,SILVER,Gin,Rev A,swarm_water,0x2BFBF,"1 surfing swarm block",direct-rom
+2,CRYSTAL,Crystal,Rev 0,swarm_water,,"no surfing swarm entries",direct-rom
+2,GOLD,Kin,Rev 0,treemon_maps,0xBA3E6,"34 map-to-headbutt-set mappings",direct-rom
+2,GOLD,Kin,Rev A,treemon_maps,0xBA3E6,"34 map-to-headbutt-set mappings",direct-rom
+2,SILVER,Gin,Rev 0,treemon_maps,0xBA3E6,"34 map-to-headbutt-set mappings",direct-rom
+2,SILVER,Gin,Rev A,treemon_maps,0xBA3E6,"34 map-to-headbutt-set mappings",direct-rom
+2,CRYSTAL,Crystal,Rev 0,treemon_maps,0xB823E,"34 map-to-headbutt-set mappings",direct-rom
+2,GOLD,Kin,Rev 0,rockmon_maps,0xBA44D,"4 map-to-rock-set mappings",direct-rom
+2,GOLD,Kin,Rev A,rockmon_maps,0xBA44D,"4 map-to-rock-set mappings",direct-rom
+2,SILVER,Gin,Rev 0,rockmon_maps,0xBA44D,"4 map-to-rock-set mappings",direct-rom
+2,SILVER,Gin,Rev A,rockmon_maps,0xBA44D,"4 map-to-rock-set mappings",direct-rom
+2,CRYSTAL,Crystal,Rev 0,rockmon_maps,0xB82A5,"4 map-to-rock-set mappings",direct-rom
+2,GOLD,Kin,Rev 0,treemon_sets,0xBA470,"6 pointer slots; shared/aliased sets included",direct-rom
+2,GOLD,Kin,Rev A,treemon_sets,0xBA470,"6 pointer slots; shared/aliased sets included",direct-rom
+2,SILVER,Gin,Rev 0,treemon_sets,0xBA470,"6 pointer slots; shared/aliased sets included",direct-rom
+2,SILVER,Gin,Rev A,treemon_sets,0xBA470,"6 pointer slots; shared/aliased sets included",direct-rom
+2,CRYSTAL,Crystal,Rev 0,treemon_sets,0xB82C8,"8 functional set slots plus unused alias",direct-rom
+2,GOLD,Kin,Rev 0,bug_contest,0x97BDC,"10 weighted encounter entries + sentinel",direct-rom
+2,GOLD,Kin,Rev A,bug_contest,0x97BDC,"10 weighted encounter entries + sentinel",direct-rom
+2,SILVER,Gin,Rev 0,bug_contest,0x97BDC,"10 weighted encounter entries + sentinel",direct-rom
+2,SILVER,Gin,Rev A,bug_contest,0x97BDC,"10 weighted encounter entries + sentinel",direct-rom
+2,CRYSTAL,Crystal,Rev 0,bug_contest,0x97D49,"10 weighted encounter entries + sentinel",direct-rom
+2,GOLD,Kin,Rev 0,roamer_graph,0x2AA0E,"16 route nodes with adjacency lists",direct-rom
+2,GOLD,Kin,Rev A,roamer_graph,0x2AA0E,"16 route nodes with adjacency lists",direct-rom
+2,SILVER,Gin,Rev 0,roamer_graph,0x2AA0E,"16 route nodes with adjacency lists",direct-rom
+2,SILVER,Gin,Rev A,roamer_graph,0x2AA0E,"16 route nodes with adjacency lists",direct-rom
+2,CRYSTAL,Crystal,Rev 0,roamer_graph,0x2A3FF,"16 route nodes with adjacency lists",direct-rom
+2,GOLD,Kin,Rev 0,unown_unlock_sets,0x3EA07,"4 sets covering Unown A-Z",direct-rom
+2,GOLD,Kin,Rev A,unown_unlock_sets,0x3EA07,"4 sets covering Unown A-Z",direct-rom
+2,SILVER,Gin,Rev 0,unown_unlock_sets,0x3EA07,"4 sets covering Unown A-Z",direct-rom
+2,SILVER,Gin,Rev A,unown_unlock_sets,0x3EA07,"4 sets covering Unown A-Z",direct-rom
+2,CRYSTAL,Crystal,Rev 0,unown_unlock_sets,0x3EBB8,"4 sets covering Unown A-Z",direct-rom
+3,RUBY,Ruby,Rev 0,feebas_route119,,"6 seeded fishing spots among 447 valid spots; runtime logic",source+rom-context
+3,SAPPHIRE,Sapphire,Rev 0,feebas_route119,,"6 seeded fishing spots among 447 valid spots; runtime logic",source+rom-context
+3,EMERALD,Emerald,Rev 0,feebas_route119,,"6 seeded fishing spots among 447 valid spots; runtime logic",source+rom-context
+3,RUBY,Ruby,Rev 0,mass_outbreak,,"TV/save-driven; 5 outbreak templates",source+rom-context
+3,SAPPHIRE,Sapphire,Rev 0,mass_outbreak,,"TV/save-driven; 5 outbreak templates",source+rom-context
+3,EMERALD,Emerald,Rev 0,mass_outbreak,,"TV/save-driven; 5 outbreak templates",source+rom-context
+3,RUBY,Ruby,Rev 0,roamer,,"Latios level 40; save-backed HP/status/location",source+rom-context
+3,SAPPHIRE,Sapphire,Rev 0,roamer,,"Latias level 40; save-backed HP/status/location",source+rom-context
+3,EMERALD,Emerald,Rev 0,roamer,,"Latias/Latios level 40 selected by story choice; save-backed",source+rom-context
+3,FIRERED,FireRed,Rev 0,roamer,,"Raikou/Entei/Suicune level 50 selected from starter relationship",source+rom-context
+3,FIRERED,FireRed,Rev 1,roamer,,"Raikou/Entei/Suicune level 50 selected from starter relationship",source+rom-context
+3,LEAFGREEN,LeafGreen,Rev 0,roamer,,"Raikou/Entei/Suicune level 50 selected from starter relationship",source+rom-context
