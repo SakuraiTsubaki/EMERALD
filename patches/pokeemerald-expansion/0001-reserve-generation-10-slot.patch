@@ -1,7 +1,7 @@
 diff --git a/include/config/general.h b/include/config/general.h
 --- a/include/config/general.h
 +++ b/include/config/general.h
-@@ -62,8 +62,9 @@
+@@ -62,7 +62,8 @@
  #define GEN_8 7
  #define GEN_9 8
  #define GEN_CHAMPIONS GEN_9 + 1
