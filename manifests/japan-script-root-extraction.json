@@ -1,0 +1,13 @@
+{
+  "schema":1,
+  "output":{
+    "file":"japan-20-map-script-roots.csv",
+    "rowsExcludingHeader":6479,
+    "sha256":"24edbd9599bad0d706fe337b373e56ca7c651c6a6cb819babc0b6d32c68d22ac",
+    "validRoots":6479,
+    "invalidRoots":0
+  },
+  "sourceSet":"JAPAN Gen I-III 20-ROM census",
+  "semanticSummary":"manifests/japan-script-semantic-summary.json",
+  "research":"research/japan-script-semantics-survey.md"
+}
