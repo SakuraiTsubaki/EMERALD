@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "sourceSet": "JAPAN Gen I-III 20-ROM census",
+  "output": {
+    "file": "japan-20-map-event-census.csv",
+    "rowsExcludingHeader": 6479,
+    "sha256": "c6f7c76f3435b180cc2475b2ffdb811e53bb1cb8b3e79d892de3ddb10cb37296"
+  },
+  "semanticSummary": "manifests/japan-map-event-semantic-summary.json",
+  "summaryTable": "manifests/japan-map-event-census-summary.csv",
+  "boundary": {
+    "scripts": "deferred to Scripts layer",
+    "gen3BgUnion": "payload not normalized as a pointer in topology comparison",
+    "gen1UnusedSlots": "excluded"
+  }
+}
