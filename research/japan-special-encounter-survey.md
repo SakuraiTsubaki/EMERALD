@@ -127,6 +127,11 @@ Verified behavior:
 - 50% Feebas check on a selected spot
 - Feebas level range 20–25
 
+Direct Japanese ROM Feebas records:
+- Ruby: `0x379AAC`
+- Sapphire: `0x379AA4`
+- Emerald: `0x52E724`
+
 This must remain a runtime subsystem rather than being flattened into an ordinary fishing table.
 
 ### TV mass outbreaks
@@ -146,6 +151,11 @@ Emerald built-in templates:
 - Seedot Lv13 — Route 117
 - Seedot Lv25 — Route 120
 - Skitty Lv8 — Route 116
+
+Direct Japanese ROM outbreak-template roots:
+- Ruby: `0x3A68CC`
+- Sapphire: `0x3A68B0`
+- Emerald: `0x568B40`
 
 The encounter engine checks an active outbreak before falling back to the normal land table. Emerald uses a 50% outbreak replacement probability and stores a two-day active duration after the broadcast starts.
 
@@ -167,6 +177,10 @@ FireRed/LeafGreen:
 - roamer level 50
 
 Gen III persists roamer identity/state including personality, IVs, HP and status. When the active roamer occupies the player's eligible map, the encounter branch uses a 1-in-4 check.
+
+### Emerald Battle Pike / Battle Pyramid
+
+Emerald also has facility-specific wild generation paths for Battle Pike and Battle Pyramid. These do not use the ordinary `gWildMonHeaders` path. Their detailed generation rules are deferred to the Battle Logic survey, but this distinction is retained so facility encounters are not lost in the standard-wild conversion.
 
 ## Revision result
 
