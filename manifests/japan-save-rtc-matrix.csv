@@ -1,0 +1,8 @@
+generation,title_family,hardware_save,rtc,box_layout_japanese,integrity_model,target_note
+1,Aka/Midori/Ao,32 KiB SRAM,no,8 boxes x 30,main checksum + box checksums,legacy import source only
+1,Pikachu,32 KiB SRAM,no,8 boxes x 30,main checksum + box checksums,MBC3 cart but no RTC timer
+2,Kin/Gin,32 KiB SRAM,yes,9 boxes x 30,primary + backup save/checksum + RTC state,legacy import source only
+2,Crystal JP,64 KiB SRAM,yes,9 boxes x 30,primary + backup save/checksum + RTC + mobile/GS Ball state,legacy import source only
+3,Ruby/Sapphire,128 KiB Flash,yes,GBA PokemonStorage,2 rotating save slots x 14 sectors + special sectors,native GBA reference
+3,Emerald,128 KiB Flash,yes,GBA PokemonStorage,2 rotating save slots x 14 sectors + HOF/Trainer Hill/Recorded Battle,native GBA reference
+3,FireRed/LeafGreen,128 KiB Flash,no,GBA PokemonStorage,2 rotating save slots x 14 sectors + HOF/Trainer Tower,native GBA reference
