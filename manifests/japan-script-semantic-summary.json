@@ -1,0 +1,131 @@
+{
+  "schema": 1,
+  "scope": "JAPAN Gen I-III script entry-point and semantic survey",
+  "directRomExtraction": {
+    "file": "japan-20-map-script-roots.csv",
+    "rowsExcludingHeader": 6479,
+    "sha256": "24edbd9599bad0d706fe337b373e56ca7c651c6a6cb819babc0b6d32c68d22ac",
+    "validRoots": 6479,
+    "invalidRoots": 0,
+    "note": "Directly recovered from the twenty Japanese ROMs. Pointer values are build-specific and are not used as semantic identity."
+  },
+  "adapters": {
+    "generation1": {
+      "model": "LR35902 machine-code map scripts plus text/NPC battle helpers",
+      "strategy": "machine-code/source correspondence adapter"
+    },
+    "generation2": {
+      "model": "event-command bytecode plus scene/callback/coord/bg/object entry points",
+      "selectedOpcodes": {
+        "givepoke": "0x2D",
+        "giveegg": "0x2E",
+        "loadwildmon": "0x5D",
+        "loadtrainer": "0x5E",
+        "startbattle": "0x5F",
+        "swarm": "0xA0"
+      }
+    },
+    "generation3": {
+      "model": "script-command bytecode plus MapScripts/object/coord/bg entry points",
+      "selectedOpcodes": {
+        "special": "0x25",
+        "specialvar": "0x26",
+        "trainerbattle": "0x5C",
+        "dotrainerbattle": "0x5D",
+        "givemon": "0x79",
+        "giveegg": "0x7A",
+        "setwildbattle": "0xB6",
+        "dowildbattle": "0xB7"
+      }
+    }
+  },
+  "semanticFamilies": {
+    "generation1": {
+      "sharedStaticBattles": [
+        {"species":"Articuno","level":50,"location":"Seafoam Islands B4F"},
+        {"species":"Zapdos","level":50,"location":"Power Plant"},
+        {"species":"Moltres","level":50,"location":"Victory Road 2F"},
+        {"species":"Mewtwo","level":70,"location":"Cerulean Cave B1F"},
+        {"species":"Snorlax","level":30,"location":"Route 12"},
+        {"species":"Snorlax","level":30,"location":"Route 16"}
+      ],
+      "sharedGiftExamples": [
+        {"species":"Magikarp","level":5,"location":"Mt. Moon Pokémon Center","kind":"purchase"},
+        {"species":"Eevee","level":25,"location":"Celadon Mansion Roof House","kind":"gift"},
+        {"species":"Lapras","level":15,"location":"Silph Co. 7F","kind":"gift"},
+        {"species":"Hitmonlee/Hitmonchan","level":30,"location":"Fighting Dojo","kind":"choice"}
+      ],
+      "yellowAdditionalGiftRoutes": [
+        {"species":"Bulbasaur","level":10},
+        {"species":"Charmander","level":10},
+        {"species":"Squirtle","level":10}
+      ]
+    },
+    "generation2": {
+      "sharedGiftAndStaticExamples": [
+        {"kind":"starter-choice","species":["Cyndaquil","Totodile","Chikorita"],"level":5},
+        {"kind":"egg","species":"Togepi"},
+        {"kind":"gift","species":"Eevee","level":20},
+        {"kind":"gift","species":"Tyrogue","level":10},
+        {"kind":"gift","species":"Spearow","level":10,"identity":"Kenya"},
+        {"kind":"static","species":"Sudowoodo","level":20},
+        {"kind":"static","species":"Lapras","level":20},
+        {"kind":"static-shiny","species":"Gyarados","level":30}
+      ],
+      "goldSilverVersionedLegendaryLevels": {
+        "Gold":{"Ho-Oh":40,"Lugia":70},
+        "Silver":{"Ho-Oh":70,"Lugia":40}
+      },
+      "crystalAdditionsOrChanges": [
+        {"kind":"gift","species":"Dratini","level":15,"location":"Dragon Shrine"},
+        {"kind":"static","species":"Suicune","level":40,"location":"Tin Tower 1F"},
+        {"kind":"static","species":"Celebi","level":30,"location":"Ilex Forest","condition":"GS Ball event"},
+        {"kind":"static","species":"Ho-Oh","level":60},
+        {"kind":"static","species":"Lugia","level":60},
+        {"kind":"game-corner-profile","note":"Goldenrod and Celadon prize species/levels differ from Gold/Silver"}
+      ]
+    },
+    "generation3": {
+      "rubySapphireGiftExamples": [
+        {"kind":"fossil-revival","species":["Lileep","Anorith"],"level":20},
+        {"kind":"gift","species":"Castform","level":25,"heldItem":"Mystic Water"},
+        {"kind":"gift","species":"Beldum","level":5},
+        {"kind":"egg","species":"Wynaut"}
+      ],
+      "rubySapphireStaticExamples": [
+        {"species":"Regirock","level":40},
+        {"species":"Regice","level":40},
+        {"species":"Registeel","level":40},
+        {"species":"Rayquaza","level":70},
+        {"species":"Groudon/Kyogre","level":45},
+        {"species":"Kecleon","level":30},
+        {"species":"Voltorb","level":25}
+      ],
+      "emeraldAdditionsOrChanges": [
+        {"kind":"postgame-starter-choice","species":["Cyndaquil","Totodile","Chikorita"],"level":5},
+        {"kind":"static","species":"Groudon","level":70,"location":"Terra Cave"},
+        {"kind":"static","species":"Kyogre","level":70,"location":"Marine Cave"},
+        {"kind":"static","species":"Rayquaza","level":70},
+        {"kind":"static","species":"Kecleon","level":30},
+        {"kind":"static","species":"Electrode","level":30,"location":"Aqua Hideout"},
+        {"kind":"egg","species":"Pichu","specialEvent":true}
+      ],
+      "fireRedLeafGreenSemanticClasses": [
+        "Kanto starter choice",
+        "Fighting Dojo choice gift",
+        "Game Corner prize gifts",
+        "fossil revival",
+        "Silph Co. Lapras gift",
+        "static Snorlax",
+        "static Articuno/Zapdos/Moltres/Mewtwo",
+        "Sevii gift/egg/static encounters"
+      ]
+    }
+  },
+  "comparisonRules": [
+    "Do not compare script pointers as identities; builds and revisions relocate code/data.",
+    "Generation I requires machine-code/source correspondence rather than direct event-bytecode decoding.",
+    "Generation II/III script semantics must include scene/callback/object/coord/background entry points, not only the map root.",
+    "Static/gift Pokémon are part of script semantics and are not folded into ordinary wild tables."
+  ]
+}
