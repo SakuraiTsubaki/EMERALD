@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "engine": {
+    "upstream": "rh-hideout/pokeemerald-expansion",
+    "ref": "75b806a3ab57a81ff1eb6179288981f0b3cc3050",
+    "profile": "expanded"
+  },
+  "defaultBattleProfile": "modern-latest",
+  "referenceProfiles": ["gen1-original", "gen2-original", "gen3-original"],
+  "preserveFromSourceTitles": [
+    "story battle identity",
+    "trainer identity and encounter placement",
+    "static/gift encounter identity and progression gates",
+    "version-specific encounter/event meaning",
+    "title-specific battle presentation where practical"
+  ],
+  "modernizeByDefault": [
+    "physical/special split",
+    "current move data and move types",
+    "current type matchups",
+    "updated species types/stats/abilities",
+    "modern critical-hit behavior",
+    "modern paralysis and status behavior",
+    "modern experience rules",
+    "modern EV rules",
+    "modern held-item and ability interactions",
+    "modern doubles-capable battle runtime"
+  ],
+  "pinnedBattleConfig": {
+    "B_CRIT_CHANCE": "GEN_LATEST",
+    "B_CRIT_MULTIPLIER": "GEN_LATEST",
+    "B_PARALYSIS_SPEED": "GEN_LATEST",
+    "B_CONFUSION_SELF_DMG_CHANCE": "GEN_LATEST",
+    "B_EXP_CATCH": "GEN_LATEST",
+    "B_TRAINER_EXP_MULTIPLIER": "GEN_LATEST",
+    "B_SPLIT_EXP": "GEN_LATEST",
+    "B_SCALED_EXP": "GEN_LATEST",
+    "B_BADGE_BOOST": "GEN_LATEST",
+    "B_RECALCULATE_STATS": "GEN_LATEST",
+    "B_BURN_DAMAGE": "GEN_LATEST",
+    "B_UPDATED_TYPE_MATCHUPS": "GEN_LATEST",
+    "B_SLEEP_TURNS": "GEN_LATEST",
+    "B_UPDATED_MOVE_DATA": "GEN_LATEST",
+    "B_UPDATED_MOVE_TYPES": "GEN_LATEST",
+    "B_UPDATED_MOVE_FLAGS": "GEN_LATEST",
+    "B_PHYSICAL_SPECIAL_SPLIT": "GEN_LATEST",
+    "B_UPDATED_ABILITY_DATA": "GEN_LATEST"
+  },
+  "pinnedPokemonConfig": {
+    "P_UPDATED_TYPES": "GEN_LATEST",
+    "P_UPDATED_STATS": "GEN_LATEST",
+    "P_UPDATED_ABILITIES": "GEN_LATEST",
+    "P_UPDATED_EVS": "GEN_LATEST",
+    "P_UPDATED_EXP_YIELDS": "GEN_LATEST",
+    "P_LVL_UP_LEARNSETS": "GEN_LATEST",
+    "P_FRIENDSHIP_EVO_THRESHOLD": "GEN_LATEST",
+    "P_EV_CAP": "GEN_LATEST"
+  },
+  "enabledCapabilityFamiliesAtPinnedRef": [
+    "Generation 1-9 species families",
+    "Mega Evolutions",
+    "Primal Reversions",
+    "Ultra Burst",
+    "Gigantamax forms",
+    "Tera forms",
+    "regional forms",
+    "cross-generation evolutions"
+  ],
+  "availabilityPolicy": "Capability does not imply automatic story availability. Each remake title controls when and whether a gimmick/form is obtainable or usable.",
+  "compatibilityPolicy": "Original Gen I/II/III mechanics are retained as verification/reference profiles, not as the default remake battle rules.",
+  "revisionPolicy": "Do not infer battle-code equality from raw ROM diff size. Revision-specific battle behavior requires instruction-level or source-correspondence evidence."
+}
