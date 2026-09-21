@@ -1,0 +1,76 @@
+{
+  "schema": 1,
+  "scope": "Japanese Generation I-III special encounter systems outside the standard wild-header tables",
+  "revisionFindings": {
+    "Aka Rev0 -> RevA": "no special-fishing semantic change found",
+    "Midori Rev0 -> RevA": "no special-fishing semantic change found",
+    "Pikachu 0A -> B -> C -> D": "Good Rod relocates between 0A and later revisions; semantics unchanged. Super Rod direct table remains at 0xA4C7D.",
+    "Kin Rev0 -> RevA": "key fishing/swarm/tree/contest/Unown signatures unchanged",
+    "Gin Rev0 -> RevA": "key fishing/swarm/tree/contest/Unown signatures unchanged",
+    "FireRed Rev0 -> Rev1": "special encounter system design unchanged at source/behavior level"
+  },
+  "generation1": {
+    "oldRod": {"storage":"code-only","result":"Magikarp Lv5"},
+    "goodRod": {"choices":[{"species":"Goldeen","level":10},{"species":"Poliwag","level":10}]},
+    "superRod": {
+      "AkaMidoriAo":{"maps":33,"sharedGroups":10,"format":"map -> group pointer"},
+      "Pikachu":{"maps":31,"slotsPerMap":4,"format":"direct species/level slots"}
+    }
+  },
+  "generation2": {
+    "fishing":{"fishGroups":13,"GoldSilverVsCrystal":"semantic fish-group source is identical"},
+    "swarms":{
+      "GoldSilver":{"grassProfiles":4,"waterProfiles":1},
+      "Crystal":{"grassProfiles":2,"waterProfiles":0}
+    },
+    "headbutt":{
+      "GoldSilver":{"setFamilyCount":6},
+      "Crystal":{"setFamilyCount":8}
+    },
+    "bugCatchingContest":{"activeWeightedEntries":10,"GoldSilverVsCrystal":"identical"},
+    "roamerRouteGraph":{"nodes":16,"GoldSilverVsCrystal":"identical"},
+    "unownUnlockSets":["A-K","L-R","S-W","X-Z"]
+  },
+  "generation3": {
+    "feebas":{
+      "titles":["Ruby","Sapphire","Emerald"],
+      "map":"Route 119",
+      "candidateFishingSpots":447,
+      "selectedSpots":6,
+      "encounterChanceOnSelectedSpotPercent":50
+    },
+    "massOutbreak":{
+      "titles":["Ruby","Sapphire","Emerald"],
+      "storage":"SaveBlock-backed species/map/level/moves/probability",
+      "behavior":"temporary land-encounter override",
+      "emeraldProbabilityPercent":50,
+      "emeraldDurationDaysAfterStart":2,
+      "emeraldBuiltInProfiles":[
+        {"species":"Seedot","level":3,"map":"Route 102"},
+        {"species":"Nuzleaf","level":15,"map":"Route 114"},
+        {"species":"Seedot","level":13,"map":"Route 117"},
+        {"species":"Seedot","level":25,"map":"Route 120"},
+        {"species":"Skitty","level":8,"map":"Route 116"}
+      ]
+    },
+    "roamers":{
+      "Ruby":{"species":"Latios","level":40},
+      "Sapphire":{"species":"Latias","level":40},
+      "Emerald":{"species":"Latias or Latios selected by TV choice","level":40},
+      "FireRedLeafGreen":{
+        "level":50,
+        "starterMapping":{
+          "Squirtle":"Raikou",
+          "Bulbasaur":"Entei",
+          "Charmander":"Suicune"
+        }
+      },
+      "encounterWhenOnSameMap":"25% per eligible encounter check"
+    }
+  },
+  "deferredToOtherLayers":[
+    "scripted/static legendary and gift encounters -> script/event survey",
+    "Safari catch/battle rules -> battle/field-system survey",
+    "Gen III Battle Pike/Pyramid facility wilds -> facility-system survey"
+  ]
+}
