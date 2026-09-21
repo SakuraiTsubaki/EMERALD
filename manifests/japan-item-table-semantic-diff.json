@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "scope": "directly parsed core item parameters only",
+  "revisionComparisons": [
+    {"pair":"Aka Rev0->RevA","semantic_changes":0},
+    {"pair":"Midori Rev0->RevA","semantic_changes":0},
+    {"pair":"Pikachu 0A->B","semantic_changes":0},
+    {"pair":"Pikachu B->C","semantic_changes":0},
+    {"pair":"Pikachu C->D","semantic_changes":0},
+    {"pair":"Kin Rev0->RevA","semantic_changes":0},
+    {"pair":"Gin Rev0->RevA","semantic_changes":0},
+    {"pair":"FireRed Rev0->Rev1","semantic_changes":0}
+  ],
+  "versionFamilyComparisons": [
+    {"pair":"Aka vs Midori","semantic_changes":0},
+    {"pair":"Aka vs Ao","semantic_changes":0},
+    {"pair":"Ao vs Pikachu","semantic_changes":0},
+    {"pair":"Kin vs Gin","semantic_changes":0},
+    {"pair":"Ruby vs Sapphire","semantic_changes":0},
+    {"pair":"FireRed vs LeafGreen","semantic_changes":0}
+  ],
+  "notes": [
+    "Generation I comparison currently covers the 83-entry BCD item-price table.",
+    "Generation II comparison covers the 256-entry 7-byte item-attribute table.",
+    "Generation III comparison uses stable scalar fields in the empirically located 40-byte item parameter records; pointer fields are excluded."
+  ]
+}
