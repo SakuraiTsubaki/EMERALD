@@ -57,5 +57,26 @@
     "front_size": "PASS",
     "back_size": "PASS",
     "palette_bank_size": "PASS"
+  },
+  "mgba_runtime_verification": {
+    "emulator": "mGBA 0.10.5",
+    "method": "GDB Remote Serial Protocol direct ARM7TDMI execution of injected BPEJ Stage-2 runtime against synthetic battle RAM",
+    "boot_smoke": "PASS",
+    "core_resolver_results": {
+      "gen4_flame_plate_fire": "PASS",
+      "gen4_pixie_rejected": "PASS",
+      "gen6_pixie_fairy": "PASS",
+      "gen7_firium_z_fire_form": "PASS",
+      "gen6_firium_z_rejected": "PASS",
+      "legend_rock_dark_fighting": "PASS",
+      "legend_water_dragon_dragon": "PASS",
+      "legend_ghost_dragon_dark": "PASS"
+    },
+    "full_helper_results": {
+      "gen6_pixie_judgment": "PASS",
+      "gen7_firium_z_form_judgment_normal": "PASS",
+      "pla_legend_water_dragon": "PASS"
+    },
+    "note": "Full helper tests include RequestSpriteCopy and LoadPalette calls plus gBattleMonForms, BattlePokemon type, and dynamicMoveType writes."
   }
 }
