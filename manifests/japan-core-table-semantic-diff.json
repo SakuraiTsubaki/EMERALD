@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "revisions": [
+    {"pair":"Aka Rev0->RevA","base_stats_semantic_changes":0,"move_semantic_changes":0},
+    {"pair":"Midori Rev0->RevA","base_stats_semantic_changes":0,"move_semantic_changes":0},
+    {"pair":"Pikachu 0A->B","base_stats_semantic_changes":0,"move_semantic_changes":0},
+    {"pair":"Pikachu B->C","base_stats_semantic_changes":0,"move_semantic_changes":0},
+    {"pair":"Pikachu C->D","base_stats_semantic_changes":0,"move_semantic_changes":0},
+    {"pair":"Kin Rev0->RevA","base_stats_semantic_changes":0,"move_semantic_changes":0},
+    {"pair":"Gin Rev0->RevA","base_stats_semantic_changes":0,"move_semantic_changes":0},
+    {"pair":"FireRed Rev0->Rev1","base_stats_semantic_changes":0,"move_semantic_changes":0}
+  ]
+}
