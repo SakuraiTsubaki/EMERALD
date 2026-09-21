@@ -1,0 +1,44 @@
+{
+  "schema": 1,
+  "scope": "trainer metadata and party semantics extracted directly from the 20 Japanese ROMs",
+  "revisionComparisons": [
+    {"pair":"Aka Rev0 -> RevA","partyChanges":0},
+    {"pair":"Midori Rev0 -> RevA","partyChanges":0},
+    {"pair":"Pikachu 0A -> B","partyChanges":0},
+    {"pair":"Pikachu B -> C","partyChanges":0},
+    {"pair":"Pikachu C -> D","partyChanges":0},
+    {"pair":"Kin Rev0 -> RevA","partyChanges":0},
+    {"pair":"Gin Rev0 -> RevA","partyChanges":0},
+    {"pair":"FireRed Rev0 -> Rev1","trainerRecordChanges":0,"partyChanges":0}
+  ],
+  "versionComparisons": [
+    {"pair":"Aka vs Midori","partyChanges":0},
+    {"pair":"Aka vs Ao","partyChanges":0},
+    {"pair":"Ao vs Pikachu RevD","indexAlignedPartyChanges":60,"note":"Includes five additional Yellow trainers and title-specific party edits."},
+    {"pair":"Kin vs Gin","partyChanges":0},
+    {"pair":"Kin/Gin vs Crystal","indexAlignedPartyChanges":65,"note":"Crystal adds trainers/classes and changes parties; numeric class/index identity is not sufficient for final cross-title identity mapping."},
+    {"pair":"Ruby vs Sapphire","trainerRecordChanges":0,"partyChanges":0},
+    {"pair":"FireRed vs LeafGreen","trainerRecordChanges":0,"partyChanges":0},
+    {"pair":"Ruby vs Emerald","indexAlignedPartyChanges":590,"note":"Emerald expands/reorders trainer content; this is an index-aligned structural count, not a 1:1 trainer-identity change count."}
+  ],
+  "trainerCounts": {
+    "Aka":391,"Midori":391,"Ao":391,"Pikachu":396,
+    "Kin":495,"Gin":495,"Crystal":541,
+    "Ruby":694,"Sapphire":694,"Emerald":855,
+    "FireRed":743,"LeafGreen":743
+  },
+  "japaneseGbaTrainerAbi": {
+    "recordSize":32,
+    "offsets":{
+      "partyFlags":0,"trainerClass":1,"encounterMusicGender":2,"trainerPic":3,
+      "trainerName":4,"trainerNameLength":6,"items":10,"doubleBattle":18,
+      "aiFlags":20,"partySize":24,"partyPointer":28
+    },
+    "note":"This differs from the 40-byte English decomp layout because the Japanese trainer-name field is shorter."
+  },
+  "extractionOutput":{
+    "file":"japan-20-trainers.csv",
+    "rowsExcludingHeader":24839,
+    "sha256":"468fa9df37ebcac4f6592df51cfb6f90306a932d8114234667158424dea159b6"
+  }
+}
