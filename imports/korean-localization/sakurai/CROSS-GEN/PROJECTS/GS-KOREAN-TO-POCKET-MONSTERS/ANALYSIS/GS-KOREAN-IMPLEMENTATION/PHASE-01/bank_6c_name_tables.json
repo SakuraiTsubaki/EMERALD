@@ -1,0 +1,102 @@
+[
+  {
+    "dispatch_index": 0,
+    "file_offset_hex": "0x0035C3",
+    "bank_hex": "0x6C",
+    "address_hex": "0x4C4A"
+  },
+  {
+    "dispatch_index": 1,
+    "file_offset_hex": "0x0035C6",
+    "bank_hex": "0x6C",
+    "address_hex": "0x564A"
+  },
+  {
+    "dispatch_index": 2,
+    "file_offset_hex": "0x0035C9",
+    "bank_hex": "0x00",
+    "address_hex": "0x0000"
+  },
+  {
+    "dispatch_index": 3,
+    "file_offset_hex": "0x0035CC",
+    "bank_hex": "0x6C",
+    "address_hex": "0x4000"
+  },
+  {
+    "dispatch_index": 4,
+    "file_offset_hex": "0x0035CF",
+    "bank_hex": "0x00",
+    "address_hex": "0xDC47"
+  },
+  {
+    "dispatch_index": 5,
+    "file_offset_hex": "0x0035D2",
+    "bank_hex": "0x00",
+    "address_hex": "0xDF7A"
+  },
+  {
+    "dispatch_index": 6,
+    "file_offset_hex": "0x0035D5",
+    "bank_hex": "0x6C",
+    "address_hex": "0x49A1"
+  },
+  {
+    "dispatch_index": 7,
+    "file_offset_hex": "0x0035D8",
+    "bank_hex": "0x04",
+    "address_hex": "0x4000"
+  },
+  {
+    "role": "ITEM_NAMES",
+    "bank_hex": "0x6C",
+    "start_address_hex": "0x4000",
+    "end_address_exclusive_hex": "0x49A1",
+    "file_offset_hex": "0x1B0000",
+    "size_bytes": 2465,
+    "storage": "TERMINATED",
+    "observed_records": 256,
+    "expected_records": 256,
+    "record_count_matches": true,
+    "sha256": "f9cfba498a6410767d1bae8af3f016c62b176c838f4dd403926439b6261b968e"
+  },
+  {
+    "role": "TRAINER_CLASS_NAMES",
+    "bank_hex": "0x6C",
+    "start_address_hex": "0x49A1",
+    "end_address_exclusive_hex": "0x4C4A",
+    "file_offset_hex": "0x1B09A1",
+    "size_bytes": 681,
+    "storage": "TERMINATED",
+    "observed_records": 67,
+    "expected_records": 67,
+    "record_count_matches": true,
+    "sha256": "be849107e39cb65222a0aaab29baef6bf4dca84f7eb7959681ccc9571a0b2b57"
+  },
+  {
+    "role": "POKEMON_NAME_SLOTS",
+    "bank_hex": "0x6C",
+    "start_address_hex": "0x4C4A",
+    "end_address_exclusive_hex": "0x564A",
+    "file_offset_hex": "0x1B0C4A",
+    "size_bytes": 2560,
+    "storage": "FIXED_10_BYTES",
+    "observed_records": 256,
+    "expected_records": 256,
+    "record_count_matches": true,
+    "sha256": "df54fd7ea8a273d7b2681abb3adfd4a227005d7e0d013be08e38ee62498715f5"
+  },
+  {
+    "role": "MOVE_NAMES",
+    "bank_hex": "0x6C",
+    "start_address_hex": "0x564A",
+    "end_address_exclusive_hex": "0x5EE1",
+    "file_offset_hex": "0x1B164A",
+    "size_bytes": 2199,
+    "storage": "TERMINATED",
+    "observed_records": 251,
+    "expected_records": 251,
+    "record_count_matches": true,
+    "sha256": "3dcc29f82c63e2960a4dae3cbe3cca9b5e34993f74187b5f98f7626fd81b1cc3"
+  }
+]
