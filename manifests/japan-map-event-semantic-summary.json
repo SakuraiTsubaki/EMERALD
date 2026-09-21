@@ -1,0 +1,137 @@
+{
+  "schema": 1,
+  "scope": "Direct Japanese ROM map / connection / warp / coord / background / NPC topology survey",
+  "detailedExtraction": {
+    "file": "japan-20-map-event-census.csv",
+    "rowsExcludingHeader": 6479,
+    "sha256": "c6f7c76f3435b180cc2475b2ffdb811e53bb1cb8b3e79d892de3ddb10cb37296"
+  },
+  "generation1": {
+    "mapHeaderPointers": {
+      "Aka Rev0": "0x1BCB",
+      "Aka RevA": "0x1BB9",
+      "Midori Rev0": "0x1BCB",
+      "Midori RevA": "0x1BB9",
+      "Ao Rev0": "0x0167",
+      "Pikachu Rev0A": "0xFC1F2",
+      "Pikachu RevB": "0xFC1F2",
+      "Pikachu RevC": "0xFC1F2",
+      "Pikachu RevD": "0xFC1F2"
+    },
+    "mapHeaderBanks": {
+      "Aka/Midori": "0xC883",
+      "Ao": "0xC275",
+      "Pikachu": "0xFC3E4"
+    },
+    "unusedMapIdsExcluded": [11,105,106,107,109,110,111,112,114,115,116,117,204,205,206,231,237,238,241,242,243,244],
+    "AkaMidoriAo": {
+      "mapSlots": 248,
+      "activeMapIds": 226,
+      "uniqueHeaders": 223,
+      "connections": 78,
+      "warps": 813,
+      "bgEvents": 204,
+      "objects": 924
+    },
+    "Pikachu": {
+      "mapSlots": 249,
+      "activeMapIds": 227,
+      "uniqueHeaders": 224,
+      "connections": 78,
+      "warps": 817,
+      "bgEvents": 204,
+      "objects": 949,
+      "extraMap": {"id":248,"name":"SUMMER_BEACH_HOUSE"}
+    },
+    "semanticComparisons": {
+      "Aka Rev0 -> RevA": 0,
+      "Midori Rev0 -> RevA": 0,
+      "Aka vs Midori": 0,
+      "Aka vs Ao": {
+        "changedMapCount": 4,
+        "mapIds": [191,196,226,227],
+        "mapNames": ["ROUTE_18_GATE_2F","VERMILION_TRADE_HOUSE","CERULEAN_CAVE_2F","CERULEAN_CAVE_B1F"]
+      },
+      "Pikachu Rev0A -> RevB -> RevC -> RevD": 0,
+      "Ao vs Pikachu": {
+        "commonActiveMapIds": 226,
+        "changedMapCount": 100,
+        "note": "Yellow is a substantial title-level event/layout profile, not a relocated Ao profile."
+      }
+    }
+  },
+  "generation2": {
+    "mapGroupPointers": {
+      "Kin Rev0/RevA": "0x940ED",
+      "Gin Rev0/RevA": "0x940ED",
+      "Crystal Rev0": "0x94000"
+    },
+    "KinGin": {
+      "groups": 26,
+      "maps": 368,
+      "connections": 142,
+      "warps": 1241,
+      "coordEvents": 102,
+      "bgEvents": 761,
+      "objects": 1343
+    },
+    "Crystal": {
+      "groups": 26,
+      "maps": 388,
+      "connections": 142,
+      "warps": 1312,
+      "coordEvents": 114,
+      "bgEvents": 810,
+      "objects": 1471
+    },
+    "semanticComparisons": {
+      "Kin Rev0 -> RevA": {"mapProfileChanges":0,"topologyChanges":0,"eventChanges":0},
+      "Gin Rev0 -> RevA": {"mapProfileChanges":0,"topologyChanges":0,"eventChanges":0},
+      "Kin vs Gin": {"mapProfileChanges":0,"topologyChanges":0,"eventChanges":0},
+      "Kin vs Crystal": {
+        "commonGroupMapKeys": 368,
+        "additionalCrystalMaps": 20,
+        "mapProfileChanges": 349,
+        "topologyChanges": 58,
+        "eventChanges": 148,
+        "note": "Index-aligned structural comparison; title-aware map identity remains required for final remake crosswalk."
+      }
+    }
+  },
+  "generation3": {
+    "gMapGroups": {
+      "Ruby": "0x2E09F0",
+      "Sapphire": "0x2E0980",
+      "Emerald": "0x45E998",
+      "FireRed Rev0": "0x316758",
+      "FireRed Rev1": "0x311F70",
+      "LeafGreen": "0x316738"
+    },
+    "counts": {
+      "Ruby": {"groups":34,"maps":394,"connections":134,"warps":1156,"coordEvents":312,"bgEvents":676,"objects":2268},
+      "Sapphire": {"groups":34,"maps":394,"connections":134,"warps":1156,"coordEvents":312,"bgEvents":676,"objects":2268},
+      "Emerald": {"groups":34,"maps":518,"connections":148,"warps":1313,"coordEvents":377,"bgEvents":720,"objects":2942},
+      "FireRed": {"groups":43,"maps":425,"connections":116,"warps":1294,"coordEvents":228,"bgEvents":702,"objects":1647},
+      "LeafGreen": {"groups":43,"maps":425,"connections":116,"warps":1294,"coordEvents":228,"bgEvents":702,"objects":1647}
+    },
+    "semanticComparisons": {
+      "Ruby vs Sapphire": {"headerProfileChanges":0,"connectionChanges":0,"eventTopologyChanges":0},
+      "FireRed Rev0 -> Rev1": {"headerProfileChanges":0,"connectionChanges":0,"eventTopologyChanges":0},
+      "FireRed vs LeafGreen": {"headerProfileChanges":0,"connectionChanges":0,"eventTopologyChanges":0},
+      "Ruby vs Emerald": {
+        "commonGroupMapKeys":393,
+        "rubyOnlyKeys":1,
+        "emeraldOnlyKeys":125,
+        "headerProfileChanges":311,
+        "connectionChanges":6,
+        "eventTopologyChanges":186,
+        "note":"Index-aligned structural comparison only; inserted/reordered maps require name-based identity mapping."
+      }
+    }
+  },
+  "comparisonBoundary": {
+    "scriptPointers": "excluded from topology semantic comparisons; handled in Scripts layer",
+    "gen3BgPayload": "only x/y/elevation/kind compared here because union payload may be a script pointer or non-pointer semantic data",
+    "unusedGen1MapSlots": "excluded from event totals because several alias non-map data"
+  }
+}
