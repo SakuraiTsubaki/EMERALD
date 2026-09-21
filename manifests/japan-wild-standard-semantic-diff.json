@@ -1,0 +1,30 @@
+{
+  "schema":1,
+  "scope":"standard map wild-encounter structures directly parsed from all 20 Japanese ROMs",
+  "revisionComparisons":[
+    {"pair":"Aka Rev0 -> RevA","slotChanges":0},
+    {"pair":"Midori Rev0 -> RevA","slotChanges":0},
+    {"pair":"Pikachu 0A -> B","slotChanges":0},
+    {"pair":"Pikachu B -> C","slotChanges":0},
+    {"pair":"Pikachu C -> D","slotChanges":0},
+    {"pair":"Kin Rev0 -> RevA","slotChanges":0},
+    {"pair":"Gin Rev0 -> RevA","slotChanges":0},
+    {"pair":"FireRed Rev0 -> Rev1","slotChanges":0}
+  ],
+  "versionComparisons":[
+    {"pair":"Aka vs Midori","slotChanges":175},
+    {"pair":"Aka vs Ao","slotChanges":122},
+    {"pair":"Ao vs Pikachu RevD","slotChanges":563},
+    {"pair":"Kin vs Gin","slotChanges":277},
+    {"pair":"Kin vs Crystal","indexAlignedSlotChanges":1900,"note":"Crystal restructures map/time encounter content; final remake mapping must use map identity rather than raw group/index alone."},
+    {"pair":"Ruby vs Sapphire","slotChanges":190},
+    {"pair":"Ruby vs Emerald","indexAlignedSlotChanges":498,"note":"Emerald adds/reworks encounter headers; count is structural."},
+    {"pair":"FireRed vs LeafGreen","slotChanges":537}
+  ],
+  "output":{
+    "file":"japan-20-wild-standard.csv",
+    "rowsExcludingHeader":27502,
+    "sha256":"0ae541b2e9bd9c63e4289e9a8a1245dea1904a9a4dfc4043fc2109451963d8a8"
+  },
+  "boundary":"Generation I separate rod tables and Generation II fishing/swarm/tree/contest/roaming/Unown subsystems are tracked separately and are not counted as completed by this standard-table manifest."
+}
