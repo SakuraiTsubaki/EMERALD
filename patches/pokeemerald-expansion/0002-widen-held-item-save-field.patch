@@ -1,7 +1,7 @@
 diff --git a/include/pokemon.h b/include/pokemon.h
 --- a/include/pokemon.h
 +++ b/include/pokemon.h
-@@ -132,14 +132,13 @@ struct PokemonSubstruct0
+@@ -133,13 +133,12 @@ struct PokemonSubstruct0
  {
      enum Species species:11; // 2047 species.
      enum Type teraType:5; // 30 types.
