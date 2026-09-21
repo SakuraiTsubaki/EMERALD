@@ -25,6 +25,8 @@ Pokémon Emerald의 외부 배포/외부 장치 의존 이벤트를 게임 내�
 - GEN_LATEST는 Gen 10 데이터와 규칙이 실제로 검증되기 전까지 GEN_9로 유지합니다.
 - 프로젝트에 제공된 일본/영문/독문/불문/이문/서문판 6개 retail ROM+SAV 쌍을 직접 구조 분석한 기준선은 manifests/emerald-binary-baseline.csv에 고정합니다.
 - 원본 ROM은 모두 16 MiB지만 일본판과 국제판의 점유 배치가 다르므로 공통 절대 free-space 주소를 가정하지 않습니다. expanded 소스 빌드는 32 MiB GBA ROM 주소 공간을 사용합니다.
+- 표준 GBA 선형 ROM 주소공간의 최대치인 **32 MiB**를 정상 EMERALD 프로필의 하드 상한으로 고정합니다. 32 MiB 초과는 카트리지별 뱅크 스위칭이 필요한 별도 실험 프로필로만 취급합니다.
+- ROM 용량 정책: manifests/rom-capacity.yml / 검증: tools/verify_gba_rom_capacity.py
 - 원본 128 KiB Flash / 32섹터 형식은 유지합니다. 14개 gameplay 섹터의 기존 미사용 footer 116바이트씩, 총 1,624바이트를 pokeemerald-expansion SaveBlock3 확장 영역으로 사용합니다.
 - Hall of Fame 28-29, Trainer Hill 30, Recorded Battle 31 특수 섹터는 확장 공간으로 재사용하지 않습니다.
 - BoxPokemon held item은 원래 16비트 저장 word 안의 10비트+미사용 6비트를 합쳐 16비트로 확장합니다. species/move의 11비트 필드는 실제 Gen 10 데이터가 필요성을 증명하기 전까지 유지합니다.

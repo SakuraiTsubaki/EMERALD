@@ -1,0 +1,31 @@
+schema: 1
+project: EMERALD
+hardware: Game Boy Advance
+
+rom:
+  original_mib: 16
+  original_bytes: 16777216
+  direct_linear_max_mib: 32
+  direct_linear_max_bytes: 33554432
+  primary_window:
+    start: 0x08000000
+    end_inclusive: 0x09FFFFFF
+  mirror_windows:
+    - start: 0x0A000000
+      end_inclusive: 0x0BFFFFFF
+      purpose: wait_state_1_mirror
+    - start: 0x0C000000
+      end_inclusive: 0x0DFFFFFF
+      purpose: wait_state_2_mirror
+  linker: ld_script_modern.ld
+  required_linker_origin: 0x08000000
+  required_linker_length: 32M
+
+policy:
+  normal_profile_max_mib: 32
+  use_full_linear_capacity: true
+  reject_roms_over_direct_linear_max: true
+  bank_switching:
+    allowed_in_normal_profile: false
+    reason: cartridge_specific_and_not_a_portable_linear_GBA_ROM
+    future_profile_name: bank-switched-experimental

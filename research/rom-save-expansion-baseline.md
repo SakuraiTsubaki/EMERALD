@@ -24,6 +24,21 @@ The pinned modern linker already declares:
 
 Generation-10 capacity work should therefore grow from source builds into the 32 MiB ROM address space instead of consuming region-specific trailing holes by absolute address.
 
+## Standard GBA linear ROM ceiling
+
+The normal EMERALD hardware-compatible profile uses the complete directly addressable Game Pak ROM window:
+
+- start: 0x08000000
+- end: 0x09FFFFFF
+- size: 33,554,432 bytes = 32 MiB
+
+The Game Pak regions beginning at 0x0A000000 and 0x0C000000 are alternate wait-state mirrors of the same ROM, not extra contiguous ROM capacity.
+
+Therefore 32 MiB is the hard ceiling for the normal profile. Going above it requires cartridge-specific bank switching or another non-standard storage mechanism and is intentionally separated into a future bank-switched-experimental profile.
+
+Policy: manifests/rom-capacity.yml  
+Verifier: tools/verify_gba_rom_capacity.py
+
 ## Save set
 
 All six saves are 128 KiB Flash saves with the Emerald 32-sector layout.

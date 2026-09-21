@@ -61,9 +61,18 @@ engine:
 
 rom_capacity:
   original_bytes: 16777216
+  original_mib: 16
   source_build_target_bytes: 33554432
+  direct_linear_max_bytes: 33554432
+  direct_linear_max_mib: 32
+  address_start: 0x08000000
+  address_end_inclusive: 0x09FFFFFF
   linker: ld_script_modern.ld
+  capacity_manifest: manifests/rom-capacity.yml
+  verifier: tools/verify_gba_rom_capacity.py
   rule: do_not_use_one_region_free_space_offset_as_a_cross_region_contract
+  normal_profile_over_32_mib: forbidden
+  bank_switched_over_32_mib: experimental_only
 
 save_capacity:
   flash_bytes: 131072
