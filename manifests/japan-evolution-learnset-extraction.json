@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "sourceSet": "JAPAN Gen I-III 20-ROM census",
+  "outputs": {
+    "japan-20-evolutions.csv": {
+      "rowsExcludingHeader": 2362,
+      "sha256": "decf2c77847c19937c1b5d7897b06884b65c3985eca37857d3666d11b533e9ed"
+    },
+    "japan-20-levelup-learnsets.csv": {
+      "rowsExcludingHeader": 41729,
+      "sha256": "ef3657cb473a229fea59322ff617b8c94a8979553bb3d3eb981bceb308b03974"
+    }
+  },
+  "tool": "tools/extract_japan_evolution_learnsets.py"
+}
