@@ -1,0 +1,27 @@
+{
+  "rom_slots": 256,
+  "national_dex_species_slots": 251,
+  "internal_slots": 5,
+  "official_rows": 251,
+  "official_verified_rows": 251,
+  "changed_names": 2,
+  "unchanged_official_names": 249,
+  "changed_entries": [
+    {
+      "national_dex_number": 61,
+      "original": "수륙챙이",
+      "latest_official": "슈륙챙이",
+      "encoded_length_bytes": 8
+    },
+    {
+      "national_dex_number": 114,
+      "original": "덩구리",
+      "latest_official": "덩쿠리",
+      "encoded_length_bytes": 6
+    }
+  ],
+  "all_final_names_fit_fixed_10_byte_slots": true,
+  "max_final_encoded_length_bytes": 10,
+  "source": "https://pokemonkorea.co.kr/pokedex",
+  "source_accessed_date": "2026-09-10"
+}

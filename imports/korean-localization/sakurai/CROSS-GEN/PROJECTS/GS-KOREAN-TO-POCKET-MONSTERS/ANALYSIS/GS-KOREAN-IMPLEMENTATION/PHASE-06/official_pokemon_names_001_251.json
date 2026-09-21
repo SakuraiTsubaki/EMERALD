@@ -1,0 +1,2261 @@
+[
+  {
+    "national_dex_number": 1,
+    "latest_official_korean": "이상해씨",
+    "official_detail_record_id": 1,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/1",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 2,
+    "latest_official_korean": "이상해풀",
+    "official_detail_record_id": 2,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/2",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 3,
+    "latest_official_korean": "이상해꽃",
+    "official_detail_record_id": 3,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/3",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 4,
+    "latest_official_korean": "파이리",
+    "official_detail_record_id": 6,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/6",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 5,
+    "latest_official_korean": "리자드",
+    "official_detail_record_id": 7,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/7",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 6,
+    "latest_official_korean": "리자몽",
+    "official_detail_record_id": 8,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/8",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 7,
+    "latest_official_korean": "꼬부기",
+    "official_detail_record_id": 12,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/12",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 8,
+    "latest_official_korean": "어니부기",
+    "official_detail_record_id": 13,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/13",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 9,
+    "latest_official_korean": "거북왕",
+    "official_detail_record_id": 14,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/14",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 10,
+    "latest_official_korean": "캐터피",
+    "official_detail_record_id": 17,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/17",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 11,
+    "latest_official_korean": "단데기",
+    "official_detail_record_id": 18,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/18",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 12,
+    "latest_official_korean": "버터플",
+    "official_detail_record_id": 19,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/19",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 13,
+    "latest_official_korean": "뿔충이",
+    "official_detail_record_id": 21,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/21",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 14,
+    "latest_official_korean": "딱충이",
+    "official_detail_record_id": 22,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/22",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 15,
+    "latest_official_korean": "독침붕",
+    "official_detail_record_id": 23,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/23",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 16,
+    "latest_official_korean": "구구",
+    "official_detail_record_id": 25,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/25",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 17,
+    "latest_official_korean": "피죤",
+    "official_detail_record_id": 26,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/26",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 18,
+    "latest_official_korean": "피죤투",
+    "official_detail_record_id": 27,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/27",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 19,
+    "latest_official_korean": "꼬렛",
+    "official_detail_record_id": 29,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/29",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 20,
+    "latest_official_korean": "레트라",
+    "official_detail_record_id": 31,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/31",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 21,
+    "latest_official_korean": "깨비참",
+    "official_detail_record_id": 33,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/33",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 22,
+    "latest_official_korean": "깨비드릴조",
+    "official_detail_record_id": 34,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/34",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 23,
+    "latest_official_korean": "아보",
+    "official_detail_record_id": 35,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/35",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 24,
+    "latest_official_korean": "아보크",
+    "official_detail_record_id": 36,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/36",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 25,
+    "latest_official_korean": "피카츄",
+    "official_detail_record_id": 37,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/37",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 26,
+    "latest_official_korean": "라이츄",
+    "official_detail_record_id": 39,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/39",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 27,
+    "latest_official_korean": "모래두지",
+    "official_detail_record_id": 43,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/43",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 28,
+    "latest_official_korean": "고지",
+    "official_detail_record_id": 45,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/45",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 29,
+    "latest_official_korean": "니드런♀",
+    "official_detail_record_id": 47,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/47",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 30,
+    "latest_official_korean": "니드리나",
+    "official_detail_record_id": 48,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/48",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 31,
+    "latest_official_korean": "니드퀸",
+    "official_detail_record_id": 49,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/49",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 32,
+    "latest_official_korean": "니드런♂",
+    "official_detail_record_id": 50,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/50",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 33,
+    "latest_official_korean": "니드리노",
+    "official_detail_record_id": 51,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/51",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 34,
+    "latest_official_korean": "니드킹",
+    "official_detail_record_id": 52,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/52",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 35,
+    "latest_official_korean": "삐삐",
+    "official_detail_record_id": 53,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/53",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 36,
+    "latest_official_korean": "픽시",
+    "official_detail_record_id": 54,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/54",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 37,
+    "latest_official_korean": "식스테일",
+    "official_detail_record_id": 56,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/56",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 38,
+    "latest_official_korean": "나인테일",
+    "official_detail_record_id": 58,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/58",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 39,
+    "latest_official_korean": "푸린",
+    "official_detail_record_id": 60,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/60",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 40,
+    "latest_official_korean": "푸크린",
+    "official_detail_record_id": 61,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/61",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 41,
+    "latest_official_korean": "주뱃",
+    "official_detail_record_id": 62,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/62",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 42,
+    "latest_official_korean": "골뱃",
+    "official_detail_record_id": 63,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/63",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 43,
+    "latest_official_korean": "뚜벅쵸",
+    "official_detail_record_id": 64,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/64",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 44,
+    "latest_official_korean": "냄새꼬",
+    "official_detail_record_id": 65,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/65",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 45,
+    "latest_official_korean": "라플레시아",
+    "official_detail_record_id": 66,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/66",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 46,
+    "latest_official_korean": "파라스",
+    "official_detail_record_id": 67,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/67",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 47,
+    "latest_official_korean": "파라섹트",
+    "official_detail_record_id": 68,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/68",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 48,
+    "latest_official_korean": "콘팡",
+    "official_detail_record_id": 69,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/69",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 49,
+    "latest_official_korean": "도나리",
+    "official_detail_record_id": 70,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/70",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 50,
+    "latest_official_korean": "디그다",
+    "official_detail_record_id": 71,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/71",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 51,
+    "latest_official_korean": "닥트리오",
+    "official_detail_record_id": 73,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/73",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 52,
+    "latest_official_korean": "나옹",
+    "official_detail_record_id": 75,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/75",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 53,
+    "latest_official_korean": "페르시온",
+    "official_detail_record_id": 79,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/79",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 54,
+    "latest_official_korean": "고라파덕",
+    "official_detail_record_id": 81,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/81",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 55,
+    "latest_official_korean": "골덕",
+    "official_detail_record_id": 82,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/82",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 56,
+    "latest_official_korean": "망키",
+    "official_detail_record_id": 83,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/83",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 57,
+    "latest_official_korean": "성원숭",
+    "official_detail_record_id": 84,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/84",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 58,
+    "latest_official_korean": "가디",
+    "official_detail_record_id": 85,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/85",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 59,
+    "latest_official_korean": "윈디",
+    "official_detail_record_id": 87,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/87",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 60,
+    "latest_official_korean": "발챙이",
+    "official_detail_record_id": 89,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/89",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 61,
+    "latest_official_korean": "슈륙챙이",
+    "official_detail_record_id": 90,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/90",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 62,
+    "latest_official_korean": "강챙이",
+    "official_detail_record_id": 91,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/91",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 63,
+    "latest_official_korean": "캐이시",
+    "official_detail_record_id": 92,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/92",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 64,
+    "latest_official_korean": "윤겔라",
+    "official_detail_record_id": 93,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/93",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 65,
+    "latest_official_korean": "후딘",
+    "official_detail_record_id": 94,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/94",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 66,
+    "latest_official_korean": "알통몬",
+    "official_detail_record_id": 96,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/96",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 67,
+    "latest_official_korean": "근육몬",
+    "official_detail_record_id": 97,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/97",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 68,
+    "latest_official_korean": "괴력몬",
+    "official_detail_record_id": 98,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/98",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 69,
+    "latest_official_korean": "모다피",
+    "official_detail_record_id": 100,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/100",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 70,
+    "latest_official_korean": "우츠동",
+    "official_detail_record_id": 101,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/101",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 71,
+    "latest_official_korean": "우츠보트",
+    "official_detail_record_id": 102,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/102",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 72,
+    "latest_official_korean": "왕눈해",
+    "official_detail_record_id": 104,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/104",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 73,
+    "latest_official_korean": "독파리",
+    "official_detail_record_id": 105,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/105",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 74,
+    "latest_official_korean": "꼬마돌",
+    "official_detail_record_id": 106,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/106",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 75,
+    "latest_official_korean": "데구리",
+    "official_detail_record_id": 108,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/108",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 76,
+    "latest_official_korean": "딱구리",
+    "official_detail_record_id": 110,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/110",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 77,
+    "latest_official_korean": "포니타",
+    "official_detail_record_id": 112,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/112",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 78,
+    "latest_official_korean": "날쌩마",
+    "official_detail_record_id": 114,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/114",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 79,
+    "latest_official_korean": "야돈",
+    "official_detail_record_id": 116,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/116",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 80,
+    "latest_official_korean": "야도란",
+    "official_detail_record_id": 118,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/118",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 81,
+    "latest_official_korean": "코일",
+    "official_detail_record_id": 121,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/121",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 82,
+    "latest_official_korean": "레어코일",
+    "official_detail_record_id": 122,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/122",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 83,
+    "latest_official_korean": "파오리",
+    "official_detail_record_id": 123,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/123",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 84,
+    "latest_official_korean": "두두",
+    "official_detail_record_id": 125,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/125",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 85,
+    "latest_official_korean": "두트리오",
+    "official_detail_record_id": 126,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/126",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 86,
+    "latest_official_korean": "쥬쥬",
+    "official_detail_record_id": 127,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/127",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 87,
+    "latest_official_korean": "쥬레곤",
+    "official_detail_record_id": 128,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/128",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 88,
+    "latest_official_korean": "질퍽이",
+    "official_detail_record_id": 129,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/129",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 89,
+    "latest_official_korean": "질뻐기",
+    "official_detail_record_id": 131,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/131",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 90,
+    "latest_official_korean": "셀러",
+    "official_detail_record_id": 133,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/133",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 91,
+    "latest_official_korean": "파르셀",
+    "official_detail_record_id": 134,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/134",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 92,
+    "latest_official_korean": "고오스",
+    "official_detail_record_id": 135,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/135",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 93,
+    "latest_official_korean": "고우스트",
+    "official_detail_record_id": 136,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/136",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 94,
+    "latest_official_korean": "팬텀",
+    "official_detail_record_id": 137,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/137",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 95,
+    "latest_official_korean": "롱스톤",
+    "official_detail_record_id": 140,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/140",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 96,
+    "latest_official_korean": "슬리프",
+    "official_detail_record_id": 141,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/141",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 97,
+    "latest_official_korean": "슬리퍼",
+    "official_detail_record_id": 142,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/142",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 98,
+    "latest_official_korean": "크랩",
+    "official_detail_record_id": 143,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/143",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 99,
+    "latest_official_korean": "킹크랩",
+    "official_detail_record_id": 144,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/144",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 100,
+    "latest_official_korean": "찌리리공",
+    "official_detail_record_id": 146,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/146",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 101,
+    "latest_official_korean": "붐볼",
+    "official_detail_record_id": 148,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/148",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 102,
+    "latest_official_korean": "아라리",
+    "official_detail_record_id": 150,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/150",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 103,
+    "latest_official_korean": "나시",
+    "official_detail_record_id": 151,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/151",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 104,
+    "latest_official_korean": "탕구리",
+    "official_detail_record_id": 153,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/153",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 105,
+    "latest_official_korean": "텅구리",
+    "official_detail_record_id": 154,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/154",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 106,
+    "latest_official_korean": "시라소몬",
+    "official_detail_record_id": 156,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/156",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 107,
+    "latest_official_korean": "홍수몬",
+    "official_detail_record_id": 157,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/157",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 108,
+    "latest_official_korean": "내루미",
+    "official_detail_record_id": 158,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/158",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 109,
+    "latest_official_korean": "또가스",
+    "official_detail_record_id": 159,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/159",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 110,
+    "latest_official_korean": "또도가스",
+    "official_detail_record_id": 160,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/160",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 111,
+    "latest_official_korean": "뿔카노",
+    "official_detail_record_id": 162,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/162",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 112,
+    "latest_official_korean": "코뿌리",
+    "official_detail_record_id": 163,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/163",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 113,
+    "latest_official_korean": "럭키",
+    "official_detail_record_id": 164,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/164",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 114,
+    "latest_official_korean": "덩쿠리",
+    "official_detail_record_id": 165,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/165",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 115,
+    "latest_official_korean": "캥카",
+    "official_detail_record_id": 166,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/166",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 116,
+    "latest_official_korean": "쏘드라",
+    "official_detail_record_id": 168,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/168",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 117,
+    "latest_official_korean": "시드라",
+    "official_detail_record_id": 169,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/169",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 118,
+    "latest_official_korean": "콘치",
+    "official_detail_record_id": 170,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/170",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 119,
+    "latest_official_korean": "왕콘치",
+    "official_detail_record_id": 171,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/171",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 120,
+    "latest_official_korean": "별가사리",
+    "official_detail_record_id": 172,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/172",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 121,
+    "latest_official_korean": "아쿠스타",
+    "official_detail_record_id": 173,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/173",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 122,
+    "latest_official_korean": "마임맨",
+    "official_detail_record_id": 175,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/175",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 123,
+    "latest_official_korean": "스라크",
+    "official_detail_record_id": 177,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/177",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 124,
+    "latest_official_korean": "루주라",
+    "official_detail_record_id": 178,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/178",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 125,
+    "latest_official_korean": "에레브",
+    "official_detail_record_id": 179,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/179",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 126,
+    "latest_official_korean": "마그마",
+    "official_detail_record_id": 180,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/180",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 127,
+    "latest_official_korean": "쁘사이저",
+    "official_detail_record_id": 181,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/181",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 128,
+    "latest_official_korean": "켄타로스",
+    "official_detail_record_id": 183,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/183",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 129,
+    "latest_official_korean": "잉어킹",
+    "official_detail_record_id": 187,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/187",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 130,
+    "latest_official_korean": "갸라도스",
+    "official_detail_record_id": 188,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/188",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 131,
+    "latest_official_korean": "라프라스",
+    "official_detail_record_id": 190,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/190",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 132,
+    "latest_official_korean": "메타몽",
+    "official_detail_record_id": 192,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/192",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 133,
+    "latest_official_korean": "이브이",
+    "official_detail_record_id": 193,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/193",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 134,
+    "latest_official_korean": "샤미드",
+    "official_detail_record_id": 195,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/195",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 135,
+    "latest_official_korean": "쥬피썬더",
+    "official_detail_record_id": 196,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/196",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 136,
+    "latest_official_korean": "부스터",
+    "official_detail_record_id": 197,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/197",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 137,
+    "latest_official_korean": "폴리곤",
+    "official_detail_record_id": 198,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/198",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 138,
+    "latest_official_korean": "암나이트",
+    "official_detail_record_id": 199,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/199",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 139,
+    "latest_official_korean": "암스타",
+    "official_detail_record_id": 200,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/200",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 140,
+    "latest_official_korean": "투구",
+    "official_detail_record_id": 201,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/201",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 141,
+    "latest_official_korean": "투구푸스",
+    "official_detail_record_id": 202,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/202",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 142,
+    "latest_official_korean": "프테라",
+    "official_detail_record_id": 203,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/203",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 143,
+    "latest_official_korean": "잠만보",
+    "official_detail_record_id": 205,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/205",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 144,
+    "latest_official_korean": "프리져",
+    "official_detail_record_id": 207,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/207",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 145,
+    "latest_official_korean": "썬더",
+    "official_detail_record_id": 209,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/209",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 146,
+    "latest_official_korean": "파이어",
+    "official_detail_record_id": 211,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/211",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 147,
+    "latest_official_korean": "미뇽",
+    "official_detail_record_id": 213,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/213",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 148,
+    "latest_official_korean": "신뇽",
+    "official_detail_record_id": 214,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/214",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 149,
+    "latest_official_korean": "망나뇽",
+    "official_detail_record_id": 215,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/215",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 150,
+    "latest_official_korean": "뮤츠",
+    "official_detail_record_id": 217,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/217",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 151,
+    "latest_official_korean": "뮤",
+    "official_detail_record_id": 220,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/220",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 152,
+    "latest_official_korean": "치코리타",
+    "official_detail_record_id": 221,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/221",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 153,
+    "latest_official_korean": "베이리프",
+    "official_detail_record_id": 222,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/222",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 154,
+    "latest_official_korean": "메가니움",
+    "official_detail_record_id": 223,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/223",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 155,
+    "latest_official_korean": "브케인",
+    "official_detail_record_id": 225,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/225",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 156,
+    "latest_official_korean": "마그케인",
+    "official_detail_record_id": 226,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/226",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 157,
+    "latest_official_korean": "블레이범",
+    "official_detail_record_id": 227,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/227",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 158,
+    "latest_official_korean": "리아코",
+    "official_detail_record_id": 229,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/229",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 159,
+    "latest_official_korean": "엘리게이",
+    "official_detail_record_id": 230,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/230",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 160,
+    "latest_official_korean": "장크로다일",
+    "official_detail_record_id": 231,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/231",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 161,
+    "latest_official_korean": "꼬리선",
+    "official_detail_record_id": 233,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/233",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 162,
+    "latest_official_korean": "다꼬리",
+    "official_detail_record_id": 234,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/234",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 163,
+    "latest_official_korean": "부우부",
+    "official_detail_record_id": 235,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/235",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 164,
+    "latest_official_korean": "야부엉",
+    "official_detail_record_id": 236,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/236",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 165,
+    "latest_official_korean": "레디바",
+    "official_detail_record_id": 237,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/237",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 166,
+    "latest_official_korean": "레디안",
+    "official_detail_record_id": 238,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/238",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 167,
+    "latest_official_korean": "페이검",
+    "official_detail_record_id": 239,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/239",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 168,
+    "latest_official_korean": "아리아도스",
+    "official_detail_record_id": 240,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/240",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 169,
+    "latest_official_korean": "크로뱃",
+    "official_detail_record_id": 241,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/241",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 170,
+    "latest_official_korean": "초라기",
+    "official_detail_record_id": 242,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/242",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 171,
+    "latest_official_korean": "랜턴",
+    "official_detail_record_id": 243,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/243",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 172,
+    "latest_official_korean": "피츄",
+    "official_detail_record_id": 244,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/244",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 173,
+    "latest_official_korean": "삐",
+    "official_detail_record_id": 245,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/245",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 174,
+    "latest_official_korean": "푸푸린",
+    "official_detail_record_id": 246,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/246",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 175,
+    "latest_official_korean": "토게피",
+    "official_detail_record_id": 247,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/247",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 176,
+    "latest_official_korean": "토게틱",
+    "official_detail_record_id": 248,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/248",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 177,
+    "latest_official_korean": "네이티",
+    "official_detail_record_id": 249,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/249",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 178,
+    "latest_official_korean": "네이티오",
+    "official_detail_record_id": 250,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/250",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 179,
+    "latest_official_korean": "메리프",
+    "official_detail_record_id": 251,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/251",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 180,
+    "latest_official_korean": "보송송",
+    "official_detail_record_id": 252,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/252",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 181,
+    "latest_official_korean": "전룡",
+    "official_detail_record_id": 253,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/253",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 182,
+    "latest_official_korean": "아르코",
+    "official_detail_record_id": 255,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/255",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 183,
+    "latest_official_korean": "마릴",
+    "official_detail_record_id": 256,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/256",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 184,
+    "latest_official_korean": "마릴리",
+    "official_detail_record_id": 257,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/257",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 185,
+    "latest_official_korean": "꼬지모",
+    "official_detail_record_id": 258,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/258",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 186,
+    "latest_official_korean": "왕구리",
+    "official_detail_record_id": 259,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/259",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 187,
+    "latest_official_korean": "통통코",
+    "official_detail_record_id": 260,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/260",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 188,
+    "latest_official_korean": "두코",
+    "official_detail_record_id": 261,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/261",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 189,
+    "latest_official_korean": "솜솜코",
+    "official_detail_record_id": 262,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/262",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 190,
+    "latest_official_korean": "에이팜",
+    "official_detail_record_id": 263,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/263",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 191,
+    "latest_official_korean": "해너츠",
+    "official_detail_record_id": 264,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/264",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 192,
+    "latest_official_korean": "해루미",
+    "official_detail_record_id": 265,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/265",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 193,
+    "latest_official_korean": "왕자리",
+    "official_detail_record_id": 266,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/266",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 194,
+    "latest_official_korean": "우파",
+    "official_detail_record_id": 267,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/267",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 195,
+    "latest_official_korean": "누오",
+    "official_detail_record_id": 269,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/269",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 196,
+    "latest_official_korean": "에브이",
+    "official_detail_record_id": 270,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/270",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 197,
+    "latest_official_korean": "블래키",
+    "official_detail_record_id": 271,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/271",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 198,
+    "latest_official_korean": "니로우",
+    "official_detail_record_id": 272,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/272",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 199,
+    "latest_official_korean": "야도킹",
+    "official_detail_record_id": 273,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/273",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 200,
+    "latest_official_korean": "무우마",
+    "official_detail_record_id": 275,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/275",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 201,
+    "latest_official_korean": "안농",
+    "official_detail_record_id": 276,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/276",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 202,
+    "latest_official_korean": "마자용",
+    "official_detail_record_id": 277,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/277",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 203,
+    "latest_official_korean": "키링키",
+    "official_detail_record_id": 278,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/278",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 204,
+    "latest_official_korean": "피콘",
+    "official_detail_record_id": 279,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/279",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 205,
+    "latest_official_korean": "쏘콘",
+    "official_detail_record_id": 280,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/280",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 206,
+    "latest_official_korean": "노고치",
+    "official_detail_record_id": 281,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/281",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 207,
+    "latest_official_korean": "글라이거",
+    "official_detail_record_id": 282,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/282",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 208,
+    "latest_official_korean": "강철톤",
+    "official_detail_record_id": 283,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/283",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 209,
+    "latest_official_korean": "블루",
+    "official_detail_record_id": 285,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/285",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 210,
+    "latest_official_korean": "그랑블루",
+    "official_detail_record_id": 286,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/286",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 211,
+    "latest_official_korean": "침바루",
+    "official_detail_record_id": 287,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/287",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 212,
+    "latest_official_korean": "핫삼",
+    "official_detail_record_id": 289,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/289",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 213,
+    "latest_official_korean": "단단지",
+    "official_detail_record_id": 291,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/291",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 214,
+    "latest_official_korean": "헤라크로스",
+    "official_detail_record_id": 292,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/292",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 215,
+    "latest_official_korean": "포푸니",
+    "official_detail_record_id": 294,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/294",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 216,
+    "latest_official_korean": "깜지곰",
+    "official_detail_record_id": 296,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/296",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 217,
+    "latest_official_korean": "링곰",
+    "official_detail_record_id": 297,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/297",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 218,
+    "latest_official_korean": "마그마그",
+    "official_detail_record_id": 298,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/298",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 219,
+    "latest_official_korean": "마그카르고",
+    "official_detail_record_id": 299,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/299",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 220,
+    "latest_official_korean": "꾸꾸리",
+    "official_detail_record_id": 300,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/300",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 221,
+    "latest_official_korean": "메꾸리",
+    "official_detail_record_id": 301,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/301",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 222,
+    "latest_official_korean": "코산호",
+    "official_detail_record_id": 302,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/302",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 223,
+    "latest_official_korean": "총어",
+    "official_detail_record_id": 304,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/304",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 224,
+    "latest_official_korean": "대포무노",
+    "official_detail_record_id": 305,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/305",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 225,
+    "latest_official_korean": "딜리버드",
+    "official_detail_record_id": 306,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/306",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 226,
+    "latest_official_korean": "만타인",
+    "official_detail_record_id": 307,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/307",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 227,
+    "latest_official_korean": "무장조",
+    "official_detail_record_id": 308,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/308",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 228,
+    "latest_official_korean": "델빌",
+    "official_detail_record_id": 310,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/310",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 229,
+    "latest_official_korean": "헬가",
+    "official_detail_record_id": 311,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/311",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 230,
+    "latest_official_korean": "킹드라",
+    "official_detail_record_id": 313,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/313",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 231,
+    "latest_official_korean": "코코리",
+    "official_detail_record_id": 314,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/314",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 232,
+    "latest_official_korean": "코리갑",
+    "official_detail_record_id": 315,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/315",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 233,
+    "latest_official_korean": "폴리곤2",
+    "official_detail_record_id": 316,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/316",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 234,
+    "latest_official_korean": "노라키",
+    "official_detail_record_id": 317,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/317",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 235,
+    "latest_official_korean": "루브도",
+    "official_detail_record_id": 318,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/318",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 236,
+    "latest_official_korean": "배루키",
+    "official_detail_record_id": 319,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/319",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 237,
+    "latest_official_korean": "카포에라",
+    "official_detail_record_id": 320,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/320",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 238,
+    "latest_official_korean": "뽀뽀라",
+    "official_detail_record_id": 321,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/321",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 239,
+    "latest_official_korean": "에레키드",
+    "official_detail_record_id": 322,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/322",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 240,
+    "latest_official_korean": "마그비",
+    "official_detail_record_id": 323,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/323",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 241,
+    "latest_official_korean": "밀탱크",
+    "official_detail_record_id": 324,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/324",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 242,
+    "latest_official_korean": "해피너스",
+    "official_detail_record_id": 325,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/325",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 243,
+    "latest_official_korean": "라이코",
+    "official_detail_record_id": 326,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/326",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 244,
+    "latest_official_korean": "앤테이",
+    "official_detail_record_id": 327,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/327",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 245,
+    "latest_official_korean": "스이쿤",
+    "official_detail_record_id": 328,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/328",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 246,
+    "latest_official_korean": "애버라스",
+    "official_detail_record_id": 329,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/329",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 247,
+    "latest_official_korean": "데기라스",
+    "official_detail_record_id": 330,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/330",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 248,
+    "latest_official_korean": "마기라스",
+    "official_detail_record_id": 331,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/331",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 249,
+    "latest_official_korean": "루기아",
+    "official_detail_record_id": 333,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/333",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 250,
+    "latest_official_korean": "칠색조",
+    "official_detail_record_id": 334,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/334",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  },
+  {
+    "national_dex_number": 251,
+    "latest_official_korean": "세레비",
+    "official_detail_record_id": 335,
+    "official_source": "https://pokemonkorea.co.kr/pokedex/view/335",
+    "official_index_source": "https://pokemonkorea.co.kr/pokedex",
+    "source_accessed_date": "2026-09-10",
+    "selection_rule": "FIRST_RECORD_PER_DEX_NUMBER_BASE_FORM"
+  }
+]

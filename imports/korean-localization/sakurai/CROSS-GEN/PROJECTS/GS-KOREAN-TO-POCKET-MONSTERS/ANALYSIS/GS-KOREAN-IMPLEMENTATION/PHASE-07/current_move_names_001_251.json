@@ -1,0 +1,1257 @@
+[
+  {
+    "move_id": 1,
+    "korean_name": "막치기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 2,
+    "korean_name": "태권당수",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 3,
+    "korean_name": "연속뺨치기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 4,
+    "korean_name": "연속펀치",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 5,
+    "korean_name": "메가톤펀치",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 6,
+    "korean_name": "고양이돈받기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 7,
+    "korean_name": "불꽃펀치",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 8,
+    "korean_name": "냉동펀치",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 9,
+    "korean_name": "번개펀치",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 10,
+    "korean_name": "할퀴기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 11,
+    "korean_name": "찝기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 12,
+    "korean_name": "가위자르기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 13,
+    "korean_name": "칼바람",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 14,
+    "korean_name": "칼춤",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 15,
+    "korean_name": "풀베기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 16,
+    "korean_name": "바람일으키기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 17,
+    "korean_name": "날개치기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 18,
+    "korean_name": "날려버리기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 19,
+    "korean_name": "공중날기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 20,
+    "korean_name": "조이기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 21,
+    "korean_name": "힘껏치기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 22,
+    "korean_name": "덩굴채찍",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 23,
+    "korean_name": "짓밟기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 24,
+    "korean_name": "두번차기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 25,
+    "korean_name": "메가톤킥",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 26,
+    "korean_name": "점프킥",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 27,
+    "korean_name": "돌려차기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 28,
+    "korean_name": "모래뿌리기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 29,
+    "korean_name": "박치기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 30,
+    "korean_name": "뿔찌르기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 31,
+    "korean_name": "마구찌르기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 32,
+    "korean_name": "뿔드릴",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 33,
+    "korean_name": "몸통박치기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 34,
+    "korean_name": "누르기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 35,
+    "korean_name": "김밥말이",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 36,
+    "korean_name": "돌진",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 37,
+    "korean_name": "난동부리기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 38,
+    "korean_name": "이판사판태클",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 39,
+    "korean_name": "꼬리흔들기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 40,
+    "korean_name": "독침",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 41,
+    "korean_name": "더블니들",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 42,
+    "korean_name": "바늘미사일",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 43,
+    "korean_name": "째려보기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 44,
+    "korean_name": "물기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 45,
+    "korean_name": "울음소리",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 46,
+    "korean_name": "울부짖기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 47,
+    "korean_name": "노래하기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 48,
+    "korean_name": "초음파",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 49,
+    "korean_name": "소닉붐",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 50,
+    "korean_name": "사슬묶기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 51,
+    "korean_name": "용해액",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 52,
+    "korean_name": "불꽃세례",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 53,
+    "korean_name": "화염방사",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 54,
+    "korean_name": "흰안개",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 55,
+    "korean_name": "물대포",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 56,
+    "korean_name": "하이드로펌프",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 57,
+    "korean_name": "파도타기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 58,
+    "korean_name": "냉동빔",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 59,
+    "korean_name": "눈보라",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 60,
+    "korean_name": "환상빔",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 61,
+    "korean_name": "거품광선",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 62,
+    "korean_name": "오로라빔",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 63,
+    "korean_name": "파괴광선",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 64,
+    "korean_name": "쪼기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 65,
+    "korean_name": "회전부리",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 66,
+    "korean_name": "지옥의바퀴",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 67,
+    "korean_name": "안다리걸기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 68,
+    "korean_name": "카운터",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 69,
+    "korean_name": "지구던지기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 70,
+    "korean_name": "괴력",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 71,
+    "korean_name": "흡수",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 72,
+    "korean_name": "메가드레인",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 73,
+    "korean_name": "씨뿌리기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 74,
+    "korean_name": "성장",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 75,
+    "korean_name": "잎날가르기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 76,
+    "korean_name": "솔라빔",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 77,
+    "korean_name": "독가루",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 78,
+    "korean_name": "저리가루",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 79,
+    "korean_name": "수면가루",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 80,
+    "korean_name": "꽃잎댄스",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 81,
+    "korean_name": "실뿜기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 82,
+    "korean_name": "용의분노",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 83,
+    "korean_name": "회오리불꽃",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 84,
+    "korean_name": "전기쇼크",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 85,
+    "korean_name": "10만볼트",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 86,
+    "korean_name": "전기자석파",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 87,
+    "korean_name": "번개",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 88,
+    "korean_name": "돌떨구기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 89,
+    "korean_name": "지진",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 90,
+    "korean_name": "땅가르기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 91,
+    "korean_name": "구멍파기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 92,
+    "korean_name": "맹독",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 93,
+    "korean_name": "염동력",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 94,
+    "korean_name": "사이코키네시스",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 95,
+    "korean_name": "최면술",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 96,
+    "korean_name": "요가포즈",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 97,
+    "korean_name": "고속이동",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 98,
+    "korean_name": "전광석화",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 99,
+    "korean_name": "분노",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 100,
+    "korean_name": "순간이동",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 101,
+    "korean_name": "나이트헤드",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 102,
+    "korean_name": "흉내내기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 103,
+    "korean_name": "싫은소리",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 104,
+    "korean_name": "그림자분신",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 105,
+    "korean_name": "HP회복",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 106,
+    "korean_name": "단단해지기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 107,
+    "korean_name": "작아지기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 108,
+    "korean_name": "연막",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 109,
+    "korean_name": "이상한빛",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 110,
+    "korean_name": "껍질에숨기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 111,
+    "korean_name": "웅크리기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 112,
+    "korean_name": "배리어",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 113,
+    "korean_name": "빛의장막",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 114,
+    "korean_name": "흑안개",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 115,
+    "korean_name": "리플렉터",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 116,
+    "korean_name": "기충전",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 117,
+    "korean_name": "참기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 118,
+    "korean_name": "손가락흔들기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 119,
+    "korean_name": "따라하기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 120,
+    "korean_name": "자폭",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 121,
+    "korean_name": "알폭탄",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 122,
+    "korean_name": "핥기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 123,
+    "korean_name": "스모그",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 124,
+    "korean_name": "오물공격",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 125,
+    "korean_name": "뼈다귀치기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 126,
+    "korean_name": "불대문자",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 127,
+    "korean_name": "폭포오르기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 128,
+    "korean_name": "껍질끼우기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 129,
+    "korean_name": "스피드스타",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 130,
+    "korean_name": "로켓박치기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 131,
+    "korean_name": "가시대포",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 132,
+    "korean_name": "휘감기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 133,
+    "korean_name": "망각술",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 134,
+    "korean_name": "숟가락휘기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 135,
+    "korean_name": "알낳기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 136,
+    "korean_name": "무릎차기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 137,
+    "korean_name": "뱀눈초리",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 138,
+    "korean_name": "꿈먹기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 139,
+    "korean_name": "독가스",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 140,
+    "korean_name": "구슬던지기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 141,
+    "korean_name": "흡혈",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 142,
+    "korean_name": "악마의키스",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 143,
+    "korean_name": "불새",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 144,
+    "korean_name": "변신",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 145,
+    "korean_name": "거품",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 146,
+    "korean_name": "잼잼펀치",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 147,
+    "korean_name": "버섯포자",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 148,
+    "korean_name": "플래시",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 149,
+    "korean_name": "사이코웨이브",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 150,
+    "korean_name": "튀어오르기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 151,
+    "korean_name": "녹기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 152,
+    "korean_name": "집게해머",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 153,
+    "korean_name": "대폭발",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 154,
+    "korean_name": "마구할퀴기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 155,
+    "korean_name": "뼈다귀부메랑",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 156,
+    "korean_name": "잠자기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 157,
+    "korean_name": "스톤샤워",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 158,
+    "korean_name": "필살앞니",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 159,
+    "korean_name": "각지기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 160,
+    "korean_name": "텍스처",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 161,
+    "korean_name": "트라이어택",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 162,
+    "korean_name": "분노의앞니",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 163,
+    "korean_name": "베어가르기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 164,
+    "korean_name": "대타출동",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 165,
+    "korean_name": "발버둥",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 166,
+    "korean_name": "스케치",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 167,
+    "korean_name": "트리플킥",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 168,
+    "korean_name": "도둑질",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 169,
+    "korean_name": "거미집",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 170,
+    "korean_name": "마음의눈",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 171,
+    "korean_name": "악몽",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 172,
+    "korean_name": "화염바퀴",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 173,
+    "korean_name": "코골기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 174,
+    "korean_name": "저주",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 175,
+    "korean_name": "바둥바둥",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 176,
+    "korean_name": "텍스처2",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 177,
+    "korean_name": "에어로블라스트",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 178,
+    "korean_name": "목화포자",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 179,
+    "korean_name": "기사회생",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 180,
+    "korean_name": "원한",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 181,
+    "korean_name": "눈싸라기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 182,
+    "korean_name": "방어",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 183,
+    "korean_name": "마하펀치",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 184,
+    "korean_name": "겁나는얼굴",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 185,
+    "korean_name": "속여때리기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 186,
+    "korean_name": "천사의키스",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 187,
+    "korean_name": "배북",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 188,
+    "korean_name": "오물폭탄",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 189,
+    "korean_name": "진흙뿌리기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 190,
+    "korean_name": "대포무노포",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 191,
+    "korean_name": "압정뿌리기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 192,
+    "korean_name": "전자포",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 193,
+    "korean_name": "꿰뚫어보기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 194,
+    "korean_name": "길동무",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 195,
+    "korean_name": "멸망의노래",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 196,
+    "korean_name": "얼어붙은바람",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 197,
+    "korean_name": "판별",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 198,
+    "korean_name": "본러시",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 199,
+    "korean_name": "록온",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 200,
+    "korean_name": "역린",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 201,
+    "korean_name": "모래바람",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 202,
+    "korean_name": "기가드레인",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 203,
+    "korean_name": "버티기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 204,
+    "korean_name": "애교부리기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 205,
+    "korean_name": "구르기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 206,
+    "korean_name": "칼등치기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 207,
+    "korean_name": "뽐내기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 208,
+    "korean_name": "우유마시기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 209,
+    "korean_name": "스파크",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 210,
+    "korean_name": "연속자르기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 211,
+    "korean_name": "강철날개",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 212,
+    "korean_name": "검은눈빛",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 213,
+    "korean_name": "헤롱헤롱",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 214,
+    "korean_name": "잠꼬대",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 215,
+    "korean_name": "치료방울",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 216,
+    "korean_name": "은혜갚기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 217,
+    "korean_name": "프레젠트",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 218,
+    "korean_name": "화풀이",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 219,
+    "korean_name": "신비의부적",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 220,
+    "korean_name": "아픔나누기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 221,
+    "korean_name": "성스러운불꽃",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 222,
+    "korean_name": "매그니튜드",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 223,
+    "korean_name": "폭발펀치",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 224,
+    "korean_name": "메가혼",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 225,
+    "korean_name": "용의숨결",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 226,
+    "korean_name": "배턴터치",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 227,
+    "korean_name": "앙코르",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 228,
+    "korean_name": "따라가때리기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 229,
+    "korean_name": "고속스핀",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 230,
+    "korean_name": "달콤한향기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 231,
+    "korean_name": "아이언테일",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 232,
+    "korean_name": "메탈클로",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 233,
+    "korean_name": "받아던지기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 234,
+    "korean_name": "아침햇살",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 235,
+    "korean_name": "광합성",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 236,
+    "korean_name": "달빛",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 237,
+    "korean_name": "잠재파워",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 238,
+    "korean_name": "크로스촙",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 239,
+    "korean_name": "회오리",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 240,
+    "korean_name": "비바라기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 241,
+    "korean_name": "쾌청",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 242,
+    "korean_name": "깨물어부수기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 243,
+    "korean_name": "미러코트",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 244,
+    "korean_name": "자기암시",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 245,
+    "korean_name": "신속",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 246,
+    "korean_name": "원시의힘",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 247,
+    "korean_name": "섀도볼",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 248,
+    "korean_name": "미래예지",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 249,
+    "korean_name": "바위깨기",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 250,
+    "korean_name": "바다회오리",
+    "pkhex_matches_pokeapi": true
+  },
+  {
+    "move_id": 251,
+    "korean_name": "집단구타",
+    "pkhex_matches_pokeapi": true
+  }
+]

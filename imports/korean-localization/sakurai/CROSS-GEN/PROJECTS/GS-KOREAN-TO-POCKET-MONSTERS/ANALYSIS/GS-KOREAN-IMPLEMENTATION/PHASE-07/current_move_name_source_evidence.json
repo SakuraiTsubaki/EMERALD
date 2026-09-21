@@ -1,0 +1,18 @@
+{
+  "warning": "PKHeX and PokeAPI are secondary mirrors, not first-party Pokémon publications.",
+  "verification_policy": "Consensus is sufficient for implementation planning; rows remain below DIRECT_OFFICIAL_SOURCE_VERIFIED until first-party corroboration is attached.",
+  "source_accessed_date": "2026-09-10",
+  "pkhex": {
+    "url": "https://github.com/kwsch/PKHeX/blob/master/PKHeX.Core/Resources/text/other/ko/text_Moves_ko.txt",
+    "commit": "556e2c142cdee41dbd092c2f9e7efc17e9456938",
+    "sha256": "00431074f8cda5994ae8e4364124c57ed7915e15ea51457d8cbe903913affbeb"
+  },
+  "pokeapi": {
+    "url": "https://github.com/PokeAPI/pokeapi/blob/master/data/v2/csv/move_names.csv",
+    "commit": "8fe210b21c9abbe73de93670f3d5a346c80a3625",
+    "sha256": "99e23ee38ea53d1473474d463b87651deac3cd4928750f8186feae66da45c147",
+    "korean_language_id": 3
+  },
+  "rows_compared": 251,
+  "source_disagreements": []
+}

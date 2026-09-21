@@ -1,0 +1,164 @@
+{
+  "source_index": "https://pokemonkorea.co.kr/pokedex",
+  "source_ajax": "https://pokemonkorea.co.kr/ajax/pokedex",
+  "source_accessed_date": "2026-09-10",
+  "request_filter": {
+    "mode": "load_more",
+    "snumber": 1,
+    "snumber2": 251,
+    "sortselval": "number asc,number_count asc"
+  },
+  "base_form_selection": "first returned record for each National Pokédex number",
+  "pages": [
+    {
+      "page_file": "pokeajax_1.html",
+      "sha256": "ce337db473f3cb2c75db1cf22565b67cc09bc859e371634ff482019ae30af782",
+      "records_in_response": 18
+    },
+    {
+      "page_file": "pokeajax_2.html",
+      "sha256": "575b6b8daa9b2544cec1e315ade62d52345a8c61b4b936dab69e2a1bcedb1165",
+      "records_in_response": 18
+    },
+    {
+      "page_file": "pokeajax_3.html",
+      "sha256": "ee307c36625e66770e84211f6254537440493c11f027435e2f482fc7fde9d3bd",
+      "records_in_response": 18
+    },
+    {
+      "page_file": "pokeajax_4.html",
+      "sha256": "90d44b9e043537bb9a923a6c9a9b8126346a5930b65ff1d2c005975f0a111697",
+      "records_in_response": 18
+    },
+    {
+      "page_file": "pokeajax_5.html",
+      "sha256": "401756e744a4e018f6d1dbab855c3b2a5b74a54f6f14ad09f7218594b6a36cd3",
+      "records_in_response": 18
+    },
+    {
+      "page_file": "pokeajax_6.html",
+      "sha256": "6e0b698639331f4b827f3f2d7bde34073505d5d82c6ae167b1b8518c4c56c376",
+      "records_in_response": 18
+    },
+    {
+      "page_file": "pokeajax_7.html",
+      "sha256": "3e17e199caf11871dc323eb2108cbb8c8278b7ceaf5ebaefee57fdd4315db3dc",
+      "records_in_response": 18
+    },
+    {
+      "page_file": "pokeajax_8.html",
+      "sha256": "2c0c9edf2fc2748a5992dae4c2b9ecdb3725ae72858937bf7f1dc50fcdaebf0c",
+      "records_in_response": 18
+    },
+    {
+      "page_file": "pokeajax_9.html",
+      "sha256": "5665c24f68fc017cb1f05055d45233689c54481156a94bfb5229216f7dbd3058",
+      "records_in_response": 18
+    },
+    {
+      "page_file": "pokeajax_10.html",
+      "sha256": "2ed2783dc91eb7a3f20000fff45bf2bc5464e8c5607fe6662a4ced7dab30bca4",
+      "records_in_response": 18
+    },
+    {
+      "page_file": "pokeajax_11.html",
+      "sha256": "12ad5cbd5777e6fd1da011bc61740c910ffb447d45539f6f4ce28280381e65df",
+      "records_in_response": 18
+    },
+    {
+      "page_file": "pokeajax_12.html",
+      "sha256": "dde2038e551ce104e17ddf7c2cff3e305965174b655f2e6fc122ce82ad97beb5",
+      "records_in_response": 18
+    },
+    {
+      "page_file": "pokeajax_13.html",
+      "sha256": "57dd95225536ea8605108ccf5ed38b193f17ce44b7bf136dcb39ad5b8fa55852",
+      "records_in_response": 18
+    },
+    {
+      "page_file": "pokeajax_14.html",
+      "sha256": "42d30a8acef7bfab1055a54e626dc3709c43b562830acae2343bdd07b46a8cc4",
+      "records_in_response": 18
+    },
+    {
+      "page_file": "pokeajax_15.html",
+      "sha256": "5960ee51d1b1a315ff1ad9a76b8893c0d23590ff10de2314a4acd8188b49454b",
+      "records_in_response": 18
+    },
+    {
+      "page_file": "pokeajax_16.html",
+      "sha256": "b191de3020298df6c5b57d711f022bde9ba91951438cebd7daf6b1f569cb01c6",
+      "records_in_response": 18
+    },
+    {
+      "page_file": "pokeajax_17.html",
+      "sha256": "a2fbb38412d255dc757b3182d2806306f8c66b819af279f039eedbf24b9e07d1",
+      "records_in_response": 18
+    },
+    {
+      "page_file": "pokeajax_18.html",
+      "sha256": "d6200766a201974f0c89099354dcf8960714f4b8cc77f7fbf7043f5058d3d7f3",
+      "records_in_response": 18
+    },
+    {
+      "page_file": "pokeajax_19.html",
+      "sha256": "50659eb8d6df7321db0ff2082a961289c76625b73a3f59238a31fe37a06ce2d9",
+      "records_in_response": 11
+    },
+    {
+      "page_file": "pokeajax_20.html",
+      "sha256": "32854f20c458c3f4fbc7ead76de24fe90a460acfd62ea24ff75cba227af91e2b",
+      "records_in_response": 0
+    },
+    {
+      "page_file": "pokeajax_21.html",
+      "sha256": "32854f20c458c3f4fbc7ead76de24fe90a460acfd62ea24ff75cba227af91e2b",
+      "records_in_response": 0
+    },
+    {
+      "page_file": "pokeajax_22.html",
+      "sha256": "32854f20c458c3f4fbc7ead76de24fe90a460acfd62ea24ff75cba227af91e2b",
+      "records_in_response": 0
+    },
+    {
+      "page_file": "pokeajax_23.html",
+      "sha256": "32854f20c458c3f4fbc7ead76de24fe90a460acfd62ea24ff75cba227af91e2b",
+      "records_in_response": 0
+    },
+    {
+      "page_file": "pokeajax_24.html",
+      "sha256": "014adfc34e39f41932d2034e49ef7fb609be60a0f1a18d0e141ce469d0cc057c",
+      "records_in_response": 0
+    },
+    {
+      "page_file": "pokeajax_25.html",
+      "sha256": "32854f20c458c3f4fbc7ead76de24fe90a460acfd62ea24ff75cba227af91e2b",
+      "records_in_response": 0
+    },
+    {
+      "page_file": "pokeajax_26.html",
+      "sha256": "c750a2ccb95ef8c7b9c0b88f5fa4f35dd79c277dbdb16e91dbf7c2e3eb495eff",
+      "records_in_response": 0
+    },
+    {
+      "page_file": "pokeajax_27.html",
+      "sha256": "c750a2ccb95ef8c7b9c0b88f5fa4f35dd79c277dbdb16e91dbf7c2e3eb495eff",
+      "records_in_response": 0
+    },
+    {
+      "page_file": "pokeajax_28.html",
+      "sha256": "c750a2ccb95ef8c7b9c0b88f5fa4f35dd79c277dbdb16e91dbf7c2e3eb495eff",
+      "records_in_response": 0
+    },
+    {
+      "page_file": "pokeajax_29.html",
+      "sha256": "c750a2ccb95ef8c7b9c0b88f5fa4f35dd79c277dbdb16e91dbf7c2e3eb495eff",
+      "records_in_response": 0
+    },
+    {
+      "page_file": "pokeajax_30.html",
+      "sha256": "c750a2ccb95ef8c7b9c0b88f5fa4f35dd79c277dbdb16e91dbf7c2e3eb495eff",
+      "records_in_response": 0
+    }
+  ]
+}
