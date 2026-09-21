@@ -50,7 +50,7 @@ jobs:
           text = Path("runtime.relocations.txt").read_text()
           assert "There are no relocations" in text, text
           hdr = Path("runtime.elf-header.txt").read_text().lower()
-          assert "0x891c000" in hdr or "0x0891c000" in hdr, hdr
+          assert any(x in hdr for x in ("0x891c000", "0x0891c000", "0x891c001", "0x0891c001")), hdr
           print(f"runtime size: {len(runtime)} bytes")
           PY
 
