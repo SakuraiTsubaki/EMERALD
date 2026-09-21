@@ -69,10 +69,20 @@ save_capacity:
   flash_bytes: 131072
   sectors: 32
   sector_bytes: 4096
+  save_slots: 2
   gameplay_sectors_per_slot: 14
+  saveblock3_region_start_offset: 3968
   saveblock3_chunk_bytes_per_sector: 116
   saveblock3_bytes_per_slot: 1624
+  footer_metadata_offset: 4084
+  footer_metadata_bytes: 12
+  sector_signature: 0x08012025
+  special_sectors:
+    hall_of_fame: [28, 29]
+    trainer_hill: 30
+    recorded_battle: 31
   preserve_original_flash_size: true
+  preserve_special_sectors: true
 
 entity_storage:
   species_bits: 11
