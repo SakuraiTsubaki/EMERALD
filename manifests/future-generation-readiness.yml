@@ -1,4 +1,4 @@
-schema: 1
+schema: 2
 project: EMERALD
 
 strategy:
@@ -13,7 +13,9 @@ principles:
   - append_new_identifiers_instead_of_renumbering
   - separate_engine_capacity_from_content_activation
   - do_not_guess_unreleased_species_moves_items_abilities_or_mechanics
+  - inspect_original_rom_and_save_files_before_expanding_storage
   - keep_exact_target_rom_or_decomp_evidence_authoritative
+  - never_commit_rom_binaries
   - ingest_new_reference_data_with_source_commit_and_path_provenance
 
 language_priority:
@@ -22,11 +24,33 @@ language_priority:
   - en
   - other
 
+binary_baseline:
+  manifest: manifests/emerald-binary-baseline.csv
+  analyzer: tools/analyze_emerald_binary_set.py
+  rom_pairs: 6
+  original_rom_size_bytes: 16777216
+  original_save_size_bytes: 131072
+  revision: 0
+  game_codes:
+    - BPEJ
+    - BPEE
+    - BPED
+    - BPEF
+    - BPEI
+    - BPES
+  observed_active_slot_slack:
+    vanilla_logical_bytes: 2172
+    vanilla_logical_nonzero: 0
+    footer_extension_bytes: 1624
+    footer_extension_nonzero: 0
+
 engine:
   profile: expanded
   upstream: rh-hideout/pokeemerald-expansion
   ref: 75b806a3ab57a81ff1eb6179288981f0b3cc3050
-  capacity_patch: patches/pokeemerald-expansion/0001-reserve-generation-10-slot.patch
+  patches:
+    - patches/pokeemerald-expansion/0001-reserve-generation-10-slot.patch
+    - patches/pokeemerald-expansion/0002-widen-held-item-save-field.patch
   expected_after_patch:
     GEN_9: 8
     GEN_CHAMPIONS: 9
@@ -34,6 +58,32 @@ engine:
     GEN_COUNT: 11
     GEN_LATEST: 8
   activation_rule: keep_GEN_LATEST_at_GEN_9_until_generation_10_rules_and_data_are_verified
+
+rom_capacity:
+  original_bytes: 16777216
+  source_build_target_bytes: 33554432
+  linker: ld_script_modern.ld
+  rule: do_not_use_one_region_free_space_offset_as_a_cross_region_contract
+
+save_capacity:
+  flash_bytes: 131072
+  sectors: 32
+  sector_bytes: 4096
+  gameplay_sectors_per_slot: 14
+  saveblock3_chunk_bytes_per_sector: 116
+  saveblock3_bytes_per_slot: 1624
+  preserve_original_flash_size: true
+
+entity_storage:
+  species_bits: 11
+  species_max: 2047
+  move_bits: 11
+  move_max: 2047
+  held_item_bits_before: 10
+  held_item_max_before: 1023
+  held_item_bits_after: 16
+  held_item_max_after: 65535
+  species_and_move_widening: deferred_until_real_data_requires_it
 
 reference_ingestion:
   pkhex_pin_manifest: manifests/pkhex-source-pin.yml
