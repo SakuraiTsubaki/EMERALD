@@ -1,0 +1,90 @@
+{
+  "gold": {
+    "rom_sha1": "c0ff3999e1093e1af59ef3eea3f1bfd7c1f18a65",
+    "entry_count": 251,
+    "pointer_count": 251,
+    "pointer_table_bank_hex": "0x11",
+    "pointer_table_cpu_address_hex": "0x42FF",
+    "pointer_table_file_offset_hex": "0x0442FF",
+    "pointer_table_sha256": "bf07e0fed433d61a2847e14750e2792e0172d8f1e5a3271d00bfce8c271c6f17",
+    "dispatch_bank_hex": "0x11",
+    "dispatch_cpu_address_hex": "0x42E8",
+    "dispatch_file_offset_hex": "0x0442E8",
+    "dispatch_raw_hex": "47 50 21 ff 42 78 3d 06 00 4f 09 09 07 e6 01 c6 68 47 2a 66 6f c9",
+    "dispatch_verified": true,
+    "pointer_table_lossless": true,
+    "full_rom_roundtrip_sha1": "c0ff3999e1093e1af59ef3eea3f1bfd7c1f18a65",
+    "full_rom_lossless": true,
+    "banks": {
+      "0x68": {
+        "first_dex_number": 1,
+        "last_dex_number": 128,
+        "entry_count": 128,
+        "used_bytes": 10817,
+        "free_zero_bytes": 5567,
+        "used_sha256": "bb6e31d4b720b24f38d81dff75355c4a8bedcffdfcf6224138660065e69a2845",
+        "whole_bank_sha256": "885ee45fa5aeaf8d821228bf9b5b3fd723adc44d647f5c17b18cc486c61216fd"
+      },
+      "0x69": {
+        "first_dex_number": 129,
+        "last_dex_number": 251,
+        "entry_count": 123,
+        "used_bytes": 10375,
+        "free_zero_bytes": 6009,
+        "used_sha256": "5a952d3d02138a9fc62bebbcd3f4be6871c57d9f4396f61a3a3eb78d6f7c966f",
+        "whole_bank_sha256": "dad698e835cbeb108a4f88bb00e727b8622c7fd72b6b4e3bb87cc65d59afb4a0"
+      }
+    }
+  },
+  "silver": {
+    "rom_sha1": "cb22d7e03a74dc3a563fde6be8626626b2b392e7",
+    "entry_count": 251,
+    "pointer_count": 251,
+    "pointer_table_bank_hex": "0x11",
+    "pointer_table_cpu_address_hex": "0x42FF",
+    "pointer_table_file_offset_hex": "0x0442FF",
+    "pointer_table_sha256": "27cba3a914f44ff3090b12ea2cbc37147fb8380cdee0afbfc06072f05dc79779",
+    "dispatch_bank_hex": "0x11",
+    "dispatch_cpu_address_hex": "0x42E8",
+    "dispatch_file_offset_hex": "0x0442E8",
+    "dispatch_raw_hex": "47 50 21 ff 42 78 3d 06 00 4f 09 09 07 e6 01 c6 68 47 2a 66 6f c9",
+    "dispatch_verified": true,
+    "pointer_table_lossless": true,
+    "full_rom_roundtrip_sha1": "cb22d7e03a74dc3a563fde6be8626626b2b392e7",
+    "full_rom_lossless": true,
+    "banks": {
+      "0x68": {
+        "first_dex_number": 1,
+        "last_dex_number": 128,
+        "entry_count": 128,
+        "used_bytes": 10788,
+        "free_zero_bytes": 5596,
+        "used_sha256": "5666cab0d60224315dd5bc5f04c7758a725e348307abb0a65dbe3c2561ed1995",
+        "whole_bank_sha256": "91007b530b6cd963c1c22bba187b3541fe94ec2822a8d0da79412feda15a2be2"
+      },
+      "0x69": {
+        "first_dex_number": 129,
+        "last_dex_number": 251,
+        "entry_count": 123,
+        "used_bytes": 10478,
+        "free_zero_bytes": 5906,
+        "used_sha256": "8a2094e1e870f8b4fa2b6100517ddac59092c31932af40a4499b0cf757785c2b",
+        "whole_bank_sha256": "19a3db96b459ad3a75e708771a3b685c7856175ed8b2ba99de09d6a30d078301"
+      }
+    }
+  },
+  "gold_silver": {
+    "pointer_table_identical": false,
+    "same_category_count": 251,
+    "same_height_count": 251,
+    "same_weight_count": 251,
+    "same_description_count": 0,
+    "different_description_count": 251
+  },
+  "output_rows": {
+    "pokedex_entries_ko": 502,
+    "pokedex_pointer_table": 502,
+    "pokedex_gold_silver_diff": 251
+  },
+  "rom_output_written": false
+}

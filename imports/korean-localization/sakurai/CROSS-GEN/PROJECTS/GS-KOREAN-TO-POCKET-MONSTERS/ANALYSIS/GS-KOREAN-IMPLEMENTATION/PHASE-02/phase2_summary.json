@@ -1,0 +1,28 @@
+{
+  "gold_sha1": "c0ff3999e1093e1af59ef3eea3f1bfd7c1f18a65",
+  "silver_sha1": "cb22d7e03a74dc3a563fde6be8626626b2b392e7",
+  "bank_6c_sha256": "80ddef8bda9351e49f891ffd18b97cebae56b368594b596d7ca02b49e8cb8416",
+  "two_byte_mappings": 2419,
+  "hangul_mappings": 2353,
+  "table_b_mappings": 66,
+  "single_byte_values": 242,
+  "single_byte_literals": 177,
+  "records": 830,
+  "records_by_category": {
+    "ITEM_NAMES": 256,
+    "TRAINER_CLASS_NAMES": 67,
+    "POKEMON_NAME_SLOTS": 256,
+    "MOVE_NAMES": 251
+  },
+  "undefined_codes": 0,
+  "gold_bank_6c_roundtrip_sha256": "80ddef8bda9351e49f891ffd18b97cebae56b368594b596d7ca02b49e8cb8416",
+  "silver_bank_6c_roundtrip_sha256": "80ddef8bda9351e49f891ffd18b97cebae56b368594b596d7ca02b49e8cb8416",
+  "gold_bank_6c_lossless": true,
+  "silver_bank_6c_lossless": true,
+  "gold_full_rom_roundtrip_sha1": "c0ff3999e1093e1af59ef3eea3f1bfd7c1f18a65",
+  "silver_full_rom_roundtrip_sha1": "cb22d7e03a74dc3a563fde6be8626626b2b392e7",
+  "gold_full_rom_lossless": true,
+  "silver_full_rom_lossless": true,
+  "gold_silver_bank_6c_identical": true,
+  "crosscheck": "Narishma-gb/pokegold-kr constants/charmap"
+}
