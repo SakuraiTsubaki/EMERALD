@@ -1,0 +1,21 @@
+generation,project,title,revision,filename,standard_wild_location,structure,entry_or_header_count,normalized_slot_rows
+1,RED,Aka,Rev 0,Pocket Monsters - Aka (Japan) (SGB Enhanced).gb,0xCF61,WildDataPointers / 248 map pointers,248,580
+1,RED,Aka,Rev A,Pocket Monsters - Aka (Japan) (Rev A) (SGB Enhanced).gb,0xCF61,WildDataPointers / 248 map pointers,248,580
+1,GREEN,Midori,Rev 0,Pocket Monsters - Midori (Japan) (SGB Enhanced).gb,0xCF61,WildDataPointers / 248 map pointers,248,580
+1,GREEN,Midori,Rev A,Pocket Monsters - Midori (Japan) (Rev A) (SGB Enhanced).gb,0xCF61,WildDataPointers / 248 map pointers,248,580
+1,BLUE,Ao,Rev 0,Pocket Monsters - Ao (Japan) (SGB Enhanced).gb,0xCF61,WildDataPointers / 248 map pointers,248,580
+1,YELLOW,Pikachu,Rev 0A,Pocket Monsters - Pikachu (Japan) (Rev 0A) (SGB Enhanced).gb,0xCB91,WildDataPointers / 249 map pointers,249,630
+1,YELLOW,Pikachu,Rev B,Pocket Monsters - Pikachu (Japan) (Rev B) (SGB Enhanced).gb,0xCB88,WildDataPointers / 249 map pointers,249,630
+1,YELLOW,Pikachu,Rev C,Pocket Monsters - Pikachu (Japan) (Rev C) (SGB Enhanced).gb,0xCB88,WildDataPointers / 249 map pointers,249,630
+1,YELLOW,Pikachu,Rev D,Pocket Monsters - Pikachu (Japan) (Rev D) (SGB Enhanced).gb,0xCB88,WildDataPointers / 249 map pointers,249,630
+2,GOLD,Kin,Rev 0,Pocket Monsters Kin (Japan).gbc,0x2AC1B|0x2B74F|0x2B8A6|0x2BEA7,Johto grass|Johto water|Kanto grass|Kanto water,61|38|30|10,2055
+2,GOLD,Kin,Rev A,Pocket Monsters Kin (Japan) (Rev A).gbc,0x2AC1B|0x2B74F|0x2B8A6|0x2BEA7,Johto grass|Johto water|Kanto grass|Kanto water,61|38|30|10,2055
+2,SILVER,Gin,Rev 0,Pocket Monsters Gin (Japan).gbc,0x2AC1B|0x2B74F|0x2B8A6|0x2BEA7,Johto grass|Johto water|Kanto grass|Kanto water,61|38|30|10,2055
+2,SILVER,Gin,Rev A,Pocket Monsters Gin (Japan) (Rev A).gbc,0x2AC1B|0x2B74F|0x2B8A6|0x2BEA7,Johto grass|Johto water|Kanto grass|Kanto water,61|38|30|10,2055
+2,CRYSTAL,Crystal,Rev 0,Pocket Monsters - Crystal Version (Japan).gbc,0x2A60C|0x2B140|0x2B297|0x2B81A,Johto grass|Johto water|Kanto grass|Kanto water,61|38|30|24,2097
+3,RUBY,Ruby,Rev 0,Pocket Monsters - Ruby (Japan).gba,0x379304,gWildMonHeaders / 20-byte headers,97,1631
+3,SAPPHIRE,Sapphire,Rev 0,Pocket Monsters - Sapphire (Japan).gba,0x3792FC,gWildMonHeaders / 20-byte headers,97,1631
+3,EMERALD,Emerald,Rev 0,Pocket Monsters - Emerald (Japan).gba,0x52D9F4,gWildMonHeaders / 20-byte headers,124,1975
+3,FIRERED,FireRed,Rev 0,Pocket Monsters - Fire Red (Japan).gba,0x390B34,gWildMonHeaders / 20-byte headers,132,2176
+3,FIRERED,FireRed,Rev 1,Pocket Monsters - Fire Red (Japan) (Rev 1).gba,0x38C2F4,gWildMonHeaders / 20-byte headers,132,2176
+3,LEAFGREEN,LeafGreen,Rev 0,Pocket Monsters - Leaf Green (Japan).gba,0x3909A4,gWildMonHeaders / 20-byte headers,132,2176
