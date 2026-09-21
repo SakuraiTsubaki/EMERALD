@@ -1,0 +1,194 @@
+[
+  {
+    "file_offset_hex": "0x000C79",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x7A",
+    "candidate_target_address_hex": "0x49E0"
+  },
+  {
+    "file_offset_hex": "0x000E05",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x78",
+    "candidate_target_address_hex": "0x7BD7"
+  },
+  {
+    "file_offset_hex": "0x000E0B",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x7A",
+    "candidate_target_address_hex": "0x4AEA"
+  },
+  {
+    "file_offset_hex": "0x000E49",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x78",
+    "candidate_target_address_hex": "0x7BD7"
+  },
+  {
+    "file_offset_hex": "0x000E4F",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x7A",
+    "candidate_target_address_hex": "0x4FEA"
+  },
+  {
+    "file_offset_hex": "0x000E72",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x7A",
+    "candidate_target_address_hex": "0x790E"
+  },
+  {
+    "file_offset_hex": "0x001114",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x69",
+    "candidate_target_address_hex": "0x7611"
+  },
+  {
+    "file_offset_hex": "0x0011EF",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x7A",
+    "candidate_target_address_hex": "0x560F"
+  },
+  {
+    "file_offset_hex": "0x0012D1",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x68",
+    "candidate_target_address_hex": "0x7713"
+  },
+  {
+    "file_offset_hex": "0x0012F4",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x69",
+    "candidate_target_address_hex": "0x6FCD"
+  },
+  {
+    "file_offset_hex": "0x001302",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x69",
+    "candidate_target_address_hex": "0x6FCD"
+  },
+  {
+    "file_offset_hex": "0x001422",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x69",
+    "candidate_target_address_hex": "0x6FCD"
+  },
+  {
+    "file_offset_hex": "0x00143F",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x69",
+    "candidate_target_address_hex": "0x6B11"
+  },
+  {
+    "file_offset_hex": "0x001A6C",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x7A",
+    "candidate_target_address_hex": "0x5F53"
+  },
+  {
+    "file_offset_hex": "0x001BFE",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x68",
+    "candidate_target_address_hex": "0x4479"
+  },
+  {
+    "file_offset_hex": "0x001BFF",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x79",
+    "candidate_target_address_hex": "0x4D44"
+  },
+  {
+    "file_offset_hex": "0x001FEC",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x7A",
+    "candidate_target_address_hex": "0x45EA"
+  },
+  {
+    "file_offset_hex": "0x00256C",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x7A",
+    "candidate_target_address_hex": "0x53EA"
+  },
+  {
+    "file_offset_hex": "0x00270B",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x68",
+    "candidate_target_address_hex": "0x4FD1"
+  },
+  {
+    "file_offset_hex": "0x002712",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x69",
+    "candidate_target_address_hex": "0x6FD1"
+  },
+  {
+    "file_offset_hex": "0x00271E",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x6C",
+    "candidate_target_address_hex": "0x57D1"
+  },
+  {
+    "file_offset_hex": "0x002749",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x78",
+    "candidate_target_address_hex": "0x57D1"
+  },
+  {
+    "file_offset_hex": "0x00274D",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x79",
+    "candidate_target_address_hex": "0x47D1"
+  },
+  {
+    "file_offset_hex": "0x00284A",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x78",
+    "candidate_target_address_hex": "0x79D7"
+  },
+  {
+    "file_offset_hex": "0x002963",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x7A",
+    "candidate_target_address_hex": "0x7B22"
+  },
+  {
+    "file_offset_hex": "0x002DFB",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x79",
+    "candidate_target_address_hex": "0x64FE"
+  },
+  {
+    "file_offset_hex": "0x002E16",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x79",
+    "candidate_target_address_hex": "0x7FE6"
+  },
+  {
+    "file_offset_hex": "0x0035C3",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x6C",
+    "candidate_target_address_hex": "0x4C4A"
+  },
+  {
+    "file_offset_hex": "0x0035C6",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x6C",
+    "candidate_target_address_hex": "0x564A"
+  },
+  {
+    "file_offset_hex": "0x0035CC",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x6C",
+    "candidate_target_address_hex": "0x4000"
+  },
+  {
+    "file_offset_hex": "0x0035D3",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x7A",
+    "candidate_target_address_hex": "0x6CDF"
+  },
+  {
+    "file_offset_hex": "0x0035D5",
+    "containing_bank_hex": "0x00",
+    "candidate_target_bank_hex": "0x6C",
+    "candidate_target_address_hex": "0x49A1"
+  }
+]
