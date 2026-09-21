@@ -1,0 +1,126 @@
+{
+  "schema": 1,
+  "note": "Raw byte differences include relocation/relink effects and are not semantic change counts.",
+  "revisions": [
+    {
+      "pair": "Aka Rev0 -> RevA",
+      "diff_bytes": 46167,
+      "diff_percent": 8.805656,
+      "block_size": 16384,
+      "changed_blocks": 31,
+      "total_blocks": 32
+    },
+    {
+      "pair": "Midori Rev0 -> RevA",
+      "diff_bytes": 46168,
+      "diff_percent": 8.805847,
+      "block_size": 16384,
+      "changed_blocks": 31,
+      "total_blocks": 32
+    },
+    {
+      "pair": "Pikachu Rev0A -> RevB",
+      "diff_bytes": 307668,
+      "diff_percent": 29.341507,
+      "block_size": 16384,
+      "changed_blocks": 61,
+      "total_blocks": 64
+    },
+    {
+      "pair": "Pikachu RevB -> RevC",
+      "diff_bytes": 39485,
+      "diff_percent": 3.765583,
+      "block_size": 16384,
+      "changed_blocks": 60,
+      "total_blocks": 64
+    },
+    {
+      "pair": "Pikachu RevC -> RevD",
+      "diff_bytes": 245538,
+      "diff_percent": 23.416328,
+      "block_size": 16384,
+      "changed_blocks": 61,
+      "total_blocks": 64
+    },
+    {
+      "pair": "Kin Rev0 -> RevA",
+      "diff_bytes": 10841,
+      "diff_percent": 1.033878,
+      "block_size": 16384,
+      "changed_blocks": 10,
+      "total_blocks": 64
+    },
+    {
+      "pair": "Gin Rev0 -> RevA",
+      "diff_bytes": 19150,
+      "diff_percent": 1.826286,
+      "block_size": 16384,
+      "changed_blocks": 16,
+      "total_blocks": 64
+    },
+    {
+      "pair": "FireRed Rev0 -> Rev1",
+      "diff_bytes": 7016197,
+      "diff_percent": 41.819793,
+      "block_size": 65536,
+      "changed_blocks": 120,
+      "total_blocks": 256
+    }
+  ],
+  "parallel_revision_overlap": {
+    "aka_midori": {
+      "intersection_bytes": 45959,
+      "jaccard_percent": 99.100828,
+      "intersection_over_smaller_percent": 99.549462
+    },
+    "kin_gin": {
+      "intersection_bytes": 10381,
+      "jaccard_percent": 52.937277,
+      "intersection_over_smaller_percent": 95.756849
+    }
+  },
+  "sibling_same_offset_block_similarity": [
+    {
+      "pair": "Aka vs Midori Rev0",
+      "block_size": 16384,
+      "identical_blocks": 17,
+      "total_blocks": 32,
+      "raw_diff_percent": 4.080391
+    },
+    {
+      "pair": "Aka vs Midori RevA",
+      "block_size": 16384,
+      "identical_blocks": 17,
+      "total_blocks": 32,
+      "raw_diff_percent": 4.063034
+    },
+    {
+      "pair": "Kin vs Gin Rev0",
+      "block_size": 16384,
+      "identical_blocks": 30,
+      "total_blocks": 64,
+      "raw_diff_percent": 25.782681
+    },
+    {
+      "pair": "Kin vs Gin RevA",
+      "block_size": 16384,
+      "identical_blocks": 32,
+      "total_blocks": 64,
+      "raw_diff_percent": 24.99342
+    },
+    {
+      "pair": "Ruby vs Sapphire",
+      "block_size": 65536,
+      "identical_blocks": 26,
+      "total_blocks": 128,
+      "raw_diff_percent": 54.158592
+    },
+    {
+      "pair": "FireRed vs LeafGreen Rev0",
+      "block_size": 65536,
+      "identical_blocks": 139,
+      "total_blocks": 256,
+      "raw_diff_percent": 35.431051
+    }
+  ]
+}
