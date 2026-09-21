@@ -1,0 +1,93 @@
+{
+  "schema": 1,
+  "nativeRemakeSave": {
+    "platform": "GBA",
+    "storage": "128 KiB Flash",
+    "baseFormat": "Generation III rotating-sector save architecture",
+    "saveSlots": 2,
+    "gameplaySectorsPerSlot": 14,
+    "sectorSize": 4096,
+    "sectorDataSize": 3968,
+    "sectorFooterSize": 128,
+    "signature": "0x08012025",
+    "engineReference": "SakuraiTsubaki/EMERALD expanded profile"
+  },
+  "titleIsolation": {
+    "required": true,
+    "profiles": {
+      "RED": "JPN-RED-GBA",
+      "GREEN": "JPN-GREEN-GBA",
+      "BLUE": "JPN-BLUE-GBA",
+      "YELLOW": "JPN-YELLOW-GBA",
+      "GOLD": "JPN-GOLD-GBA",
+      "SILVER": "JPN-SILVER-GBA",
+      "CRYSTAL": "JPN-CRYSTAL-GBA"
+    },
+    "rule": "A save produced by one remake is never silently treated as another remake's native save."
+  },
+  "legacyImport": {
+    "mode": "explicit conversion only",
+    "gen1Japanese": {
+      "hardware": "32 KiB SRAM",
+      "boxes": 8,
+      "slotsPerBox": 30,
+      "rtc": false
+    },
+    "gen2JapaneseGoldSilver": {
+      "hardware": "32 KiB SRAM",
+      "boxes": 9,
+      "slotsPerBox": 30,
+      "rtc": true
+    },
+    "gen2JapaneseCrystal": {
+      "hardware": "64 KiB SRAM / MBC30-compatible",
+      "boxes": 9,
+      "slotsPerBox": 30,
+      "rtc": true,
+      "specialState": ["Mobile-related state", "GS Ball state"]
+    },
+    "rule": "Never reinterpret a GB/GBC save in-place as a GBA save. Parse, validate, map fields, then write a new title-specific GBA save."
+  },
+  "rtcPolicy": {
+    "RED": "disabled by source profile",
+    "GREEN": "disabled by source profile",
+    "BLUE": "disabled by source profile",
+    "YELLOW": "disabled by source profile",
+    "GOLD": "required",
+    "SILVER": "required",
+    "CRYSTAL": "required",
+    "RubySapphireEmeraldReference": "RTC-capable",
+    "FireRedLeafGreenReference": "no RTC hardware",
+    "implementation": "Common engine may contain RTC support, but title profile decides whether gameplay consumes it."
+  },
+  "gen3SectorProfiles": {
+    "RubySapphire": {
+      "slotSectors": "0-13 and 14-27",
+      "hallOfFame": "28-29",
+      "special": "30-31 e-Reader/Battle Tower-era data"
+    },
+    "Emerald": {
+      "slotSectors": "0-13 and 14-27",
+      "hallOfFame": "28-29",
+      "sector30": "Trainer Hill",
+      "sector31": "Recorded Battle"
+    },
+    "FireRedLeafGreen": {
+      "slotSectors": "0-13 and 14-27",
+      "hallOfFame": "28-29",
+      "sector30_31": "Trainer Tower"
+    }
+  },
+  "modernEntityPolicy": {
+    "base": "pokeemerald-expansion BoxPokemon / SaveBlock model",
+    "preserveLegacyProvenance": true,
+    "doNotForceLegacyBinaryLayout": true,
+    "separatePersistentFormState": true,
+    "separateBattleTransformationState": true
+  },
+  "evidenceStatus": {
+    "romHardware": "verified from the 20 Japanese ROM headers/signatures",
+    "gen1Gen2JapaneseBoxLayout": "cross-checked against pinned PKHeX Japanese save handlers",
+    "liveSavValidation": "pending because no .sav/.srm files are currently present in /mnt/data"
+  }
+}
