@@ -1,0 +1,252 @@
+move_id,original_gs_korean_name,latest_official_korean_name,original_gs_korean_description,final_korean_description,official_name_source,description_translation_source,verification_status,change_reason,bank_hex,cpu_address_hex
+1,막치기,,손과 꼬리 등을 사용해서<NEXT>적을 때리는 공격,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4202
+2,태권당수,,당수로 적을 공격<NEXT>급소를 맞추기 쉽다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x422B
+3,연속 뺨치기,,적을 연속 뺨때리기로<NEXT>2-5회 연속으로 공격,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x424F
+4,연속펀치,,적을 연속으로 두들겨 패서<NEXT>2-5회 연속으로 공격,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4279
+5,메가톤펀치,,엄청난 힘이 실린 펀치로<NEXT>적을 때려서 공격,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x42A8
+6,고양이돈받기,,금화를 던져서 적을 공격<NEXT>전투 후에 돈이 손에 들어온다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x42D1
+7,불꽃펀치,,화염이 이글거리는 펀치로 공격<NEXT>적에게 화상을 입히기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4306
+8,냉동펀치,,냉기를 실은 펀치로 공격<NEXT>적을 얼리기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4340
+9,번개펀치,,전기를 실은 펀치로 공격<NEXT>적을 감전시키기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x436B
+10,할퀴기,,날카로운 손톱을 사용해서<NEXT>적을 할퀴며 공격,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x439A
+11,찝기,,커다란 집게가위를 사용<NEXT>적을 찝어서 공격,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x43C4
+12,가위자르기,,커다란 집게가위를 사용하여<NEXT>집어올려 전투불능으로 만든다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x43EC
+13,칼바람,,1턴째에서 바람의 칼날을 만들어<NEXT>다음 턴에서 적을 공격,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4424
+14,칼춤,,싸움의 춤을 춰서<NEXT>공격력을 팍 올린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4459
+15,풀베기,,날카로운 낫과 손톱을 사용하여<NEXT>적을 가르고 베며 공격,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x447D
+16,바람일으키기,,날개로 강한 바람을 일으켜<NEXT>적에게 타격을 주는 공격,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x44B1
+17,날개치기,,날개를 크게 펼쳐서<NEXT>그대로 적에게 몸통박치기를 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x44E3
+18,날려버리기,,강한 바람으로 적을 날려버림<NEXT>날려버리면 전투는 끝난다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4516
+19,공중날기,,1턴째 하늘로 날아올라<NEXT>다음 턴에 적을 공격,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x454B
+20,조이기,,2-5턴 동안에 긴 몸이나<NEXT>넝쿨을 사용하여 적을 힘껏 조른다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4575
+21,힘껏치기,,긴 꼬리랑 넝쿨 등을<NEXT>적에게 휘둘러 공격,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x45AE
+22,덩쿨채찍,,채찍 같은 가늘고 긴 덩쿨을<NEXT>적에게 휘둘러 공격,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x45D5
+23,짓밟기,,커다란 다리로 밟아서 공격<NEXT>적의 기세가 꺾이는 일도 있다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4603
+24,두번치기,,2개의 다리를 이용하여 적을<NEXT>2회 연속으로 공격,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x463A
+25,메가톤킥,,엄청낭 힘이 담긴 킥으로<NEXT>적을 걷어차서 공격,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4667
+26,점프킥,,힘차게 점프해서 연속 킥 공격<NEXT>실패하면 데미지를 입는다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4692
+27,돌려차기,,몸을 재빠르게 한번 회전시켜서<NEXT>그 힘으로 연속킥 공격을 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x46C8
+28,모래뿌리기,,적의 얼굴 등에 모래를 뿌려서<NEXT>명중률을 낮게 만든다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4703
+29,박치기,,머리로 들이박는 공격으로<NEXT>적의 기세를 꺾기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4735
+30,뿔찌르기,,끝이 뾰족한 뿔을 사용해서<NEXT>적을 찔러 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4766
+31,마구찌르기,,끝이 뾰족한 뿔을 사용해서<NEXT>2-5회 연속으로 공격,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4793
+32,뿔드릴,,뿔을 드릴처럼 회전시켜서<NEXT>적을 찔러 전투불능으로 만든다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x47C2
+33,몸통박치기,,몸 전체를 사용해<NEXT>적에게 부딪쳐서 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x47F9
+34,누르기,,몸 전체로 쓰러지며 공격<NEXT>적을 마비시키기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4823
+35,김밥말이,,2-5턴 동안에 긴 몸이랑 덩쿨을<NEXT>사용하여 적을 꼼짝 못하게 만든다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4852
+36,돌진,,탄력을 이용하여 적에게 부딪친다<NEXT>자신도 약간은 데미지를 입는다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4892
+37,난동부리기,,2-3턴 동안에 난동을 부린다<NEXT>난동부린 뒤에는 혼란상태가 된다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x48D0
+38,이판사판태클,,목숨을 걸고 적에게 몸통박치기<NEXT>자신도 약간은 데미지를 입는다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x490C
+39,꼬리흔들기,,적에게 꼬리를 흔들어 방심하게<NEXT>만들어서 방어력을 낮춘다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4948
+40,독침,,독이 있는 바늘과 뿔로 공격<NEXT>적을 독에 중독시키기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x497F
+41,더블니들,,양손의 바늘을 사용해서<NEXT>적을 두번 연속으로 공격,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x49B6
+42,바늘미사일,,날카로운 바늘을 적에게 발사해서<NEXT>2-5회 연속으로 공격,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x49E5
+43,째려보기,,적을 노려봐서 겁을 내게 만들어<NEXT>방어력을 떨어뜨리게 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4A1A
+44,물기,,날카로운 이빨로 물어뜯어 공격<NEXT>적의 기세를 꺾기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4A52
+45,울음소리,,귀여운 울음소리로 적을 방심시켜<NEXT>공격력을 떨어뜨린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4A88
+46,울부짖기,,짖어서 적을 도망치게 만든다<NEXT>적이 도망치면 전투는 끝난다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4ABC
+47,노래하기,,기분 좋은 노랫소리로<NEXT>적을 깊은 잠에 빠뜨린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4AF4
+48,초음파,,몸에서 괴음파를 발생시켜<NEXT>적을 혼란하게 만들기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4B21
+49,소닉붐,,충격파로 적을 공격<NEXT>20으로 정해진 데미지를 준다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4B56
+50,사슬묶기,,초능력으로 적의 움직임을 봉쇄해서<NEXT>기술1개를 사용하지 못하게 만든다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4B85
+51,용해액,,강한 산으로 적의 피부를 녹인다<NEXT>방어력을 떨어뜨린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4BC8
+52,불꽃세례,,작은 화염으로 공격<NEXT>적에게 화상을 입히기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4BFB
+53,화염방사,,엄청난 화염으로 공격<NEXT>적에게 화상을 입히기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4C2A
+54,흰안개,,하얀 안개로 몸을 감싸서<NEXT>능력이 낮아지지 않도록 만든다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4C5B
+55,물대포,,물을 발사해서<NEXT>적을 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4C91
+56,하이드로펌프,,물을 굉장한 기세로<NEXT>발사해서 적을 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4CAD
+57,파도타기,,물에 파도를 일으켜 그것을<NEXT>엄청난 힘으로 때려서 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4CD7
+58,냉동빔,,냉기를 발산해서 공격<NEXT>적을 얼게 만들기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4D0F
+59,눈보라,,눈을 강한 바람에 실어서 공격<NEXT>적을 얼게 만들기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4D3C
+60,환상빔,,이상한 빛을 발사한다<NEXT>적을 혼란하게 만들기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4D71
+61,거품광선,,거품을 단숨에 발사한다<NEXT>적의 빠르기를 낮추게 하기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4DA2
+62,오로라 빔,,무지개 빛을 발사한다<NEXT>공격력을 저하시키기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4DDA
+63,파괴광선,,데미지는 크지만 사용하면<NEXT>다음 턴에서 움직이지 못하게 된다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4E0A
+64,쪼기,,부리 등을 사용하여<NEXT>적을 쪼아서 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4E44
+65,회전부리,,부리를 중심으로 몸을<NEXT>회전시켜서 적에게 돌진한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4E6C
+66,지옥의바퀴,,자신 역시 상대방과 함께 뒹군다<NEXT>자신도 약간의 데미지를 입는다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4E9C
+67,잡치기,,타이밍 좋게 다리를 걸어서<NEXT>적을 넘어뜨린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4ED9
+68,카운터,,적에게 받은 물리적인 공격의<NEXT>데미지를 배로해서 되돌려준다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4F03
+69,지구던지기,,인력을 이용해서 던진다<NEXT>레벨 분의 데미지를 준다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4F3C
+70,괴력,,전신에 엄청난 힘을 모아서<NEXT>적을 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4F6B
+71,흡수,,적에게 입힌 데미지의<NEXT>반정도를 체력으로 회복한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4F93
+72,메가드레인,,적에게 입힌 데미지의<NEXT>반정도를 체력으로 회복한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4FC3
+73,씨뿌리기,,적의 몸에 싹을 틔워서<NEXT>매 턴마다 체력을 흡수한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x4FF3
+74,성장,,단숨에 몸을 성장시켜서<NEXT>특수공격력을 높인다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5023
+75,잎날가르기,,잎사귀로 적을 벤다<NEXT>급소에 명중시키기 쉽다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x504E
+76,솔라빔,,1턴째에서 빛을 흡수해서<NEXT>다음턴에서 적을 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5078
+77,독가루,,독소를 지닌 가루를 뿌려서<NEXT>적을 중독시킨다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x50A9
+78,저리가루,,저리가루를 뿌러서<NEXT>적을 마비시켜 버린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x50D3
+79,수면가루,,잠이 오는 가루를 뿌려서<NEXT>적을 잠들게 만들어 버린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x50FA
+80,꽃잎댄스,,2-3턴 동안에 난동을 부린다<NEXT>난동을 부린 뒤에는 혼란에 빠진다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x512C
+81,실뿜기,,실을 적의 몸에 칭칭 감아서<NEXT>움직임의 스피드를 떨어뜨린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5169
+82,용의분노,,충격파로 적을 공격<NEXT>40으로 정해진 데미지를 입힌다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x51A1
+83,회오리불꽃,,2-5턴 동안에 적을<NEXT>화염 중심에 가두어 버린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x51D2
+84,전기쇼크,,전기를 발산해서 공격<NEXT>적을 마비시키기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x51FF
+85,10만볼트,,강력한 전기를 발산해서 공격<NEXT>적을 마비시키기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x522B
+86,전기자석파,,약한 전기를 발산해서 적에게<NEXT>부딛쳐 마비를 시킨다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x525E
+87,번개 ,,적을 향해 번개를 떨어뜨린다<NEXT>마비를 시키기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x528F
+88,돌떨구기,,작은 바위를 던져서<NEXT>적을 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x52C0
+89,지진,,지면을 흔들어서 공격<NEXT>비행타입 이외에는 엄청난 데미지,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x52E1
+90,땅가르기,,땅가르기를 일으켜 적을 빠뜨린다<NEXT>빠지면 전투불능이 되어 버린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5316
+91,구멍파기,,1턴째에서 땅속에 파고들어<NEXT>다음 턴에서 적을 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5354
+92,맹독,,점점 데미지가 늘어가는 독을<NEXT>적에게 중독시킨다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5388
+93,염동력,,초능력으로 공격<NEXT>적을 혼란에 빠뜨리기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x53B6
+94,사이코키네시스,,강한 염동력으로<NEXT>특수방어를 떨어뜨리게 하기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x53E2
+95,최면술,,적에게 암시를 줘서<NEXT>깊은 잠에 빠뜨린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5414
+96,요가포즈,,요가 포즈로 잠재된 힘을<NEXT>끌어내서 공격력을 높인다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x543A
+97,고속이동,,힘을 빼서 몸을 가볍게하고<NEXT>스피드를 많이 높인다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x546B
+98,전광석화,,엄청나게 빠른 속도로 움직여서<NEXT>선제공격을 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x549A
+99,분노,,공격받을 때마다 분노로<NEXT>공격력이 높아져간다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x54C8
+100,순간이동,,초능력을 사용하여<NEXT>전투에서 탈출한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x54F3
+101,나이트헤드,,적에게 무서운 환상을 보여주어서<NEXT>레벨분의 데미지를 입힌다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5517
+102,흉내내기,,적이 사용한 기술이<NEXT>그때만큼만 자신의 기술이 된다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5550
+103,싫은소리,,듣기싫은 소리를 내서 적의<NEXT>방어를 많이 낮추게 만든다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5581
+104,그림자 분신,,분신으로 적을 혼란에 빠트려서<NEXT>회피율을 높인다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x55B5
+105,HP 회복,,상처입은 몸을 체력의<NEXT>반정도 회복한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x55E3
+106,단단해지기,,전신에 힘을 모아 몸을 딱딱하게<NEXT>만들어서 방어력을 높인다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5608
+107,작아지기,,몸을 줄여서 작게 되어<NEXT>회피율을 높인다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5640
+108,연막,,연기나 먹 등으로 적의<NEXT>명중률을 떨어뜨리게 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5666
+109,이상한빛,,이상한 빛으로 적을<NEXT>홀려서 곤란상태로 만든다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5695
+110,껍질에숨기,,단단한 껍질에 숨어서<NEXT>방어력을 높인다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x56C1
+111,웅크리기,,몸을 웅크려서 급소를<NEXT>감추고 방어력을 높인다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x56E6
+112,배리어,,눈 앞에 벽을 만들어서<NEXT>방어력을 팍 올린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5712
+113,빛의 장막,,빛의 장막을 만들어 특수<NEXT>공격의 데미지를 약하게 만든다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x573B
+114,흑안개,,검은 안개에 싸여서 능력의<NEXT>이상을 원상태로 회복한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5771
+115,리플렉터,,빛의 장막을 만들어 물리적<NEXT>공격의 데미지를 약하게 만든다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x57A4
+116,기충전,,공격에 기합을 실어서<NEXT>급소에 잘 명중하도록 만든다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x57DC
+117,참기,,2-3턴 공격을 참고 견뎌서<NEXT>받은 데미지를 배로해서 돌려준다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x580D
+118,손가락흔들기,,손가락을 흔들어서 뇌를 자극시켜<NEXT>여러 기술을 랜덤으로 끌어낸다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5847
+119,따라하기,,적의 기술을 흉내내서<NEXT>같은 기술로 적을 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5885
+120,자폭,,적에게 많은 데미지를 주지만<NEXT>사용하면 전투불능이 되어 버린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x58B4
+121,알폭탄,,알을 힘껏 던져서<NEXT>적을 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x58F0
+122,핥기,,긴 혀로 핥아서 공격한다<NEXT>적을 마비시키기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x590F
+123,스모그,,배기가스를 뿜어서 공격<NEXT>적에게 중독을 시키기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x593E
+124,오물공격,,오물을 던져서 공격한다<NEXT>적을 중독시키기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5971
+125,뼈다귀치기,,손에 쥔 뼈다귀로 적을 공격<NEXT>적의 기세를 꺾기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x599F
+126,불대문자,,큰 대자가 모든 것을 태워버린다<NEXT>적에게 화상을 입히기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x59D2
+127,폭포오르기,,폭포를 거슬러 오르는 듯한<NEXT>기백으로 적에게 돌진한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5A0D
+128,껍질끼우기,,2-5턴 동안에 적을<NEXT>껍질로 찝어 버린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5A40
+129,스피드스타,,절대 피할 수 없는 별 모양의<NEXT>광선을 무수히 발사한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5A66
+130,로케트박치기,,1턴째에서 머리를 집어넣고<NEXT>다음 턴에서 적을 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5A99
+131,가시대포,,날카로운 바늘을 적에게 발사해서<NEXT>2-5회 연속으로 공격,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5ACD
+132,휘감기,,적에게 휘감겨서 공격한다<NEXT>적의 스피드를 둔화시키기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5B02
+133,망각술,,일순 무엇인가를 잊어먹는 것으로<NEXT>특수방어를 높이 올린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5B3B
+134,숟가락휘기,,적의 눈을 스푼에 주시하도록 해서<NEXT>명중률을 떨어뜨리게 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5B72
+135,알낳기,,상처 입은 몸을 체력의<NEXT>반정도 회복시킨다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5BAC
+136,무릎차기,,점프한 힘으로 연속 무릎차기 공격<NEXT>실패하면 데미지를 입는다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5BD4
+137,뱀의미소,,배의 모양으로 적을 위협해서<NEXT>겁을 먹게하여 마비시켜 버린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5C0E
+138,꿈먹기,,자고있는 적에게 준 데미지의<NEXT>반을 체력으로 회복한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5C48
+139,독가스,,독가스를 적에게 뿌려서<NEXT>중독되게 만든다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5C7B
+140,알던지기,,둥근 물건을 적에게 던져서<NEXT>2-5회 연속으로 공격,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5CA2
+141,흡혈,,적에게 준 데미지의<NEXT>반을 체력으로 회복한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5CD1
+142,악마의키스,,무서운 얼굴로 키스를 한다<NEXT>키스를 당하면 잠들어 버린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5CFB
+143,불새,,1턴째에서 약점을 찾아서<NEXT>다음 턴에 적을 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5D31
+144,변신,,적의 포켓몬과 같은 모습으로<NEXT>세포를 변화시켜 변신한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5D61
+145,거품,,거품을 뿜어서 공격한다<NEXT>적의 스피드를 둔화시키기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5D96
+146,잼잼펀치,,어미와 새끼가 동시에 펀치로 공격<NEXT>적을 곤란상태로 만들기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5DCD
+147,버섯포자,,최면효과가 있는 포자를<NEXT>뿌려서 적을 잠들게 만든다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5E0C
+148,플래시,,강한 빛으로 눈을 멀게해서<NEXT>적의 명중률을 떨어뜨린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5E3D
+149,사이코웨이브,,이상한 염동파로 적을 공격<NEXT>사용할 때마다 위력이 변한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5E70
+150,튀어오르기,,팔딱 튀기만 하고 아무 일도<NEXT>일어나지 않는다…,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5EA6
+151,녹기,,몸을 액상으로 변화시켜서<NEXT>방어력을 팍 높인다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5ED3
+152,찝게햄머,,집게가위로 적을 때린다<NEXT>급소에 명중하기 쉽다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5EFF
+153,대폭발,,적에게 데미지를 입히지만<NEXT>사용하면 전투불능이 되어버린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5F2B
+154,마구할퀴기,,날카로운 손톱과 낫으로 할퀴어<NEXT>2-5회 연속으로 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5F63
+155,뼈다귀부메랑,,뼈다귀를 던져 갔다가 돌아오면서<NEXT>2회 연속으로 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5F9A
+156,잠자기,,2턴 잠을 자서 체력과<NEXT>몸의 이상상태를 회복시킨다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x5FD0
+157,스톤샤워,,커다란 바위를 던진다<NEXT>적의 기세를 꺾기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6000
+158,필살앞니,,날카로운 앞니로 적을 공격<NEXT>적을 물러서게 만들 때도 있다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x602D
+159,각지기,,폴리곤을 줄여서 각진 형상이 되어<NEXT>공격력을 높인다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6064
+160,텍스쳐,,기억하고 있는 기술 타입의<NEXT>어느것인지에 자신의 타입을 바꾼다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6095
+161,트라이어택,,3종류의 광선을<NEXT>한 개로 모아서 적에게 발사한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x60D1
+162,분노의앞니,,날카로운 앞니로 공격해서<NEXT>적의 체력을 반으로 만든다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x60FF
+163,베어가르기,,날카로운 낫과 손톱 등으로 공격<NEXT>급소에 맞추기 쉽다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6132
+164,대타출동,,체력의 4분의1을 사용하여<NEXT>자신의 분신을 만들어낸다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6164
+165,발버둥,,기술포인트가 떨어지면 나오는 기술<NEXT>자신도 약간의 데미지를 입는다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6196
+166,스케치,,적이 사용한 기술을 스케치해서<NEXT>그 기술을 자신의 것으로 만든다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x61D6
+167,트리플 킥,,적을 3회 연속으로 공격<NEXT>맞을 때마다 데미지가 올라간다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6213
+168,도둑,,공격 절정일 때 틈을 노려서<NEXT>적이 들고있는 도구를 훔친다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6248
+169,거미집,,끈적끈적한 실을 휘감아서<NEXT>적을 도망치지 못하게 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x627F
+170,마음의 눈,,적의 움직임을 마음으로 느껴서<NEXT>다음의 공격을 반드시 맞춘다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x62B2
+171,악몽,,적이 자고있는 동안에 체력을<NEXT>매 턴마다 4분의1씩 줄여나간다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x62EC
+172,화염 자동차,,화염을 휘감아서 돌진한다<NEXT>적에게 화상을 입히기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6326
+173,코골기,,자고있을 때만 쓸 수 있는 기술<NEXT>엄청난 코골기로 적을 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x635B
+174,저주,,고스트타입이랑 그 이외의 타입은<NEXT>기술의 효과가 다르다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6397
+175,바둥바둥,,자신의 체력이 적을수록<NEXT>적에게 큰 데미지를 입힌다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x63CC
+176,텍스쳐2,,당한 기술의 타입을 자신의<NEXT>저항력으로 바꾼다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x63FD
+177,에어로블레스트,,진공파를 발사해서 공격<NEXT>급소를 맞추기 쉽다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6429
+178,목화포자,,포자를 흩뿌려서 적의<NEXT>움직임을 더욱 둔화시킨다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6453
+179,기사회생,,자신의 체력이 적을수록<NEXT>적에게 큰 데미지를 입힌다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6481
+180,원한,,상대가 발휘한 기술에 앙심을 품고<NEXT>그 기술포인트를 떨어뜨린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x64B2
+181,눈싸라기,,눈을 바람에 실어서 공격한다<NEXT>적을 얼려버리기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x64EE
+182,방어,,그 턴의 공격을 받지 않는다<NEXT>연속으로 사용하면 실패하기 쉽다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6521
+183,마하펀치,,엄청나게 빠른 펀치를 날려서<NEXT>반드시 선제공격이 되도록 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x655C
+184,겁나는 얼굴,,무서운 얼굴로 적에게 겁을 줘서<NEXT>움직임을 더욱 둔화시킨다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6596
+185,속여 때리기,,적을 방심하게 만들어 접근하여<NEXT>피할 수 없는 공격을 펼친다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x65CE
+186,천사의 키스,,귀여운 얼굴로 키스를 한다<NEXT>키스를 당하면 혼란에 빠진다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6607
+187,배북,,자신의 체력을 떨어뜨려서<NEXT>공격력을 최대로 끌어올린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x663D
+188,오물 폭탄,,오물을 던져서 공격<NEXT>적을 독에 중독시키기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6671
+189,진흙 뿌리기,,적의 얼굴 등에 진흙을 발라<NEXT>명중률이 떨어지게 만든다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x66A0
+190,대포무노포,,먹물 덩어리를 발사해서<NEXT>명중력이 떨어지게 만든다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x66D4
+191,압정 뿌리기,,적의 주변에 함정을 만들어<NEXT>교대한 적을 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6704
+192,전자포,,명중률이 낮지만 데미지는 크다<NEXT>명중하면 반드시 마비되어 버린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6733
+193,꿰뚫어 보기,,기술이 명중하기 어렵게된 적에게<NEXT>공격이 잘 먹히도록 만든다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6771
+194,길동무,,이 기술 뒤에 쓰러지게되면<NEXT>적도 전투불능이 되어버린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x67AB
+195,멸망의 노래,,들은 포켓몬은 3턴 후에<NEXT>전투불능이 되어버린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x67E0
+196,얼다바람,,엄청난 냉기로 적을 공격<NEXT>스피드를 낮게 떨어뜨린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x680D
+197,선찰,,적의 공격을 반드시 피한다<NEXT>연속으로 사용하면 실패하기 쉽다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x683E
+198,본러쉬,,손에 들은 뼈다귀로 2-5회<NEXT>연속으로 적을 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6878
+199,록온,,적에게 조준을 맞춰서<NEXT>다음 공격을 반드시 맞게 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x68A9
+200,역린,,2-3턴 동안에 난동을 부린다<NEXT>난동을 부린 후에는 혼란에 빠진다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x68DB
+201,모래바람,,모래바람을 발생시켜서<NEXT>매 턴마다 데미지를 입힌다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6918
+202,기가 드레인,,적에게 입힌 데미지의<NEXT>반을 체력으로 회복한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6948
+203,버티기,,그 턴에서 공격을 받아도<NEXT>반드시 체력이 1 남는다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6974
+204,애교부리기,,귀여운 애교로 적을 방심시켜서<NEXT>공격력을 떨어뜨린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x69A3
+205,구르기,,5턴 동안에 적을 공격한다<NEXT>맞출 때마다 데미지가 올라간다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x69D5
+206,칼등치기,,반드시 체력이 1이 남도록<NEXT>적당히 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6A0C
+207,뽐내기,,적을 화나게 만들어서 혼란에<NEXT>빠뜨리지만 적의 공격력도 올려준다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6A35
+208,우유 마시기,,상처 입은 몸을 체력의<NEXT>반정도 회복시켜준다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6A73
+209,스파크,,전기를 일으켜서 돌진한다<NEXT>적을 마비시키기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6A9D
+210,연속 자르기,,연속으로 맞추면<NEXT>위력이 증가해져 간다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6ACD
+211,강철 날개,,단단한 날개를 크게 펼쳐서<NEXT>그대로 적에게 몸통박치기를 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6AF2
+212,검은 눈빛,,적을 뚫어지게 바라보면 어쩐지<NEXT>적은 도망치지 못하게된다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6B2C
+213,헤롱헤롱,,숫놈이라면 암놈에게 암놈이라면<NEXT>숫놈에게 발휘하기 힘들게 된다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6B63
+214,잠꼬대,,자고있을 때만 쓸 수 있는 기술<NEXT>랜덤으로 자신의 기술을 발휘한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6BA0
+215,치료방울,,기분 좋은 방울소리를 들려줘서<NEXT>모든 상태를 회복시킨다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6BDE
+216,은혜갚기,,잘 대해주는 트레이너를 위해서<NEXT>전력으로 적을 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6C13
+217,프레젠트,,적에게 폭탄을 선물한다<NEXT>가끔 회복해버리는 경우가 있다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6C48
+218,화풀이,,잔혹한 처사에 기분전환으로<NEXT>적을 전력으로 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6C7D
+219,신비의 부적,,신비한 힘으로 보호되어<NEXT>특수상태에 빠지지 않도록 된다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6CAF
+220,아픔나누기,,적과 자신의 체력을<NEXT>보충해서 그것을 사이좋게 나눈다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6CE4
+221,성스러운 불꽃,,신비한 불꽃으로 공격<NEXT>적에게 화상을 입히기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6D17
+222,매그니튜드,,지면을 흔들어서 적을 공격한다<NEXT>데미지는 랜덤으로 바뀐다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6D48
+223,폭발 펀치,,명중하기 힘들지만 데미지는 크다<NEXT>명중하면 반드시 곤란상태로 만든다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6D7F
+224,메가폰,,단단한 뿔을 엄청난 기세를 몰아<NEXT>들이받아 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6DC1
+225,용의 숨결,,입에서 굉장한 숨결을 뿜어서<NEXT>적을 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6DF2
+226,바톤 터치,,추가효과를 남겨놓은 채로<NEXT>다른 포켓몬으로 교체한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6E1C
+227,앵콜,,적이 마지막으로 사용한 기술을<NEXT>2-6회 연속으로 쓰도록 시킨다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6E4E
+228,따라가때리기,,상대방이 교환되어질 때에<NEXT>사용하면 큰 데미지를 줄 수 있다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6E8A
+229,고속스핀,,몸을 빠르게 회전시켜서<NEXT>적을 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6EC3
+230,달콤한 향기,,달콤한 향기로 홀려서<NEXT>적의 회피율을 떨어뜨린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6EE8
+231,아이언테일,,단단한 꼬리로 적을 공격<NEXT>적의 방어력을 떨어뜨리기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6F16
+232,메탈크로우,,단단한 손톱으로 적을 공격<NEXT>공격력이 높아지기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6F4E
+233,받아 던지기,,후에 공격을 하게되지만 반드시<NEXT>공격이 명중된다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6F81
+234,아침햇살,,체력을 회복하는<NEXT>시각에서 회복율이 변한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6FAF
+235,광합성,,체력을 회복하는<NEXT>시각에서 회복율이 변한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x6FD8
+236,달의불빛,,체력이 회복하는<NEXT>시각에서 회복율이 변한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x7001
+237,잠재파워,,포켓몬에 따라서 적에게 주는<NEXT>데미지의 양이 변화한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x702A
+238,크로스촙,,양손 당수로 적을 공격한다<NEXT>급소에 맞추기 쉽다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x705D
+239,회오리,,엄청난 바람을 일으켜서<NEXT>적을 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x708A
+240,비바라기,,5턴 동안에 물타입의<NEXT>기술의 위력이 높아진다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x70AF
+241,쾌청,,5턴 동안에 화염타입의<NEXT>기술의 위력이 높아진다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x70DA
+242,깨물어부수기,,날카로운 이빨로 적을 물어뜯는다<NEXT>특수방어를 뚫는 경우가 있다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x7107
+243,미러코트,,적에게 받은 특수공격의<NEXT>데미지를 배로 되돌려준다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x7143
+244,자기암시,,적에게 걸려있는 보조효과를<NEXT>자신에게도 건다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x7173
+245,신속,,매우 빠른 속도로 움직여서<NEXT>기운 센 공격을 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x719E
+246,원시의 힘,,원시의 힘을 불러들여<NEXT>능력이 높아진다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x71CC
+247,새도우볼,,검은 덩어리를 던져서 공격<NEXT>특수방어를 뚫는 경우가 있다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x71F1
+248,미래예지,,정신력을 높여서<NEXT>2턴 뒤에 적을 공격한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x7227
+249,바위깨기,,바위를 깨는 기세를 몰아 공격<NEXT>적의 방어를 뚫기도 한다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x724E
+250,바다 회오리,,2-5턴 동안에 적을<NEXT>소용돌이 중심에 가두어버린다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x7283
+251,집단구타,,동료 포켓몬이<NEXT>공격에 참가해준다,,,,PENDING_OFFICIAL_CROSSCHECK,,0x6D,0x72B3
