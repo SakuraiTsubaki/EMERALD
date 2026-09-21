@@ -1,0 +1,68 @@
+name: Build Arceus Stage-2 runtime
+
+on:
+  push:
+    branches:
+      - feature/arceus-all-gen
+    paths:
+      - patches/arceus/stage2/**
+      - .github/workflows/arceus-stage2-build.yml
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install ARM build tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y clang lld llvm
+
+      - name: Build ARMv4T Thumb runtime
+        shell: bash
+        run: |
+          set -euxo pipefail
+          cd patches/arceus/stage2
+          clang --target=arm-none-eabi -mcpu=arm7tdmi -mthumb -Os \
+            -ffreestanding -fno-builtin -fno-pic \
+            -fno-unwind-tables -fno-asynchronous-unwind-tables \
+            -c runtime.c -o runtime.o
+          clang --target=arm-none-eabi -mcpu=arm7tdmi -mthumb \
+            -c runtime_wrappers.s -o runtime_wrappers.o
+          ld.lld -T runtime.ld runtime_wrappers.o runtime.o -o runtime.elf
+          llvm-objcopy -O binary runtime.elf runtime.bin
+          llvm-objdump -d --triple=thumbv4t-none-eabi runtime.elf > runtime.disasm.txt
+          llvm-readelf -h runtime.elf > runtime.elf-header.txt
+          llvm-readelf -r runtime.elf > runtime.relocations.txt
+          sha256sum runtime.bin > runtime.sha256.txt
+
+      - name: Validate runtime
+        shell: bash
+        run: |
+          set -euxo pipefail
+          cd patches/arceus/stage2
+          python - <<'PY'
+          from pathlib import Path
+          runtime = Path("runtime.bin").read_bytes()
+          assert len(runtime) < 0x1000, len(runtime)
+          text = Path("runtime.relocations.txt").read_text()
+          assert "There are no relocations" in text, text
+          hdr = Path("runtime.elf-header.txt").read_text().lower()
+          assert "0x891c000" in hdr or "0x0891c000" in hdr, hdr
+          print(f"runtime size: {len(runtime)} bytes")
+          PY
+
+      - name: Upload Stage-2 runtime
+        uses: actions/upload-artifact@v4
+        with:
+          name: arceus-stage2-runtime
+          path: |
+            patches/arceus/stage2/runtime.bin
+            patches/arceus/stage2/runtime.elf
+            patches/arceus/stage2/runtime.disasm.txt
+            patches/arceus/stage2/runtime.elf-header.txt
+            patches/arceus/stage2/runtime.relocations.txt
+            patches/arceus/stage2/runtime.sha256.txt
+          if-no-files-found: error
