@@ -1,0 +1,73 @@
+{
+  "gold": {
+    "rom_sha1": "c0ff3999e1093e1af59ef3eea3f1bfd7c1f18a65",
+    "bank_hex": "0x6E",
+    "bank_sha256": "4976d6dddf751eb7a2644997d23215978419708270c8595ab3385b8a7fe66d2a",
+    "pointer_slot_count": 256,
+    "unique_description_count": 198,
+    "shared_pointer_excess_count": 58,
+    "description_pool_start_cpu_hex": "0x4200",
+    "description_pool_end_exclusive_cpu_hex": "0x5A70",
+    "used_bytes": 6768,
+    "free_zero_bytes": 9616,
+    "tm01_threshold_item_id_hex": "0xBF",
+    "move_description_dispatch_slot_count": 65,
+    "item_description_dispatch_slot_count": 191,
+    "placeholder_name_slot_count": 35,
+    "pointer_table_lossless": true,
+    "description_pool_lossless": true,
+    "bank_lossless": true,
+    "full_rom_roundtrip_sha1": "c0ff3999e1093e1af59ef3eea3f1bfd7c1f18a65",
+    "full_rom_lossless": true,
+    "print_routine": {
+      "bank_hex": "0x0B",
+      "cpu_address_hex": "0x4000",
+      "file_offset_hex": "0x02C000",
+      "raw_hex": "fa f9 c1 fe bf 38 12 ea be d0 d5 cd c1 45 e1 fa 0e d2 ea f9 c1 cd 52 49 c9 d5 21 00 40 fa f9 c1 3d 4f 06 00 09 09 3e 6e cd e4 31 54 5d e1 3e 6e c3 87 12",
+      "verified": true
+    }
+  },
+  "silver": {
+    "rom_sha1": "cb22d7e03a74dc3a563fde6be8626626b2b392e7",
+    "bank_hex": "0x6E",
+    "bank_sha256": "4976d6dddf751eb7a2644997d23215978419708270c8595ab3385b8a7fe66d2a",
+    "pointer_slot_count": 256,
+    "unique_description_count": 198,
+    "shared_pointer_excess_count": 58,
+    "description_pool_start_cpu_hex": "0x4200",
+    "description_pool_end_exclusive_cpu_hex": "0x5A70",
+    "used_bytes": 6768,
+    "free_zero_bytes": 9616,
+    "tm01_threshold_item_id_hex": "0xBF",
+    "move_description_dispatch_slot_count": 65,
+    "item_description_dispatch_slot_count": 191,
+    "placeholder_name_slot_count": 35,
+    "pointer_table_lossless": true,
+    "description_pool_lossless": true,
+    "bank_lossless": true,
+    "full_rom_roundtrip_sha1": "cb22d7e03a74dc3a563fde6be8626626b2b392e7",
+    "full_rom_lossless": true,
+    "print_routine": {
+      "bank_hex": "0x0B",
+      "cpu_address_hex": "0x4000",
+      "file_offset_hex": "0x02C000",
+      "raw_hex": "fa f9 c1 fe bf 38 12 ea be d0 d5 cd c1 45 e1 fa 0e d2 ea f9 c1 cd 52 49 c9 d5 21 00 40 fa f9 c1 3d 4f 06 00 09 09 3e 6e cd e4 31 54 5d e1 3e 6e c3 87 12",
+      "verified": true
+    }
+  },
+  "gold_silver_bank_6e_identical": true,
+  "gold_silver_slots_identical": true,
+  "slot_count": 256,
+  "unique_description_count": 198,
+  "undefined_code_count": 0,
+  "unique_pool_next_count_distribution": {
+    "0": 78,
+    "1": 120
+  },
+  "slot_next_count_distribution": {
+    "0": 136,
+    "1": 120
+  },
+  "official_crosscheck_rows_created": 256,
+  "rom_output_written": false
+}

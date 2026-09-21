@@ -1,0 +1,61 @@
+{
+  "gold": {
+    "rom_sha1": "c0ff3999e1093e1af59ef3eea3f1bfd7c1f18a65",
+    "bank_hex": "0x6D",
+    "bank_sha256": "92245ccdc59deed52bc836539ef3b39623e8828b66b6e5c619eaaa18a311e75d",
+    "pointer_slot_count": 256,
+    "real_move_pointer_count": 251,
+    "unused_dummy_pointer_count": 5,
+    "dummy_target_cpu_address_hex": "0x4200",
+    "dummy_raw_hex": "e6 50",
+    "dummy_decoded": "<?>@",
+    "first_description_cpu_address_hex": "0x4202",
+    "used_bytes": 13011,
+    "free_zero_bytes": 3373,
+    "pointer_table_lossless": true,
+    "bank_lossless": true,
+    "full_rom_roundtrip_sha1": "c0ff3999e1093e1af59ef3eea3f1bfd7c1f18a65",
+    "full_rom_lossless": true,
+    "print_routine": {
+      "bank_hex": "0x0B",
+      "cpu_address_hex": "0x4952",
+      "file_offset_hex": "0x02C952",
+      "raw_hex": "e5 21 00 40 fa f9 c1 3d 4f 06 00 09 09 3e 6d cd e4 31 54 5d e1 3e 6d c3 87 12",
+      "verified": true
+    }
+  },
+  "silver": {
+    "rom_sha1": "cb22d7e03a74dc3a563fde6be8626626b2b392e7",
+    "bank_hex": "0x6D",
+    "bank_sha256": "92245ccdc59deed52bc836539ef3b39623e8828b66b6e5c619eaaa18a311e75d",
+    "pointer_slot_count": 256,
+    "real_move_pointer_count": 251,
+    "unused_dummy_pointer_count": 5,
+    "dummy_target_cpu_address_hex": "0x4200",
+    "dummy_raw_hex": "e6 50",
+    "dummy_decoded": "<?>@",
+    "first_description_cpu_address_hex": "0x4202",
+    "used_bytes": 13011,
+    "free_zero_bytes": 3373,
+    "pointer_table_lossless": true,
+    "bank_lossless": true,
+    "full_rom_roundtrip_sha1": "cb22d7e03a74dc3a563fde6be8626626b2b392e7",
+    "full_rom_lossless": true,
+    "print_routine": {
+      "bank_hex": "0x0B",
+      "cpu_address_hex": "0x4952",
+      "file_offset_hex": "0x02C952",
+      "raw_hex": "e5 21 00 40 fa f9 c1 3d 4f 06 00 09 09 3e 6d cd e4 31 54 5d e1 3e 6d c3 87 12",
+      "verified": true
+    }
+  },
+  "gold_silver_bank_6d_identical": true,
+  "gold_silver_entries_identical": true,
+  "description_count": 251,
+  "undefined_code_count": 0,
+  "next_count_distribution": {
+    "1": 251
+  },
+  "official_crosscheck_rows_created": 251,
+  "rom_output_written": false
+}
