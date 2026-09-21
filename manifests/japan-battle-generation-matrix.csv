@@ -1,0 +1,21 @@
+feature,generation_1_original,generation_2_original,generation_3_original,remake_default
+physical_special_category,type-based,type-based,type-based,per-move modern split
+special_stats,single Special stat,Sp. Atk + Sp. Def,Sp. Atk + Sp. Def,modern current stats
+abilities,none,none,yes,modern updated abilities
+held_items,none,yes,yes,modern held-item system
+natures,none,none,yes,modern nature system
+double_battles,none,none,yes,modern doubles-capable engine
+critical_hit,base-Speed-driven Gen I rule,legacy 2x rule,legacy 2x rule,GEN_LATEST chance + multiplier
+paralysis_speed,25% of normal,25% of normal,25% of normal,GEN_LATEST
+burn_residual,1/16 max HP,legacy 1/8 era,legacy 1/8 era,GEN_LATEST
+sleep_duration,Gen I legacy,1-7 turns,1-4 turns,GEN_LATEST
+badge_stat_boost,present,present,present,disabled by GEN_LATEST behavior
+experience_on_catch,no,no,no,enabled by GEN_LATEST behavior
+trainer_exp_bonus,legacy,legacy,legacy 1.5x era,GEN_LATEST
+exp_distribution,legacy split,legacy split,legacy split,GEN_LATEST
+scaled_experience,no,no,no,GEN_LATEST
+type_system,Gen I chart / no Dark-Steel-Fairy,Dark+Steel added / no Fairy,Dark+Steel / no Fairy,updated type matchups + current types
+weather,none,Sun/Rain/Sandstorm,Sun/Rain/Sandstorm/Hail,modern weather system
+terrain,none,none,none,modern terrain-capable engine
+ev_model,Stat Experience / DVs,Stat Experience / DVs,IV+EV modern precursor,current EV cap / modern rules
+battle_gimmicks,none,none,none,engine capability enabled; story availability title-profiled
