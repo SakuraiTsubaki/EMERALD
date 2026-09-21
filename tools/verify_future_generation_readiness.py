@@ -20,7 +20,7 @@ def git_head(root: Path) -> str:
 def read_macros(path: Path) -> dict[str, str]:
     macros: dict[str, str] = {}
     for line in path.read_text(encoding="utf-8").splitlines():
-        match = re.match(r"^\\s*#define\\s+([A-Z0-9_]+)\\s+(.+?)\\s*$", line)
+        match = re.match(r"^\s*#define\s+([A-Z0-9_]+)\s+(.+?)\s*$", line)
         if match:
             macros[match.group(1)] = match.group(2).split("//", 1)[0].strip()
     return macros
@@ -32,12 +32,12 @@ def resolve(name: str, macros: dict[str, str], stack: tuple[str, ...] = ()) -> i
     expr = macros.get(name)
     if expr is None:
         raise ValueError(f"missing macro: {name}")
-    if re.fullmatch(r"\\d+", expr):
+    if re.fullmatch(r"\d+", expr):
         return int(expr)
     alias = re.fullmatch(r"([A-Z0-9_]+)", expr)
     if alias:
         return resolve(alias.group(1), macros, (*stack, name))
-    plus = re.fullmatch(r"([A-Z0-9_]+)\\s*\\+\\s*(\\d+)", expr)
+    plus = re.fullmatch(r"([A-Z0-9_]+)\s*\+\s*(\d+)", expr)
     if plus:
         return resolve(plus.group(1), macros, (*stack, name)) + int(plus.group(2))
     raise ValueError(f"unsupported expression for {name}: {expr!r}")
@@ -98,17 +98,17 @@ def main() -> int:
     pokemon = pokemon_h.read_text(encoding="utf-8")
     species_bits = int(require_regex(
         pokemon,
-        r"enum\\s+Species\\s+species:(\\d+);",
+        r"enum\s+Species\s+species:(\d+);",
         "BoxPokemon species field not found",
     ).group(1))
     item_bits = int(require_regex(
         pokemon,
-        r"enum\\s+Item\\s+heldItem:(\\d+);",
+        r"enum\s+Item\s+heldItem:(\d+);",
         "BoxPokemon held-item field not found",
     ).group(1))
     move_bits = int(require_regex(
         pokemon,
-        r"enum\\s+Move\\s+move1:(\\d+);",
+        r"enum\s+Move\s+move1:(\d+);",
         "BoxPokemon move field not found",
     ).group(1))
 
@@ -118,7 +118,7 @@ def main() -> int:
         raise SystemExit(f"move save width changed unexpectedly: {move_bits}")
     if item_bits != 16:
         raise SystemExit(f"held-item save width must be 16 bits, got {item_bits}")
-    if re.search(r"\\bunused_02\\s*:\\s*6\\s*;", pokemon):
+    if re.search(r"\bunused_02\s*:\s*6\s*;", pokemon):
         raise SystemExit("old six-bit held-item padding still present")
 
     save_macros = read_macros(save_h)
@@ -162,43 +162,43 @@ def main() -> int:
     save_h_text = save_h.read_text(encoding="utf-8")
     require_regex(
         save_h_text,
-        r"struct\\s+SaveSector\\s*\\{.*?"
-        r"u8\\s+data\\[SECTOR_DATA_SIZE\\];\\s*"
-        r"u8\\s+saveBlock3Chunk\\[SAVE_BLOCK_3_CHUNK_SIZE\\];\\s*"
-        r"u16\\s+id;\\s*u16\\s+checksum;\\s*u32\\s+signature;\\s*u32\\s+counter;",
+        r"struct\s+SaveSector\s*\{.*?"
+        r"u8\s+data\[SECTOR_DATA_SIZE\];\s*"
+        r"u8\s+saveBlock3Chunk\[SAVE_BLOCK_3_CHUNK_SIZE\];\s*"
+        r"u16\s+id;\s*u16\s+checksum;\s*u32\s+signature;\s*u32\s+counter;",
         "SaveSector no longer keeps SaveBlock3 inside the vanilla unused footer area",
     )
 
     global_text = global_h.read_text(encoding="utf-8")
     require_regex(
         global_text,
-        r"struct\\s+SaveBlock3\\s*\\{",
+        r"struct\s+SaveBlock3\s*\{",
         "SaveBlock3 definition missing",
     )
 
     save_c_text = save_c.read_text(encoding="utf-8")
     require_regex(
         save_c_text,
-        r"STATIC_ASSERT\\s*\\(\\s*sizeof\\(struct\\s+SaveBlock3\\)\\s*<=\\s*"
-        r"SAVE_BLOCK_3_CHUNK_SIZE\\s*\\*\\s*NUM_SECTORS_PER_SLOT\\s*,\\s*"
-        r"SaveBlock3FreeSpace\\s*\\);",
+        r"STATIC_ASSERT\s*\(\s*sizeof\(struct\s+SaveBlock3\)\s*<=\s*"
+        r"SAVE_BLOCK_3_CHUNK_SIZE\s*\*\s*NUM_SECTORS_PER_SLOT\s*,\s*"
+        r"SaveBlock3FreeSpace\s*\);",
         "SaveBlock3 capacity guard missing",
     )
     require_regex(
         save_c_text,
-        r"CopyToSaveBlock3\\(id,\\s*gReadWriteSector\\);",
+        r"CopyToSaveBlock3\(id,\s*gReadWriteSector\);",
         "SaveBlock3 is not restored with checksum-valid gameplay sectors",
     )
     require_regex(
         save_c_text,
-        r"CopyFromSaveBlock3\\(sectorId,\\s*gReadWriteSector\\);",
+        r"CopyFromSaveBlock3\(sectorId,\s*gReadWriteSector\);",
         "SaveBlock3 is not written with gameplay sectors",
     )
 
     linker_text = linker.read_text(encoding="utf-8")
     require_regex(
         linker_text,
-        r"ROM\\s+\\(rx\\)\\s*:\\s*ORIGIN\\s*=\\s*0x8000000\\s*,\\s*LENGTH\\s*=\\s*32M",
+        r"ROM\s+\(rx\)\s*:\s*ORIGIN\s*=\s*0x8000000\s*,\s*LENGTH\s*=\s*32M",
         "modern linker is not configured for the 32 MiB GBA ROM address space",
     )
 
