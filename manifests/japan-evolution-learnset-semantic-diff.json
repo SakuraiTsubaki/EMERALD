@@ -1,0 +1,49 @@
+{
+  "schema": 1,
+  "revisionComparisons": [
+    {"pair":"Aka Rev0 -> RevA","evolutionChanges":0,"learnsetChanges":0},
+    {"pair":"Midori Rev0 -> RevA","evolutionChanges":0,"learnsetChanges":0},
+    {"pair":"Pikachu 0A -> B","evolutionChanges":0,"learnsetChanges":0},
+    {"pair":"Pikachu B -> C","evolutionChanges":0,"learnsetChanges":0},
+    {"pair":"Pikachu C -> D","evolutionChanges":0,"learnsetChanges":0},
+    {"pair":"Kin Rev0 -> RevA","evolutionChanges":0,"learnsetChanges":0},
+    {"pair":"Gin Rev0 -> RevA","evolutionChanges":0,"learnsetChanges":0},
+    {"pair":"FireRed Rev0 -> Rev1","evolutionChanges":0,"learnsetChanges":0}
+  ],
+  "versionComparisons": [
+    {"pair":"Aka vs Midori","evolutionChanges":0,"learnsetChanges":0},
+    {"pair":"Aka vs Ao","evolutionChanges":0,"learnsetChanges":0},
+    {
+      "pair":"Ao vs Pikachu",
+      "evolutionChanges":0,
+      "learnsetChanges":23,
+      "gen1InternalSpecies":[
+        "0x03 NIDORAN_M","0x07 NIDOKING","0x0F NIDORAN_F","0x10 NIDOQUEEN",
+        "0x11 CUBONE","0x1A SCYTHER","0x1D PINSIR","0x1E TANGELA",
+        "0x28 CHANSEY","0x39 MANKEY","0x41 VENONAT","0x54 PIKACHU",
+        "0x66 EEVEE","0x67 FLAREON","0x68 JOLTEON","0x69 VAPOREON",
+        "0x75 PRIMEAPE","0x77 VENOMOTH","0x7C METAPOD","0x7D BUTTERFREE",
+        "0x91 MAROWAK","0xA7 NIDORINO","0xA8 NIDORINA"
+      ]
+    },
+    {"pair":"Kin vs Gin","evolutionChanges":0,"learnsetChanges":0},
+    {
+      "pair":"Kin/Gin vs Crystal",
+      "evolutionChanges":0,
+      "learnsetChanges":15,
+      "nationalDexSpecies":[
+        "51 Dugtrio","82 Magneton","91 Cloyster","133 Eevee","167 Spinarak",
+        "168 Ariados","187 Hoppip","188 Skiploom","189 Jumpluff","193 Yanma",
+        "211 Qwilfish","215 Sneasel","220 Swinub","221 Piloswine","245 Suicune"
+      ]
+    },
+    {"pair":"Ruby vs Sapphire","evolutionChanges":0,"learnsetChanges":0},
+    {"pair":"Ruby/Sapphire vs Emerald","evolutionChanges":0,"learnsetChanges":1,"species":["410 Deoxys"]},
+    {"pair":"FireRed vs LeafGreen","evolutionChanges":0,"learnsetChanges":2,"species":["51 Dugtrio","410 Deoxys"]}
+  ],
+  "notes": [
+    "Yellow starter Pikachu's refusal to evolve is not encoded as an evolution-table difference; it must be handled by special-case game logic.",
+    "FireRed/LeafGreen Dugtrio differs only in the order of two level-1 moves.",
+    "Generation III evolution entries occupy 8-byte ABI slots in the ROM even though the three semantic u16 fields total 6 bytes."
+  ]
+}
