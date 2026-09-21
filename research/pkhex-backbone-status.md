@@ -1,6 +1,8 @@
 # PKHeX reference backbone status
 
-Pinned reference: `kwsch/PKHeX@8ad201e80244f630ab5a46922ab72fb79c5ad4f4`
+Pinned reference is defined only in manifests/pkhex-source-pin.yml.
+
+Current snapshot: kwsch/PKHeX@8ad201e80244f630ab5a46922ab72fb79c5ad4f4.
 
 ## Completed ingestion infrastructure
 
@@ -24,30 +26,39 @@ Pinned reference: `kwsch/PKHeX@8ad201e80244f630ab5a46922ab72fb79c5ad4f4`
 ## Files
 
 Core:
-- `manifests/pkhex/reference-lock.yml`
-- `manifests/pkhex/core-file-inventory.csv`
-- `tools/pkhex_reference_export.py`
+- manifests/pkhex-source-pin.yml
+- manifests/pkhex/reference-lock.yml
+- manifests/pkhex/core-file-inventory.csv
+- tools/reference_pins.py
+- tools/pkhex_reference_export.py
 
 Normalized identifiers:
-- `manifests/pkhex/species.csv`
-- `manifests/pkhex/moves.csv`
-- `manifests/pkhex/abilities.csv`
-- `manifests/pkhex/items.csv`
+- manifests/pkhex/species.csv
+- manifests/pkhex/moves.csv
+- manifests/pkhex/abilities.csv
+- manifests/pkhex/items.csv
 
 Source registries:
-- `manifests/pkhex/personal-sources.csv`
-- `manifests/pkhex/pkm_formats-sources.csv`
-- `manifests/pkhex/saves-sources.csv`
-- `manifests/pkhex/item_storage-sources.csv`
-- `manifests/pkhex/encounters-sources.csv`
-- `manifests/pkhex/evolutions-sources.csv`
-- `manifests/pkhex/conversions-sources.csv`
-- `manifests/pkhex/mystery_gifts-sources.csv`
-- `manifests/pkhex/ribbons_marks-sources.csv`
+- manifests/pkhex/personal-sources.csv
+- manifests/pkhex/pkm_formats-sources.csv
+- manifests/pkhex/saves-sources.csv
+- manifests/pkhex/item_storage-sources.csv
+- manifests/pkhex/encounters-sources.csv
+- manifests/pkhex/evolutions-sources.csv
+- manifests/pkhex/conversions-sources.csv
+- manifests/pkhex/mystery_gifts-sources.csv
+- manifests/pkhex/ribbons_marks-sources.csv
 
 Conversions:
-- `manifests/pkhex/item-conversions.csv`
-- `manifests/pkhex/gen9a-tm-remap.csv`
+- manifests/pkhex/item-conversions.csv
+- manifests/pkhex/generation-item-remaps.csv — generic append-only generation-tagged output
+- manifests/pkhex/gen9a-tm-remap.csv — retained compatibility output
+
+## Future-generation rule
+
+The exporter does not treat Generation 9 as a permanent ceiling. New source revisions may append new personal tables, entity/save formats, items, moves, abilities and generation-tagged conversion rules. Existing IDs are preserved; new data is appended with source commit/path provenance.
+
+The PKHeX SHA is loaded from manifests/pkhex-source-pin.yml, so advancing the reference no longer requires editing multiple scripts.
 
 ## Next extraction layer
 
@@ -62,8 +73,8 @@ The remaining large payloads are mostly PKHeX binary resources plus behavior enc
 - ribbons/marks numeric tables
 - Mystery Gift field layouts
 
-GitHub's connector does not expose binary blobs as raw bytes in this environment, so these should be decoded by the repository exporter against a local pinned PKHeX checkout. The exporter is deliberately Python-only and does not require linking PKHeX into the Emerald runtime.
+These should be decoded by the repository exporter against a local pinned PKHeX checkout. The exporter is deliberately Python-only and does not require linking PKHeX into the Emerald runtime.
 
 ## License boundary
 
-PKHeX is GPLv3. EMERALD uses it as a pinned **reference oracle**. Runtime C# source is not vendored into the ROM project. Every normalized output keeps source commit/path provenance so facts can be independently checked against original games and the project's Japanese-first sources.
+PKHeX is GPLv3. EMERALD uses it as a pinned reference oracle. Runtime C# source is not vendored into the ROM project. Every normalized output keeps source commit/path provenance so facts can be independently checked against original games and the project's Japanese-first sources.

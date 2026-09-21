@@ -25,3 +25,9 @@ profiles:
       P_PALDEAN_FORMS: P_REGIONAL_FORMS
       P_CROSS_GENERATION_EVOS: TRUE
       P_NEW_EVOS_IN_REGIONAL_DEX: TRUE
+    future_generation:
+      current_content_generation: 9
+      reserved_generation: 10
+      current_behavior_generation: GEN_9
+      capacity_patch: patches/pokeemerald-expansion/0001-reserve-generation-10-slot.patch
+      speculative_content: false
