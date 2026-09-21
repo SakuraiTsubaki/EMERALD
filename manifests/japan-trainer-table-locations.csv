@@ -1,0 +1,21 @@
+generation,project,title,revision,filename,trainer_table_offset,record_model,trainer_count
+1,RED,Aka,Rev 0,Pocket Monsters - Aka (Japan) (SGB Enhanced).gb,0x3A0AC,47-class pointer table / variable-length party records,391
+1,RED,Aka,Rev A,Pocket Monsters - Aka (Japan) (Rev A) (SGB Enhanced).gb,0x3A0AC,47-class pointer table / variable-length party records,391
+1,GREEN,Midori,Rev 0,Pocket Monsters - Midori (Japan) (SGB Enhanced).gb,0x3A0AC,47-class pointer table / variable-length party records,391
+1,GREEN,Midori,Rev A,Pocket Monsters - Midori (Japan) (Rev A) (SGB Enhanced).gb,0x3A0AC,47-class pointer table / variable-length party records,391
+1,BLUE,Ao,Rev 0,Pocket Monsters - Ao (Japan) (SGB Enhanced).gb,0x3A0AC,47-class pointer table / variable-length party records,391
+1,YELLOW,Pikachu,Rev 0A,Pocket Monsters - Pikachu (Japan) (Rev 0A) (SGB Enhanced).gb,0x3A142,47-class pointer table / variable-length party records,396
+1,YELLOW,Pikachu,Rev B,Pocket Monsters - Pikachu (Japan) (Rev B) (SGB Enhanced).gb,0x3A142,47-class pointer table / variable-length party records,396
+1,YELLOW,Pikachu,Rev C,Pocket Monsters - Pikachu (Japan) (Rev C) (SGB Enhanced).gb,0x3A142,47-class pointer table / variable-length party records,396
+1,YELLOW,Pikachu,Rev D,Pocket Monsters - Pikachu (Japan) (Rev D) (SGB Enhanced).gb,0x3A142,47-class pointer table / variable-length party records,396
+2,GOLD,Kin,Rev 0,Pocket Monsters Kin (Japan).gbc,0x3995C,66-class pointer table / named typed party records,495
+2,GOLD,Kin,Rev A,Pocket Monsters Kin (Japan) (Rev A).gbc,0x3995C,66-class pointer table / named typed party records,495
+2,SILVER,Gin,Rev 0,Pocket Monsters Gin (Japan).gbc,0x3995C,66-class pointer table / named typed party records,495
+2,SILVER,Gin,Rev A,Pocket Monsters Gin (Japan) (Rev A).gbc,0x3995C,66-class pointer table / named typed party records,495
+2,CRYSTAL,Crystal,Rev 0,Pocket Monsters - Crystal Version (Japan).gbc,0x399BA,67-class pointer table / named typed party records,541
+3,RUBY,Ruby,Rev 0,Pocket Monsters - Ruby (Japan).gba,0x1C4C94,Japanese 32-byte Trainer ABI,694
+3,SAPPHIRE,Sapphire,Rev 0,Pocket Monsters - Sapphire (Japan).gba,0x1C4C24,Japanese 32-byte Trainer ABI,694
+3,EMERALD,Emerald,Rev 0,Pocket Monsters - Emerald (Japan).gba,0x2E383C,Japanese 32-byte Trainer ABI,855
+3,FIRERED,FireRed,Rev 0,Pocket Monsters - Fire Red (Japan).gba,0x1FDFD8,Japanese 32-byte Trainer ABI,743
+3,FIRERED,FireRed,Rev 1,Pocket Monsters - Fire Red (Japan) (Rev 1).gba,0x1F97F0,Japanese 32-byte Trainer ABI,743
+3,LEAFGREEN,LeafGreen,Rev 0,Pocket Monsters - Leaf Green (Japan).gba,0x1FDFB4,Japanese 32-byte Trainer ABI,743
