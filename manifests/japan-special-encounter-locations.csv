@@ -62,12 +62,12 @@ generation,project,title,revision,subsystem,rom_offset,structure,verified
 2,SILVER,Gin,Rev 0,unown_unlock_sets,0x3EA07,"4 sets covering Unown A-Z",direct-rom
 2,SILVER,Gin,Rev A,unown_unlock_sets,0x3EA07,"4 sets covering Unown A-Z",direct-rom
 2,CRYSTAL,Crystal,Rev 0,unown_unlock_sets,0x3EBB8,"4 sets covering Unown A-Z",direct-rom
-3,RUBY,Ruby,Rev 0,feebas_route119,,"6 seeded fishing spots among 447 valid spots; runtime logic",source+rom-context
-3,SAPPHIRE,Sapphire,Rev 0,feebas_route119,,"6 seeded fishing spots among 447 valid spots; runtime logic",source+rom-context
-3,EMERALD,Emerald,Rev 0,feebas_route119,,"6 seeded fishing spots among 447 valid spots; runtime logic",source+rom-context
-3,RUBY,Ruby,Rev 0,mass_outbreak,,"TV/save-driven; 5 outbreak templates",source+rom-context
-3,SAPPHIRE,Sapphire,Rev 0,mass_outbreak,,"TV/save-driven; 5 outbreak templates",source+rom-context
-3,EMERALD,Emerald,Rev 0,mass_outbreak,,"TV/save-driven; 5 outbreak templates",source+rom-context
+3,RUBY,Ruby,Rev 0,feebas_route119,0x379AAC,"Feebas wild record; 6 seeded fishing spots among 447 valid spots; runtime logic",direct-rom+source
+3,SAPPHIRE,Sapphire,Rev 0,feebas_route119,0x379AA4,"Feebas wild record; 6 seeded fishing spots among 447 valid spots; runtime logic",direct-rom+source
+3,EMERALD,Emerald,Rev 0,feebas_route119,0x52E724,"Feebas wild record; 6 seeded fishing spots among 447 valid spots; runtime logic",direct-rom+source
+3,RUBY,Ruby,Rev 0,mass_outbreak,0x3A68CC,"TV/save-driven; 5 outbreak templates",direct-rom+source
+3,SAPPHIRE,Sapphire,Rev 0,mass_outbreak,0x3A68B0,"TV/save-driven; 5 outbreak templates",direct-rom+source
+3,EMERALD,Emerald,Rev 0,mass_outbreak,0x568B40,"TV/save-driven; 5 outbreak templates",direct-rom+source
 3,RUBY,Ruby,Rev 0,roamer,,"Latios level 40; save-backed HP/status/location",source+rom-context
 3,SAPPHIRE,Sapphire,Rev 0,roamer,,"Latias level 40; save-backed HP/status/location",source+rom-context
 3,EMERALD,Emerald,Rev 0,roamer,,"Latias/Latios level 40 selected by story choice; save-backed",source+rom-context
