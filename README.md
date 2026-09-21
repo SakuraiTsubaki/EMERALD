@@ -19,14 +19,18 @@ Pokémon Emerald의 외부 배포/외부 장치 의존 이벤트를 게임 내�
 
 ### Generation 10 readiness — current priority
 
-추가 폼체인지 구현은 일단 보류하고, 다음 세대가 공개되어도 기존 ID와 엔진 구조를 다시 갈아엎지 않도록 확장 기반을 먼저 준비합니다.
+추가 폼체인지 구현은 일단 보류하고, 다음 세대가 공개되어도 기존 ID·ROM 배치·세이브 직렬화 구조를 다시 갈아엎지 않도록 확장 기반을 먼저 준비합니다.
 
-- 현재 실제 콘텐츠/동작 기준은 Gen 9로 유지합니다.
-- pokeemerald-expansion의 기존 GEN_CHAMPIONS 슬롯을 보존한 뒤 그 다음에 GEN_10 슬롯을 예약합니다.
+- 현재 실제 콘텐츠/동작 기준은 Gen 9로 유지하고, GEN_CHAMPIONS 뒤에 GEN_10 슬롯만 예약합니다.
 - GEN_LATEST는 Gen 10 데이터와 규칙이 실제로 검증되기 전까지 GEN_9로 유지합니다.
+- 프로젝트에 제공된 일본/영문/독문/불문/이문/서문판 6개 retail ROM+SAV 쌍을 직접 구조 분석한 기준선은 manifests/emerald-binary-baseline.csv에 고정합니다.
+- 원본 ROM은 모두 16 MiB지만 일본판과 국제판의 점유 배치가 다르므로 공통 절대 free-space 주소를 가정하지 않습니다. expanded 소스 빌드는 32 MiB GBA ROM 주소 공간을 사용합니다.
+- 원본 128 KiB Flash / 32섹터 형식은 유지합니다. 14개 gameplay 섹터의 기존 미사용 footer 116바이트씩, 총 1,624바이트를 pokeemerald-expansion SaveBlock3 확장 영역으로 사용합니다.
+- Hall of Fame 28-29, Trainer Hill 30, Recorded Battle 31 특수 섹터는 확장 공간으로 재사용하지 않습니다.
+- BoxPokemon held item은 원래 16비트 저장 word 안의 10비트+미사용 6비트를 합쳐 16비트로 확장합니다. species/move의 11비트 필드는 실제 Gen 10 데이터가 필요성을 증명하기 전까지 유지합니다.
 - 미공개 Gen 10 종/기술/아이템/특성/메커니즘은 추측해서 넣지 않습니다.
-- PKHeX 기준 커밋은 manifests/pkhex-source-pin.yml 한 곳에서 관리하며 추출 스크립트가 이를 읽습니다.
-- 세대별 변환 데이터는 append-only 일반 테이블로 확장할 수 있게 합니다.
+- PKHeX 기준 커밋은 manifests/pkhex-source-pin.yml 한 곳에서 관리하고, 세대별 변환 데이터는 append-only로 확장합니다.
+- ROM/SAV 근거: research/rom-save-expansion-baseline.md
 - 자동 검증: tools/verify_future_generation_readiness.py
 - 정책/상태: manifests/future-generation-readiness.yml
 - 상세 문서: research/gen10-readiness.md
