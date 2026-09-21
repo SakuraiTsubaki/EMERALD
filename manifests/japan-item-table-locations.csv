@@ -1,0 +1,21 @@
+generation,project,title,revision,filename,item_table_kind,item_table_offset,record_size,records
+1,BLUE,Ao,Rev 0,Pocket Monsters - Ao (Japan) (SGB Enhanced).gb,prices,0x4610,3,83
+1,GREEN,Midori,Rev 0,Pocket Monsters - Midori (Japan) (SGB Enhanced).gb,prices,0x421C,3,83
+1,GREEN,Midori,Rev A,Pocket Monsters - Midori (Japan) (Rev A) (SGB Enhanced).gb,prices,0x421C,3,83
+1,RED,Aka,Rev 0,Pocket Monsters - Aka (Japan) (SGB Enhanced).gb,prices,0x421C,3,83
+1,RED,Aka,Rev A,Pocket Monsters - Aka (Japan) (Rev A) (SGB Enhanced).gb,prices,0x421C,3,83
+1,YELLOW,Pikachu,Rev 0A / header v0,Pocket Monsters - Pikachu (Japan) (Rev 0A) (SGB Enhanced).gb,prices,0x44A1,3,83
+1,YELLOW,Pikachu,Rev B / header v1,Pocket Monsters - Pikachu (Japan) (Rev B) (SGB Enhanced).gb,prices,0x44A1,3,83
+1,YELLOW,Pikachu,Rev C / header v2,Pocket Monsters - Pikachu (Japan) (Rev C) (SGB Enhanced).gb,prices,0x44A1,3,83
+1,YELLOW,Pikachu,Rev D / header v3,Pocket Monsters - Pikachu (Japan) (Rev D) (SGB Enhanced).gb,prices,0x44A1,3,83
+2,CRYSTAL,Crystal,Rev 0,Pocket Monsters - Crystal Version (Japan).gbc,attributes,0x69FA,7,256
+2,GOLD,Kin,Rev 0,Pocket Monsters Kin (Japan).gbc,attributes,0x6B93,7,256
+2,GOLD,Kin,Rev A,Pocket Monsters Kin (Japan) (Rev A).gbc,attributes,0x6B93,7,256
+2,SILVER,Gin,Rev 0,Pocket Monsters Gin (Japan).gbc,attributes,0x6B58,7,256
+2,SILVER,Gin,Rev A,Pocket Monsters Gin (Japan) (Rev A).gbc,attributes,0x6B58,7,256
+3,EMERALD,Emerald,Rev 0,Pocket Monsters - Emerald (Japan).gba,item_parameters_empirical,0x55CEF4,40,377
+3,FIRERED,FireRed,Rev 0,Pocket Monsters - Fire Red (Japan).gba,item_parameters_empirical,0x3A0704,40,375
+3,FIRERED,FireRed,Rev 1,Pocket Monsters - Fire Red (Japan) (Rev 1).gba,item_parameters_empirical,0x39BEC4,40,375
+3,LEAFGREEN,LeafGreen,Rev 0,Pocket Monsters - Leaf Green (Japan).gba,item_parameters_empirical,0x3A0574,40,375
+3,RUBY,Ruby,Rev 0,Pocket Monsters - Ruby (Japan).gba,item_parameters_empirical,0x39A654,40,349
+3,SAPPHIRE,Sapphire,Rev 0,Pocket Monsters - Sapphire (Japan).gba,item_parameters_empirical,0x39A638,40,349
