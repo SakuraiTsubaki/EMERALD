@@ -1,0 +1,33 @@
+{
+  "input_files": {
+    "KR_GOLD": "project_sources/library_full/GS Korean -> ポケットモンスター/Pocket Monsters Geum (Korea).gbc",
+    "KR_SILVER": "project_sources/library_full/GS Korean -> ポケットモンスター/Pocket Monsters Eun (Korea).gbc",
+    "JP_GOLD_0": "project_sources/library_full/GS Korean -> ポケットモンスター/Pocket Monsters Kin (Japan).gbc",
+    "JP_GOLD_A": "project_sources/library_full/GS Korean -> ポケットモンスター/Pocket Monsters Kin (Japan) (Rev A).gbc",
+    "JP_SILVER_0": "project_sources/library_full/GS Korean -> ポケットモンスター/Pocket Monsters Gin (Japan).gbc",
+    "JP_SILVER_A": "project_sources/library_full/GS Korean -> ポケットモンスター/Pocket Monsters Gin (Japan) (Rev A).gbc",
+    "EN_GOLD": "project_sources/library_full/GS Korean -> ポケットモンスター/Pokemon - Gold Version (USA, Europe).gbc",
+    "EN_SILVER": "project_sources/library_full/GS Korean -> ポケットモンスター/Pokemon - Silver Version (USA, Europe).gbc"
+  },
+  "korean_bank_count": 128,
+  "shared_nonblank_banks": 68,
+  "version_specific_banks": 36,
+  "both_blank_banks": 24,
+  "font_banks": [
+    "0x78",
+    "0x79",
+    "0x7A"
+  ],
+  "valid_two_byte_glyph_slots": 2353,
+  "bank_6c_record_count": 830,
+  "evidence": {
+    "dispatch_table_file_offset_hex": "0x0035C3",
+    "dispatch_loader_signature_file_offset_hex": "0x003604",
+    "fixed_name_copy_signature_file_offset_hex": "0x00365F",
+    "fixed_name_bank": "0x6C",
+    "fixed_name_address": "0x4C4A",
+    "fixed_name_record_size": 10,
+    "gold_silver_dispatch_bytes_identical": true,
+    "gold_silver_bank_6c_identical": true
+  }
+}

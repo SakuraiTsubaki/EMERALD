@@ -1,0 +1,1154 @@
+[
+  {
+    "bank_hex": "0x00",
+    "candidate_two_byte_occurrences": 1179,
+    "unique_candidate_codes": 429,
+    "terminator_0x50_count": 57,
+    "space_0x7F_count": 48,
+    "control_0x59_count": 15,
+    "pair_byte_coverage": "0.143921"
+  },
+  {
+    "bank_hex": "0x01",
+    "candidate_two_byte_occurrences": 1603,
+    "unique_candidate_codes": 413,
+    "terminator_0x50_count": 164,
+    "space_0x7F_count": 51,
+    "control_0x59_count": 36,
+    "pair_byte_coverage": "0.195679"
+  },
+  {
+    "bank_hex": "0x02",
+    "candidate_two_byte_occurrences": 1114,
+    "unique_candidate_codes": 410,
+    "terminator_0x50_count": 64,
+    "space_0x7F_count": 275,
+    "control_0x59_count": 24,
+    "pair_byte_coverage": "0.135986"
+  },
+  {
+    "bank_hex": "0x03",
+    "candidate_two_byte_occurrences": 1173,
+    "unique_candidate_codes": 459,
+    "terminator_0x50_count": 135,
+    "space_0x7F_count": 34,
+    "control_0x59_count": 47,
+    "pair_byte_coverage": "0.143188"
+  },
+  {
+    "bank_hex": "0x04",
+    "candidate_two_byte_occurrences": 1499,
+    "unique_candidate_codes": 414,
+    "terminator_0x50_count": 147,
+    "space_0x7F_count": 221,
+    "control_0x59_count": 56,
+    "pair_byte_coverage": "0.182983"
+  },
+  {
+    "bank_hex": "0x05",
+    "candidate_two_byte_occurrences": 1316,
+    "unique_candidate_codes": 479,
+    "terminator_0x50_count": 178,
+    "space_0x7F_count": 68,
+    "control_0x59_count": 110,
+    "pair_byte_coverage": "0.160645"
+  },
+  {
+    "bank_hex": "0x06",
+    "candidate_two_byte_occurrences": 2097,
+    "unique_candidate_codes": 252,
+    "terminator_0x50_count": 167,
+    "space_0x7F_count": 65,
+    "control_0x59_count": 99,
+    "pair_byte_coverage": "0.255981"
+  },
+  {
+    "bank_hex": "0x07",
+    "candidate_two_byte_occurrences": 1805,
+    "unique_candidate_codes": 440,
+    "terminator_0x50_count": 41,
+    "space_0x7F_count": 123,
+    "control_0x59_count": 15,
+    "pair_byte_coverage": "0.220337"
+  },
+  {
+    "bank_hex": "0x08",
+    "candidate_two_byte_occurrences": 1736,
+    "unique_candidate_codes": 457,
+    "terminator_0x50_count": 125,
+    "space_0x7F_count": 119,
+    "control_0x59_count": 25,
+    "pair_byte_coverage": "0.211914"
+  },
+  {
+    "bank_hex": "0x09",
+    "candidate_two_byte_occurrences": 1769,
+    "unique_candidate_codes": 533,
+    "terminator_0x50_count": 145,
+    "space_0x7F_count": 99,
+    "control_0x59_count": 17,
+    "pair_byte_coverage": "0.215942"
+  },
+  {
+    "bank_hex": "0x0A",
+    "candidate_two_byte_occurrences": 1830,
+    "unique_candidate_codes": 509,
+    "terminator_0x50_count": 106,
+    "space_0x7F_count": 53,
+    "control_0x59_count": 54,
+    "pair_byte_coverage": "0.223389"
+  },
+  {
+    "bank_hex": "0x0B",
+    "candidate_two_byte_occurrences": 164,
+    "unique_candidate_codes": 101,
+    "terminator_0x50_count": 23,
+    "space_0x7F_count": 18,
+    "control_0x59_count": 13,
+    "pair_byte_coverage": "0.020020"
+  },
+  {
+    "bank_hex": "0x0C",
+    "candidate_two_byte_occurrences": 2079,
+    "unique_candidate_codes": 469,
+    "terminator_0x50_count": 41,
+    "space_0x7F_count": 170,
+    "control_0x59_count": 11,
+    "pair_byte_coverage": "0.253784"
+  },
+  {
+    "bank_hex": "0x0D",
+    "candidate_two_byte_occurrences": 1179,
+    "unique_candidate_codes": 390,
+    "terminator_0x50_count": 60,
+    "space_0x7F_count": 161,
+    "control_0x59_count": 34,
+    "pair_byte_coverage": "0.143921"
+  },
+  {
+    "bank_hex": "0x0E",
+    "candidate_two_byte_occurrences": 1703,
+    "unique_candidate_codes": 462,
+    "terminator_0x50_count": 523,
+    "space_0x7F_count": 22,
+    "control_0x59_count": 22,
+    "pair_byte_coverage": "0.207886"
+  },
+  {
+    "bank_hex": "0x0F",
+    "candidate_two_byte_occurrences": 1066,
+    "unique_candidate_codes": 376,
+    "terminator_0x50_count": 64,
+    "space_0x7F_count": 50,
+    "control_0x59_count": 30,
+    "pair_byte_coverage": "0.130127"
+  },
+  {
+    "bank_hex": "0x10",
+    "candidate_two_byte_occurrences": 1649,
+    "unique_candidate_codes": 555,
+    "terminator_0x50_count": 79,
+    "space_0x7F_count": 88,
+    "control_0x59_count": 39,
+    "pair_byte_coverage": "0.201294"
+  },
+  {
+    "bank_hex": "0x11",
+    "candidate_two_byte_occurrences": 169,
+    "unique_candidate_codes": 108,
+    "terminator_0x50_count": 35,
+    "space_0x7F_count": 6,
+    "control_0x59_count": 11,
+    "pair_byte_coverage": "0.020630"
+  },
+  {
+    "bank_hex": "0x12",
+    "candidate_two_byte_occurrences": 1654,
+    "unique_candidate_codes": 692,
+    "terminator_0x50_count": 56,
+    "space_0x7F_count": 239,
+    "control_0x59_count": 21,
+    "pair_byte_coverage": "0.201904"
+  },
+  {
+    "bank_hex": "0x13",
+    "candidate_two_byte_occurrences": 0,
+    "unique_candidate_codes": 0,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.000000"
+  },
+  {
+    "bank_hex": "0x14",
+    "candidate_two_byte_occurrences": 1283,
+    "unique_candidate_codes": 423,
+    "terminator_0x50_count": 215,
+    "space_0x7F_count": 222,
+    "control_0x59_count": 54,
+    "pair_byte_coverage": "0.156616"
+  },
+  {
+    "bank_hex": "0x15",
+    "candidate_two_byte_occurrences": 1759,
+    "unique_candidate_codes": 698,
+    "terminator_0x50_count": 55,
+    "space_0x7F_count": 246,
+    "control_0x59_count": 11,
+    "pair_byte_coverage": "0.214722"
+  },
+  {
+    "bank_hex": "0x16",
+    "candidate_two_byte_occurrences": 1735,
+    "unique_candidate_codes": 676,
+    "terminator_0x50_count": 69,
+    "space_0x7F_count": 290,
+    "control_0x59_count": 9,
+    "pair_byte_coverage": "0.211792"
+  },
+  {
+    "bank_hex": "0x17",
+    "candidate_two_byte_occurrences": 1937,
+    "unique_candidate_codes": 706,
+    "terminator_0x50_count": 63,
+    "space_0x7F_count": 249,
+    "control_0x59_count": 10,
+    "pair_byte_coverage": "0.236450"
+  },
+  {
+    "bank_hex": "0x18",
+    "candidate_two_byte_occurrences": 1841,
+    "unique_candidate_codes": 691,
+    "terminator_0x50_count": 58,
+    "space_0x7F_count": 270,
+    "control_0x59_count": 5,
+    "pair_byte_coverage": "0.224731"
+  },
+  {
+    "bank_hex": "0x19",
+    "candidate_two_byte_occurrences": 1977,
+    "unique_candidate_codes": 727,
+    "terminator_0x50_count": 61,
+    "space_0x7F_count": 281,
+    "control_0x59_count": 3,
+    "pair_byte_coverage": "0.241333"
+  },
+  {
+    "bank_hex": "0x1A",
+    "candidate_two_byte_occurrences": 2027,
+    "unique_candidate_codes": 722,
+    "terminator_0x50_count": 44,
+    "space_0x7F_count": 255,
+    "control_0x59_count": 6,
+    "pair_byte_coverage": "0.247437"
+  },
+  {
+    "bank_hex": "0x1B",
+    "candidate_two_byte_occurrences": 1898,
+    "unique_candidate_codes": 694,
+    "terminator_0x50_count": 46,
+    "space_0x7F_count": 309,
+    "control_0x59_count": 10,
+    "pair_byte_coverage": "0.231689"
+  },
+  {
+    "bank_hex": "0x1C",
+    "candidate_two_byte_occurrences": 1929,
+    "unique_candidate_codes": 684,
+    "terminator_0x50_count": 59,
+    "space_0x7F_count": 270,
+    "control_0x59_count": 5,
+    "pair_byte_coverage": "0.235474"
+  },
+  {
+    "bank_hex": "0x1D",
+    "candidate_two_byte_occurrences": 2070,
+    "unique_candidate_codes": 702,
+    "terminator_0x50_count": 49,
+    "space_0x7F_count": 256,
+    "control_0x59_count": 7,
+    "pair_byte_coverage": "0.252686"
+  },
+  {
+    "bank_hex": "0x1E",
+    "candidate_two_byte_occurrences": 2024,
+    "unique_candidate_codes": 702,
+    "terminator_0x50_count": 45,
+    "space_0x7F_count": 261,
+    "control_0x59_count": 2,
+    "pair_byte_coverage": "0.247070"
+  },
+  {
+    "bank_hex": "0x1F",
+    "candidate_two_byte_occurrences": 1739,
+    "unique_candidate_codes": 706,
+    "terminator_0x50_count": 42,
+    "space_0x7F_count": 256,
+    "control_0x59_count": 11,
+    "pair_byte_coverage": "0.212280"
+  },
+  {
+    "bank_hex": "0x20",
+    "candidate_two_byte_occurrences": 1726,
+    "unique_candidate_codes": 671,
+    "terminator_0x50_count": 50,
+    "space_0x7F_count": 285,
+    "control_0x59_count": 9,
+    "pair_byte_coverage": "0.210693"
+  },
+  {
+    "bank_hex": "0x21",
+    "candidate_two_byte_occurrences": 1485,
+    "unique_candidate_codes": 546,
+    "terminator_0x50_count": 54,
+    "space_0x7F_count": 201,
+    "control_0x59_count": 21,
+    "pair_byte_coverage": "0.181274"
+  },
+  {
+    "bank_hex": "0x22",
+    "candidate_two_byte_occurrences": 0,
+    "unique_candidate_codes": 0,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.000000"
+  },
+  {
+    "bank_hex": "0x23",
+    "candidate_two_byte_occurrences": 1484,
+    "unique_candidate_codes": 433,
+    "terminator_0x50_count": 65,
+    "space_0x7F_count": 133,
+    "control_0x59_count": 22,
+    "pair_byte_coverage": "0.181152"
+  },
+  {
+    "bank_hex": "0x24",
+    "candidate_two_byte_occurrences": 1850,
+    "unique_candidate_codes": 589,
+    "terminator_0x50_count": 208,
+    "space_0x7F_count": 146,
+    "control_0x59_count": 62,
+    "pair_byte_coverage": "0.225830"
+  },
+  {
+    "bank_hex": "0x25",
+    "candidate_two_byte_occurrences": 1967,
+    "unique_candidate_codes": 524,
+    "terminator_0x50_count": 75,
+    "space_0x7F_count": 21,
+    "control_0x59_count": 80,
+    "pair_byte_coverage": "0.240112"
+  },
+  {
+    "bank_hex": "0x26",
+    "candidate_two_byte_occurrences": 162,
+    "unique_candidate_codes": 84,
+    "terminator_0x50_count": 2,
+    "space_0x7F_count": 34,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.019775"
+  },
+  {
+    "bank_hex": "0x27",
+    "candidate_two_byte_occurrences": 0,
+    "unique_candidate_codes": 0,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.000000"
+  },
+  {
+    "bank_hex": "0x28",
+    "candidate_two_byte_occurrences": 0,
+    "unique_candidate_codes": 0,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.000000"
+  },
+  {
+    "bank_hex": "0x29",
+    "candidate_two_byte_occurrences": 0,
+    "unique_candidate_codes": 0,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.000000"
+  },
+  {
+    "bank_hex": "0x2A",
+    "candidate_two_byte_occurrences": 3440,
+    "unique_candidate_codes": 325,
+    "terminator_0x50_count": 20,
+    "space_0x7F_count": 23,
+    "control_0x59_count": 86,
+    "pair_byte_coverage": "0.419922"
+  },
+  {
+    "bank_hex": "0x2B",
+    "candidate_two_byte_occurrences": 3845,
+    "unique_candidate_codes": 410,
+    "terminator_0x50_count": 1,
+    "space_0x7F_count": 9,
+    "control_0x59_count": 65,
+    "pair_byte_coverage": "0.469360"
+  },
+  {
+    "bank_hex": "0x2C",
+    "candidate_two_byte_occurrences": 0,
+    "unique_candidate_codes": 0,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.000000"
+  },
+  {
+    "bank_hex": "0x2D",
+    "candidate_two_byte_occurrences": 0,
+    "unique_candidate_codes": 0,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.000000"
+  },
+  {
+    "bank_hex": "0x2E",
+    "candidate_two_byte_occurrences": 1152,
+    "unique_candidate_codes": 420,
+    "terminator_0x50_count": 125,
+    "space_0x7F_count": 192,
+    "control_0x59_count": 11,
+    "pair_byte_coverage": "0.140625"
+  },
+  {
+    "bank_hex": "0x2F",
+    "candidate_two_byte_occurrences": 0,
+    "unique_candidate_codes": 0,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.000000"
+  },
+  {
+    "bank_hex": "0x30",
+    "candidate_two_byte_occurrences": 1199,
+    "unique_candidate_codes": 88,
+    "terminator_0x50_count": 60,
+    "space_0x7F_count": 347,
+    "control_0x59_count": 12,
+    "pair_byte_coverage": "0.146362"
+  },
+  {
+    "bank_hex": "0x31",
+    "candidate_two_byte_occurrences": 920,
+    "unique_candidate_codes": 179,
+    "terminator_0x50_count": 55,
+    "space_0x7F_count": 432,
+    "control_0x59_count": 20,
+    "pair_byte_coverage": "0.112305"
+  },
+  {
+    "bank_hex": "0x32",
+    "candidate_two_byte_occurrences": 1833,
+    "unique_candidate_codes": 458,
+    "terminator_0x50_count": 182,
+    "space_0x7F_count": 7,
+    "control_0x59_count": 15,
+    "pair_byte_coverage": "0.223755"
+  },
+  {
+    "bank_hex": "0x33",
+    "candidate_two_byte_occurrences": 2156,
+    "unique_candidate_codes": 520,
+    "terminator_0x50_count": 36,
+    "space_0x7F_count": 20,
+    "control_0x59_count": 25,
+    "pair_byte_coverage": "0.263184"
+  },
+  {
+    "bank_hex": "0x34",
+    "candidate_two_byte_occurrences": 0,
+    "unique_candidate_codes": 0,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.000000"
+  },
+  {
+    "bank_hex": "0x35",
+    "candidate_two_byte_occurrences": 0,
+    "unique_candidate_codes": 0,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.000000"
+  },
+  {
+    "bank_hex": "0x36",
+    "candidate_two_byte_occurrences": 30,
+    "unique_candidate_codes": 19,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 27,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.003662"
+  },
+  {
+    "bank_hex": "0x37",
+    "candidate_two_byte_occurrences": 2719,
+    "unique_candidate_codes": 503,
+    "terminator_0x50_count": 29,
+    "space_0x7F_count": 115,
+    "control_0x59_count": 15,
+    "pair_byte_coverage": "0.331909"
+  },
+  {
+    "bank_hex": "0x38",
+    "candidate_two_byte_occurrences": 1574,
+    "unique_candidate_codes": 579,
+    "terminator_0x50_count": 90,
+    "space_0x7F_count": 113,
+    "control_0x59_count": 24,
+    "pair_byte_coverage": "0.192139"
+  },
+  {
+    "bank_hex": "0x39",
+    "candidate_two_byte_occurrences": 1659,
+    "unique_candidate_codes": 695,
+    "terminator_0x50_count": 56,
+    "space_0x7F_count": 192,
+    "control_0x59_count": 16,
+    "pair_byte_coverage": "0.202515"
+  },
+  {
+    "bank_hex": "0x3A",
+    "candidate_two_byte_occurrences": 910,
+    "unique_candidate_codes": 336,
+    "terminator_0x50_count": 84,
+    "space_0x7F_count": 25,
+    "control_0x59_count": 14,
+    "pair_byte_coverage": "0.111084"
+  },
+  {
+    "bank_hex": "0x3B",
+    "candidate_two_byte_occurrences": 971,
+    "unique_candidate_codes": 385,
+    "terminator_0x50_count": 278,
+    "space_0x7F_count": 13,
+    "control_0x59_count": 18,
+    "pair_byte_coverage": "0.118530"
+  },
+  {
+    "bank_hex": "0x3C",
+    "candidate_two_byte_occurrences": 2885,
+    "unique_candidate_codes": 893,
+    "terminator_0x50_count": 113,
+    "space_0x7F_count": 36,
+    "control_0x59_count": 21,
+    "pair_byte_coverage": "0.352173"
+  },
+  {
+    "bank_hex": "0x3D",
+    "candidate_two_byte_occurrences": 1067,
+    "unique_candidate_codes": 378,
+    "terminator_0x50_count": 157,
+    "space_0x7F_count": 8,
+    "control_0x59_count": 12,
+    "pair_byte_coverage": "0.130249"
+  },
+  {
+    "bank_hex": "0x3E",
+    "candidate_two_byte_occurrences": 487,
+    "unique_candidate_codes": 186,
+    "terminator_0x50_count": 46,
+    "space_0x7F_count": 287,
+    "control_0x59_count": 13,
+    "pair_byte_coverage": "0.059448"
+  },
+  {
+    "bank_hex": "0x3F",
+    "candidate_two_byte_occurrences": 451,
+    "unique_candidate_codes": 205,
+    "terminator_0x50_count": 132,
+    "space_0x7F_count": 98,
+    "control_0x59_count": 22,
+    "pair_byte_coverage": "0.055054"
+  },
+  {
+    "bank_hex": "0x40",
+    "candidate_two_byte_occurrences": 3432,
+    "unique_candidate_codes": 470,
+    "terminator_0x50_count": 84,
+    "space_0x7F_count": 579,
+    "control_0x59_count": 2,
+    "pair_byte_coverage": "0.418945"
+  },
+  {
+    "bank_hex": "0x41",
+    "candidate_two_byte_occurrences": 2566,
+    "unique_candidate_codes": 377,
+    "terminator_0x50_count": 47,
+    "space_0x7F_count": 452,
+    "control_0x59_count": 7,
+    "pair_byte_coverage": "0.313232"
+  },
+  {
+    "bank_hex": "0x42",
+    "candidate_two_byte_occurrences": 2450,
+    "unique_candidate_codes": 543,
+    "terminator_0x50_count": 6,
+    "space_0x7F_count": 472,
+    "control_0x59_count": 9,
+    "pair_byte_coverage": "0.299072"
+  },
+  {
+    "bank_hex": "0x43",
+    "candidate_two_byte_occurrences": 4073,
+    "unique_candidate_codes": 640,
+    "terminator_0x50_count": 6,
+    "space_0x7F_count": 796,
+    "control_0x59_count": 6,
+    "pair_byte_coverage": "0.497192"
+  },
+  {
+    "bank_hex": "0x44",
+    "candidate_two_byte_occurrences": 3914,
+    "unique_candidate_codes": 674,
+    "terminator_0x50_count": 8,
+    "space_0x7F_count": 744,
+    "control_0x59_count": 12,
+    "pair_byte_coverage": "0.477783"
+  },
+  {
+    "bank_hex": "0x45",
+    "candidate_two_byte_occurrences": 3271,
+    "unique_candidate_codes": 645,
+    "terminator_0x50_count": 4,
+    "space_0x7F_count": 579,
+    "control_0x59_count": 1,
+    "pair_byte_coverage": "0.399292"
+  },
+  {
+    "bank_hex": "0x46",
+    "candidate_two_byte_occurrences": 2480,
+    "unique_candidate_codes": 577,
+    "terminator_0x50_count": 12,
+    "space_0x7F_count": 422,
+    "control_0x59_count": 10,
+    "pair_byte_coverage": "0.302734"
+  },
+  {
+    "bank_hex": "0x47",
+    "candidate_two_byte_occurrences": 731,
+    "unique_candidate_codes": 296,
+    "terminator_0x50_count": 2,
+    "space_0x7F_count": 147,
+    "control_0x59_count": 4,
+    "pair_byte_coverage": "0.089233"
+  },
+  {
+    "bank_hex": "0x48",
+    "candidate_two_byte_occurrences": 3154,
+    "unique_candidate_codes": 554,
+    "terminator_0x50_count": 6,
+    "space_0x7F_count": 670,
+    "control_0x59_count": 28,
+    "pair_byte_coverage": "0.385010"
+  },
+  {
+    "bank_hex": "0x49",
+    "candidate_two_byte_occurrences": 2470,
+    "unique_candidate_codes": 524,
+    "terminator_0x50_count": 4,
+    "space_0x7F_count": 481,
+    "control_0x59_count": 6,
+    "pair_byte_coverage": "0.301514"
+  },
+  {
+    "bank_hex": "0x4A",
+    "candidate_two_byte_occurrences": 2433,
+    "unique_candidate_codes": 486,
+    "terminator_0x50_count": 7,
+    "space_0x7F_count": 459,
+    "control_0x59_count": 32,
+    "pair_byte_coverage": "0.296997"
+  },
+  {
+    "bank_hex": "0x4B",
+    "candidate_two_byte_occurrences": 3278,
+    "unique_candidate_codes": 589,
+    "terminator_0x50_count": 33,
+    "space_0x7F_count": 609,
+    "control_0x59_count": 8,
+    "pair_byte_coverage": "0.400146"
+  },
+  {
+    "bank_hex": "0x4C",
+    "candidate_two_byte_occurrences": 2431,
+    "unique_candidate_codes": 497,
+    "terminator_0x50_count": 9,
+    "space_0x7F_count": 454,
+    "control_0x59_count": 7,
+    "pair_byte_coverage": "0.296753"
+  },
+  {
+    "bank_hex": "0x4D",
+    "candidate_two_byte_occurrences": 2325,
+    "unique_candidate_codes": 510,
+    "terminator_0x50_count": 7,
+    "space_0x7F_count": 466,
+    "control_0x59_count": 5,
+    "pair_byte_coverage": "0.283813"
+  },
+  {
+    "bank_hex": "0x4E",
+    "candidate_two_byte_occurrences": 2558,
+    "unique_candidate_codes": 518,
+    "terminator_0x50_count": 8,
+    "space_0x7F_count": 480,
+    "control_0x59_count": 5,
+    "pair_byte_coverage": "0.312256"
+  },
+  {
+    "bank_hex": "0x4F",
+    "candidate_two_byte_occurrences": 2740,
+    "unique_candidate_codes": 547,
+    "terminator_0x50_count": 9,
+    "space_0x7F_count": 533,
+    "control_0x59_count": 4,
+    "pair_byte_coverage": "0.334473"
+  },
+  {
+    "bank_hex": "0x50",
+    "candidate_two_byte_occurrences": 2050,
+    "unique_candidate_codes": 480,
+    "terminator_0x50_count": 9,
+    "space_0x7F_count": 404,
+    "control_0x59_count": 3,
+    "pair_byte_coverage": "0.250244"
+  },
+  {
+    "bank_hex": "0x51",
+    "candidate_two_byte_occurrences": 2603,
+    "unique_candidate_codes": 470,
+    "terminator_0x50_count": 8,
+    "space_0x7F_count": 510,
+    "control_0x59_count": 5,
+    "pair_byte_coverage": "0.317749"
+  },
+  {
+    "bank_hex": "0x52",
+    "candidate_two_byte_occurrences": 2578,
+    "unique_candidate_codes": 472,
+    "terminator_0x50_count": 20,
+    "space_0x7F_count": 518,
+    "control_0x59_count": 3,
+    "pair_byte_coverage": "0.314697"
+  },
+  {
+    "bank_hex": "0x53",
+    "candidate_two_byte_occurrences": 2555,
+    "unique_candidate_codes": 485,
+    "terminator_0x50_count": 12,
+    "space_0x7F_count": 486,
+    "control_0x59_count": 8,
+    "pair_byte_coverage": "0.311890"
+  },
+  {
+    "bank_hex": "0x54",
+    "candidate_two_byte_occurrences": 2039,
+    "unique_candidate_codes": 449,
+    "terminator_0x50_count": 6,
+    "space_0x7F_count": 380,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.248901"
+  },
+  {
+    "bank_hex": "0x55",
+    "candidate_two_byte_occurrences": 1997,
+    "unique_candidate_codes": 412,
+    "terminator_0x50_count": 2,
+    "space_0x7F_count": 372,
+    "control_0x59_count": 5,
+    "pair_byte_coverage": "0.243774"
+  },
+  {
+    "bank_hex": "0x56",
+    "candidate_two_byte_occurrences": 4681,
+    "unique_candidate_codes": 579,
+    "terminator_0x50_count": 27,
+    "space_0x7F_count": 842,
+    "control_0x59_count": 13,
+    "pair_byte_coverage": "0.571411"
+  },
+  {
+    "bank_hex": "0x57",
+    "candidate_two_byte_occurrences": 4106,
+    "unique_candidate_codes": 636,
+    "terminator_0x50_count": 30,
+    "space_0x7F_count": 802,
+    "control_0x59_count": 6,
+    "pair_byte_coverage": "0.501221"
+  },
+  {
+    "bank_hex": "0x58",
+    "candidate_two_byte_occurrences": 0,
+    "unique_candidate_codes": 0,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.000000"
+  },
+  {
+    "bank_hex": "0x59",
+    "candidate_two_byte_occurrences": 2456,
+    "unique_candidate_codes": 470,
+    "terminator_0x50_count": 6,
+    "space_0x7F_count": 486,
+    "control_0x59_count": 2,
+    "pair_byte_coverage": "0.299805"
+  },
+  {
+    "bank_hex": "0x5A",
+    "candidate_two_byte_occurrences": 2377,
+    "unique_candidate_codes": 476,
+    "terminator_0x50_count": 12,
+    "space_0x7F_count": 448,
+    "control_0x59_count": 1,
+    "pair_byte_coverage": "0.290161"
+  },
+  {
+    "bank_hex": "0x5B",
+    "candidate_two_byte_occurrences": 3124,
+    "unique_candidate_codes": 634,
+    "terminator_0x50_count": 9,
+    "space_0x7F_count": 493,
+    "control_0x59_count": 10,
+    "pair_byte_coverage": "0.381348"
+  },
+  {
+    "bank_hex": "0x5C",
+    "candidate_two_byte_occurrences": 1643,
+    "unique_candidate_codes": 432,
+    "terminator_0x50_count": 25,
+    "space_0x7F_count": 242,
+    "control_0x59_count": 1,
+    "pair_byte_coverage": "0.200562"
+  },
+  {
+    "bank_hex": "0x5D",
+    "candidate_two_byte_occurrences": 2383,
+    "unique_candidate_codes": 466,
+    "terminator_0x50_count": 8,
+    "space_0x7F_count": 474,
+    "control_0x59_count": 7,
+    "pair_byte_coverage": "0.290894"
+  },
+  {
+    "bank_hex": "0x5E",
+    "candidate_two_byte_occurrences": 3253,
+    "unique_candidate_codes": 589,
+    "terminator_0x50_count": 27,
+    "space_0x7F_count": 611,
+    "control_0x59_count": 5,
+    "pair_byte_coverage": "0.397095"
+  },
+  {
+    "bank_hex": "0x5F",
+    "candidate_two_byte_occurrences": 1351,
+    "unique_candidate_codes": 353,
+    "terminator_0x50_count": 3,
+    "space_0x7F_count": 254,
+    "control_0x59_count": 2,
+    "pair_byte_coverage": "0.164917"
+  },
+  {
+    "bank_hex": "0x60",
+    "candidate_two_byte_occurrences": 3429,
+    "unique_candidate_codes": 541,
+    "terminator_0x50_count": 5,
+    "space_0x7F_count": 668,
+    "control_0x59_count": 3,
+    "pair_byte_coverage": "0.418579"
+  },
+  {
+    "bank_hex": "0x61",
+    "candidate_two_byte_occurrences": 1948,
+    "unique_candidate_codes": 454,
+    "terminator_0x50_count": 3,
+    "space_0x7F_count": 331,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.237793"
+  },
+  {
+    "bank_hex": "0x62",
+    "candidate_two_byte_occurrences": 1356,
+    "unique_candidate_codes": 339,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 257,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.165527"
+  },
+  {
+    "bank_hex": "0x63",
+    "candidate_two_byte_occurrences": 0,
+    "unique_candidate_codes": 0,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.000000"
+  },
+  {
+    "bank_hex": "0x64",
+    "candidate_two_byte_occurrences": 3442,
+    "unique_candidate_codes": 441,
+    "terminator_0x50_count": 136,
+    "space_0x7F_count": 693,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.420166"
+  },
+  {
+    "bank_hex": "0x65",
+    "candidate_two_byte_occurrences": 3774,
+    "unique_candidate_codes": 433,
+    "terminator_0x50_count": 126,
+    "space_0x7F_count": 761,
+    "control_0x59_count": 4,
+    "pair_byte_coverage": "0.460693"
+  },
+  {
+    "bank_hex": "0x66",
+    "candidate_two_byte_occurrences": 1060,
+    "unique_candidate_codes": 255,
+    "terminator_0x50_count": 47,
+    "space_0x7F_count": 207,
+    "control_0x59_count": 3,
+    "pair_byte_coverage": "0.129395"
+  },
+  {
+    "bank_hex": "0x67",
+    "candidate_two_byte_occurrences": 0,
+    "unique_candidate_codes": 0,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.000000"
+  },
+  {
+    "bank_hex": "0x68",
+    "candidate_two_byte_occurrences": 4517,
+    "unique_candidate_codes": 601,
+    "terminator_0x50_count": 257,
+    "space_0x7F_count": 1011,
+    "control_0x59_count": 257,
+    "pair_byte_coverage": "0.551392"
+  },
+  {
+    "bank_hex": "0x69",
+    "candidate_two_byte_occurrences": 4330,
+    "unique_candidate_codes": 596,
+    "terminator_0x50_count": 246,
+    "space_0x7F_count": 958,
+    "control_0x59_count": 246,
+    "pair_byte_coverage": "0.528564"
+  },
+  {
+    "bank_hex": "0x6A",
+    "candidate_two_byte_occurrences": 0,
+    "unique_candidate_codes": 0,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.000000"
+  },
+  {
+    "bank_hex": "0x6B",
+    "candidate_two_byte_occurrences": 0,
+    "unique_candidate_codes": 0,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.000000"
+  },
+  {
+    "bank_hex": "0x6C",
+    "candidate_two_byte_occurrences": 2959,
+    "unique_candidate_codes": 527,
+    "terminator_0x50_count": 1603,
+    "space_0x7F_count": 176,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.361206"
+  },
+  {
+    "bank_hex": "0x6D",
+    "candidate_two_byte_occurrences": 5324,
+    "unique_candidate_codes": 440,
+    "terminator_0x50_count": 259,
+    "space_0x7F_count": 1266,
+    "control_0x59_count": 257,
+    "pair_byte_coverage": "0.649902"
+  },
+  {
+    "bank_hex": "0x6E",
+    "candidate_two_byte_occurrences": 2634,
+    "unique_candidate_codes": 307,
+    "terminator_0x50_count": 204,
+    "space_0x7F_count": 551,
+    "control_0x59_count": 125,
+    "pair_byte_coverage": "0.321533"
+  },
+  {
+    "bank_hex": "0x6F",
+    "candidate_two_byte_occurrences": 0,
+    "unique_candidate_codes": 0,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.000000"
+  },
+  {
+    "bank_hex": "0x70",
+    "candidate_two_byte_occurrences": 251,
+    "unique_candidate_codes": 171,
+    "terminator_0x50_count": 94,
+    "space_0x7F_count": 361,
+    "control_0x59_count": 24,
+    "pair_byte_coverage": "0.030640"
+  },
+  {
+    "bank_hex": "0x71",
+    "candidate_two_byte_occurrences": 597,
+    "unique_candidate_codes": 475,
+    "terminator_0x50_count": 94,
+    "space_0x7F_count": 3,
+    "control_0x59_count": 5,
+    "pair_byte_coverage": "0.072876"
+  },
+  {
+    "bank_hex": "0x72",
+    "candidate_two_byte_occurrences": 28,
+    "unique_candidate_codes": 6,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 12,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.003418"
+  },
+  {
+    "bank_hex": "0x73",
+    "candidate_two_byte_occurrences": 0,
+    "unique_candidate_codes": 0,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.000000"
+  },
+  {
+    "bank_hex": "0x74",
+    "candidate_two_byte_occurrences": 0,
+    "unique_candidate_codes": 0,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.000000"
+  },
+  {
+    "bank_hex": "0x75",
+    "candidate_two_byte_occurrences": 0,
+    "unique_candidate_codes": 0,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.000000"
+  },
+  {
+    "bank_hex": "0x76",
+    "candidate_two_byte_occurrences": 0,
+    "unique_candidate_codes": 0,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.000000"
+  },
+  {
+    "bank_hex": "0x77",
+    "candidate_two_byte_occurrences": 0,
+    "unique_candidate_codes": 0,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.000000"
+  },
+  {
+    "bank_hex": "0x78",
+    "candidate_two_byte_occurrences": 1005,
+    "unique_candidate_codes": 51,
+    "terminator_0x50_count": 40,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.122681"
+  },
+  {
+    "bank_hex": "0x79",
+    "candidate_two_byte_occurrences": 1064,
+    "unique_candidate_codes": 59,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.129883"
+  },
+  {
+    "bank_hex": "0x7A",
+    "candidate_two_byte_occurrences": 891,
+    "unique_candidate_codes": 65,
+    "terminator_0x50_count": 3,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.108765"
+  },
+  {
+    "bank_hex": "0x7B",
+    "candidate_two_byte_occurrences": 89,
+    "unique_candidate_codes": 42,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 43,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.010864"
+  },
+  {
+    "bank_hex": "0x7C",
+    "candidate_two_byte_occurrences": 0,
+    "unique_candidate_codes": 0,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.000000"
+  },
+  {
+    "bank_hex": "0x7D",
+    "candidate_two_byte_occurrences": 0,
+    "unique_candidate_codes": 0,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.000000"
+  },
+  {
+    "bank_hex": "0x7E",
+    "candidate_two_byte_occurrences": 0,
+    "unique_candidate_codes": 0,
+    "terminator_0x50_count": 0,
+    "space_0x7F_count": 0,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.000000"
+  },
+  {
+    "bank_hex": "0x7F",
+    "candidate_two_byte_occurrences": 163,
+    "unique_candidate_codes": 58,
+    "terminator_0x50_count": 2,
+    "space_0x7F_count": 16,
+    "control_0x59_count": 0,
+    "pair_byte_coverage": "0.019897"
+  }
+]

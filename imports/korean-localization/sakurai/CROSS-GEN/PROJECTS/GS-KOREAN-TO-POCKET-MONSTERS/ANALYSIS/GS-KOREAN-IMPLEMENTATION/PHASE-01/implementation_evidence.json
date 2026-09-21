@@ -1,0 +1,10 @@
+{
+  "dispatch_table_file_offset_hex": "0x0035C3",
+  "dispatch_loader_signature_file_offset_hex": "0x003604",
+  "fixed_name_copy_signature_file_offset_hex": "0x00365F",
+  "fixed_name_bank": "0x6C",
+  "fixed_name_address": "0x4C4A",
+  "fixed_name_record_size": 10,
+  "gold_silver_dispatch_bytes_identical": true,
+  "gold_silver_bank_6c_identical": true
+}
