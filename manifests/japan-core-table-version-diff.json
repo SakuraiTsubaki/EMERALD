@@ -1,0 +1,19 @@
+{
+  "schema": 1,
+  "comparisons": {
+    "aka_vs_midori_rev0":{"base_stats_changes":0,"move_changes":0},
+    "aka_reva_vs_ao":{"base_stats_changes":0,"move_changes":0},
+    "ao_vs_pikachu_revd":{
+      "base_stats_changes":2,
+      "move_changes":0,
+      "base_stats":[
+        {"national_dex":148,"field":"catch_rate","ao":45,"pikachu_revd":27},
+        {"national_dex":149,"field":"catch_rate","ao":45,"pikachu_revd":9}
+      ]
+    },
+    "kin_vs_gin_rev0":{"base_stats_changes":0,"move_changes":0},
+    "ruby_vs_sapphire":{"base_stats_changes":0,"move_changes":0},
+    "ruby_vs_emerald":{"base_stats_changes":0,"move_changes":0},
+    "firered_vs_leafgreen":{"base_stats_changes":0,"move_changes":0}
+  }
+}
