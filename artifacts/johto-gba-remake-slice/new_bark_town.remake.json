@@ -1,0 +1,176 @@
+{
+  "schema": 1,
+  "policy": "FRLG-style remake: GSC topology/semantics, Japanese Emerald visual/behavior donors; no GSC graphics are emitted.",
+  "target": {
+    "map": "New Bark Town",
+    "width": 20,
+    "height": 18,
+    "bytes": 720,
+    "sha256": "cbcd9e07099888ebb3e11eddff10fd59c5390ab95053524e9d879a62ff6b6fa4"
+  },
+  "source": {
+    "gsc_block_offset": "0xacdb5",
+    "block_sha256": "41a1012a051d22ade1b6cdb14577c4b6ad3e195be7024d6f3a020a9f7f5fedd3",
+    "gsc_rom_sha256": "7cfeceae00737a1f0713c9ab0b3a9e6eb8d05ff6002eb81308072a6f85e385e7"
+  },
+  "emerald": {
+    "rom_sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c",
+    "map_groups_offset": "0x45e998",
+    "littleroot": {
+      "map_num": 9,
+      "header": "0x45a9d4",
+      "layout": "0x3c26a4",
+      "map_offset": "0x3c2384",
+      "width": 20,
+      "height": 20
+    },
+    "route102": {
+      "map_num": 17,
+      "header": "0x45aab4",
+      "layout": "0x3c4874",
+      "map_offset": "0x3c40a4",
+      "width": 50,
+      "height": 20
+    },
+    "littleroot_map_sha256": "9bc2d52ac0f515a2af3a12483e3913aee3948531f91ca0547513f53ce92acf9d",
+    "route102_map_sha256": "0bdc71923970bbe8ddaa3bc5793ffbaea0e79c7d08ff14b7aff7ec559570778c"
+  },
+  "donor_templates": [
+    {
+      "semantic": "elm_lab_exterior",
+      "source_map": "LittlerootTown",
+      "source_rect": [
+        3,
+        13,
+        7,
+        4
+      ],
+      "target_origin": [
+        2,
+        0
+      ],
+      "door": [
+        6,
+        3
+      ]
+    },
+    {
+      "semantic": "house_exterior_ne",
+      "source_map": "LittlerootTown",
+      "source_rect": [
+        13,
+        5,
+        5,
+        4
+      ],
+      "target_origin": [
+        12,
+        2
+      ],
+      "door": [
+        13,
+        5
+      ]
+    },
+    {
+      "semantic": "house_exterior_sw",
+      "source_map": "LittlerootTown",
+      "source_rect": [
+        13,
+        5,
+        5,
+        4
+      ],
+      "target_origin": [
+        2,
+        8
+      ],
+      "door": [
+        3,
+        11
+      ]
+    },
+    {
+      "semantic": "house_exterior_se",
+      "source_map": "LittlerootTown",
+      "source_rect": [
+        13,
+        5,
+        5,
+        4
+      ],
+      "target_origin": [
+        10,
+        10
+      ],
+      "door": [
+        11,
+        13
+      ]
+    },
+    {
+      "semantic": "pond_shore",
+      "source_map": "Route102",
+      "source_rect": [
+        40,
+        2,
+        4,
+        4
+      ],
+      "target_origin": [
+        16,
+        6
+      ]
+    }
+  ],
+  "event_relocations": [
+    {
+      "kind": "bg/sign",
+      "source": [
+        3,
+        3
+      ],
+      "target": [
+        5,
+        4
+      ],
+      "reason": "Emerald Birch-lab exterior footprint"
+    }
+  ],
+  "preserved_warp_anchors": [
+    [
+      6,
+      3
+    ],
+    [
+      13,
+      5
+    ],
+    [
+      3,
+      11
+    ],
+    [
+      11,
+      13
+    ]
+  ],
+  "target_signs": [
+    [
+      8,
+      8
+    ],
+    [
+      11,
+      5
+    ],
+    [
+      9,
+      13
+    ],
+    [
+      5,
+      4
+    ]
+  ]
+}
