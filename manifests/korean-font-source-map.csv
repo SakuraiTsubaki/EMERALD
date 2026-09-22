@@ -1,0 +1,11 @@
+generation,title,region_language,revision,source_kind,path_or_offset,archive_sha1,glyph_members,glyph_count,cell,bpp,notes
+2,Gold,Korea-KO,REV-0,ROM,"0x1E0000-0x1EBFFF",6e986d357a31a3fb5114c459a8e1f20163544eea,"11 Hangul pages plus base pages",3072 slots,8x16,1,"Dynamic Hangul VRAM staging; canonical preserved asset exists in Tsubaki"
+2,Silver,Korea-KO,REV-0,repository,"GEN-02/SILVER/.../GS-KOREAN-HANGUL-11TABLES",6e986d357a31a3fb5114c459a8e1f20163544eea,shared with Gold,3072 slots,8x16,1,"Preserved Gold/Silver assets verified byte-identical"
+3,FireRed,Korean project tooling,project,repository,"GEN-03/FIRERED/.../HANGUL-GLYPH-GENERATOR",,generated,11172,8x8 and 16x16,1/2,"Coverage/fallback generator; not official Pokémon font art"
+4,Diamond,USA-EN,unknown,ROM,graphic/font.narc,1122e901209b1047fbbacb1a47311c8bd529a647,"0;1;2;3",509,16x16,2,"Non-Korean baseline; supplied Diamond/Pearl archive identical"
+4,Pearl,USA-EN,unknown,ROM,graphic/font.narc,1122e901209b1047fbbacb1a47311c8bd529a647,"0;1;2;3",509,16x16,2,"Non-Korean baseline"
+4,Platinum,Korea-KO,REV-0,ROM,graphic/font.narc,2b7218f8040f1fbdecd09eb8a0c916280911f012,"0;1;2",3440,16x16,2,"Large Korean font set; member 3 is 509-glyph Unown"
+4,Platinum,Korea-KO,REV-0,ROM,graphic/pl_font.narc,bafa19e07e32984a8de280ef6ba633abb7f3da5e,"0;1;2",3440,16x16,2,"Platinum-specific second large Korean font set"
+4,SoulSilver,Korea-KO,REV-0,ROM,a/0/1/6,20ba4bc2539851285e5426084c02f01498d789b4,"0;1;2;4;10",3440,16x16,2,"Main HGSS font archive; member 3 is 509-glyph Unown"
+4,SoulSilver,Korea-KO,REV-0,ROM,pbr/font.narc,2b7218f8040f1fbdecd09eb8a0c916280911f012,"0;1;2",3440,16x16,2,"Byte-identical to Korean Platinum graphic/font.narc"
+4,DP/Pt/HGSS,multiple,multiple,ROM,data/nfont.NCGR,5d5c14fcfa0f8534c2eec79ffa945d01f4c547b4,n/a,n/a,n/a,n/a,"Shared separate font-related graphics resource"
