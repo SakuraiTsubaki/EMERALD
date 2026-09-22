@@ -1,0 +1,25 @@
+name: Johto GBA map slice
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "artifacts/johto-gba-first-slice/**"
+      - "manifests/johto-gba-first-slice*.json"
+      - "tools/build_johto_gba_first_slice.py"
+      - "tools/validate_johto_gba_map_units.py"
+      - "tests/test_johto_gba_first_slice.py"
+      - ".github/workflows/johto-map-slice.yml"
+  workflow_dispatch:
+
+jobs:
+  verify-geometry:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate unit conversion spec
+        run: python tools/validate_johto_gba_map_units.py manifests/johto-gba-first-slice.json
+      - name: Validate committed direct-ROM-derived map assets
+        run: python -m unittest tests/test_johto_gba_first_slice.py
+      - name: Check builder syntax
+        run: python -m py_compile tools/build_johto_gba_first_slice.py
