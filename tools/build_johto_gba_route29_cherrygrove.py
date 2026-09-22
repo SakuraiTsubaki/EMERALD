@@ -140,6 +140,5 @@ def main():
  ap=argparse.ArgumentParser(); ap.add_argument("--gold-rom",required=True,type=Path); ap.add_argument("--emerald-rom",required=True,type=Path); ap.add_argument("--out-dir",required=True,type=Path); a=ap.parse_args()
  gsc=a.gold_rom.read_bytes(); e=a.emerald_rom.read_bytes(); d=donors(e); a.out_dir.mkdir(parents=True,exist_ok=True)
  for stem,fn in (("route_29",build_route29),("cherrygrove_city",build_cherry)):
-  blob,m=fn(gsc,e,d); (a.out_dir/f"{stem}.map.bin").write_bytes(blob); (a.out_dir/f"{stem}.remake.json").write_text(json.dumps(m,ensure_ascii=False,indent=2)+"
-",encoding="utf-8"); print(json.dumps(m["target"]))
+  blob,m=fn(gsc,e,d); (a.out_dir/f"{stem}.map.bin").write_bytes(blob); (a.out_dir/f"{stem}.remake.json").write_text(json.dumps(m,ensure_ascii=False,indent=2)+"\n",encoding="utf-8"); print(json.dumps(m["target"]))
 if __name__=="__main__":main()
