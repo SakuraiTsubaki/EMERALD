@@ -10,10 +10,12 @@ on:
       - "tools/build_johto_gba_first_slice.py"
       - "tools/build_johto_gba_remake_slice.py"
       - "tools/build_johto_gba_route29_cherrygrove.py"
+      - "tools/build_johto_gba_route30_route31_violet.py"
       - "tools/validate_johto_gba_map_units.py"
       - "tests/test_johto_gba_first_slice.py"
       - "tests/test_johto_gba_remake_slice.py"
       - "tests/test_johto_gba_route29_cherrygrove.py"
+      - "tests/test_johto_gba_route30_route31_violet.py"
       - ".github/workflows/johto-map-slice.yml"
   workflow_dispatch:
 
@@ -30,5 +32,7 @@ jobs:
         run: python -m unittest tests/test_johto_gba_remake_slice.py
       - name: Validate Route 29 and Cherrygrove remake assets
         run: python -m unittest tests/test_johto_gba_route29_cherrygrove.py
+      - name: Validate Route 30, Route 31, and Violet remake assets
+        run: python -m unittest tests/test_johto_gba_route30_route31_violet.py
       - name: Check builder syntax
-        run: python -m py_compile tools/build_johto_gba_first_slice.py tools/build_johto_gba_remake_slice.py tools/build_johto_gba_route29_cherrygrove.py
+        run: python -m py_compile tools/build_johto_gba_first_slice.py tools/build_johto_gba_remake_slice.py tools/build_johto_gba_route29_cherrygrove.py tools/build_johto_gba_route30_route31_violet.py
