@@ -1,0 +1,345 @@
+{
+  "schema": 1,
+  "rule": {
+    "master_reference": "Japanese Gold/Silver/Crystal ROMs",
+    "gold_silver": "Same Hoenn donor assignment set because the direct Japanese-ROM census found zero normalized map-profile/topology/event differences between Kin and Gin.",
+    "crystal": "Uses the same donor library for shared areas, but Crystal's own 388-map topology/events are authoritative wherever it differs. Crystal-only Battle Tower uses Emerald Battle Frontier/Battle Tower as the preferred GBA implementation skeleton.",
+    "kanto": "FRLG-first. Hoenn is fallback only for generic behaviors/interiors."
+  },
+  "rows": [
+    {
+      "scope": "New Bark Town / Route 29",
+      "donors": [
+        "primary/general",
+        "secondary/lab",
+        "primary/building",
+        "LittlerootTown/Route102 layout grammar"
+      ],
+      "preferred": "Emerald",
+      "gold": true,
+      "silver": true,
+      "crystal": true
+    },
+    {
+      "scope": "Cherrygrove City / Routes 30-31",
+      "donors": [
+        "primary/general",
+        "OldaleTown/Petalburg layout grammar",
+        "secondary/pokemon_center",
+        "secondary/shop"
+      ],
+      "preferred": "Emerald",
+      "gold": true,
+      "silver": true,
+      "crystal": true
+    },
+    {
+      "scope": "Violet City / Sprout Tower",
+      "donors": [
+        "primary/general",
+        "secondary/rustboro",
+        "secondary/petalburg",
+        "secondary/pokemon_school",
+        "MtPyre layout grammar"
+      ],
+      "preferred": "Emerald",
+      "gold": true,
+      "silver": true,
+      "crystal": true
+    },
+    {
+      "scope": "Azalea Town / Ilex Forest",
+      "donors": [
+        "primary/general",
+        "secondary/fortree",
+        "PetalburgWoods layouts",
+        "secondary/cave"
+      ],
+      "preferred": "Emerald",
+      "gold": true,
+      "silver": true,
+      "crystal": true
+    },
+    {
+      "scope": "Goldenrod City",
+      "donors": [
+        "primary/general",
+        "primary/building",
+        "secondary/mauville",
+        "secondary/slateport",
+        "secondary/rustboro",
+        "secondary/bike_shop",
+        "secondary/mauville_game_corner",
+        "secondary/facility"
+      ],
+      "preferred": "Emerald",
+      "gold": true,
+      "silver": true,
+      "crystal": true
+    },
+    {
+      "scope": "Goldenrod Underground",
+      "donors": [
+        "primary/building",
+        "AquaHideout layouts",
+        "secondary/generic_building",
+        "secondary/facility"
+      ],
+      "preferred": "Emerald",
+      "gold": true,
+      "silver": true,
+      "crystal": true
+    },
+    {
+      "scope": "Radio Tower / Magnet Train",
+      "donors": [
+        "primary/building",
+        "secondary/facility",
+        "secondary/oceanic_museum",
+        "NewMauville layouts"
+      ],
+      "preferred": "Emerald",
+      "gold": true,
+      "silver": true,
+      "crystal": true
+    },
+    {
+      "scope": "Ecruteak / Burned Tower / Tin Tower",
+      "donors": [
+        "primary/general",
+        "primary/building",
+        "secondary/fallarbor",
+        "secondary/lavaridge",
+        "MtPyre layouts",
+        "SkyPillar layouts"
+      ],
+      "preferred": "Emerald",
+      "gold": true,
+      "silver": true,
+      "crystal": true
+    },
+    {
+      "scope": "Olivine / Lighthouse",
+      "donors": [
+        "primary/general",
+        "primary/building",
+        "secondary/slateport",
+        "secondary/lilycove",
+        "secondary/oceanic_museum"
+      ],
+      "preferred": "Emerald",
+      "gold": true,
+      "silver": true,
+      "crystal": true
+    },
+    {
+      "scope": "Cianwood",
+      "donors": [
+        "primary/general",
+        "secondary/dewford",
+        "secondary/seashore_house",
+        "secondary/island_harbor"
+      ],
+      "preferred": "Emerald",
+      "gold": true,
+      "silver": true,
+      "crystal": true
+    },
+    {
+      "scope": "Mahogany",
+      "donors": [
+        "primary/general",
+        "secondary/fallarbor",
+        "secondary/lavaridge",
+        "secondary/generic_building"
+      ],
+      "preferred": "Emerald",
+      "gold": true,
+      "silver": true,
+      "crystal": true
+    },
+    {
+      "scope": "Lake of Rage",
+      "donors": [
+        "primary/general",
+        "Route119/Route120 layout grammar",
+        "water/reflection behaviors"
+      ],
+      "preferred": "Emerald",
+      "gold": true,
+      "silver": true,
+      "crystal": true
+    },
+    {
+      "scope": "Blackthorn / Dragon's Den",
+      "donors": [
+        "primary/general",
+        "secondary/ever_grande",
+        "secondary/sootopolis",
+        "secondary/cave",
+        "secondary/meteor_falls"
+      ],
+      "preferred": "Emerald",
+      "gold": true,
+      "silver": true,
+      "crystal": true
+    },
+    {
+      "scope": "Ice Path",
+      "donors": [
+        "secondary/cave",
+        "ShoalCave layouts",
+        "secondary/sootopolis_gym",
+        "MB_ICE",
+        "MB_THIN_ICE",
+        "MB_CRACKED_ICE",
+        "MB_SLIDE_*"
+      ],
+      "preferred": "Emerald",
+      "gold": true,
+      "silver": true,
+      "crystal": true
+    },
+    {
+      "scope": "Union Cave / Slowpoke Well / Dark Cave",
+      "donors": [
+        "secondary/cave",
+        "GraniteCave layouts",
+        "secondary/rusturf_tunnel"
+      ],
+      "preferred": "Emerald",
+      "gold": true,
+      "silver": true,
+      "crystal": true
+    },
+    {
+      "scope": "Mt Mortar / Tohjo Falls",
+      "donors": [
+        "secondary/cave",
+        "secondary/meteor_falls",
+        "MB_WATERFALL"
+      ],
+      "preferred": "Emerald",
+      "gold": true,
+      "silver": true,
+      "crystal": true
+    },
+    {
+      "scope": "Whirl Islands",
+      "donors": [
+        "secondary/cave",
+        "secondary/meteor_falls",
+        "secondary/pacifidlog",
+        "MB_*CURRENT"
+      ],
+      "preferred": "Emerald",
+      "gold": true,
+      "silver": true,
+      "crystal": true,
+      "note": "Whirlpool itself remains a Johto-specific field-move extension."
+    },
+    {
+      "scope": "Ruins of Alph",
+      "donors": [
+        "AncientTomb",
+        "DesertRuins",
+        "IslandCave",
+        "SealedChamber",
+        "secondary/cave",
+        "MirageTower support"
+      ],
+      "preferred": "Emerald",
+      "gold": true,
+      "silver": true,
+      "crystal": true
+    },
+    {
+      "scope": "National Park / Bug-Catching Contest",
+      "donors": [
+        "primary/general",
+        "SafariZone layouts",
+        "secondary/fortree",
+        "PetalburgWoods layouts"
+      ],
+      "preferred": "Emerald",
+      "gold": true,
+      "silver": true,
+      "crystal": true
+    },
+    {
+      "scope": "Team Rocket Base",
+      "donors": [
+        "primary/building",
+        "AquaHideout layouts",
+        "MagmaHideout layouts",
+        "NewMauville layouts",
+        "secondary/mauville_gym"
+      ],
+      "preferred": "Emerald",
+      "gold": true,
+      "silver": true,
+      "crystal": true
+    },
+    {
+      "scope": "S.S. Aqua / Fast Ship",
+      "donors": [
+        "secondary/inside_ship",
+        "AbandonedShip layouts",
+        "RS secondary/ship cross-check"
+      ],
+      "preferred": "Emerald",
+      "gold": true,
+      "silver": true,
+      "crystal": true
+    },
+    {
+      "scope": "Indigo Plateau",
+      "donors": [
+        "primary/building",
+        "secondary/elite_four",
+        "EverGrande Pokemon League layouts"
+      ],
+      "preferred": "Emerald + FRLG-first for Kanto visuals",
+      "gold": true,
+      "silver": true,
+      "crystal": true
+    },
+    {
+      "scope": "Silver Cave",
+      "donors": [
+        "primary/general",
+        "secondary/cave",
+        "secondary/meteor_falls",
+        "secondary/ever_grande"
+      ],
+      "preferred": "Emerald",
+      "gold": true,
+      "silver": true,
+      "crystal": true
+    },
+    {
+      "scope": "Battle Tower",
+      "donors": [
+        "secondary/battle_frontier",
+        "BattleFrontier_BattleTower* layouts",
+        "RS secondary/battle_tower cross-check"
+      ],
+      "preferred": "Emerald",
+      "gold": false,
+      "silver": false,
+      "crystal": true
+    },
+    {
+      "scope": "Gen II Kanto",
+      "donors": [
+        "FireRed/LeafGreen maps and tilesets",
+        "Hoenn generic fallback only"
+      ],
+      "preferred": "FRLG-first",
+      "gold": true,
+      "silver": true,
+      "crystal": true,
+      "note": "GSC three-years-later Kanto is the source state."
+    }
+  ]
+}

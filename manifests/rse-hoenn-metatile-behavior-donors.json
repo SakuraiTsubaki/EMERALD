@@ -1,0 +1,2170 @@
+{
+  "schema": 1,
+  "slot_range": "0x00..0xEF",
+  "slot_count": 240,
+  "name_or_activation_deltas": 41,
+  "pokeruby_pin": "63a8cbf0016b351a4e68f7036fa0b77e23d2f2c1",
+  "pokeemerald_pin": "5eff78649e7170a877b961ef0b3da13b81a16038",
+  "rows": [
+    {
+      "code": "0x00",
+      "ruby_sapphire_name": "MB_NORMAL",
+      "emerald_name": "MB_NORMAL",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x01",
+      "ruby_sapphire_name": "MB_SECRET_BASE_WALL",
+      "emerald_name": "MB_SECRET_BASE_WALL",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x02",
+      "ruby_sapphire_name": "MB_TALL_GRASS",
+      "emerald_name": "MB_TALL_GRASS",
+      "relation": "same",
+      "johto_use": "encounter_terrain",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x03",
+      "ruby_sapphire_name": "MB_LONG_GRASS",
+      "emerald_name": "MB_LONG_GRASS",
+      "relation": "same",
+      "johto_use": "encounter_terrain",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x04",
+      "ruby_sapphire_name": "MB_UNUSED_04",
+      "emerald_name": "MB_UNUSED_04",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x05",
+      "ruby_sapphire_name": "MB_UNUSED_05",
+      "emerald_name": "MB_UNUSED_05",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x06",
+      "ruby_sapphire_name": "MB_UNUSED_DEEP_SAND",
+      "emerald_name": "MB_DEEP_SAND",
+      "relation": "renamed_or_activated",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x07",
+      "ruby_sapphire_name": "MB_SHORT_GRASS",
+      "emerald_name": "MB_SHORT_GRASS",
+      "relation": "same",
+      "johto_use": "encounter_terrain",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x08",
+      "ruby_sapphire_name": "MB_UNUSED_CAVE",
+      "emerald_name": "MB_CAVE",
+      "relation": "renamed_or_activated",
+      "johto_use": "encounter_terrain",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x09",
+      "ruby_sapphire_name": "MB_LONG_GRASS_SOUTH_EDGE",
+      "emerald_name": "MB_LONG_GRASS_SOUTH_EDGE",
+      "relation": "same",
+      "johto_use": "encounter_terrain",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x0A",
+      "ruby_sapphire_name": "MB_NO_RUNNING",
+      "emerald_name": "MB_NO_RUNNING",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x0B",
+      "ruby_sapphire_name": "MB_INDOOR_ENCOUNTER",
+      "emerald_name": "MB_INDOOR_ENCOUNTER",
+      "relation": "same",
+      "johto_use": "encounter_terrain",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x0C",
+      "ruby_sapphire_name": "MB_MOUNTAIN_TOP",
+      "emerald_name": "MB_MOUNTAIN_TOP",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x0D",
+      "ruby_sapphire_name": "MB_SECRET_BASE_GLITTER_MATTTLE_PYRAMID_WARP",
+      "emerald_name": "MB_BATTLE_PYRAMID_WARP",
+      "relation": "renamed_or_activated",
+      "johto_use": "warp_interior",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x0E",
+      "ruby_sapphire_name": "MB_MOSSDEEP_GYM_WARP",
+      "emerald_name": "MB_MOSSDEEP_GYM_WARP",
+      "relation": "same",
+      "johto_use": "warp_interior",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x0F",
+      "ruby_sapphire_name": "MB_MT_PYRE_HOLE",
+      "emerald_name": "MB_MT_PYRE_HOLE",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x10",
+      "ruby_sapphire_name": "MB_POND_WATER",
+      "emerald_name": "MB_POND_WATER",
+      "relation": "same",
+      "johto_use": "water",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x11",
+      "ruby_sapphire_name": "MB_SEMI_DEEP_WATER",
+      "emerald_name": "MB_INTERIOR_DEEP_WATER",
+      "relation": "renamed_or_activated",
+      "johto_use": "water",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x12",
+      "ruby_sapphire_name": "MB_UNUSED_DEEP_WATER",
+      "emerald_name": "MB_DEEP_WATER",
+      "relation": "renamed_or_activated",
+      "johto_use": "water",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x13",
+      "ruby_sapphire_name": "MB_WATERFALL",
+      "emerald_name": "MB_WATERFALL",
+      "relation": "same",
+      "johto_use": "water",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x14",
+      "ruby_sapphire_name": "MB_SOOTOPOLIS_DEEP_WATER",
+      "emerald_name": "MB_SOOTOPOLIS_DEEP_WATER",
+      "relation": "same",
+      "johto_use": "water",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x15",
+      "ruby_sapphire_name": "MB_OCEAN_WATER",
+      "emerald_name": "MB_OCEAN_WATER",
+      "relation": "same",
+      "johto_use": "water",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x16",
+      "ruby_sapphire_name": "MB_PUDDLE",
+      "emerald_name": "MB_PUDDLE",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x17",
+      "ruby_sapphire_name": "MB_SHALLOW_WATER",
+      "emerald_name": "MB_SHALLOW_WATER",
+      "relation": "same",
+      "johto_use": "water",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x18",
+      "ruby_sapphire_name": "MB_UNUSED_SOOTOPOLIS_DEEP_WATER",
+      "emerald_name": "MB_UNUSED_SOOTOPOLIS_DEEP_WATER",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x19",
+      "ruby_sapphire_name": "MB_NO_SURFACING",
+      "emerald_name": "MB_NO_SURFACING",
+      "relation": "same",
+      "johto_use": "water",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x1A",
+      "ruby_sapphire_name": "MB_UNUSED_SOOTOPOLIS_DEEP_WATER_2",
+      "emerald_name": "MB_UNUSED_SOOTOPOLIS_DEEP_WATER_2",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x1B",
+      "ruby_sapphire_name": "MB_STAIRS_OUTSIDE_ABANDONED_SHIP",
+      "emerald_name": "MB_STAIRS_OUTSIDE_ABANDONED_SHIP",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x1C",
+      "ruby_sapphire_name": "MB_SHOAL_CAVE_ENTRANCE",
+      "emerald_name": "MB_SHOAL_CAVE_ENTRANCE",
+      "relation": "same",
+      "johto_use": "encounter_terrain",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x1D",
+      "ruby_sapphire_name": "MB_UNUSED_1D",
+      "emerald_name": "MB_UNUSED_1D",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x1E",
+      "ruby_sapphire_name": "MB_UNUSED_1E",
+      "emerald_name": "MB_UNUSED_1E",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x1F",
+      "ruby_sapphire_name": "MB_UNUSED_1F",
+      "emerald_name": "MB_UNUSED_1F",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x20",
+      "ruby_sapphire_name": "MB_ICE",
+      "emerald_name": "MB_ICE",
+      "relation": "same",
+      "johto_use": "ice_path",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x21",
+      "ruby_sapphire_name": "MB_SAND",
+      "emerald_name": "MB_SAND",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x22",
+      "ruby_sapphire_name": "MB_SEAWEED",
+      "emerald_name": "MB_SEAWEED",
+      "relation": "same",
+      "johto_use": "water",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x23",
+      "ruby_sapphire_name": "MB_UNUSED_23",
+      "emerald_name": "MB_UNUSED_23",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x24",
+      "ruby_sapphire_name": "MB_ASHGRASS",
+      "emerald_name": "MB_ASHGRASS",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x25",
+      "ruby_sapphire_name": "MB_FOOTPRINTS",
+      "emerald_name": "MB_FOOTPRINTS",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x26",
+      "ruby_sapphire_name": "MB_THIN_ICE",
+      "emerald_name": "MB_THIN_ICE",
+      "relation": "same",
+      "johto_use": "ice_path",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x27",
+      "ruby_sapphire_name": "MB_CRACKED_ICE",
+      "emerald_name": "MB_CRACKED_ICE",
+      "relation": "same",
+      "johto_use": "ice_path",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x28",
+      "ruby_sapphire_name": "MB_HOT_SPRINGS",
+      "emerald_name": "MB_HOT_SPRINGS",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x29",
+      "ruby_sapphire_name": "MB_LAVARIDGE_GYM_B1F_WARP",
+      "emerald_name": "MB_LAVARIDGE_GYM_B1F_WARP",
+      "relation": "same",
+      "johto_use": "warp_interior",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x2A",
+      "ruby_sapphire_name": "MB_SEAWEED_NO_SURFACING",
+      "emerald_name": "MB_SEAWEED_NO_SURFACING",
+      "relation": "same",
+      "johto_use": "water",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x2B",
+      "ruby_sapphire_name": "MB_REFLECTION_UNDER_BRIDGE",
+      "emerald_name": "MB_REFLECTION_UNDER_BRIDGE",
+      "relation": "same",
+      "johto_use": "bridge_water",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x2C",
+      "ruby_sapphire_name": "MB_UNUSED_2C",
+      "emerald_name": "MB_UNUSED_2C",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x2D",
+      "ruby_sapphire_name": "MB_UNUSED_2D",
+      "emerald_name": "MB_UNUSED_2D",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x2E",
+      "ruby_sapphire_name": "MB_UNUSED_2E",
+      "emerald_name": "MB_UNUSED_2E",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x2F",
+      "ruby_sapphire_name": "MB_UNUSED_2F",
+      "emerald_name": "MB_UNUSED_2F",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x30",
+      "ruby_sapphire_name": "MB_IMPASSABLE_EAST",
+      "emerald_name": "MB_IMPASSABLE_EAST",
+      "relation": "same",
+      "johto_use": "movement",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x31",
+      "ruby_sapphire_name": "MB_IMPASSABLE_WEST",
+      "emerald_name": "MB_IMPASSABLE_WEST",
+      "relation": "same",
+      "johto_use": "movement",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x32",
+      "ruby_sapphire_name": "MB_IMPASSABLE_NORTH",
+      "emerald_name": "MB_IMPASSABLE_NORTH",
+      "relation": "same",
+      "johto_use": "movement",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x33",
+      "ruby_sapphire_name": "MB_IMPASSABLE_SOUTH",
+      "emerald_name": "MB_IMPASSABLE_SOUTH",
+      "relation": "same",
+      "johto_use": "movement",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x34",
+      "ruby_sapphire_name": "MB_IMPASSABLE_NORTHEAST",
+      "emerald_name": "MB_IMPASSABLE_NORTHEAST",
+      "relation": "same",
+      "johto_use": "movement",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x35",
+      "ruby_sapphire_name": "MB_IMPASSABLE_NORTHWEST",
+      "emerald_name": "MB_IMPASSABLE_NORTHWEST",
+      "relation": "same",
+      "johto_use": "movement",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x36",
+      "ruby_sapphire_name": "MB_IMPASSABLE_SOUTHEAST",
+      "emerald_name": "MB_IMPASSABLE_SOUTHEAST",
+      "relation": "same",
+      "johto_use": "movement",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x37",
+      "ruby_sapphire_name": "MB_IMPASSABLE_SOUTHWEST",
+      "emerald_name": "MB_IMPASSABLE_SOUTHWEST",
+      "relation": "same",
+      "johto_use": "movement",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x38",
+      "ruby_sapphire_name": "MB_JUMP_EAST",
+      "emerald_name": "MB_JUMP_EAST",
+      "relation": "same",
+      "johto_use": "movement",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x39",
+      "ruby_sapphire_name": "MB_JUMP_WEST",
+      "emerald_name": "MB_JUMP_WEST",
+      "relation": "same",
+      "johto_use": "movement",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x3A",
+      "ruby_sapphire_name": "MB_JUMP_NORTH",
+      "emerald_name": "MB_JUMP_NORTH",
+      "relation": "same",
+      "johto_use": "movement",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x3B",
+      "ruby_sapphire_name": "MB_JUMP_SOUTH",
+      "emerald_name": "MB_JUMP_SOUTH",
+      "relation": "same",
+      "johto_use": "movement",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x3C",
+      "ruby_sapphire_name": "MB_JUMP_NORTHEAST",
+      "emerald_name": "MB_JUMP_NORTHEAST",
+      "relation": "same",
+      "johto_use": "movement",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x3D",
+      "ruby_sapphire_name": "MB_JUMP_NORTHWEST",
+      "emerald_name": "MB_JUMP_NORTHWEST",
+      "relation": "same",
+      "johto_use": "movement",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x3E",
+      "ruby_sapphire_name": "MB_JUMP_SOUTHEAST",
+      "emerald_name": "MB_JUMP_SOUTHEAST",
+      "relation": "same",
+      "johto_use": "movement",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x3F",
+      "ruby_sapphire_name": "MB_JUMP_SOUTHWEST",
+      "emerald_name": "MB_JUMP_SOUTHWEST",
+      "relation": "same",
+      "johto_use": "movement",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x40",
+      "ruby_sapphire_name": "MB_WALK_EAST",
+      "emerald_name": "MB_WALK_EAST",
+      "relation": "same",
+      "johto_use": "movement",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x41",
+      "ruby_sapphire_name": "MB_WALK_WEST",
+      "emerald_name": "MB_WALK_WEST",
+      "relation": "same",
+      "johto_use": "movement",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x42",
+      "ruby_sapphire_name": "MB_WALK_NORTH",
+      "emerald_name": "MB_WALK_NORTH",
+      "relation": "same",
+      "johto_use": "movement",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x43",
+      "ruby_sapphire_name": "MB_WALK_SOUTH",
+      "emerald_name": "MB_WALK_SOUTH",
+      "relation": "same",
+      "johto_use": "movement",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x44",
+      "ruby_sapphire_name": "MB_SLIDE_EAST",
+      "emerald_name": "MB_SLIDE_EAST",
+      "relation": "same",
+      "johto_use": "ice_path",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x45",
+      "ruby_sapphire_name": "MB_SLIDE_WEST",
+      "emerald_name": "MB_SLIDE_WEST",
+      "relation": "same",
+      "johto_use": "ice_path",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x46",
+      "ruby_sapphire_name": "MB_SLIDE_NORTH",
+      "emerald_name": "MB_SLIDE_NORTH",
+      "relation": "same",
+      "johto_use": "ice_path",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x47",
+      "ruby_sapphire_name": "MB_SLIDE_SOUTH",
+      "emerald_name": "MB_SLIDE_SOUTH",
+      "relation": "same",
+      "johto_use": "ice_path",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x48",
+      "ruby_sapphire_name": "MB_TRICK_HOUSE_PUZZLE_8_FLOOR",
+      "emerald_name": "MB_TRICK_HOUSE_PUZZLE_8_FLOOR",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x49",
+      "ruby_sapphire_name": "MB_UNUSED_49",
+      "emerald_name": "MB_UNUSED_49",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x4A",
+      "ruby_sapphire_name": "MB_UNUSED_4A",
+      "emerald_name": "MB_UNUSED_4A",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x4B",
+      "ruby_sapphire_name": "MB_UNUSED_4B",
+      "emerald_name": "MB_UNUSED_4B",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x4C",
+      "ruby_sapphire_name": "MB_UNUSED_4C",
+      "emerald_name": "MB_UNUSED_4C",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x4D",
+      "ruby_sapphire_name": "MB_UNUSED_4D",
+      "emerald_name": "MB_UNUSED_4D",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x4E",
+      "ruby_sapphire_name": "MB_UNUSED_4E",
+      "emerald_name": "MB_UNUSED_4E",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x4F",
+      "ruby_sapphire_name": "MB_UNUSED_4F",
+      "emerald_name": "MB_UNUSED_4F",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x50",
+      "ruby_sapphire_name": "MB_UNUSED_EASTWARD_CURRENT",
+      "emerald_name": "MB_EASTWARD_CURRENT",
+      "relation": "renamed_or_activated",
+      "johto_use": "water_current",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x51",
+      "ruby_sapphire_name": "MB_WESTWARD_CURRENT",
+      "emerald_name": "MB_WESTWARD_CURRENT",
+      "relation": "same",
+      "johto_use": "water_current",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x52",
+      "ruby_sapphire_name": "MB_NORTHWARD_CURRENT",
+      "emerald_name": "MB_NORTHWARD_CURRENT",
+      "relation": "same",
+      "johto_use": "water_current",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x53",
+      "ruby_sapphire_name": "MB_SOUTHWARD_CURRENT",
+      "emerald_name": "MB_SOUTHWARD_CURRENT",
+      "relation": "same",
+      "johto_use": "water_current",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x54",
+      "ruby_sapphire_name": "MB_UNUSED_54",
+      "emerald_name": "MB_UNUSED_54",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x55",
+      "ruby_sapphire_name": "MB_UNUSED_55",
+      "emerald_name": "MB_UNUSED_55",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x56",
+      "ruby_sapphire_name": "MB_UNUSED_56",
+      "emerald_name": "MB_UNUSED_56",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x57",
+      "ruby_sapphire_name": "MB_UNUSED_57",
+      "emerald_name": "MB_UNUSED_57",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x58",
+      "ruby_sapphire_name": "MB_UNUSED_58",
+      "emerald_name": "MB_UNUSED_58",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x59",
+      "ruby_sapphire_name": "MB_UNUSED_59",
+      "emerald_name": "MB_UNUSED_59",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x5A",
+      "ruby_sapphire_name": "MB_UNUSED_5A",
+      "emerald_name": "MB_UNUSED_5A",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x5B",
+      "ruby_sapphire_name": "MB_UNUSED_5B",
+      "emerald_name": "MB_UNUSED_5B",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x5C",
+      "ruby_sapphire_name": "MB_UNUSED_5C",
+      "emerald_name": "MB_UNUSED_5C",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x5D",
+      "ruby_sapphire_name": "MB_UNUSED_5D",
+      "emerald_name": "MB_UNUSED_5D",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x5E",
+      "ruby_sapphire_name": "MB_UNUSED_5E",
+      "emerald_name": "MB_UNUSED_5E",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x5F",
+      "ruby_sapphire_name": "MB_UNUSED_5F",
+      "emerald_name": "MB_UNUSED_5F",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x60",
+      "ruby_sapphire_name": "MB_NON_ANIMATED_DOOR",
+      "emerald_name": "MB_NON_ANIMATED_DOOR",
+      "relation": "same",
+      "johto_use": "warp_interior",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x61",
+      "ruby_sapphire_name": "MB_LADDER",
+      "emerald_name": "MB_LADDER",
+      "relation": "same",
+      "johto_use": "warp_interior",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x62",
+      "ruby_sapphire_name": "MB_UNUSED_EAST_ARROW_WARP",
+      "emerald_name": "MB_EAST_ARROW_WARP",
+      "relation": "renamed_or_activated",
+      "johto_use": "warp_interior",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x63",
+      "ruby_sapphire_name": "MB_WEST_ARROW_WARP",
+      "emerald_name": "MB_WEST_ARROW_WARP",
+      "relation": "same",
+      "johto_use": "warp_interior",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x64",
+      "ruby_sapphire_name": "MB_NORTH_ARROW_WARP",
+      "emerald_name": "MB_NORTH_ARROW_WARP",
+      "relation": "same",
+      "johto_use": "warp_interior",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x65",
+      "ruby_sapphire_name": "MB_SOUTH_ARROW_WARP",
+      "emerald_name": "MB_SOUTH_ARROW_WARP",
+      "relation": "same",
+      "johto_use": "warp_interior",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x66",
+      "ruby_sapphire_name": "MB_CRACKED_FLOOR_HOLE",
+      "emerald_name": "MB_CRACKED_FLOOR_HOLE",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x67",
+      "ruby_sapphire_name": "MB_AQUA_HIDEOUT_WARP",
+      "emerald_name": "MB_AQUA_HIDEOUT_WARP",
+      "relation": "same",
+      "johto_use": "warp_interior",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x68",
+      "ruby_sapphire_name": "MB_LAVARIDGE_GYM_1F_WARP",
+      "emerald_name": "MB_LAVARIDGE_GYM_1F_WARP",
+      "relation": "same",
+      "johto_use": "warp_interior",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x69",
+      "ruby_sapphire_name": "MB_ANIMATED_DOOR",
+      "emerald_name": "MB_ANIMATED_DOOR",
+      "relation": "same",
+      "johto_use": "warp_interior",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x6A",
+      "ruby_sapphire_name": "MB_UP_ESCALATOR",
+      "emerald_name": "MB_UP_ESCALATOR",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x6B",
+      "ruby_sapphire_name": "MB_DOWN_ESCALATOR",
+      "emerald_name": "MB_DOWN_ESCALATOR",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x6C",
+      "ruby_sapphire_name": "MB_WATER_DOOR",
+      "emerald_name": "MB_WATER_DOOR",
+      "relation": "same",
+      "johto_use": "warp_interior",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x6D",
+      "ruby_sapphire_name": "MB_WATER_SOUTH_ARROW_WARP",
+      "emerald_name": "MB_WATER_SOUTH_ARROW_WARP",
+      "relation": "same",
+      "johto_use": "warp_interior",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x6E",
+      "ruby_sapphire_name": "MB_UNUSED_DEEP_SOUTH_WARP",
+      "emerald_name": "MB_DEEP_SOUTH_WARP",
+      "relation": "renamed_or_activated",
+      "johto_use": "warp_interior",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x6F",
+      "ruby_sapphire_name": "MB_UNUSED_6F",
+      "emerald_name": "MB_UNUSED_6F",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x70",
+      "ruby_sapphire_name": "MB_WARP_OR_BRIDGE",
+      "emerald_name": "MB_BRIDGE_OVER_OCEAN",
+      "relation": "renamed_or_activated",
+      "johto_use": "bridge_water",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x71",
+      "ruby_sapphire_name": "MB_UNUSED_71",
+      "emerald_name": "MB_BRIDGE_OVER_POND_LOW",
+      "relation": "renamed_or_activated",
+      "johto_use": "bridge_water",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x72",
+      "ruby_sapphire_name": "MB_ROUTE120_NORTH_BRIDGE_1",
+      "emerald_name": "MB_BRIDGE_OVER_POND_MED",
+      "relation": "renamed_or_activated",
+      "johto_use": "bridge_water",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x73",
+      "ruby_sapphire_name": "MB_ROUTE120_NORTH_BRIDGE_2",
+      "emerald_name": "MB_BRIDGE_OVER_POND_HIGH",
+      "relation": "renamed_or_activated",
+      "johto_use": "bridge_water",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x74",
+      "ruby_sapphire_name": "MB_PACIFIDLOG_VERTICAL_LOG_1",
+      "emerald_name": "MB_PACIFIDLOG_VERTICAL_LOG_TOP",
+      "relation": "renamed_or_activated",
+      "johto_use": "bridge_water",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x75",
+      "ruby_sapphire_name": "MB_PACIFIDLOG_VERTICAL_LOG_2",
+      "emerald_name": "MB_PACIFIDLOG_VERTICAL_LOG_BOTTOM",
+      "relation": "renamed_or_activated",
+      "johto_use": "bridge_water",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x76",
+      "ruby_sapphire_name": "MB_PACIFIDLOG_HORIZONTAL_LOG_1",
+      "emerald_name": "MB_PACIFIDLOG_HORIZONTAL_LOG_LEFT",
+      "relation": "renamed_or_activated",
+      "johto_use": "bridge_water",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x77",
+      "ruby_sapphire_name": "MB_PACIFIDLOG_HORIZONTAL_LOG_2",
+      "emerald_name": "MB_PACIFIDLOG_HORIZONTAL_LOG_RIGHT",
+      "relation": "renamed_or_activated",
+      "johto_use": "bridge_water",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x78",
+      "ruby_sapphire_name": "MB_FORTREE_BRIDGE",
+      "emerald_name": "MB_FORTREE_BRIDGE",
+      "relation": "same",
+      "johto_use": "bridge_water",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x79",
+      "ruby_sapphire_name": "MB_UNUSED_79",
+      "emerald_name": "MB_UNUSED_79",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x7A",
+      "ruby_sapphire_name": "MB_ROUTE120_SOUTH_BRIDGE_1",
+      "emerald_name": "MB_BRIDGE_OVER_POND_MED_EDGE_1",
+      "relation": "renamed_or_activated",
+      "johto_use": "bridge_water",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x7B",
+      "ruby_sapphire_name": "MB_ROUTE120_SOUTH_BRIDGE_2",
+      "emerald_name": "MB_BRIDGE_OVER_POND_MED_EDGE_2",
+      "relation": "renamed_or_activated",
+      "johto_use": "bridge_water",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x7C",
+      "ruby_sapphire_name": "MB_ROUTE120_NORTH_BRIDGE_3",
+      "emerald_name": "MB_BRIDGE_OVER_POND_HIGH_EDGE_1",
+      "relation": "renamed_or_activated",
+      "johto_use": "bridge_water",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x7D",
+      "ruby_sapphire_name": "MB_ROUTE120_NORTH_BRIDGE_4",
+      "emerald_name": "MB_BRIDGE_OVER_POND_HIGH_EDGE_2",
+      "relation": "renamed_or_activated",
+      "johto_use": "bridge_water",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x7E",
+      "ruby_sapphire_name": "MB_UNUSED_7E",
+      "emerald_name": "MB_UNUSED_BRIDGE",
+      "relation": "renamed_or_activated",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x7F",
+      "ruby_sapphire_name": "MB_ROUTE110_BRIDGE",
+      "emerald_name": "MB_BIKE_BRIDGE_OVER_BARRIER",
+      "relation": "renamed_or_activated",
+      "johto_use": "bridge_water",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x80",
+      "ruby_sapphire_name": "MB_COUNTER",
+      "emerald_name": "MB_COUNTER",
+      "relation": "same",
+      "johto_use": "interior_interaction",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x81",
+      "ruby_sapphire_name": "MB_UNUSED_81",
+      "emerald_name": "MB_UNUSED_81",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x82",
+      "ruby_sapphire_name": "MB_UNUSED_82",
+      "emerald_name": "MB_UNUSED_82",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x83",
+      "ruby_sapphire_name": "MB_PC",
+      "emerald_name": "MB_PC",
+      "relation": "same",
+      "johto_use": "interior_interaction",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x84",
+      "ruby_sapphire_name": "MB_LINK_BATTLE_RECORDS",
+      "emerald_name": "MB_CABLE_BOX_RESULTS_1",
+      "relation": "renamed_or_activated",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x85",
+      "ruby_sapphire_name": "MB_REGION_MAP",
+      "emerald_name": "MB_REGION_MAP",
+      "relation": "same",
+      "johto_use": "interior_interaction",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x86",
+      "ruby_sapphire_name": "MB_TELEVISION",
+      "emerald_name": "MB_TELEVISION",
+      "relation": "same",
+      "johto_use": "interior_interaction",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x87",
+      "ruby_sapphire_name": "MB_POKEBLOCK_FEEDER",
+      "emerald_name": "MB_POKEBLOCK_FEEDER",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x88",
+      "ruby_sapphire_name": "MB_UNUSED_88",
+      "emerald_name": "MB_UNUSED_88",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x89",
+      "ruby_sapphire_name": "MB_SLOT_MACHINE",
+      "emerald_name": "MB_SLOT_MACHINE",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x8A",
+      "ruby_sapphire_name": "MB_ROULETTE",
+      "emerald_name": "MB_ROULETTE",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x8B",
+      "ruby_sapphire_name": "MB_CLOSED_SOOTOPOLIS_DOOR",
+      "emerald_name": "MB_CLOSED_SOOTOPOLIS_DOOR",
+      "relation": "same",
+      "johto_use": "warp_interior",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x8C",
+      "ruby_sapphire_name": "MB_TRICK_HOUSE_PUZZLE_DOOR",
+      "emerald_name": "MB_TRICK_HOUSE_PUZZLE_DOOR",
+      "relation": "same",
+      "johto_use": "warp_interior",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x8D",
+      "ruby_sapphire_name": "MB_PETALBURG_GYM_DOOR",
+      "emerald_name": "MB_PETALBURG_GYM_DOOR",
+      "relation": "same",
+      "johto_use": "warp_interior",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x8E",
+      "ruby_sapphire_name": "MB_RUNNING_SHOES_MANUAL",
+      "emerald_name": "MB_RUNNING_SHOES_INSTRUCTION",
+      "relation": "renamed_or_activated",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x8F",
+      "ruby_sapphire_name": "MB_QUESTIONNAIRE",
+      "emerald_name": "MB_QUESTIONNAIRE",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x90",
+      "ruby_sapphire_name": "MB_SECRET_BASE_SPOT_RED_CAVE",
+      "emerald_name": "MB_SECRET_BASE_SPOT_RED_CAVE",
+      "relation": "same",
+      "johto_use": "encounter_terrain",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x91",
+      "ruby_sapphire_name": "MB_SECRET_BASE_SPOT_RED_CAVE_OPEN",
+      "emerald_name": "MB_SECRET_BASE_SPOT_RED_CAVE_OPEN",
+      "relation": "same",
+      "johto_use": "encounter_terrain",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x92",
+      "ruby_sapphire_name": "MB_SECRET_BASE_SPOT_BROWN_CAVE",
+      "emerald_name": "MB_SECRET_BASE_SPOT_BROWN_CAVE",
+      "relation": "same",
+      "johto_use": "encounter_terrain",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x93",
+      "ruby_sapphire_name": "MB_SECRET_BASE_SPOT_BROWN_CAVE_OPEN",
+      "emerald_name": "MB_SECRET_BASE_SPOT_BROWN_CAVE_OPEN",
+      "relation": "same",
+      "johto_use": "encounter_terrain",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x94",
+      "ruby_sapphire_name": "MB_SECRET_BASE_SPOT_YELLOW_CAVE",
+      "emerald_name": "MB_SECRET_BASE_SPOT_YELLOW_CAVE",
+      "relation": "same",
+      "johto_use": "encounter_terrain",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x95",
+      "ruby_sapphire_name": "MB_SECRET_BASE_SPOT_YELLOW_CAVE_OPEN",
+      "emerald_name": "MB_SECRET_BASE_SPOT_YELLOW_CAVE_OPEN",
+      "relation": "same",
+      "johto_use": "encounter_terrain",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x96",
+      "ruby_sapphire_name": "MB_SECRET_BASE_SPOT_TREE_1",
+      "emerald_name": "MB_SECRET_BASE_SPOT_TREE_LEFT",
+      "relation": "renamed_or_activated",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x97",
+      "ruby_sapphire_name": "MB_SECRET_BASE_SPOT_TREE_1_OPEN",
+      "emerald_name": "MB_SECRET_BASE_SPOT_TREE_LEFT_OPEN",
+      "relation": "renamed_or_activated",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x98",
+      "ruby_sapphire_name": "MB_SECRET_BASE_SPOT_SHRUB",
+      "emerald_name": "MB_SECRET_BASE_SPOT_SHRUB",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x99",
+      "ruby_sapphire_name": "MB_SECRET_BASE_SPOT_SHRUB_OPEN",
+      "emerald_name": "MB_SECRET_BASE_SPOT_SHRUB_OPEN",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x9A",
+      "ruby_sapphire_name": "MB_SECRET_BASE_SPOT_BLUE_CAVE",
+      "emerald_name": "MB_SECRET_BASE_SPOT_BLUE_CAVE",
+      "relation": "same",
+      "johto_use": "encounter_terrain",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x9B",
+      "ruby_sapphire_name": "MB_SECRET_BASE_SPOT_BLUE_CAVE_OPEN",
+      "emerald_name": "MB_SECRET_BASE_SPOT_BLUE_CAVE_OPEN",
+      "relation": "same",
+      "johto_use": "encounter_terrain",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x9C",
+      "ruby_sapphire_name": "MB_SECRET_BASE_SPOT_TREE_2",
+      "emerald_name": "MB_SECRET_BASE_SPOT_TREE_RIGHT",
+      "relation": "renamed_or_activated",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x9D",
+      "ruby_sapphire_name": "MB_SECRET_BASE_SPOT_TREE_2_OPEN",
+      "emerald_name": "MB_SECRET_BASE_SPOT_TREE_RIGHT_OPEN",
+      "relation": "renamed_or_activated",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x9E",
+      "ruby_sapphire_name": "MB_UNUSED_9E",
+      "emerald_name": "MB_UNUSED_9E",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0x9F",
+      "ruby_sapphire_name": "MB_UNUSED_9F",
+      "emerald_name": "MB_UNUSED_9F",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xA0",
+      "ruby_sapphire_name": "MB_BERRY_TREE_SOIL",
+      "emerald_name": "MB_BERRY_TREE_SOIL",
+      "relation": "same",
+      "johto_use": "event_terrain",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xA1",
+      "ruby_sapphire_name": "MB_UNUSED_A1",
+      "emerald_name": "MB_UNUSED_A1",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xA2",
+      "ruby_sapphire_name": "MB_UNUSED_A2",
+      "emerald_name": "MB_UNUSED_A2",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xA3",
+      "ruby_sapphire_name": "MB_UNUSED_A3",
+      "emerald_name": "MB_UNUSED_A3",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xA4",
+      "ruby_sapphire_name": "MB_UNUSED_A4",
+      "emerald_name": "MB_UNUSED_A4",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xA5",
+      "ruby_sapphire_name": "MB_UNUSED_A5",
+      "emerald_name": "MB_UNUSED_A5",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xA6",
+      "ruby_sapphire_name": "MB_UNUSED_A6",
+      "emerald_name": "MB_UNUSED_A6",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xA7",
+      "ruby_sapphire_name": "MB_UNUSED_A7",
+      "emerald_name": "MB_UNUSED_A7",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xA8",
+      "ruby_sapphire_name": "MB_UNUSED_A8",
+      "emerald_name": "MB_UNUSED_A8",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xA9",
+      "ruby_sapphire_name": "MB_UNUSED_A9",
+      "emerald_name": "MB_UNUSED_A9",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xAA",
+      "ruby_sapphire_name": "MB_UNUSED_AA",
+      "emerald_name": "MB_UNUSED_AA",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xAB",
+      "ruby_sapphire_name": "MB_UNUSED_AB",
+      "emerald_name": "MB_UNUSED_AB",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xAC",
+      "ruby_sapphire_name": "MB_UNUSED_AC",
+      "emerald_name": "MB_UNUSED_AC",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xAD",
+      "ruby_sapphire_name": "MB_UNUSED_AD",
+      "emerald_name": "MB_UNUSED_AD",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xAE",
+      "ruby_sapphire_name": "MB_UNUSED_AE",
+      "emerald_name": "MB_UNUSED_AE",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xAF",
+      "ruby_sapphire_name": "MB_UNUSED_AF",
+      "emerald_name": "MB_UNUSED_AF",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xB0",
+      "ruby_sapphire_name": "MB_SECRET_BASE_PC",
+      "emerald_name": "MB_SECRET_BASE_PC",
+      "relation": "same",
+      "johto_use": "interior_interaction",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xB1",
+      "ruby_sapphire_name": "MB_RECORD_MIXING_SECRET_BASE_PC",
+      "emerald_name": "MB_SECRET_BASE_REGISTER_PC",
+      "relation": "renamed_or_activated",
+      "johto_use": "interior_interaction",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xB2",
+      "ruby_sapphire_name": "MB_SECRET_BASE_UNUSED",
+      "emerald_name": "MB_SECRET_BASE_SCENERY",
+      "relation": "renamed_or_activated",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xB3",
+      "ruby_sapphire_name": "MB_BLOCK_DECORATION",
+      "emerald_name": "MB_SECRET_BASE_TRAINER_SPOT",
+      "relation": "renamed_or_activated",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xB4",
+      "ruby_sapphire_name": "MB_SECRET_BASE_DECORATION",
+      "emerald_name": "MB_SECRET_BASE_DECORATION",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xB5",
+      "ruby_sapphire_name": "MB_SECRET_BASE_LARGE_MAT_EDGE",
+      "emerald_name": "MB_HOLDS_SMALL_DECORATION",
+      "relation": "renamed_or_activated",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xB6",
+      "ruby_sapphire_name": "MB_UNUSED_B6",
+      "emerald_name": "MB_UNUSED_B6",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xB7",
+      "ruby_sapphire_name": "MB_SECRET_BASE_NORTH_WALL",
+      "emerald_name": "MB_SECRET_BASE_NORTH_WALL",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xB8",
+      "ruby_sapphire_name": "MB_SECRET_BASE_BALLOON",
+      "emerald_name": "MB_SECRET_BASE_BALLOON",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xB9",
+      "ruby_sapphire_name": "MB_SECRET_BASE_IMPASSABLE",
+      "emerald_name": "MB_SECRET_BASE_IMPASSABLE",
+      "relation": "same",
+      "johto_use": "movement",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xBA",
+      "ruby_sapphire_name": "MB_SECRET_BASE_GLITTER_MAT",
+      "emerald_name": "MB_SECRET_BASE_GLITTER_MAT",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xBB",
+      "ruby_sapphire_name": "MB_SECRET_BASE_JUMP_MAT",
+      "emerald_name": "MB_SECRET_BASE_JUMP_MAT",
+      "relation": "same",
+      "johto_use": "movement",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xBC",
+      "ruby_sapphire_name": "MB_SECRET_BASE_SPIN_MAT",
+      "emerald_name": "MB_SECRET_BASE_SPIN_MAT",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xBD",
+      "ruby_sapphire_name": "MB_SECRET_BASE_MUSIC_NOTE_MAT",
+      "emerald_name": "MB_SECRET_BASE_SOUND_MAT",
+      "relation": "renamed_or_activated",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xBE",
+      "ruby_sapphire_name": "MB_SECRET_BASE_BREAKABLE_DOOR",
+      "emerald_name": "MB_SECRET_BASE_BREAKABLE_DOOR",
+      "relation": "same",
+      "johto_use": "warp_interior",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xBF",
+      "ruby_sapphire_name": "MB_SECRET_BASE_SAND_ORNAMENT",
+      "emerald_name": "MB_SECRET_BASE_SAND_ORNAMENT",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xC0",
+      "ruby_sapphire_name": "MB_IMPASSABLE_SOUTH_AND_NORTH",
+      "emerald_name": "MB_IMPASSABLE_SOUTH_AND_NORTH",
+      "relation": "same",
+      "johto_use": "movement",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xC1",
+      "ruby_sapphire_name": "MB_IMPASSABLE_WEST_AND_EAST",
+      "emerald_name": "MB_IMPASSABLE_WEST_AND_EAST",
+      "relation": "same",
+      "johto_use": "movement",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xC2",
+      "ruby_sapphire_name": "MB_SECRET_BASE_HOLE",
+      "emerald_name": "MB_SECRET_BASE_HOLE",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xC3",
+      "ruby_sapphire_name": "MB_LARGE_MAT_CENTER",
+      "emerald_name": "MB_HOLDS_LARGE_DECORATION",
+      "relation": "renamed_or_activated",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xC4",
+      "ruby_sapphire_name": "MB_SECRET_BASE_SHIELD_OR_TOY_TV",
+      "emerald_name": "MB_SECRET_BASE_TV_SHIELD",
+      "relation": "renamed_or_activated",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xC5",
+      "ruby_sapphire_name": "MB_PLAYER_ROOM_PC_ON",
+      "emerald_name": "MB_PLAYER_ROOM_PC_ON",
+      "relation": "same",
+      "johto_use": "interior_interaction",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xC6",
+      "ruby_sapphire_name": "MB_UNUSED_C6",
+      "emerald_name": "MB_SECRET_BASE_DECORATION_BASE",
+      "relation": "renamed_or_activated",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xC7",
+      "ruby_sapphire_name": "MB_UNUSED_C7",
+      "emerald_name": "MB_SECRET_BASE_POSTER",
+      "relation": "renamed_or_activated",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xC8",
+      "ruby_sapphire_name": "MB_UNUSED_C8",
+      "emerald_name": "MB_UNUSED_C8",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xC9",
+      "ruby_sapphire_name": "MB_UNUSED_C9",
+      "emerald_name": "MB_UNUSED_C9",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xCA",
+      "ruby_sapphire_name": "MB_UNUSED_CA",
+      "emerald_name": "MB_UNUSED_CA",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xCB",
+      "ruby_sapphire_name": "MB_UNUSED_CB",
+      "emerald_name": "MB_UNUSED_CB",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xCC",
+      "ruby_sapphire_name": "MB_UNUSED_CC",
+      "emerald_name": "MB_UNUSED_CC",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xCD",
+      "ruby_sapphire_name": "MB_UNUSED_CD",
+      "emerald_name": "MB_UNUSED_CD",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xCE",
+      "ruby_sapphire_name": "MB_UNUSED_CE",
+      "emerald_name": "MB_UNUSED_CE",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xCF",
+      "ruby_sapphire_name": "MB_UNUSED_CF",
+      "emerald_name": "MB_UNUSED_CF",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xD0",
+      "ruby_sapphire_name": "MB_MUDDY_SLOPE",
+      "emerald_name": "MB_MUDDY_SLOPE",
+      "relation": "same",
+      "johto_use": "slope_rail",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xD1",
+      "ruby_sapphire_name": "MB_BUMPY_SLOPE",
+      "emerald_name": "MB_BUMPY_SLOPE",
+      "relation": "same",
+      "johto_use": "slope_rail",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xD2",
+      "ruby_sapphire_name": "MB_CRACKED_FLOOR",
+      "emerald_name": "MB_CRACKED_FLOOR",
+      "relation": "same",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xD3",
+      "ruby_sapphire_name": "MB_ISOLATED_VERTICAL_RAIL",
+      "emerald_name": "MB_ISOLATED_VERTICAL_RAIL",
+      "relation": "same",
+      "johto_use": "slope_rail",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xD4",
+      "ruby_sapphire_name": "MB_ISOLATED_HORIZONTAL_RAIL",
+      "emerald_name": "MB_ISOLATED_HORIZONTAL_RAIL",
+      "relation": "same",
+      "johto_use": "slope_rail",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xD5",
+      "ruby_sapphire_name": "MB_VERTICAL_RAIL",
+      "emerald_name": "MB_VERTICAL_RAIL",
+      "relation": "same",
+      "johto_use": "slope_rail",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xD6",
+      "ruby_sapphire_name": "MB_HORIZONTAL_RAIL",
+      "emerald_name": "MB_HORIZONTAL_RAIL",
+      "relation": "same",
+      "johto_use": "slope_rail",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xD7",
+      "ruby_sapphire_name": "MB_UNUSED_D7",
+      "emerald_name": "MB_UNUSED_D7",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xD8",
+      "ruby_sapphire_name": "MB_UNUSED_D8",
+      "emerald_name": "MB_UNUSED_D8",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xD9",
+      "ruby_sapphire_name": "MB_UNUSED_D9",
+      "emerald_name": "MB_UNUSED_D9",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xDA",
+      "ruby_sapphire_name": "MB_UNUSED_DA",
+      "emerald_name": "MB_UNUSED_DA",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xDB",
+      "ruby_sapphire_name": "MB_UNUSED_DB",
+      "emerald_name": "MB_UNUSED_DB",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xDC",
+      "ruby_sapphire_name": "MB_UNUSED_DC",
+      "emerald_name": "MB_UNUSED_DC",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xDD",
+      "ruby_sapphire_name": "MB_UNUSED_DD",
+      "emerald_name": "MB_UNUSED_DD",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xDE",
+      "ruby_sapphire_name": "MB_UNUSED_DE",
+      "emerald_name": "MB_UNUSED_DE",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xDF",
+      "ruby_sapphire_name": "MB_UNUSED_DF",
+      "emerald_name": "MB_UNUSED_DF",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xE0",
+      "ruby_sapphire_name": "MB_PICTURE_BOOK_SHELF",
+      "emerald_name": "MB_PICTURE_BOOK_SHELF",
+      "relation": "same",
+      "johto_use": "interior_interaction",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xE1",
+      "ruby_sapphire_name": "MB_BOOKSHELF",
+      "emerald_name": "MB_BOOKSHELF",
+      "relation": "same",
+      "johto_use": "interior_interaction",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xE2",
+      "ruby_sapphire_name": "MB_POKEMON_CENTER_BOOKSHELF",
+      "emerald_name": "MB_POKEMON_CENTER_BOOKSHELF",
+      "relation": "same",
+      "johto_use": "interior_interaction",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xE3",
+      "ruby_sapphire_name": "MB_VASE",
+      "emerald_name": "MB_VASE",
+      "relation": "same",
+      "johto_use": "interior_interaction",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xE4",
+      "ruby_sapphire_name": "MB_TRASH_CAN",
+      "emerald_name": "MB_TRASH_CAN",
+      "relation": "same",
+      "johto_use": "interior_interaction",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xE5",
+      "ruby_sapphire_name": "MB_SHOP_SHELF",
+      "emerald_name": "MB_SHOP_SHELF",
+      "relation": "same",
+      "johto_use": "interior_interaction",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xE6",
+      "ruby_sapphire_name": "MB_BLUEPRINT",
+      "emerald_name": "MB_BLUEPRINT",
+      "relation": "same",
+      "johto_use": "interior_interaction",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xE7",
+      "ruby_sapphire_name": "MB_UNUSED_E7",
+      "emerald_name": "MB_CABLE_BOX_RESULTS_2",
+      "relation": "renamed_or_activated",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xE8",
+      "ruby_sapphire_name": "MB_UNUSED_E8",
+      "emerald_name": "MB_WIRELESS_BOX_RESULTS",
+      "relation": "renamed_or_activated",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xE9",
+      "ruby_sapphire_name": "MB_UNUSED_E9",
+      "emerald_name": "MB_TRAINER_HILL_TIMER",
+      "relation": "renamed_or_activated",
+      "johto_use": "other",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xEA",
+      "ruby_sapphire_name": "MB_UNUSED_EA",
+      "emerald_name": "MB_SKY_PILLAR_CLOSED_DOOR",
+      "relation": "renamed_or_activated",
+      "johto_use": "warp_interior",
+      "preferred_source": "Emerald",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xEB",
+      "ruby_sapphire_name": "MB_UNUSED_EB",
+      "emerald_name": "MB_UNUSED_EB",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xEC",
+      "ruby_sapphire_name": "MB_UNUSED_EC",
+      "emerald_name": "MB_UNUSED_EC",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xED",
+      "ruby_sapphire_name": "MB_UNUSED_ED",
+      "emerald_name": "MB_UNUSED_ED",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xEE",
+      "ruby_sapphire_name": "MB_UNUSED_EE",
+      "emerald_name": "MB_UNUSED_EE",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    },
+    {
+      "code": "0xEF",
+      "ruby_sapphire_name": "MB_UNUSED_EF",
+      "emerald_name": "MB_UNUSED_EF",
+      "relation": "same",
+      "johto_use": "none_or_reserved",
+      "preferred_source": "none",
+      "rs_cross_check": true
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "schema": 1,
+  "scope": "Hoenn map assets for Johto GBA remakes",
+  "master_reference": "Japanese retail ROMs",
+  "roms": {
+    "ruby": {
+      "file": "Pocket Monsters - Ruby (Japan).gba",
+      "size": 8388608,
+      "sha256": "e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852",
+      "game_code": "AXVJ",
+      "gMapGroups": "0x2E09F0",
+      "maps": 394
+    },
+    "sapphire": {
+      "file": "Pocket Monsters - Sapphire (Japan).gba",
+      "size": 8388608,
+      "sha256": "6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9",
+      "game_code": "AXPJ",
+      "gMapGroups": "0x2E0980",
+      "maps": 394
+    },
+    "emerald": {
+      "file": "Pocket Monsters - Emerald (Japan).gba",
+      "size": 16777216,
+      "sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c",
+      "game_code": "BPEJ",
+      "gMapGroups": "0x45E998",
+      "maps": 518
+    },
+    "gold_rev0": {
+      "size": 1048576,
+      "sha256": "7cfeceae00737a1f0713c9ab0b3a9e6eb8d05ff6002eb81308072a6f85e385e7",
+      "maps": 368
+    },
+    "gold_revA": {
+      "size": 1048576,
+      "sha256": "27a07a1d3faf9c6a0b1b60d5e88ee3a4159a751a47b4c46ab09f1202d52bac3e",
+      "maps": 368
+    },
+    "silver_rev0": {
+      "size": 1048576,
+      "sha256": "0a532063a3ff5750a464582aa7bbee2b6d42e1a92a136d9f4590e373487b615c",
+      "maps": 368
+    },
+    "silver_revA": {
+      "size": 1048576,
+      "sha256": "99e5267fbf5a7748d4f3b75ba1990cb5d91348339468607a04bfbc6081c62d71",
+      "maps": 368
+    },
+    "crystal": {
+      "size": 2097152,
+      "sha256": "136ada06cb68656b7de475fa4b278d37dbeff8f5257e7dfdf7f4a4aec19a90f3",
+      "maps": 388
+    }
+  },
+  "direct_rom_findings": {
+    "ruby_vs_sapphire": "0 normalized map-header-profile, connection, and event-topology changes",
+    "gold_vs_silver": "0 normalized map-profile, topology, and event changes",
+    "crystal_vs_gold_common_keys": {
+      "common": 368,
+      "additional_crystal_maps": 20,
+      "map_profile_changes": 349,
+      "topology_changes": 58,
+      "event_changes": 148
+    }
+  },
+  "source_pins": {
+    "pokeruby": {
+      "repository": "pret/pokeruby",
+      "commit": "63a8cbf0016b351a4e68f7036fa0b77e23d2f2c1",
+      "role": "named Ruby/Sapphire source-tree and asset-structure reference"
+    },
+    "pokeemerald": {
+      "repository": "pret/pokeemerald",
+      "commit": "5eff78649e7170a877b961ef0b3da13b81a16038",
+      "role": "preferred GBA map-engine and named donor-asset reference"
+    }
+  },
+  "inventory": {
+    "primary_tilesets": {
+      "ruby_sapphire": 3,
+      "emerald": 3,
+      "common": 3
+    },
+    "secondary_tilesets": {
+      "ruby_sapphire": 50,
+      "emerald": 67,
+      "common": 48,
+      "rs_only": 2,
+      "emerald_only": 19
+    },
+    "primary_secondary_union": 72,
+    "layout_directories": {
+      "ruby_sapphire": 332,
+      "emerald": 441,
+      "common": 274,
+      "rs_only": 58,
+      "emerald_only": 167,
+      "union": 499
+    },
+    "palette_source_files": {
+      "ruby_sapphire": 928,
+      "emerald": 1200,
+      "path_union": 1232
+    },
+    "metatile_behavior_slots": 240,
+    "rs_emerald_behavior_name_or_activation_deltas": 41
+  },
+  "policy": {
+    "commit_rom_binaries": false,
+    "johto_geometry": "GSC authoritative",
+    "hgss": "official later-design reference",
+    "hoenn": "GBA engine/tileset/metatile/behavior/palette/layout donor, never replacement geography",
+    "gen2_kanto": "GSC three-years-later state + FRLG-first GBA donor"
+  }
+}
