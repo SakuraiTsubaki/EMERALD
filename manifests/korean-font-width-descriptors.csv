@@ -1,0 +1,17 @@
+font_id,member,section,end_exclusive,selector,arg,interpretation,literal_width
+0,0,0,509,FFFF,28,legacy_variable_width_table,
+0,0,1,1024,FFFE,0,reserved_special_unknown,
+0,0,2,3440,000B,0,korean_literal_advance,11
+1,1,0,509,FFFF,28,legacy_variable_width_table,
+1,1,1,1024,FFFE,0,reserved_special_unknown,
+1,1,2,3440,000C,0,korean_literal_advance,12
+2,2,0,509,FFFF,28,legacy_variable_width_table,
+2,2,1,1024,FFFE,0,reserved_special_unknown,
+2,2,2,3440,000D,0,korean_literal_advance,13
+3,3,0,509,FFFF,12,legacy_variable_width_table,
+4,4,0,509,FFFF,28,legacy_variable_width_table,
+4,4,1,1024,FFFE,0,reserved_special_unknown,
+4,4,2,3440,000C,0,korean_literal_advance,12
+5,10,0,509,FFFF,28,legacy_variable_width_table,
+5,10,1,1024,FFFE,0,reserved_special_unknown,
+5,10,2,3440,000B,0,korean_literal_advance,11
