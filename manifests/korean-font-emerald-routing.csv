@@ -1,0 +1,7 @@
+emerald_font,gen4_source,gen4_member,official_ko_geometry,selection_basis,status
+FONT_NORMAL,"MESSAGE / HGSS FontID 1",1,12x12,"body/dialogue source and native geometry",phase1
+FONT_SMALL,"SYSTEM / HGSS FontID 0",0,11x11,"compact system/UI source",phase1
+FONT_SHORT,"SUBSCREEN / HGSS FontID 2",2,"12-13x11-12","subscreen/menu source and 14px target height",phase1
+FONT_NARROW,"HGSS FontID 5",10,11x10,"compact geometric source; original semantic role not yet proven",phase1_provisional_semantics
+FONT_SMALL_NARROW,"project derivative of HGSS member 10",10,derived_8px,"no direct Gen IV Korean 8px font exists",project_derivative
+FONT_UI_AUX,"HGSS FontID 4",4,"11-12x11-12","retain official application/UI design for screen-specific use",reserved_optional
