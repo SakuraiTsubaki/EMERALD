@@ -1,0 +1,8 @@
+slot_start,slot_end,count,classification,mapping,evidence_status,notes
+0,508,509,legacy_base,Gen IV base character set,confirmed_structure,legacy VWF region
+509,1023,515,reserved_fallback,,confirmed_pixels,repeated fallback/reserved glyph region
+1024,3373,2350,hangul_syllable,"KS X 1001/Wansung; EUC-KR B0A1..C8FE row-major",confirmed_message_and_pixels,"retail SoulSilver message code is one-based glyph ID"
+3374,3375,2,fallback_unmapped,,confirmed_pixels,
+3376,3426,51,compatibility_jamo,"EUC-KR A4A1..A4D3 sequence",mixed,"sequence confirmed by pixel order; subset directly observed in retail messages"
+3427,3428,2,unresolved_nonfallback,,unresolved_identity,"real distinct glyphs; no use found in scanned SoulSilver a/0/2/7 messages"
+3429,3439,11,fallback_unmapped,,confirmed_pixels,
