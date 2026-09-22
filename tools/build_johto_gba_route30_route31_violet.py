@@ -98,6 +98,37 @@ def paste(g,w,h,x,y,p):
 def src(blocks,bw,x,y):
  b=blocks[(y//2)*bw+x//2];q=(y&1)*2+(x&1);return b,q,C.get(b,("WALL",)*4)[q]
 def pack(g):return b"".join(v.to_bytes(2,"little") for v in g)
+
+def apply_ledge_grammar(g,sem,w,h):
+ # Japanese Emerald General: cap/body/corner entries from retail maps.
+ left_cap,right_cap=0x04D5,0x04D6
+ top_left,top_right=0x04FE,0x04FF
+ core={"HOP_DOWN":0x0487,"HOP_LEFT":0x0485,"HOP_RIGHT":0x0486,
+       "HOP_DOWN_LEFT":0x048D,"HOP_DOWN_RIGHT":0x048E}
+ for i,s in enumerate(sem):
+  if s in core:g[i]=core[s]
+ for y in range(h):
+  for x in range(w):
+   s=sem[y*w+x]
+   if s=="HOP_LEFT" and (y==0 or sem[(y-1)*w+x]!="HOP_LEFT"):g[y*w+x]=top_left
+   elif s=="HOP_RIGHT" and (y==0 or sem[(y-1)*w+x]!="HOP_RIGHT"):g[y*w+x]=top_right
+ for y in range(h):
+  x=0
+  while x<w:
+   if sem[y*w+x]!="HOP_DOWN":x+=1;continue
+   start=x
+   while x+1<w and sem[y*w+x+1]=="HOP_DOWN":x+=1
+   end=x
+   linked_left=start>0 and sem[y*w+start-1]=="HOP_DOWN_LEFT"
+   linked_right=end+1<w and sem[y*w+end+1]=="HOP_DOWN_RIGHT"
+   if start==end:
+    if linked_left and not linked_right:g[y*w+start]=right_cap
+    elif linked_right and not linked_left:g[y*w+start]=left_cap
+   else:
+    if not linked_left:g[y*w+start]=left_cap
+    if not linked_right:g[y*w+end]=right_cap
+   x+=1
+
 def donor_evidence(rom,ds,names):
  out={}
  for k in names:
@@ -142,7 +173,7 @@ def terrain(blocks,bw,bh,ds,profile):
    g[y*w+x]=v
  return g,w,h
 def build_route30(blocks,ds):
- g,w,h=terrain(blocks,10,27,ds,"petalburg");paste(g,w,h,6,36,rect(ds["oldale"],4,4,4,4));paste(g,w,h,16,2,rect(ds["oldale"],14,13,4,4))
+ g,w,h=terrain(blocks,10,27,ds,"petalburg");sem=[src(blocks,10,x,y)[2] for y in range(h) for x in range(w)];apply_ledge_grammar(g,sem,w,h);paste(g,w,h,6,36,rect(ds["oldale"],4,4,4,4));paste(g,w,h,16,2,rect(ds["oldale"],14,13,4,4))
  for x,y in ((9,43),(13,29),(15,5),(3,21)):g[y*w+x]=ds["sign"]
  return pack(g)
 def build_route31(blocks,ds):

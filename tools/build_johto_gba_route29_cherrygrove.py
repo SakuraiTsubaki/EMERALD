@@ -72,6 +72,37 @@ def src(blocks,bw,x,y):
  return b,q,C.get(b,("FLOOR",)*4)[q]
 def outbytes(g): return b"".join(v.to_bytes(2,"little") for v in g)
 
+def apply_ledge_grammar(g,sem,w,h):
+ # Japanese Emerald General: cap/body/corner entries from retail maps.
+ left_cap,right_cap=0x04D5,0x04D6
+ top_left,top_right=0x04FE,0x04FF
+ core={"HOP_DOWN":0x0487,"HOP_LEFT":0x0485,"HOP_RIGHT":0x0486,
+       "HOP_DOWN_LEFT":0x048D,"HOP_DOWN_RIGHT":0x048E}
+ for i,s in enumerate(sem):
+  if s in core:g[i]=core[s]
+ for y in range(h):
+  for x in range(w):
+   s=sem[y*w+x]
+   if s=="HOP_LEFT" and (y==0 or sem[(y-1)*w+x]!="HOP_LEFT"):g[y*w+x]=top_left
+   elif s=="HOP_RIGHT" and (y==0 or sem[(y-1)*w+x]!="HOP_RIGHT"):g[y*w+x]=top_right
+ for y in range(h):
+  x=0
+  while x<w:
+   if sem[y*w+x]!="HOP_DOWN":x+=1;continue
+   start=x
+   while x+1<w and sem[y*w+x+1]=="HOP_DOWN":x+=1
+   end=x
+   linked_left=start>0 and sem[y*w+start-1]=="HOP_DOWN_LEFT"
+   linked_right=end+1<w and sem[y*w+end+1]=="HOP_DOWN_RIGHT"
+   if start==end:
+    if linked_left and not linked_right:g[y*w+start]=right_cap
+    elif linked_right and not linked_left:g[y*w+start]=left_cap
+   else:
+    if not linked_left:g[y*w+start]=left_cap
+    if not linked_right:g[y*w+end]=right_cap
+   x+=1
+
+
 def donors(e):
  l,o,r101,r102,r103=[emap(e,n) for n in (9,10,16,17,18)]
  d={"l":l,"o":o,"r101":r101,"r102":r102,"r103":r103}
@@ -92,16 +123,17 @@ def evidence(e,d,names):
  return {"rom_sha256":sha(e),"map_groups_offset":hex(MAP_GROUPS),"maps":maps}
 
 def build_route29(gsc,e,d):
- off,bw,bh,w,h=MAPS["route_29"]; blocks=gsc[off:off+bw*bh]; g=[d["ground"]]*(w*h); counts={}
+ off,bw,bh,w,h=MAPS["route_29"]; blocks=gsc[off:off+bw*bh]; g=[d["ground"]]*(w*h); counts={}; sem=[None]*(w*h)
  for y in range(h):
   for x in range(w):
-   b,q,s=src(blocks,bw,x,y); counts[s]=counts.get(s,0)+1; v=d["ground"]
+   b,q,s=src(blocks,bw,x,y); sem[y*w+x]=s; counts[s]=counts.get(s,0)+1; v=d["ground"]
    if s=="TALL_GRASS":v=d["grass"]
    elif s in {"HEADBUTT_TREE","CUT_TREE"} or (s=="WALL" and b in TREE):v=d["tree"][q]
    elif s.startswith("HOP_"):v=d["jump"][s]
    elif s=="WALL" and b in LEDGE:v=d["ledge"]
    elif b==0x02:v=d["detail"]
    g[y*w+x]=v
+ apply_ledge_grammar(g,sem,w,h)
  paste(g,w,h,26,0,rect(d["o"],4,6,4,2))
  for x,y in ((51,7),(3,5)):g[y*w+x]=d["sign"]
  blob=outbytes(g)

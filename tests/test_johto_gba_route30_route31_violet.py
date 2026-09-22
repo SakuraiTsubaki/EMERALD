@@ -10,8 +10,10 @@ class T(unittest.TestCase):
  def test_route30(self):
   m=json.loads((ART/'route_30.remake.json').read_text());b,c=read('route_30');w=20
   self.assertEqual((m['target']['width'],m['target']['height'],len(b)),(20,54,2160))
-  self.assertEqual(hashlib.sha256(b).hexdigest(),'be0f5000f0f50376eaabbd9609fd8c798d27350a934f1a4af59ab8037ac2bc5b')
+  self.assertEqual(hashlib.sha256(b).hexdigest(),'3d8141f40ba1077437e3b539abc6dbaba3547b093507b44b99077676c45a84cf')
   self.assertEqual(m['target']['tileset_profile'],'General+Petalburg')
+  self.assertEqual((mid(c[2*w+4]),mid(c[2*w+5])),(0x0d5,0x0d6))
+  self.assertEqual((mid(c[46*w+6]),mid(c[46*w+11])),(0x0d5,0x0d6))
   self.assertEqual(mid(c[39*w+7]),0x287);self.assertEqual(mid(c[5*w+17]),0x287)
   for x,y in ((9,43),(13,29),(15,5),(3,21)):self.assertEqual(mid(c[y*w+x]),0x003)
   self.assertEqual(len(m['source']['version_evidence']['canonical']['events']['objects']),10)
