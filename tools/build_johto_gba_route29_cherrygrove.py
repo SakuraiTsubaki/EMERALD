@@ -72,7 +72,7 @@ def src(blocks,bw,x,y):
  return b,q,C.get(b,("FLOOR",)*4)[q]
 def outbytes(g): return b"".join(v.to_bytes(2,"little") for v in g)
 
-def apply_ledge_grammar(g,sem,w,h):
+def apply_ledge_grammar(g,sem,w,h,ground):
  # Japanese Emerald General: cap/body/corner entries from retail maps.
  left_cap,right_cap=0x04D5,0x04D6
  top_left,top_right=0x04FE,0x04FF
@@ -101,6 +101,22 @@ def apply_ledge_grammar(g,sem,w,h):
     if not linked_left:g[y*w+start]=left_cap
     if not linked_right:g[y*w+end]=right_cap
    x+=1
+ # GSC ledge blocks are 32x32. Their low-side WALL quadrants represent the
+ # same ledge face, not an extra GBA cell. Collapse those quadrants to the
+ # lower walkable terrain so the Gen III ledge stays one metatile thick.
+ def collapse(xx,yy):
+  if 0<=xx<w and 0<=yy<h and sem[yy*w+xx]=="WALL":
+   g[yy*w+xx]=ground
+ for y in range(h):
+  for x in range(w):
+   s=sem[y*w+x]
+   if s=="HOP_DOWN":collapse(x,y+1)
+   elif s=="HOP_LEFT":collapse(x-1,y)
+   elif s=="HOP_RIGHT":collapse(x+1,y)
+   elif s=="HOP_DOWN_LEFT":
+    collapse(x-1,y);collapse(x,y+1)
+   elif s=="HOP_DOWN_RIGHT":
+    collapse(x+1,y);collapse(x,y+1)
 
 
 def donors(e):
@@ -133,7 +149,7 @@ def build_route29(gsc,e,d):
    elif s=="WALL" and b in LEDGE:v=d["ledge"]
    elif b==0x02:v=d["detail"]
    g[y*w+x]=v
- apply_ledge_grammar(g,sem,w,h)
+ apply_ledge_grammar(g,sem,w,h,d["ground"])
  paste(g,w,h,26,0,rect(d["o"],4,6,4,2))
  for x,y in ((51,7),(3,5)):g[y*w+x]=d["sign"]
  blob=outbytes(g)

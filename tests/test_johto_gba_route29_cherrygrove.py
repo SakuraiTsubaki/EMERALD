@@ -11,11 +11,12 @@ class JohtoRoute29CherrygroveTest(unittest.TestCase):
  def test_route29(self):
   m=json.loads((ART/'route_29.remake.json').read_text()); b,c=cells('route_29'); w=60
   self.assertEqual((m['target']['width'],m['target']['height'],len(b)),(60,18,2160))
-  self.assertEqual(hashlib.sha256(b).hexdigest(),'fe433f15b1fee41fb8d19ad9027c16bf0e5893671e255a46de1cbcf50fc55bcd')
+  self.assertEqual(hashlib.sha256(b).hexdigest(),'e7ceb1e2846e529993f9ef370a71f469a9834c526b07217ef27cce73e7030dd7')
   self.assertEqual(mid(c[1*w+27]),0x287)
   self.assertEqual([mid(c[y*w+x]) for x,y in ((51,7),(3,5))],[0x003,0x003])
   self.assertEqual(mid(c[2*w+14]),0x0ff);self.assertEqual(mid(c[6*w+9]),0x0fe)
   self.assertEqual(mid(c[4*w+12]),0x0d5);self.assertEqual(mid(c[4*w+13]),0x087);self.assertEqual(mid(c[4*w+14]),0x08e)
+  self.assertEqual(mid(c[5*w+10]),0x001);self.assertEqual(mid(c[2*w+15]),0x001)
   ids=[mid(v) for v in c]
   for x in (0x00D,0x085,0x086,0x087,0x08D,0x08E): self.assertIn(x,ids)
   self.assertEqual(m['preserved_coord_events'],[[53,8],[53,9]])

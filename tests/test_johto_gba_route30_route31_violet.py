@@ -10,10 +10,12 @@ class T(unittest.TestCase):
  def test_route30(self):
   m=json.loads((ART/'route_30.remake.json').read_text());b,c=read('route_30');w=20
   self.assertEqual((m['target']['width'],m['target']['height'],len(b)),(20,54,2160))
-  self.assertEqual(hashlib.sha256(b).hexdigest(),'3d8141f40ba1077437e3b539abc6dbaba3547b093507b44b99077676c45a84cf')
+  self.assertEqual(hashlib.sha256(b).hexdigest(),'e204768a0bd5a0febc27b114544ec8ecc61310379b205e53dc70a7694586d0c7')
   self.assertEqual(m['target']['tileset_profile'],'General+Petalburg')
   self.assertEqual((mid(c[2*w+4]),mid(c[2*w+5])),(0x0d5,0x0d6))
   self.assertEqual((mid(c[46*w+6]),mid(c[46*w+11])),(0x0d5,0x0d6))
+  self.assertEqual((mid(c[3*w+4]),mid(c[3*w+5])),(0x001,0x001))
+  self.assertTrue(all(mid(c[47*w+x])==0x001 for x in range(6,12)))
   self.assertEqual(mid(c[39*w+7]),0x287);self.assertEqual(mid(c[5*w+17]),0x287)
   for x,y in ((9,43),(13,29),(15,5),(3,21)):self.assertEqual(mid(c[y*w+x]),0x003)
   self.assertEqual(len(m['source']['version_evidence']['canonical']['events']['objects']),10)
