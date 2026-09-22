@@ -1,0 +1,105 @@
+{
+  "schema": 1,
+  "policy": "union-preserve-variants",
+  "coordinationRepository": "SakuraiTsubaki/EMERALD",
+  "runtime": {
+    "platform": "Game Boy Advance",
+    "engineFamily": "Generation III-derived",
+    "modernCore": {
+      "repository": "rh-hideout/pokeemerald-expansion",
+      "ref": "75b806a3ab57a81ff1eb6179288981f0b3cc3050"
+    }
+  },
+  "mergeRules": {
+    "destructiveOverwrite": false,
+    "preserveVersionDifferences": true,
+    "preserveRevisionDifferences": true,
+    "preserveSourceProvenance": true,
+    "canonicalizeSourceAddresses": true,
+    "mergeIdenticalContent": true,
+    "conflictsBecomeVariants": true,
+    "romBinariesCommitted": false,
+    "sourceSaveIsolation": true,
+    "runtimeModes": [
+      "generation-superset",
+      "source-version-reproduction"
+    ]
+  },
+  "generations": {
+    "gen1": {
+      "generation": 1,
+      "worlds": ["Kanto"],
+      "projects": ["RED", "GREEN", "BLUE", "YELLOW"],
+      "sourceRepositories": [
+        "SakuraiTsubaki/PocketMonsters-Aka-Disassembly",
+        "SakuraiTsubaki/PocketMonsters-Midori-Disassembly",
+        "SakuraiTsubaki/PocketMonsters-Ao-Disassembly",
+        "SakuraiTsubaki/PocketMonsters-Pikachu-Disassembly"
+      ],
+      "sources": [
+        {"profile":"RED-JP-REV0","file":"Pocket Monsters - Aka (Japan) (SGB Enhanced).gb","size":524288,"sha256":"392ce450d708c8d127aaed7afc20001a48625bd83a5fa5325be82f5c0972ccfa","headerVersion":0},
+        {"profile":"RED-JP-REVA","file":"Pocket Monsters - Aka (Japan) (Rev A) (SGB Enhanced).gb","size":524288,"sha256":"751abb1fb2b2d6b91dc631fa10ed36bd07f682cb5c3febe6c8f0e3dabc1fae1c","headerVersion":1},
+        {"profile":"GREEN-JP-REV0","file":"Pocket Monsters - Midori (Japan) (SGB Enhanced).gb","size":524288,"sha256":"6576b4e0979e93d4a6fa02db893c294b7aeab3b841b1acc8658bc10b3554f33c","headerVersion":0},
+        {"profile":"GREEN-JP-REVA","file":"Pocket Monsters - Midori (Japan) (Rev A) (SGB Enhanced).gb","size":524288,"sha256":"3f0dc460ca8d06be1c9ac96307c939c0ea7baa366b40c2f1f4ad63242b6c4816","headerVersion":1},
+        {"profile":"BLUE-JP-REV0","file":"Pocket Monsters - Ao (Japan) (SGB Enhanced).gb","size":524288,"sha256":"71a70e5f77c109177d21c998310ffe01a68e8cd2f41e72e7129093b890c7d3d1","headerVersion":0},
+        {"profile":"YELLOW-JP-REV0A","file":"Pocket Monsters - Pikachu (Japan) (Rev 0A) (SGB Enhanced).gb","size":1048576,"sha256":"09a083624c4f84ccae99165d4091e7c5403aaf9ae44329a9349b4d59b4095436","headerVersion":0},
+        {"profile":"YELLOW-JP-REVB","file":"Pocket Monsters - Pikachu (Japan) (Rev B) (SGB Enhanced).gb","size":1048576,"sha256":"1acab20d1aa3e19c081abaac3e303c4cf3e582213937acbf25942b31c28aecfe","headerVersion":1},
+        {"profile":"YELLOW-JP-REVC","file":"Pocket Monsters - Pikachu (Japan) (Rev C) (SGB Enhanced).gb","size":1048576,"sha256":"2c67561f6b2de4ca3a1150f04dc736aead4bf7b5a98ce38196cef899a91be2fd","headerVersion":2},
+        {"profile":"YELLOW-JP-REVD","file":"Pocket Monsters - Pikachu (Japan) (Rev D) (SGB Enhanced).gb","size":1048576,"sha256":"1349408f328f633b33e059e654edabd19810530df9c883eda03a85d5bb10161a","headerVersion":3}
+      ],
+      "variantDomains": [
+        "maps", "map-events", "story-events", "npc", "wild-encounters",
+        "trainers", "pokemon-data", "moves", "items", "graphics", "audio",
+        "text", "battle-rules", "ui", "sgb-features"
+      ]
+    },
+    "gen2": {
+      "generation": 2,
+      "worlds": ["Johto", "Kanto"],
+      "projects": ["GOLD", "SILVER", "CRYSTAL"],
+      "sourceRepositories": [
+        "SakuraiTsubaki/PocketMonsters-Kin-Disassembly",
+        "SakuraiTsubaki/PocketMonsters-Gin-Disassembly",
+        "SakuraiTsubaki/PocketMonsters-Crystal-Disassembly"
+      ],
+      "sources": [
+        {"profile":"GOLD-JP-REV0","file":"Pocket Monsters Kin (Japan).gbc","size":1048576,"sha256":"7cfeceae00737a1f0713c9ab0b3a9e6eb8d05ff6002eb81308072a6f85e385e7","headerVersion":0},
+        {"profile":"GOLD-JP-REVA","file":"Pocket Monsters Kin (Japan) (Rev A).gbc","size":1048576,"sha256":"27a07a1d3faf9c6a0b1b60d5e88ee3a4159a751a47b4c46ab09f1202d52bac3e","headerVersion":1},
+        {"profile":"SILVER-JP-REV0","file":"Pocket Monsters Gin (Japan).gbc","size":1048576,"sha256":"0a532063a3ff5750a464582aa7bbee2b6d42e1a92a136d9f4590e373487b615c","headerVersion":0},
+        {"profile":"SILVER-JP-REVA","file":"Pocket Monsters Gin (Japan) (Rev A).gbc","size":1048576,"sha256":"99e5267fbf5a7748d4f3b75ba1990cb5d91348339468607a04bfbc6081c62d71","headerVersion":1},
+        {"profile":"CRYSTAL-JP-REV0","file":"Pocket Monsters - Crystal Version (Japan).gbc","size":2097152,"sha256":"136ada06cb68656b7de475fa4b278d37dbeff8f5257e7dfdf7f4a4aec19a90f3","headerVersion":0}
+      ],
+      "variantDomains": [
+        "maps", "map-events", "story-events", "npc", "wild-encounters",
+        "trainers", "pokemon-data", "moves", "items", "graphics", "animation",
+        "audio", "text", "battle-rules", "rtc-time-events", "mobile-features", "ui"
+      ]
+    },
+    "gen3": {
+      "generation": 3,
+      "worlds": ["Hoenn", "Kanto", "Sevii Islands"],
+      "projects": ["RUBY", "SAPPHIRE", "EMERALD", "FIRERED", "LEAFGREEN"],
+      "engineFamilies": ["RSE", "FRLG"],
+      "sources": [
+        {"profile":"RUBY-JP-REV0","file":"Pocket Monsters - Ruby (Japan).gba","size":8388608,"sha256":"e911caa1ffbf8704cd45bbe064ade40e24efa50dfdce82adf4b2899b5f733852","gameCode":"AXVJ","headerVersion":0},
+        {"profile":"SAPPHIRE-JP-REV0","file":"Pocket Monsters - Sapphire (Japan).gba","size":8388608,"sha256":"6a5ff7656531ab41d1ea9cd8f2d045ab6228405b43f3ee09ea3ff5077c0f60c9","gameCode":"AXPJ","headerVersion":0},
+        {"profile":"EMERALD-JP-REV0","file":"Pocket Monsters - Emerald (Japan).gba","size":16777216,"sha256":"33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c","gameCode":"BPEJ","headerVersion":0},
+        {"profile":"FIRERED-JP-REV0","file":"Pocket Monsters - Fire Red (Japan).gba","size":16777216,"sha256":"1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486","gameCode":"BPRJ","headerVersion":0},
+        {"profile":"FIRERED-JP-REV1","file":"Pocket Monsters - Fire Red (Japan) (Rev 1).gba","size":16777216,"sha256":"cec5fc4dbe38cd8026bd6664a1a041d9dc91e8d4249bab04e7bde70c3cdf4e06","gameCode":"BPRJ","headerVersion":1},
+        {"profile":"LEAFGREEN-JP-REV0","file":"Pocket Monsters - Leaf Green (Japan).gba","size":16777216,"sha256":"2957b392dc09fc8df45a660af5493368d7bd378d299862f4cc115998e9da0bf2","gameCode":"BPGJ","headerVersion":0}
+      ],
+      "variantDomains": [
+        "maps", "map-events", "story-events", "npc", "wild-encounters",
+        "trainers", "pokemon-data", "moves", "abilities", "items", "graphics",
+        "animation", "audio", "text", "battle-rules", "rtc-time-events",
+        "wireless-link-features", "ui"
+      ],
+      "mapPolicy": {
+        "Hoenn": "preserve RSE/Emerald maps and version/event variants",
+        "Kanto": "preserve FRLG Kanto as the Generation III Kanto source",
+        "Sevii Islands": "preserve FRLG maps and events",
+        "crossFamilyConversion": "canonical GBA map/metatile/event model; do not discard either family"
+      }
+    }
+  }
+}
