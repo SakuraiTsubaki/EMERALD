@@ -15,45 +15,200 @@
   "maps": [
     {
       "id": "NEW_BARK_TOWN",
-      "source": {"group": 24,"map": 4,"widthBlocks": 10,"heightBlocks": 9,"tileset": "TILESET_JOHTO"},
-      "target": {"widthMetatiles": 20,"heightMetatiles": 18,"mapType": "MAP_TYPE_TOWN","primaryDonor": "General","secondaryDonors": ["LittlerootTown layout grammar","Lab","Building"]},
-      "connections": [{"direction":"west","map":"ROUTE_29","sourceOffset":0,"targetOffset":0},{"direction":"east","map":"ROUTE_27","sourceOffset":0,"targetOffset":0}],
-      "events": {"warps":4,"coord":2,"bg":4,"objects":3},
-      "requiredSemantics": ["flypoint callback","teacher blocks exit before starter","rival outside Elm Lab","four original building warps"]
+      "source": {
+        "group": 24,
+        "map": 4,
+        "widthBlocks": 10,
+        "heightBlocks": 9,
+        "tileset": "TILESET_JOHTO"
+      },
+      "target": {
+        "widthMetatiles": 20,
+        "heightMetatiles": 18,
+        "mapType": "MAP_TYPE_TOWN",
+        "primaryDonor": "General",
+        "secondaryDonors": [
+          "LittlerootTown layout grammar",
+          "Lab",
+          "Building"
+        ]
+      },
+      "connections": [
+        {
+          "direction": "west",
+          "map": "ROUTE_29",
+          "sourceOffset": 0,
+          "targetOffset": 0
+        },
+        {
+          "direction": "east",
+          "map": "ROUTE_27",
+          "sourceOffset": 0,
+          "targetOffset": 0
+        }
+      ],
+      "events": {
+        "warps": 4,
+        "coord": 2,
+        "bg": 4,
+        "objects": 3
+      },
+      "requiredSemantics": [
+        "flypoint callback",
+        "teacher blocks exit before starter",
+        "rival outside Elm Lab",
+        "four original building warps"
+      ]
     },
     {
       "id": "ROUTE_29",
-      "source": {"group":24,"map":3,"widthBlocks":30,"heightBlocks":9,"tileset":"TILESET_JOHTO"},
-      "target": {"widthMetatiles":60,"heightMetatiles":18,"mapType":"MAP_TYPE_ROUTE","primaryDonor":"General","secondaryDonors":["Route102 layout grammar"]},
-      "connections": [{"direction":"north","map":"ROUTE_46","sourceOffset":10,"targetOffset":20},{"direction":"west","map":"CHERRYGROVE_CITY","sourceOffset":0,"targetOffset":0},{"direction":"east","map":"NEW_BARK_TOWN","sourceOffset":0,"targetOffset":0}],
-      "events": {"warps":1,"coord":2,"bg":2,"objects":8},
-      "requiredSemantics": ["catching tutorial","Tuesday Tuscany appearance","time-of-day NPC dialogue","fruit tree","Potion item ball"]
+      "source": {
+        "group": 24,
+        "map": 3,
+        "widthBlocks": 30,
+        "heightBlocks": 9,
+        "tileset": "TILESET_JOHTO"
+      },
+      "target": {
+        "widthMetatiles": 60,
+        "heightMetatiles": 18,
+        "mapType": "MAP_TYPE_ROUTE",
+        "primaryDonor": "General",
+        "secondaryDonors": [
+          "Route102 layout grammar"
+        ]
+      },
+      "connections": [
+        {
+          "direction": "north",
+          "map": "ROUTE_46",
+          "sourceOffset": 10,
+          "targetOffset": 20
+        },
+        {
+          "direction": "west",
+          "map": "CHERRYGROVE_CITY",
+          "sourceOffset": 0,
+          "targetOffset": 0
+        },
+        {
+          "direction": "east",
+          "map": "NEW_BARK_TOWN",
+          "sourceOffset": 0,
+          "targetOffset": 0
+        }
+      ],
+      "events": {
+        "warps": 1,
+        "coord": 2,
+        "bg": 2,
+        "objects": 8
+      },
+      "requiredSemantics": [
+        "catching tutorial",
+        "Tuesday Tuscany appearance",
+        "time-of-day NPC dialogue",
+        "fruit tree",
+        "Potion item ball"
+      ]
     },
     {
       "id": "CHERRYGROVE_CITY",
-      "source": {"group":26,"map":3,"widthBlocks":20,"heightBlocks":9,"tileset":"TILESET_JOHTO"},
-      "target": {"widthMetatiles":40,"heightMetatiles":18,"mapType":"MAP_TYPE_TOWN","primaryDonor":"General","secondaryDonors":["OldaleTown layout grammar","PokemonCenter","Shop","GenericBuilding"]},
-      "connections": [{"direction":"north","map":"ROUTE_30","sourceOffset":5,"targetOffset":10},{"direction":"east","map":"ROUTE_29","sourceOffset":0,"targetOffset":0}],
-      "events": {"warps":5,"coord":2,"bg":4,"objects":5},
-      "requiredSemantics": ["flypoint callback","Guide Gent tour and Map Card","starter-dependent rival battle","Mystic Water gift"]
+      "source": {
+        "group": 26,
+        "map": 3,
+        "widthBlocks": 20,
+        "heightBlocks": 9,
+        "tileset": "TILESET_JOHTO"
+      },
+      "target": {
+        "widthMetatiles": 40,
+        "heightMetatiles": 18,
+        "mapType": "MAP_TYPE_TOWN",
+        "primaryDonor": "General",
+        "secondaryDonors": [
+          "OldaleTown layout grammar",
+          "PokemonCenter",
+          "Shop",
+          "GenericBuilding"
+        ]
+      },
+      "connections": [
+        {
+          "direction": "north",
+          "map": "ROUTE_30",
+          "sourceOffset": 5,
+          "targetOffset": 10
+        },
+        {
+          "direction": "east",
+          "map": "ROUTE_29",
+          "sourceOffset": 0,
+          "targetOffset": 0
+        }
+      ],
+      "events": {
+        "warps": 5,
+        "coord": 2,
+        "bg": 4,
+        "objects": 5
+      },
+      "requiredSemantics": [
+        "flypoint callback",
+        "Guide Gent tour and Map Card",
+        "starter-dependent rival battle",
+        "Mystic Water gift"
+      ]
     }
   ],
   "visualPolicy": {
-    "sourceVisualTruth": ["gfx/tilesets/johto.png","data/tilesets/johto_metatiles.bin","data/tilesets/johto_collision.asm","gfx/tilesets/roofs/new_bark.png"],
-    "donorRole": "Emerald supplies GBA metatile/behavior/layout grammar; source Johto graphics supply visual identity.",
-    "hgssRole": "reference for later official interpretation only"
+    "sourceSemanticEvidence": [
+      "Japanese GSC block topology",
+      "data/tilesets/johto_collision.asm",
+      "GSC source graphics/metatiles only for semantic classification"
+    ],
+    "sourceRole": "GSC defines what is where: topology, feature identity, event placement, and structural semantics. GSC pixels are not emitted as final GBA art.",
+    "donorRole": "Japanese Emerald/RSE supplies final visible GBA metatiles, palette/collision/elevation behavior, and map grammar. FRLG is the official remake-methodology reference.",
+    "hgssRole": "Johto-specific modernization reference where Gen III has no equivalent; not a direct pixel donor."
   },
-  "acceptance": ["same source map adjacency and connection offsets after unit conversion","same warp destinations and event coordinates","same required script gates/events","Johto visual identity preserved","GBA metatile behaviors used instead of emulating the GBC renderer"],
+  "acceptance": [
+    "same source map adjacency and connection offsets after unit conversion",
+    "same warp destinations and event coordinates",
+    "same required script gates/events",
+    "Johto visual identity preserved",
+    "GBA metatile behaviors used instead of emulating the GBC renderer"
+  ],
   "sourceRoms": {
-    "gold_rev0": {"filename":"Pocket Monsters Kin (Japan).gbc","sha256":"7cfeceae00737a1f0713c9ab0b3a9e6eb8d05ff6002eb81308072a6f85e385e7","mapGroupPointers":"0x940ED"},
-    "gold_reva": {"filename":"Pocket Monsters Kin (Japan) (Rev A).gbc","sha256":"27a07a1d3faf9c6a0b1b60d5e88ee3a4159a751a47b4c46ab09f1202d52bac3e","mapGroupPointers":"0x940ED"},
-    "silver_rev0": {"filename":"Pocket Monsters Gin (Japan).gbc","sha256":"0a532063a3ff5750a464582aa7bbee2b6d42e1a92a136d9f4590e373487b615c","mapGroupPointers":"0x940ED"},
-    "silver_reva": {"filename":"Pocket Monsters Gin (Japan) (Rev A).gbc","sha256":"99e5267fbf5a7748d4f3b75ba1990cb5d91348339468607a04bfbc6081c62d71","mapGroupPointers":"0x940ED"},
-    "crystal_rev0": {"filename":"Pocket Monsters - Crystal Version (Japan).gbc","sha256":"136ada06cb68656b7de475fa4b278d37dbeff8f5257e7dfdf7f4a4aec19a90f3","mapGroupPointers":"0x94000"}
+    "gold_rev0": {
+      "filename": "Pocket Monsters Kin (Japan).gbc",
+      "sha256": "7cfeceae00737a1f0713c9ab0b3a9e6eb8d05ff6002eb81308072a6f85e385e7",
+      "mapGroupPointers": "0x940ED"
+    },
+    "gold_reva": {
+      "filename": "Pocket Monsters Kin (Japan) (Rev A).gbc",
+      "sha256": "27a07a1d3faf9c6a0b1b60d5e88ee3a4159a751a47b4c46ab09f1202d52bac3e",
+      "mapGroupPointers": "0x940ED"
+    },
+    "silver_rev0": {
+      "filename": "Pocket Monsters Gin (Japan).gbc",
+      "sha256": "0a532063a3ff5750a464582aa7bbee2b6d42e1a92a136d9f4590e373487b615c",
+      "mapGroupPointers": "0x940ED"
+    },
+    "silver_reva": {
+      "filename": "Pocket Monsters Gin (Japan) (Rev A).gbc",
+      "sha256": "99e5267fbf5a7748d4f3b75ba1990cb5d91348339468607a04bfbc6081c62d71",
+      "mapGroupPointers": "0x940ED"
+    },
+    "crystal_rev0": {
+      "filename": "Pocket Monsters - Crystal Version (Japan).gbc",
+      "sha256": "136ada06cb68656b7de475fa4b278d37dbeff8f5257e7dfdf7f4a4aec19a90f3",
+      "mapGroupPointers": "0x94000"
+    }
   },
   "targetGeometry": {
     "logicalMetatileScheme": "source block id * 4 + quadrant (NW=0, NE=1, SW=2, SE=3)",
     "cellFormat": "little-endian u16; metatile id in bits 0..9; collision/elevation initially zero",
-    "generatedAssetRoot": "artifacts/johto-gba-first-slice"
+    "generatedAssetRoot": "artifacts/johto-gba-first-slice",
+    "note": "The block*4+quadrant mapping is an intermediate geometry proof only. Final remake map.bin files must use real Gen III donor metatiles."
   }
-}
+}\n

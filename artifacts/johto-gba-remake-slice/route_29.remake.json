@@ -1,0 +1,47 @@
+{
+  "schema": 2,
+  "policy": "GSC Route 29 supplies topology/cell semantics and events; Japanese Emerald supplies every visible target metatile.",
+  "target": {
+    "map": "Route 29",
+    "width": 60,
+    "height": 18,
+    "bytes": 2160,
+    "sha256": "61831f1d329cd823cd0d3153cb7297dd3e58a8bb27aadcb32e36631d131a2a97"
+  },
+  "source": {
+    "gsc_block_offset": "0xa92d5",
+    "block_sha256": "c64074bce43b16b161497c18245b52bf5e660eb34d0cb3b717b606aa01f735e9",
+    "gsc_rom_sha256": "7cfeceae00737a1f0713c9ab0b3a9e6eb8d05ff6002eb81308072a6f85e385e7",
+    "semantic_counts": {
+      "WALL": 476,
+      "HEADBUTT_TREE": 87,
+      "FLOOR": 319,
+      "DOOR": 1,
+      "HOP_RIGHT": 6,
+      "TALL_GRASS": 160,
+      "HOP_DOWN": 21,
+      "HOP_DOWN_RIGHT": 2,
+      "HOP_LEFT": 4,
+      "HOP_DOWN_LEFT": 2,
+      "CUT_TREE": 2
+    }
+  },
+  "emerald": {
+    "rom_sha256": "33f5610b9186b4add09fef68895deb00f552b997b3d133b5a961e5123506343c",
+    "map_groups_offset": "0x45e998",
+    "maps": {
+      "r101": {"map_num":16,"header":"0x45aa98","layout":"0x3c4084","map_offset":"0x3c3d64","width":20,"height":20,"map_sha256":"134cf07849968c1b3415df2205e5ba771cb26ba5484cc5d78a1e8d76e52f12ed"},
+      "r102": {"map_num":17,"header":"0x45aab4","layout":"0x3c4874","map_offset":"0x3c40a4","width":50,"height":20,"map_sha256":"0bdc71923970bbe8ddaa3bc5793ffbaea0e79c7d08ff14b7aff7ec559570778c"},
+      "o": {"map_num":10,"header":"0x45a9f0","layout":"0x3c29e4","map_offset":"0x3c26c4","width":20,"height":20,"map_sha256":"4e56863147c213125211821aabb09ea551675249e940a065720618bac79a9cfb"},
+      "l": {"map_num":9,"header":"0x45a9d4","layout":"0x3c26a4","map_offset":"0x3c2384","width":20,"height":20,"map_sha256":"9bc2d52ac0f515a2af3a12483e3913aee3948531f91ca0547513f53ce92acf9d"}
+    }
+  },
+  "preserved_warp_anchors": [[27,1]],
+  "preserved_coord_events": [[53,8],[53,9]],
+  "preserved_bg_events": [[51,7],[3,5]],
+  "connections": [
+    {"direction":"north","target_offset_metatiles":20},
+    {"direction":"west","target_offset_metatiles":0},
+    {"direction":"east","target_offset_metatiles":0}
+  ]
+}
