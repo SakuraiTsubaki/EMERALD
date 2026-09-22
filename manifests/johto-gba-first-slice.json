@@ -211,4 +211,4 @@
     "generatedAssetRoot": "artifacts/johto-gba-first-slice",
     "note": "The block*4+quadrant mapping is an intermediate geometry proof only. Final remake map.bin files must use real Gen III donor metatiles."
   }
-}\n
+}
