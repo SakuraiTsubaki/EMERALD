@@ -1,0 +1,181 @@
+{
+  "schema": 1,
+  "name": "Johto GBA first vertical slice",
+  "sourceRefs": {
+    "gold": "pret/pokegold@656583c939d30f920a316177311a502dd222b57c",
+    "emerald": "pret/pokeemerald@5eff78649e7170a877b961ef0b3da13b81a16038"
+  },
+  "unitConversion": {
+    "gen2GraphicsMetatile": "4x4 8px tiles = 32x32 px",
+    "gbaMetatile": "2x2 8px tiles = 16x16 px per visual layer",
+    "layoutWidthHeight": "multiply Gen II map block dimensions by 2",
+    "eventCoordinates": "preserve; Gen II object/warp/bg/coord positions are already on the 16px movement grid",
+    "connectionOffsets": "multiply Gen II connection offsets by 2"
+  },
+  "maps": [
+    {
+      "id": "NEW_BARK_TOWN",
+      "source": {
+        "group": 24,
+        "map": 4,
+        "widthBlocks": 10,
+        "heightBlocks": 9,
+        "tileset": "TILESET_JOHTO"
+      },
+      "target": {
+        "widthMetatiles": 20,
+        "heightMetatiles": 18,
+        "mapType": "MAP_TYPE_TOWN",
+        "primaryDonor": "General",
+        "secondaryDonors": [
+          "LittlerootTown layout grammar",
+          "Lab",
+          "Building"
+        ]
+      },
+      "connections": [
+        {
+          "direction": "west",
+          "map": "ROUTE_29",
+          "sourceOffset": 0,
+          "targetOffset": 0
+        },
+        {
+          "direction": "east",
+          "map": "ROUTE_27",
+          "sourceOffset": 0,
+          "targetOffset": 0
+        }
+      ],
+      "events": {
+        "warps": 4,
+        "coord": 2,
+        "bg": 4,
+        "objects": 3
+      },
+      "requiredSemantics": [
+        "flypoint callback",
+        "teacher blocks exit before starter",
+        "rival outside Elm Lab",
+        "four original building warps"
+      ]
+    },
+    {
+      "id": "ROUTE_29",
+      "source": {
+        "group": 24,
+        "map": 3,
+        "widthBlocks": 30,
+        "heightBlocks": 9,
+        "tileset": "TILESET_JOHTO"
+      },
+      "target": {
+        "widthMetatiles": 60,
+        "heightMetatiles": 18,
+        "mapType": "MAP_TYPE_ROUTE",
+        "primaryDonor": "General",
+        "secondaryDonors": [
+          "Route102 layout grammar"
+        ]
+      },
+      "connections": [
+        {
+          "direction": "north",
+          "map": "ROUTE_46",
+          "sourceOffset": 10,
+          "targetOffset": 20
+        },
+        {
+          "direction": "west",
+          "map": "CHERRYGROVE_CITY",
+          "sourceOffset": 0,
+          "targetOffset": 0
+        },
+        {
+          "direction": "east",
+          "map": "NEW_BARK_TOWN",
+          "sourceOffset": 0,
+          "targetOffset": 0
+        }
+      ],
+      "events": {
+        "warps": 1,
+        "coord": 2,
+        "bg": 2,
+        "objects": 8
+      },
+      "requiredSemantics": [
+        "catching tutorial",
+        "Tuesday Tuscany appearance",
+        "time-of-day NPC dialogue",
+        "fruit tree",
+        "Potion item ball"
+      ]
+    },
+    {
+      "id": "CHERRYGROVE_CITY",
+      "source": {
+        "group": 26,
+        "map": 3,
+        "widthBlocks": 20,
+        "heightBlocks": 9,
+        "tileset": "TILESET_JOHTO"
+      },
+      "target": {
+        "widthMetatiles": 40,
+        "heightMetatiles": 18,
+        "mapType": "MAP_TYPE_TOWN",
+        "primaryDonor": "General",
+        "secondaryDonors": [
+          "OldaleTown layout grammar",
+          "PokemonCenter",
+          "Shop",
+          "GenericBuilding"
+        ]
+      },
+      "connections": [
+        {
+          "direction": "north",
+          "map": "ROUTE_30",
+          "sourceOffset": 5,
+          "targetOffset": 10
+        },
+        {
+          "direction": "east",
+          "map": "ROUTE_29",
+          "sourceOffset": 0,
+          "targetOffset": 0
+        }
+      ],
+      "events": {
+        "warps": 5,
+        "coord": 2,
+        "bg": 4,
+        "objects": 5
+      },
+      "requiredSemantics": [
+        "flypoint callback",
+        "Guide Gent tour and Map Card",
+        "starter-dependent rival battle",
+        "Mystic Water gift"
+      ]
+    }
+  ],
+  "visualPolicy": {
+    "sourceVisualTruth": [
+      "gfx/tilesets/johto.png",
+      "data/tilesets/johto_metatiles.bin",
+      "data/tilesets/johto_collision.asm",
+      "gfx/tilesets/roofs/new_bark.png"
+    ],
+    "donorRole": "Emerald supplies GBA metatile/behavior/layout grammar; source Johto graphics supply visual identity.",
+    "hgssRole": "reference for later official interpretation only"
+  },
+  "acceptance": [
+    "same source map adjacency and connection offsets after unit conversion",
+    "same warp destinations and event coordinates",
+    "same required script gates/events",
+    "Johto visual identity preserved",
+    "GBA metatile behaviors used instead of emulating the GBC renderer"
+  ]
+}
