@@ -73,7 +73,7 @@ graphic/pl_font.narc:
 - 10 members
 - members 0/1/2: 3,440 glyphs each, 16x16
 - member 3: 509 glyphs, 16x16
-- members 0/1/2 differ from graphic/font.narc, so Platinum keeps two distinct large Korean font sets.
+- the full members 0/1/2 differ from graphic/font.narc in their legacy/base region, but the Korean extension slots 1024..3439 are byte-identical between corresponding members. Platinum therefore keeps two archive variants while reusing the Korean glyph artwork byte-for-byte.
 
 pret/pokeplatinum res/fonts/pl_font.order identifies the ordinary archive roles as:
 0 system, 1 message, 2 subscreen, 3 Unown, followed by special characters, screen indicators, and palettes.
