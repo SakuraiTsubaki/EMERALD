@@ -29,7 +29,7 @@ diff --git a/include/korean_text.h b/include/korean_text.h
 new file mode 100644
 --- /dev/null
 +++ b/include/korean_text.h
-@@ -0,0 +1,12 @@
+@@ -0,0 +1,11 @@
 +#ifndef GUARD_KOREAN_TEXT_H
 +#define GUARD_KOREAN_TEXT_H
 +
@@ -45,7 +45,7 @@ diff --git a/src/korean_text.c b/src/korean_text.c
 new file mode 100644
 --- /dev/null
 +++ b/src/korean_text.c
-@@ -0,0 +1,80 @@
+@@ -0,0 +1,83 @@
 +#include "global.h"
 +#include "korean_text.h"
 +#include "text.h"
@@ -132,7 +132,7 @@ new file mode 100644
 diff --git a/src/text.c b/src/text.c
 --- a/src/text.c
 +++ b/src/text.c
-@@ -10,6 +10,7 @@
+@@ -10,5 +10,6 @@
  #include "dynamic_placeholder_text_util.h"
  #include "fonts.h"
 +#include "korean_text.h"
@@ -160,7 +160,7 @@ diff --git a/src/text.c b/src/text.c
              }
              break;
          case CHAR_PROMPT_CLEAR:
-@@ -927,7 +935,14 @@ static u16 RenderText(struct TextPrinter *textPrinter)
+@@ -927,8 +935,16 @@ static u16 RenderText(struct TextPrinter *textPrinter)
              return RENDER_FINISH;
          }
  
@@ -178,21 +178,21 @@ diff --git a/src/text.c b/src/text.c
          case FONT_SMALL:
              DecompressGlyph_Small(currChar, textPrinter->japanese);
              break;
-@@ -949,6 +964,7 @@ static u16 RenderText(struct TextPrinter *textPrinter)
+@@ -949,5 +964,6 @@ static u16 RenderText(struct TextPrinter *textPrinter)
          case FONT_BRAILLE:
              break;
 +            }
          }
  
          CopyGlyphToWindow(textPrinter);
-@@ -1090,6 +1106,7 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
+@@ -1090,5 +1106,6 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
      int glyphWidth;
      s32 width;
 +    u8 currentFontId = fontId;
  
      isJapanese = 0;
      minGlyphWidth = 0;
-@@ -1134,7 +1151,18 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
+@@ -1134,9 +1151,21 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
          case CHAR_DYNAMIC:
              if (bufferPointer == NULL)
                  bufferPointer = DynamicPlaceholderTextUtil_GetPlaceholderPtr(*++str);
@@ -215,7 +215,7 @@ diff --git a/src/text.c b/src/text.c
                  if (minGlyphWidth > 0)
                  {
                      if (glyphWidth < minGlyphWidth)
-@@ -1172,10 +1200,30 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
+@@ -1172,12 +1200,32 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
                  ++str;
                  break;
              case EXT_CTRL_CODE_FONT:
@@ -249,7 +249,7 @@ diff --git a/src/text.c b/src/text.c
              case EXT_CTRL_CODE_CLEAR:
                  glyphWidth = *++str;
                  lineWidth += glyphWidth;
-@@ -1310,6 +1358,14 @@ u8 RenderTextHandleBold(u8 *pixels, u8 fontId, u8 *str)
+@@ -1310,6 +1358,16 @@ u8 RenderTextHandleBold(u8 *pixels, u8 fontId, u8 *str)
              case EXT_CTRL_CODE_FONT:
                  fontId = strLocal[strPos++];
                  break;
@@ -280,7 +280,7 @@ diff --git a/src/string_util.c b/src/string_util.c
              case EXT_CTRL_CODE_COLOR_HIGHLIGHT_SHADOW:
                  *dest++ = *src++;
              case EXT_CTRL_CODE_PLAY_BGM:
-@@ -456,11 +460,20 @@ u8 *StringCopyN_Multibyte(u8 *dest, u8 *src, u32 n)
+@@ -456,8 +460,18 @@ u8 *StringCopyN_Multibyte(u8 *dest, u8 *src, u32 n)
          }
          else
          {
@@ -301,7 +301,7 @@ diff --git a/src/string_util.c b/src/string_util.c
 +            }
          }
      }
-@@ -474,8 +487,11 @@ u32 StringLength_Multibyte(const u8 *str)
+@@ -474,8 +487,14 @@ u32 StringLength_Multibyte(const u8 *str)
  
      while (*str != EOS)
      {
@@ -326,7 +326,7 @@ diff --git a/src/string_util.c b/src/string_util.c
      };
  
      u8 length = 0;
-@@ -549,7 +566,8 @@ static const u8 *SkipExtCtrlCode(const u8 *s)
+@@ -549,5 +566,6 @@ static const u8 *SkipExtCtrlCode(const u8 *s)
  {
 -    while (*s == EXT_CTRL_CODE_BEGIN)
 +    while (*s == EXT_CTRL_CODE_BEGIN
@@ -334,7 +334,7 @@ diff --git a/src/string_util.c b/src/string_util.c
      {
          s++;
          s += GetExtCtrlCodeLength(*s);
-@@ -618,7 +636,13 @@ void StripExtCtrlCodes(u8 *str)
+@@ -618,7 +636,15 @@ void StripExtCtrlCodes(u8 *str)
      u16 destIndex = 0;
      while (str[srcIndex] != EOS)
      {
