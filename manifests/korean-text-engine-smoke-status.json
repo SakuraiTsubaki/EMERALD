@@ -1,0 +1,40 @@
+{
+  "schema": "emerald-korean-text-engine-smoke.v1",
+  "date": "2026-09-29",
+  "repository": "SakuraiTsubaki/EMERALD",
+  "target_branch": "main",
+  "upstream": {
+    "repository": "pret/pokeemerald",
+    "commit": "5eff78649e7170a877b961ef0b3da13b81a16038"
+  },
+  "patch": "patches/pokeemerald/0003-korean-multibyte-text-core-smoke.patch",
+  "token": "FC 19 LL HH",
+  "validation": {
+    "codec_tests": "pass",
+    "git_apply_check": "pass",
+    "git_apply": "pass",
+    "modern_build": "pass",
+    "compiled_rom_sha256": "a7ad7bb48c7c2156d1489414518bf555c7613a3c0627ac6586b4e6de68bbb9da",
+    "mgba_version": "0.10.2",
+    "mgba_boot_seconds": 12,
+    "mgba_timeout_exit": 124,
+    "mgba_boot_smoke": "pass"
+  },
+  "github_actions": {
+    "core_apply_run": 36571370637,
+    "compile_run": 36571496012,
+    "mgba_run": 36571370652,
+    "mgba_artifact_id": 11033714314,
+    "mgba_artifact_zip_sha256": "ed277f72dcd1f9f9f524f1c1f7db5ad91da8fb89881db6e3601e1e526a8a08b9"
+  },
+  "scope": {
+    "engine_token_parser": "smoke_complete",
+    "width_parser": "smoke_complete",
+    "placeholder_width": "smoke_complete",
+    "multibyte_length_copy": "smoke_complete",
+    "sixteen_pixel_renderer": "smoke_complete",
+    "embedded_official_glyphs": ["가", "나", "다", "라"],
+    "full_11172_asset_integration": "pending",
+    "runtime_visual_assertion": "pending"
+  }
+}
