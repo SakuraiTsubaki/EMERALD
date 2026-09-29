@@ -121,15 +121,26 @@ For a 3,440-glyph 16x16 member:
 - width/extension start recorded in header: 220,176
 - remaining tail: 541 bytes
 
-The 541-byte tail is structurally consistent with:
-- a 32-byte Korean localization extension block
-- followed by 509 one-byte legacy width entries
+The 541-byte tail and the Korean executable-side width routine are now decoded.
 
-The 509-glyph Unown member has a 525-byte tail, consistent with:
-- a 16-byte extension block
-- followed by 509 width entries
+- +0x00: u32 payload size
+- +0x04: u32 range count = 3
+- +0x08: three 8-byte descriptors: u16 endExclusive, s16 widthModeOrValue, u32 tableOffset
+- +0x20: 509 one-byte legacy widths
 
-This observation disproves the simple model that Korean Gen IV stores one width byte for each of its 3,440 glyphs. The Korean executable's text/font code must be checked before the 32-byte extension fields are assigned semantic names.
+Runtime semantics, confirmed in both Korean Platinum and SoulSilver ARM9:
+- 0xFFFF (-1): use the per-glyph width table
+- 0xFFFE (-2): recursively use fallback glyph slot 0x01AB
+- any other selector: return it directly as the fixed advance width
+
+The localized 3,440-glyph members therefore use:
+- slots 0..508: variable legacy widths
+- slots 509..1023: fallback width
+- slots 1024..3439: fixed Korean advance
+
+Fixed Korean advances are member 0 = 11 px, member 1 = 12 px, member 2 = 13 px, member 4 = 12 px, and member 10 = 11 px.
+
+The corresponding range-width function bodies are byte-identical between the supplied Korean Pt and SoulSilver executables (Pt runtime 0x02023AD4, SoulSilver runtime 0x02026514).
 
 ## 6. Separate shared font graphics
 
@@ -159,11 +170,44 @@ The Generation III Hangul generator is a full-coverage fallback and tooling base
 
 For Korean final strings, terminology should follow the project's current rule: latest official Korean names/terms are the implementation target, while Generation II/IV historical Korean wording is retained as provenance and comparison data.
 
-## 8. Still required
+## 8. Confirmed Korean character mapping and HGSS FontID roles
 
-- add direct Korean Diamond/Pearl and HeartGold ROM evidence when available
-- identify the exact Korean Gen IV glyph-ID/character mapping
-- reverse/name the 32-byte Korean font extension fields from the Korean ARM9/overlay code
-- map HGSS Font IDs 4 and 5 (archive members 4 and 10) to exact UI roles
-- compare all 3,440-glyph font sets at glyph level
-- derive Emerald Normal/Small/Short/Narrow Korean target designs without discarding original Emerald font behavior
+Localized message decryption in the supplied Korean Pt and SoulSilver ROMs confirms `glyph_slot = message_code - 1`.
+
+- slots 1024..3373: 2,350 KS X 1001/Wansung syllables, EUC-KR B0A1..C8FE row-major
+- slots 3376..3426: 51 KS X 1001 compatibility jamo, EUC-KR A4A1..A4D3
+- slots 3427..3428: real non-fallback glyphs, identity still unresolved
+- all other previously identified gap/tail slots remain fallback/unmapped
+
+Species-name tables cross-check this directly in both games (이상해씨, 피카츄, 치코리타, 아르세우스).
+
+The supplied Korean SoulSilver ARM9 plus all 129 ARM9 overlays were scanned for `FontID_Alloc`. All 83 call sites resolve statically:
+- FontID 0: 1
+- FontID 1: 1
+- FontID 2: 13
+- FontID 3: 1
+- FontID 4: 65
+- FontID 5: 2
+
+FontID 5 / member 10 is not unused. Its two allocations are in OVY_112, the Pokéwalker connection application, where it is used for player-name and related Pokéwalker UI-string rendering. FontID 4 is a broad application/UI font.
+
+## 9. Emerald integration status
+
+The Gen IV-to-Emerald source mapping is now fixed for the first implementation pass:
+- FONT_NORMAL <- member 1 / MESSAGE, 12 px advance
+- FONT_SMALL <- member 0 / SYSTEM, 11 px advance
+- FONT_SHORT <- member 2 / SUBSCREEN, 13 px advance
+- FONT_NARROW <- member 10 / HGSS FontID 5 as a project mapping; original use remains Pokéwalker UI, 11 px advance
+- FONT_SMALL_NARROW <- explicit project-derived compact variant
+- member 4 is retained as an optional official HGSS application/UI source
+
+The shared Hangul generator now accepts exact Gen IV source packs and preserves official 16x16 2bpp bytes for covered glyphs while labeling non-covered modern Hangul as project-derived.
+
+Next executable target is the Emerald text engine: add a non-colliding multi-byte Korean token, 16-pixel Korean glyph lookup/rendering, and coherent byte-walking in width/copy/length/placeholder helpers without replacing existing Latin/Japanese behavior.
+
+## 10. Still required
+
+- add direct Korean Diamond/Pearl and HeartGold retail ROM evidence when supplied/available
+- identify the two non-fallback slots 3427..3428
+- publish the non-ROM Gen IV source-glyph asset pack to Tsubaki
+- implement and build-test the Emerald multi-byte Korean text-engine patch across the target profiles/versions
