@@ -18,7 +18,7 @@ assert encoded == bytes.fromhex(
     "FC 19 00 AC "
     "FC 19 98 B0 "
     "FC 19 E4 B2 "
-    "FC 19 3C B7 "
+    "FC 19 7C B7 "
     "FF"
 )
 assert codec.decode_korean_stream(encoded) == sample
