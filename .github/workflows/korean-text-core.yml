@@ -1,0 +1,38 @@
+name: Korean text core smoke
+
+on:
+  push:
+    paths:
+      - "patches/pokeemerald/0003-korean-multibyte-text-core-smoke.patch"
+      - "tools/korean_text_codec.py"
+      - "tests/test_korean_text_codec.py"
+      - "manifests/korean-text-encoding.yml"
+      - ".github/workflows/korean-text-core.yml"
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout EMERALD
+        uses: actions/checkout@v4
+
+      - name: Test Korean token codec
+        run: python tests/test_korean_text_codec.py
+
+      - name: Checkout pinned pokeemerald
+        run: |
+          git clone --filter=blob:none https://github.com/pret/pokeemerald.git /tmp/pokeemerald
+          git -C /tmp/pokeemerald checkout 5eff78649e7170a877b961ef0b3da13b81a16038
+
+      - name: Check Korean text patch applies
+        run: |
+          git -C /tmp/pokeemerald apply --check "$GITHUB_WORKSPACE/patches/pokeemerald/0003-korean-multibyte-text-core-smoke.patch"
+          git -C /tmp/pokeemerald apply "$GITHUB_WORKSPACE/patches/pokeemerald/0003-korean-multibyte-text-core-smoke.patch"
+
+      - name: Verify patched symbols
+        run: |
+          grep -q "EXT_CTRL_CODE_KOREAN_GLYPH" /tmp/pokeemerald/include/constants/characters.h
+          grep -q "KoreanText_DecompressGlyph" /tmp/pokeemerald/src/text.c
+          grep -q "sKoreanSmokeNormalGlyphs" /tmp/pokeemerald/src/korean_text.c
+          grep -q "EXT_CTRL_CODE_KOREAN_GLYPH" /tmp/pokeemerald/src/string_util.c
