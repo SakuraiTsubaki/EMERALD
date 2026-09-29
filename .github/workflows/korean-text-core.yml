@@ -36,3 +36,15 @@ jobs:
           grep -q "KoreanText_DecompressGlyph" /tmp/pokeemerald/src/text.c
           grep -q "sKoreanSmokeNormalGlyphs" /tmp/pokeemerald/src/korean_text.c
           grep -q "EXT_CTRL_CODE_KOREAN_GLYPH" /tmp/pokeemerald/src/string_util.c
+
+      - name: Install modern build dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gcc-arm-none-eabi binutils-arm-none-eabi libpng-dev
+
+      - name: Build patched pokeemerald
+        working-directory: /tmp/pokeemerald
+        env:
+          MODERN: 1
+          COMPARE: 0
+        run: make -j2 all
