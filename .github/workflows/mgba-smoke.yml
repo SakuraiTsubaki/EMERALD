@@ -43,6 +43,7 @@ jobs:
           cd pokeemerald
           git apply ../patches/pokeemerald/0001-always-available-core-external-events.patch
           git apply ../patches/pokeemerald/0002-littleroot-event-ticket-npc.patch
+          git apply ../patches/pokeemerald/0003-korean-multibyte-text-core-smoke.patch
           git diff --check
           git status --short
 
