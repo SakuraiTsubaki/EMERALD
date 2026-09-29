@@ -1,0 +1,353 @@
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
+Subject: [PATCH 3/3] Add Korean multibyte text core smoke path
+
+Reference: pret/pokeemerald @ 5eff78649e7170a877b961ef0b3da13b81a16038
+
+Introduce a non-colliding printable token FC 19 LL HH. LL/HH encode one
+supported Korean BMP code point in little-endian order. Existing Latin,
+Japanese, CHAR_DYNAMIC, keypad, extra-symbol and control encodings remain
+unchanged.
+
+This first executable slice embeds four byte-exact Korean SoulSilver MESSAGE
+font glyphs (가나다라) as a smoke fixture. It proves the 16x16/64-byte glyph
+path without pretending that the full 11,172-glyph asset pack has already
+been integrated. Unsupported Korean code points fall back to the stock
+question-mark glyph.
+
+diff --git a/include/constants/characters.h b/include/constants/characters.h
+--- a/include/constants/characters.h
++++ b/include/constants/characters.h
+@@ -166,6 +166,7 @@
+ #define EXT_CTRL_CODE_ENG                    0x16
+ #define EXT_CTRL_CODE_PAUSE_MUSIC            0x17
+ #define EXT_CTRL_CODE_RESUME_MUSIC           0x18
++#define EXT_CTRL_CODE_KOREAN_GLYPH           0x19 // FC 19 LL HH; Unicode BMP code point, little-endian
+ 
+ #define TEXT_COLOR_TRANSPARENT  0x0
+ #define TEXT_COLOR_WHITE        0x1
+diff --git a/include/korean_text.h b/include/korean_text.h
+new file mode 100644
+--- /dev/null
++++ b/include/korean_text.h
+@@ -0,0 +1,12 @@
++#ifndef GUARD_KOREAN_TEXT_H
++#define GUARD_KOREAN_TEXT_H
++
++#include "global.h"
++
++bool8 KoreanText_IsSupportedCodepoint(u16 codepoint);
++bool8 KoreanText_HasSmokeGlyph(u16 codepoint, u8 fontId);
++u8 KoreanText_GetGlyphWidth(u16 codepoint, u8 fontId);
++bool8 KoreanText_DecompressGlyph(u16 codepoint, u8 fontId);
++
++#endif // GUARD_KOREAN_TEXT_H
+diff --git a/src/korean_text.c b/src/korean_text.c
+new file mode 100644
+--- /dev/null
++++ b/src/korean_text.c
+@@ -0,0 +1,80 @@
++#include "global.h"
++#include "korean_text.h"
++#include "text.h"
++
++// Byte-exact smoke fixture from Korean SoulSilver IPGK01 a/0/1/6 member 1
++// (MESSAGE), slots 1024, 1315, 1456 and 1670. Full source assets live outside
++// the ROM repository and replace this sparse fixture in the next integration
++// slice.
++ALIGNED(4) static const u8 sKoreanSmokeNormalGlyphs[4][64] =
++{
++    { // 가 U+AC00
++        0x00,0x00,0x00,0x00,0x5B,0x55,0x9B,0xAA,0xDB,0xFF,0xDB,0xFF,0xDB,0xFF,0x6B,0xFF,
++        0x00,0x00,0x00,0x00,0x00,0xDB,0x00,0xDB,0x00,0xDB,0x00,0xDB,0x00,0xDB,0x00,0xD6,
++        0x6F,0xFF,0xAF,0xFD,0xBF,0xF6,0xFF,0x5A,0xFF,0xAB,0xFF,0xFF,0x00,0x00,0x00,0x00,
++        0x00,0xDA,0x00,0xDB,0x00,0xDB,0x00,0xDB,0x00,0xDB,0x00,0xEB,0x00,0x00,0x00,0x00,
++    },
++    { // 나 U+B098
++        0x00,0x00,0x00,0x00,0xFF,0x6F,0xFF,0x6F,0xFF,0x6F,0xFF,0x6F,0xFF,0x6F,0xFF,0x6F,
++        0x00,0x00,0x00,0x00,0x00,0xDB,0x00,0xDB,0x00,0xDB,0x00,0xDB,0x00,0xDB,0x00,0xD6,
++        0xFF,0x6F,0xFF,0x6F,0xFF,0x6F,0x56,0x55,0xAA,0xAA,0xFF,0xFF,0x00,0x00,0x00,0x00,
++        0x00,0xDA,0x00,0xDB,0x00,0xDB,0x00,0xDB,0x00,0xDB,0x00,0xEB,0x00,0x00,0x00,0x00,
++    },
++    { // 다 U+B2E4
++        0x00,0x00,0x00,0x00,0x56,0x55,0xAA,0x6A,0xFF,0x6F,0xFF,0x6F,0xFF,0x6F,0xFF,0x6F,
++        0x00,0x00,0x00,0x00,0x00,0xDB,0x00,0xDB,0x00,0xDB,0x00,0xDB,0x00,0xDB,0x00,0xD6,
++        0xFF,0x6F,0xFF,0x6F,0xFF,0x6F,0x56,0x55,0xAA,0xAA,0xFF,0xFF,0x00,0x00,0x00,0x00,
++        0x00,0xDA,0x00,0xDB,0x00,0xDB,0x00,0xDB,0x00,0xDB,0x00,0xEB,0x00,0x00,0x00,0x00,
++    },
++    { // 라 U+B77C
++        0x00,0x00,0x00,0x00,0x5B,0x55,0x9B,0xAA,0xDB,0xFF,0xDB,0xFF,0x5B,0x55,0xAB,0x6A,
++        0x00,0x00,0x00,0x00,0x00,0xDB,0x00,0xDB,0x00,0xDB,0x00,0xDB,0x00,0xDB,0x00,0xD6,
++        0xFF,0x6F,0xFF,0x6F,0xFF,0x6F,0x56,0x55,0xAA,0xAA,0xFF,0xFF,0x00,0x00,0x00,0x00,
++        0x00,0xDA,0x00,0xDB,0x00,0xDB,0x00,0xDB,0x00,0xDB,0x00,0xEB,0x00,0x00,0x00,0x00,
++    },
++};
++
++static s8 GetSmokeIndex(u16 codepoint)
++{
++    switch (codepoint)
++    {
++    case 0xAC00: return 0;
++    case 0xB098: return 1;
++    case 0xB2E4: return 2;
++    case 0xB77C: return 3;
++    default: return -1;
++    }
++}
++
++bool8 KoreanText_IsSupportedCodepoint(u16 codepoint)
++{
++    return (codepoint >= 0xAC00 && codepoint <= 0xD7A3)
++        || (codepoint >= 0x3131 && codepoint <= 0x3163);
++}
++
++bool8 KoreanText_HasSmokeGlyph(u16 codepoint, u8 fontId)
++{
++    return fontId == FONT_NORMAL && GetSmokeIndex(codepoint) >= 0;
++}
++
++u8 KoreanText_GetGlyphWidth(u16 codepoint, u8 fontId)
++{
++    if (!KoreanText_HasSmokeGlyph(codepoint, fontId))
++        return 0;
++    return 12;
++}
++
++bool8 KoreanText_DecompressGlyph(u16 codepoint, u8 fontId)
++{
++    s8 index = GetSmokeIndex(codepoint);
++    const u8 *glyph;
++
++    if (fontId != FONT_NORMAL || index < 0)
++        return FALSE;
++
++    glyph = sKoreanSmokeNormalGlyphs[index];
++    DecompressGlyphTile(glyph + 0x00, gCurGlyph.gfxBufferTop);
++    DecompressGlyphTile(glyph + 0x10, gCurGlyph.gfxBufferTop + 8);
++    DecompressGlyphTile(glyph + 0x20, gCurGlyph.gfxBufferBottom);
++    DecompressGlyphTile(glyph + 0x30, gCurGlyph.gfxBufferBottom + 8);
++    gCurGlyph.width = 12;
++    gCurGlyph.height = 16;
++    return TRUE;
++}
+diff --git a/src/text.c b/src/text.c
+--- a/src/text.c
++++ b/src/text.c
+@@ -10,6 +10,7 @@
+ #include "dynamic_placeholder_text_util.h"
+ #include "fonts.h"
++#include "korean_text.h"
+ 
+ static u16 RenderText(struct TextPrinter *);
+ static u32 RenderFont(struct TextPrinter *);
+@@ -806,6 +807,7 @@ static u16 RenderText(struct TextPrinter *textPrinter)
+     u16 currChar;
+     s32 width;
+     s32 widthHelper;
++    bool8 koreanGlyph = FALSE;
+ 
+     switch (textPrinter->state)
+     {
+@@ -899,6 +901,12 @@ static u16 RenderText(struct TextPrinter *textPrinter)
+             case EXT_CTRL_CODE_ENG:
+                 textPrinter->japanese = FALSE;
+                 return RENDER_REPEAT;
++            case EXT_CTRL_CODE_KOREAN_GLYPH:
++                currChar = textPrinter->printerTemplate.currentChar[0]
++                         | (textPrinter->printerTemplate.currentChar[1] << 8);
++                textPrinter->printerTemplate.currentChar += 2;
++                koreanGlyph = TRUE;
++                break;
+             }
+             break;
+         case CHAR_PROMPT_CLEAR:
+@@ -927,7 +935,14 @@ static u16 RenderText(struct TextPrinter *textPrinter)
+             return RENDER_FINISH;
+         }
+ 
+-        switch (subStruct->fontId)
++        if (koreanGlyph && KoreanText_DecompressGlyph(currChar, subStruct->fontId))
++        {
++            // gCurGlyph is ready.
++        }
++        else
+         {
++            if (koreanGlyph)
++                currChar = CHAR_QUESTION_MARK;
++            switch (subStruct->fontId)
++            {
+         case FONT_SMALL:
+             DecompressGlyph_Small(currChar, textPrinter->japanese);
+             break;
+@@ -949,6 +964,7 @@ static u16 RenderText(struct TextPrinter *textPrinter)
+         case FONT_BRAILLE:
+             break;
++            }
+         }
+ 
+         CopyGlyphToWindow(textPrinter);
+@@ -1090,6 +1106,7 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
+     int glyphWidth;
+     s32 width;
++    u8 currentFontId = fontId;
+ 
+     isJapanese = 0;
+     minGlyphWidth = 0;
+@@ -1134,7 +1151,18 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
+         case CHAR_DYNAMIC:
+             if (bufferPointer == NULL)
+                 bufferPointer = DynamicPlaceholderTextUtil_GetPlaceholderPtr(*++str);
+             while (*bufferPointer != EOS)
+             {
+-                glyphWidth = func(*bufferPointer++, isJapanese);
++                if (bufferPointer[0] == EXT_CTRL_CODE_BEGIN
++                 && bufferPointer[1] == EXT_CTRL_CODE_KOREAN_GLYPH)
++                {
++                    u16 codepoint = bufferPointer[2] | (bufferPointer[3] << 8);
++                    glyphWidth = KoreanText_GetGlyphWidth(codepoint, currentFontId);
++                    if (glyphWidth == 0)
++                        glyphWidth = func(CHAR_QUESTION_MARK, FALSE);
++                    bufferPointer += 4;
++                }
++                else
++                {
++                    glyphWidth = func(*bufferPointer++, isJapanese);
++                }
+                 if (minGlyphWidth > 0)
+                 {
+                     if (glyphWidth < minGlyphWidth)
+@@ -1172,10 +1200,30 @@ s32 GetStringWidth(u8 fontId, const u8 *str, s16 letterSpacing)
+                 ++str;
+                 break;
+             case EXT_CTRL_CODE_FONT:
+-                func = GetFontWidthFunc(*++str);
++                currentFontId = *++str;
++                func = GetFontWidthFunc(currentFontId);
+                 if (func == NULL)
+                     return 0;
+                 if (letterSpacing == -1)
+                     localLetterSpacing = GetFontAttribute(*str, FONTATTR_LETTER_SPACING);
+                 break;
++            case EXT_CTRL_CODE_KOREAN_GLYPH:
++                {
++                    u16 codepoint = str[1] | (str[2] << 8);
++                    glyphWidth = KoreanText_GetGlyphWidth(codepoint, currentFontId);
++                    if (glyphWidth == 0)
++                        glyphWidth = func(CHAR_QUESTION_MARK, FALSE);
++                    str += 2;
++                    if (minGlyphWidth > 0)
++                    {
++                        if (glyphWidth < minGlyphWidth)
++                            glyphWidth = minGlyphWidth;
++                        lineWidth += glyphWidth;
++                    }
++                    else
++                    {
++                        lineWidth += glyphWidth;
++                    }
++                }
++                break;
+             case EXT_CTRL_CODE_CLEAR:
+                 glyphWidth = *++str;
+                 lineWidth += glyphWidth;
+@@ -1310,6 +1358,14 @@ u8 RenderTextHandleBold(u8 *pixels, u8 fontId, u8 *str)
+             case EXT_CTRL_CODE_FONT:
+                 fontId = strLocal[strPos++];
+                 break;
++            case EXT_CTRL_CODE_KOREAN_GLYPH:
++                temp = strLocal[strPos] | (strLocal[strPos + 1] << 8);
++                strPos += 2;
++                if (KoreanText_DecompressGlyph(temp, fontId))
++                {
++                    CpuCopy32(gCurGlyph.gfxBufferTop, pixels, 0x20);
++                    CpuCopy32(gCurGlyph.gfxBufferBottom, pixels + 0x20, 0x20);
++                    pixels += 0x40;
++                }
++                continue;
+             case EXT_CTRL_CODE_PLAY_BGM:
+             case EXT_CTRL_CODE_PLAY_SE:
+                 ++strPos;
+diff --git a/src/string_util.c b/src/string_util.c
+--- a/src/string_util.c
++++ b/src/string_util.c
+@@ -350,6 +350,10 @@ u8 *StringExpandPlaceholders(u8 *dest, const u8 *src)
+             case EXT_CTRL_CODE_PAUSE_MUSIC:
+             case EXT_CTRL_CODE_RESUME_MUSIC:
+                 break;
++            case EXT_CTRL_CODE_KOREAN_GLYPH:
++                *dest++ = *src++;
++                *dest++ = *src++;
++                break;
+             case EXT_CTRL_CODE_COLOR_HIGHLIGHT_SHADOW:
+                 *dest++ = *src++;
+             case EXT_CTRL_CODE_PLAY_BGM:
+@@ -456,11 +460,20 @@ u8 *StringCopyN_Multibyte(u8 *dest, u8 *src, u32 n)
+         }
+         else
+         {
+-            *dest++ = *src++;
+-            if (*(src - 1) == CHAR_EXTRA_SYMBOL)
++            if (src[0] == EXT_CTRL_CODE_BEGIN && src[1] == EXT_CTRL_CODE_KOREAN_GLYPH)
++            {
++                *dest++ = *src++;
++                *dest++ = *src++;
++                *dest++ = *src++;
++                *dest++ = *src++;
++            }
++            else
++            {
+                 *dest++ = *src++;
++                if (*(src - 1) == CHAR_EXTRA_SYMBOL)
++                    *dest++ = *src++;
++            }
+         }
+     }
+@@ -474,8 +487,11 @@ u32 StringLength_Multibyte(const u8 *str)
+ 
+     while (*str != EOS)
+     {
+-        if (*str == CHAR_EXTRA_SYMBOL)
++        if (str[0] == EXT_CTRL_CODE_BEGIN && str[1] == EXT_CTRL_CODE_KOREAN_GLYPH)
++            str += 4;
++        else if (*str == CHAR_EXTRA_SYMBOL)
++        {
+             str++;
+-        str++;
++            str++;
++        }
++        else
++            str++;
+         length++;
+     }
+@@ -538,6 +554,7 @@ u8 GetExtCtrlCodeLength(u8 code)
+         [EXT_CTRL_CODE_ENG]                    = 1,
+         [EXT_CTRL_CODE_PAUSE_MUSIC]            = 1,
+         [EXT_CTRL_CODE_RESUME_MUSIC]           = 1,
++        [EXT_CTRL_CODE_KOREAN_GLYPH]           = 3,
+     };
+ 
+     u8 length = 0;
+@@ -549,7 +566,8 @@ static const u8 *SkipExtCtrlCode(const u8 *s)
+ {
+-    while (*s == EXT_CTRL_CODE_BEGIN)
++    while (*s == EXT_CTRL_CODE_BEGIN
++        && s[1] != EXT_CTRL_CODE_KOREAN_GLYPH)
+     {
+         s++;
+         s += GetExtCtrlCodeLength(*s);
+@@ -618,7 +636,13 @@ void StripExtCtrlCodes(u8 *str)
+     u16 destIndex = 0;
+     while (str[srcIndex] != EOS)
+     {
+-        if (str[srcIndex] == EXT_CTRL_CODE_BEGIN)
++        if (str[srcIndex] == EXT_CTRL_CODE_BEGIN
++         && str[srcIndex + 1] == EXT_CTRL_CODE_KOREAN_GLYPH)
++        {
++            str[destIndex++] = str[srcIndex++];
++            str[destIndex++] = str[srcIndex++];
++            str[destIndex++] = str[srcIndex++];
++            str[destIndex++] = str[srcIndex++];
++        }
++        else if (str[srcIndex] == EXT_CTRL_CODE_BEGIN)
+         {
+             srcIndex++;
+             srcIndex += GetExtCtrlCodeLength(str[srcIndex]);
