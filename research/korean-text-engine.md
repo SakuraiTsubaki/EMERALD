@@ -92,3 +92,20 @@ The smoke fixture currently validates FONT_NORMAL/member 1. Other font families 
 5. a modern-toolchain build of the patched upstream.
 
 Passing the apply check proves patch/revision compatibility; passing the build proves the current C implementation compiles and links. Runtime/mGBA rendering validation remains a separate next gate.
+
+
+## Verified smoke result — 2026-09-29
+
+The executable smoke slice is now closed as **PASS** against the pinned classic upstream.
+
+- token codec tests: PASS
+- `git apply --check`: PASS
+- patch application: PASS
+- modern pokeemerald build: PASS
+- built ROM SHA-256: `a7ad7bb48c7c2156d1489414518bf555c7613a3c0627ac6586b4e6de68bbb9da`
+- mGBA: 0.10.2
+- 12-second xvfb mGBA boot smoke: PASS (expected timeout exit 124)
+- Actions run: `36571370652`
+- verification artifact ID: `11033714314`
+
+This closes the **engine/token/16px smoke** unit only. Full 11,172-syllable asset integration and visual Korean-string runtime assertions remain separate gates.
